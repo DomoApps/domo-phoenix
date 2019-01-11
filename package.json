@@ -1,0 +1,28 @@
+{
+  "name": "@domoinc/domo-phoenix",
+  "version": "0.1.7",
+  "description": "Build beautiful charts using Domo's powerful charting engine",
+  "main": "build/main/index.js",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
+  "scripts": {
+    "build:main": "tsc -p tsconfig.json",
+    "build:module": "tsc -p tsconfig.module.json",
+    "build": "npm run build:main && npm run build:module"
+  },
+  "keywords": [],
+  "author": {
+    "name": "John Woodruff",
+    "email": "john.woodruff@domo.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "phoenix": "git+ssh://git@git.empdev.domo.com:Development/Phoenix.git"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "prettier": "^1.15.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}

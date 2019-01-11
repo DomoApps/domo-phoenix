@@ -138,6 +138,11 @@ The following are the methods you have access to in addition to the ones shown a
 
 This performs the actual rendering of the chart on the canvas. Your chart will not show up until you have called this method.
 
+```javascript
+// Render chart
+chart.render();
+```
+
 ### resize(width, height)
 
 The resize method allows you to resize your chart to whatever size you want, given a width and a height. These are in numbers of pixels.

@@ -15,13 +15,12 @@ You can then import and use the library:
 ```javascript
 import {
   PhoenixChart,
-  PhoenixChartData,
   PHOENIX_CHART_TYPE,
   PHOENIX_DATA_TYPE,
   PHOENIX_MAPPING
 } from '@domoinc/domo-phoenix';
 
-const data: PhoenixChartData = {
+const data = {
   // This is the data you get back from the Domo Data API
   rows: [
     ['Low', 'Corporate', 8582.8875],

@@ -8,6 +8,6 @@ export interface PhoenixChartDataColumn {
 }
 
 export interface PhoenixChartData {
-  rows: any[][];
+  rows: any[];
   columns: PhoenixChartDataColumn[];
 }

@@ -1,7 +1,7 @@
-import * as Phoenix from 'phoenix';
 import { PHOENIX_CHART_TYPE } from '../enums/phoenix-chart-type';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
+import * as Phoenix from '../lib/phoenix';
 
 const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
@@ -23,6 +23,12 @@ export class PhoenixChart {
   ) {
     this._type = type;
     this._data = data;
+    if (Array.isArray(data.rows)) {
+      if (!Array.isArray(data.rows[0])) {
+        // Array of objects. Transform data to correct format.
+        this._data.rows = this.transformData(data.rows);
+      }
+    }
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
     this.canvas = this._instance.getCanvas();
@@ -49,6 +55,20 @@ export class PhoenixChart {
     this._data = data;
     const configString = this._createConfigString(this._type, data);
     this._instance.updateChartJson(configString, !this._options.animate);
+  }
+
+  private transformData(rows) {
+    const newRows = rows.map((row: Object) => {
+      const newRow: any[] = [];
+      for (const key in row) {
+        if (row.hasOwnProperty(key)) {
+          newRow.push(row[key]);
+        }
+      }
+      return newRow;
+    });
+
+    return newRows;
   }
 
   private _createInstance() {

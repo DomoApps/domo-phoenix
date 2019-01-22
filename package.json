@@ -1,6 +1,6 @@
 {
   "name": "@domoinc/domo-phoenix",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Build beautiful charts using Domo's powerful charting engine",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -8,10 +8,11 @@
   "scripts": {
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
+    "build:umd": "tsc -p tsconfig.umd.json",
     "clear": "rm -rf build",
-    "create:lib": "mkdir ./build/main/lib && mkdir ./build/module/lib",
-    "copy:phoenix": "npm run create:lib && cp ./src/lib/phoenix.js ./build/main/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/module/lib/phoenix.js",
-    "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix"
+    "create:lib": "mkdir ./build/main/lib && mkdir ./build/module/lib && mkdir ./build/umd/lib",
+    "copy:phoenix": "npm run create:lib && cp ./src/lib/phoenix.js ./build/main/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/module/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/umd/lib/phoenix.js",
+    "build": "npm run clear && npm run build:main && npm run build:module && npm run build:umd && npm run copy:phoenix"
   },
   "keywords": [],
   "author": {

@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig",
-  "compilerOptions": {
-    "outDir": "build/amd",
-    "module": "amd",
-    "outFile": "build/amd/domo-phoenix.js"
-  },
-  "exclude": ["node_modules/**"]
-}

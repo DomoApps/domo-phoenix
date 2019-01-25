@@ -53,6 +53,12 @@ export class PhoenixChart {
    */
   update(data: PhoenixChartData) {
     this._data = data;
+    if (Array.isArray(data.rows)) {
+      if (!Array.isArray(data.rows[0])) {
+        // Array of objects. Transform data to correct format.
+        this._data.rows = this.transformData(data.rows);
+      }
+    }
     const configString = this._createConfigString(this._type, data);
     this._instance.updateChartJson(configString, !this._options.animate);
   }

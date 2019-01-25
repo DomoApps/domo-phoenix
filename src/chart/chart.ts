@@ -160,7 +160,7 @@ export class PhoenixChart {
         {
           min: 1,
           max: colors.length,
-          values: [...colors.map((color, index) => [0, index])]
+          values: [...colors.map((_color, index) => [0, index])]
         }
       ]
     };

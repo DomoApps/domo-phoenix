@@ -1,4 +1,8 @@
 import { PHOENIX_CHART_TYPE } from '../enums/phoenix-chart-type';
+import {
+  PhoenixChartConfig,
+  PhoenixChartPalette
+} from '../interfaces/phoenix-chart-config';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
 import * as Phoenix from '../lib/phoenix';
@@ -6,7 +10,8 @@ import * as Phoenix from '../lib/phoenix';
 const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
   width: 500,
-  animate: true
+  animate: true,
+  colors: null
 };
 
 export class PhoenixChart {
@@ -51,7 +56,7 @@ export class PhoenixChart {
   /**
    * Update the Phoenix chart with new data
    */
-  update(data: PhoenixChartData) {
+  update(data: PhoenixChartData, colors?: string[]) {
     this._data = data;
     if (Array.isArray(data.rows)) {
       if (!Array.isArray(data.rows[0])) {
@@ -59,7 +64,7 @@ export class PhoenixChart {
         this._data.rows = this.transformData(data.rows);
       }
     }
-    const configString = this._createConfigString(this._type, data);
+    const configString = this._createConfigString(this._type, data, colors);
     this._instance.updateChartJson(configString, !this._options.animate);
   }
 
@@ -78,7 +83,11 @@ export class PhoenixChart {
   }
 
   private _createInstance() {
-    const configString = this._createConfigString(this._type, this._data);
+    const configString = this._createConfigString(
+      this._type,
+      this._data,
+      this._options.colors
+    );
     const chart = Phoenix.createPhoenixWithChartState(
       configString,
       '{}',
@@ -93,15 +102,20 @@ export class PhoenixChart {
 
   private _createConfigString(
     type: PHOENIX_CHART_TYPE,
-    data: PhoenixChartData
+    data: PhoenixChartData,
+    colors?: string[]
   ): string {
-    const chartConfig = this._toPhoenixConfig(type, data);
+    const chartConfig = this._toPhoenixConfig(type, data, colors);
     const configString = JSON.stringify(chartConfig);
     return configString;
   }
 
-  private _toPhoenixConfig(type: PHOENIX_CHART_TYPE, data: PhoenixChartData) {
-    return {
+  private _toPhoenixConfig(
+    type: PHOENIX_CHART_TYPE,
+    data: PhoenixChartData,
+    colors?: string[]
+  ) {
+    const config: PhoenixChartConfig = {
       datasources: {
         default: {
           type: 'ordered-column-list',
@@ -129,5 +143,27 @@ export class PhoenixChart {
       locale: 'en-US',
       version: '6'
     };
+    if (colors) {
+      config.palette = this._createPalette(colors);
+    }
+  }
+
+  private _createPalette(colors: string[]): PhoenixChartPalette {
+    const palette: PhoenixChartPalette = {
+      colorRanges: [
+        {
+          name: 'CustomPalette',
+          values: [...colors.map(color => color.substring(1))]
+        }
+      ],
+      colorRules: [
+        {
+          min: 1,
+          max: colors.length,
+          values: [...colors.map((color, index) => [0, index])]
+        }
+      ]
+    };
+    return palette;
   }
 }

@@ -57,6 +57,10 @@ export class PhoenixChart {
    * Update the Phoenix chart with new data
    */
   update(data: PhoenixChartData, colors?: string[]) {
+    if (colors) {
+      // Changing color palette, update options
+      this._options.colors = colors;
+    }
     this._data = data;
     if (Array.isArray(data.rows)) {
       if (!Array.isArray(data.rows[0])) {
@@ -64,8 +68,20 @@ export class PhoenixChart {
         this._data.rows = this.transformData(data.rows);
       }
     }
-    const configString = this._createConfigString(this._type, data, colors);
+    const configString = this._createConfigString(
+      this._type,
+      data,
+      this._options.colors
+    );
     this._instance.updateChartJson(configString, !this._options.animate);
+  }
+
+  /**
+   * Reset the chart color palette to the Domo default palette, redraws the chart
+   */
+  resetColorPalette() {
+    this._options.colors = null;
+    this.update(this._data);
   }
 
   private transformData(rows) {

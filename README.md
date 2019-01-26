@@ -86,11 +86,12 @@ chart.render();
 
 The following are customizable options along with their defaults.
 
-| Property | Description                                                 | Type    | Default |
-| -------- | ----------------------------------------------------------- | ------- | ------- |
-| width    | The width of the Phoenix Chart                              | number  | `500`   |
-| height   | The height of the Phoenix Chart                             | number  | `400`   |
-| animate  | Whether or not the chart should animate in when being drawn | boolean | `true`  |
+| Property | Description                                                                         | Type             | Default |
+| -------- | ----------------------------------------------------------------------------------- | ---------------- | ------- |
+| width    | The width of the Phoenix Chart                                                      | number           | `500`   |
+| height   | The height of the Phoenix Chart                                                     | number           | `400`   |
+| animate  | Whether or not the chart should animate in when being drawn                         | boolean          | `true`  |
+| colors   | An array of hex codes to use in drawing charts. Overrides the default color palette | Array of strings | `null`  |
 
 ### Chart Types
 
@@ -129,6 +130,48 @@ To correctly map your data to the chart, we require that you provide a mapping f
 - `VALUE`: In a bar chart, this would be your y axis
 - `SERIES`: This is how your data is grouped
 
+### Color Palettes
+
+By default, the chart will use Domo's color palette. You can optionally specify your own custom color palette for your chart. This is simply accomplished by passing an array of Hex Code strings in your options object. For example, if we were to create a chart like so:
+
+```javascript
+const data = {
+  // ...
+};
+
+const customColors = [
+  '#002159',
+  '#03449E',
+  '#0967D2',
+  '#47A3F3',
+  '#BAE3FF'
+];
+
+// Chart Options
+const options = {
+  width: 600,
+  height: 500
+  colors: customColors
+};
+
+// Create the Phoenix Chart
+const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+
+// Append the canvas element to your app
+document.getElementById('myDiv').appendChild(chart.canvas);
+
+// Render the chart when you're ready for the user to see it
+chart.render();
+```
+
+We would get a chart with that custom color palette:
+
+![Custom Color Palette](./images/custom-palette.png)
+
+You can pass as few or as many colors as you would like in this array. Phoenix handles this for you, by starting with the first color in the list, and moving down the array. If it runs out of colors in the array, it will simply loop back around to the beginning and continue. For best visual results, it is recommended that you provide enough different colors to cover the scope of your data.
+
+To update your color palette or reset to the default, see the API documentation.
+
 ## Chart Methods
 
 The following are the methods you have access to in addition to the ones shown above in the example.
@@ -151,7 +194,7 @@ The resize method allows you to resize your chart to whatever size you want, giv
 chart.resize(800, 500);
 ```
 
-### update(data)
+### update(data, colors?)
 
 The update method allows you to provide a new data object, which will update your chart to reflect those changes. **NOTE:** You do not need to call `render()` again, this method performs that for you.
 
@@ -175,4 +218,27 @@ const newData = {
 
 // Update chart with new data
 chart.update(newData);
+```
+
+You may also **optionally** provide an array of hex code strings to specify a new color palette. This will override the existing color palette for the chart, and all future updates will continue to use this new color palette.
+
+```javascript
+// Get new data
+const newData = {
+  // ...
+};
+
+const colors = ['#002159', '#03449E', '#0967D2', '#47A3F3'];
+
+// Update chart with new data AND color palette
+chart.update(newData, colors);
+```
+
+### resetColorPalette()
+
+This method allows you to reset your chart's color palette back to the default Domo color palette. Your chart will automatically re-draw with the Domo color palette.
+
+```javascript
+// Reset color palette to default
+chart.resetColorPalette();
 ```

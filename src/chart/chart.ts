@@ -146,6 +146,7 @@ export class PhoenixChart {
     if (colors) {
       config.palette = this._createPalette(colors);
     }
+    return config;
   }
 
   private _createPalette(colors: string[]): PhoenixChartPalette {

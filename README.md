@@ -164,9 +164,7 @@ document.getElementById('myDiv').appendChild(chart.canvas);
 chart.render();
 ```
 
-We would get a chart with that custom color palette:
-
-![Custom Color Palette](./images/custom-palette.png)
+We would get a chart with that custom color palette of various shades of blue.
 
 You can pass as few or as many colors as you would like in this array. Phoenix handles this for you, by starting with the first color in the list, and moving down the array. If it runs out of colors in the array, it will simply loop back around to the beginning and continue. For best visual results, it is recommended that you provide enough different colors to cover the scope of your data.
 

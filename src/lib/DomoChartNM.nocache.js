@@ -25523,7 +25523,7 @@ DomoChartNM();
     SFb(a.qb, b);
   }
   function Wb() {
-    $exports.phoenix = {
+    domoExports.phoenix = {
       createPhoenix: function(a, b, c, d) {
         return new Ob(a, b, c, d);
       },

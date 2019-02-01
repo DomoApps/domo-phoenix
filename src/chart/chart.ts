@@ -36,6 +36,7 @@ export class PhoenixChart {
     }
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
+    this._instance.setUsePhoenixHover(true);
     this.canvas = this._instance.getCanvas();
   }
 

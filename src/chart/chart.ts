@@ -1,7 +1,8 @@
 import { PHOENIX_CHART_TYPE } from '../enums/phoenix-chart-type';
 import {
   PhoenixChartConfig,
-  PhoenixChartPalette
+  PhoenixChartPalette,
+  PropertyOverridesMap
 } from '../interfaces/phoenix-chart-config';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
@@ -57,10 +58,14 @@ export class PhoenixChart {
   /**
    * Update the Phoenix chart with new data
    */
-  update(data: PhoenixChartData, colors?: string[]) {
-    if (colors) {
+  update(data: PhoenixChartData, options?: PhoenixChartOptions) {
+    if (options.colors) {
       // Changing color palette, update options
-      this._options.colors = colors;
+      this._options.colors = options.colors;
+    }
+    if (options.properties) {
+      // Changing chart properties, update options
+      this._options.properties = options.properties;
     }
     this._data = data;
     if (Array.isArray(data.rows)) {
@@ -72,9 +77,17 @@ export class PhoenixChart {
     const configString = this._createConfigString(
       this._type,
       data,
-      this._options.colors
+      this._options
     );
     this._instance.updateChartJson(configString, !this._options.animate);
+  }
+
+  /**
+   * Update the Phoenix chart with a new set of chart property overrides
+   */
+  setChartProperties(properties: PropertyOverridesMap) {
+    this._options.properties = properties;
+    this.update(this._data);
   }
 
   /**
@@ -103,7 +116,7 @@ export class PhoenixChart {
     const configString = this._createConfigString(
       this._type,
       this._data,
-      this._options.colors
+      this._options
     );
     const chart = Phoenix.createPhoenixWithChartState(
       configString,
@@ -120,9 +133,9 @@ export class PhoenixChart {
   private _createConfigString(
     type: PHOENIX_CHART_TYPE,
     data: PhoenixChartData,
-    colors?: string[]
+    options?: PhoenixChartOptions
   ): string {
-    const chartConfig = this._toPhoenixConfig(type, data, colors);
+    const chartConfig = this._toPhoenixConfig(type, data, options);
     const configString = JSON.stringify(chartConfig);
     return configString;
   }
@@ -130,7 +143,7 @@ export class PhoenixChart {
   private _toPhoenixConfig(
     type: PHOENIX_CHART_TYPE,
     data: PhoenixChartData,
-    colors?: string[]
+    options?: PhoenixChartOptions
   ) {
     const config: PhoenixChartConfig = {
       datasources: {
@@ -153,15 +166,15 @@ export class PhoenixChart {
           badgetype: type,
           datasource: 'default',
           columnFormats: {},
-          overrides: {}
+          overrides: options.properties || {}
         }
       },
       conditionalFormats: [],
       locale: 'en-US',
       version: '6'
     };
-    if (colors) {
-      config.palette = this._createPalette(colors);
+    if (options.colors) {
+      config.palette = this._createPalette(options.colors);
     }
     return config;
   }

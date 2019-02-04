@@ -130,6 +130,40 @@ To correctly map your data to the chart, we require that you provide a mapping f
 - `VALUE`: In a bar chart, this would be your y axis
 - `SERIES`: This is how your data is grouped
 
+### Chart Properties
+
+All Phoenix charts have default properties set to make your chart look great. You can, if you wish, override those properties. Examples of overrides include the chart's font size, whether or not to show the "Other" category, bar widths, etc. You can use them like so:
+
+```javascript
+const data = {
+  // ...
+};
+
+const propertyOverrides = {
+  font_size: 'Largest',
+  hide_other_category: 'true',
+  width_percentage: '50'
+};
+
+// Chart options
+const options = {
+  width: 600,
+  height: 500,
+  properties: propertyOverrides
+};
+
+// Create the Phoenix Chart
+const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+
+// Append the canvas element to your app
+document.getElementById('myDiv').appendChild(chart.canvas);
+
+// Render the chart when you're ready for the user to see it
+chart.render();
+```
+
+By passing those options, you'll have your chart customized to those settings. There are many properties supported by each chart type, and those will be documented at a later date.
+
 ### Color Palettes
 
 By default, the chart will use Domo's color palette. You can optionally specify your own custom color palette for your chart. This is simply accomplished by passing an array of Hex Code strings in your options object. For example, if we were to create a chart like so:
@@ -192,7 +226,7 @@ The resize method allows you to resize your chart to whatever size you want, giv
 chart.resize(800, 500);
 ```
 
-### update(data, colors?)
+### update(data, options?)
 
 The update method allows you to provide a new data object, which will update your chart to reflect those changes. **NOTE:** You do not need to call `render()` again, this method performs that for you.
 
@@ -218,7 +252,7 @@ const newData = {
 chart.update(newData);
 ```
 
-You may also **optionally** provide an array of hex code strings to specify a new color palette. This will override the existing color palette for the chart, and all future updates will continue to use this new color palette.
+You may also **optionally** provide the options object to the update method. In this object you can pass an array of colors for a new color palette, as well as a map of chart property overrides, like so:
 
 ```javascript
 // Get new data
@@ -226,10 +260,32 @@ const newData = {
   // ...
 };
 
-const colors = ['#002159', '#03449E', '#0967D2', '#47A3F3'];
+const options = {
+  colors: ['#002159', '#03449E', '#0967D2', '#47A3F3'],
+  properties: {
+    'chart-property-1': 'value-1',
+    'chart-property-2': 'value-2',
+    'chart-property-3': 'value-3'
+  }
+};
 
-// Update chart with new data AND color palette
-chart.update(newData, colors);
+// Update chart with new data as well as options providing a color palette and chart property overrides
+chart.update(newData, options);
+```
+
+### setChartProperties(properties)
+
+You can pass your chart new properties any time and that will re-render your chart with those properties your provide. Simply pass an object of property keys with their values to the method.
+
+```javascript
+// Define your properties
+const properties = {
+  'chart-property-1': 'value-1',
+  'chart-property-2': 'value-2',
+  'chart-property-3': 'value-3'
+};
+// Update chart with new properties
+chart.setChartProperties(properties);
 ```
 
 ### resetColorPalette()

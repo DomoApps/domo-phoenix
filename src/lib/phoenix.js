@@ -37,7 +37,7 @@ define(function (require) {
   }
 
   var $gwt_version = 'Google Web Toolkit 2.8.0';
-  var $intern_0 = 2147483647, $intern_1 = 3.141592653589793, $intern_2 = 6.283185307179586, $intern_3 = 32000, $intern_4 = {211:1}, $intern_5 = 131072, $intern_6 = 0.017453292519943295, $intern_7 = 7.5625, $intern_8 = 0.75, $intern_9 = {8:1, 9:1, 14:1}, $intern_10 = 1000, $intern_11 = 5000, $intern_12 = 10000, $intern_13 = {23:1, 63:1}, $intern_14 = 1900, $intern_15 = 0.7853981633974483, $intern_16 = 0.25, $intern_17 = {8:1, 45:1, 9:1, 14:1}, $intern_18 = {8:1, 45:1, 77:1, 9:1, 59:1, 14:1, 74:1}, $intern_19 = 1.7976931348623157E308, $intern_20 = -1.7976931348623157E308, $intern_21 = 25000, $intern_22 = {8:1, 57:1}, $intern_23 = {8:1, 38:1, 57:1}, $intern_24 = {8:1, 9:1}, $intern_25 = 65536, $intern_26 = 65535, $intern_27 = 0.6599999999999999, $intern_28 = 0.0174533333333, $intern_29 = {83:1, 8:1, 9:1, 14:1}, $intern_30 = {l:0, m:0, h:524288}, $intern_31 = {l:4194303, m:4194303, h:524287}, $intern_32 = 524288, $intern_33 = {88:1, 8:1, 9:1}, $intern_34 = 86400000, $intern_35 = {23:1, 63:1, 43:1}, $intern_36 = 2000, $intern_37 = {60:1, 64:1}, $intern_38 = 0.001, $intern_39 = 4.9E-324, $intern_40 = 86399999, $intern_41 = {8:1, 45:1, 9:1, 59:1, 14:1}, $intern_42 = {110:1, 64:1}, $intern_43 = {23:1, 63:1, 66:1, 104:1}, $intern_44 = {25:1, 18:1}, $intern_45 = 57.29577951308232, $intern_46 = {35:1, 53:1}, $intern_47 = 0.4999, $intern_48 = {139:1}, $intern_49 = 4194303, $intern_50 = 1048575, $intern_51 = 4194304, $intern_52 = 17592186044416, $intern_53 = -17592186044416, $intern_54 = 16777216, $intern_55 = 33554432, $intern_56 = 67108864, $intern_57 = {138:1}, $intern_58 = {136:1, 172:1}, $intern_59 = {184:1}, $intern_60 = {96:1, 109:1, 102:1}, $intern_61 = {68:1}, $intern_62 = {96:1, 109:1, 102:1, 126:1}, $intern_63 = {96:1, 109:1, 189:1, 102:1, 42:1}, $intern_64 = {96:1, 102:1, 126:1}, $intern_65 = {8:1}, $intern_66 = {8:1, 9:1, 24:1, 68:1}, $intern_67 = {8:1, 108:1, 117:1, 130:1}, $intern_68 = {8:1, 9:1, 14:1, 244:1};
+  var $intern_0 = 2147483647, $intern_1 = 3.141592653589793, $intern_2 = 6.283185307179586, $intern_3 = 32000, $intern_4 = {211:1}, $intern_5 = 131072, $intern_6 = 0.017453292519943295, $intern_7 = 7.5625, $intern_8 = 0.75, $intern_9 = {8:1, 9:1, 13:1}, $intern_10 = 1000, $intern_11 = 5000, $intern_12 = 10000, $intern_13 = {23:1, 63:1}, $intern_14 = 1900, $intern_15 = 0.7853981633974483, $intern_16 = 0.25, $intern_17 = {8:1, 45:1, 9:1, 13:1}, $intern_18 = {8:1, 45:1, 77:1, 9:1, 59:1, 13:1, 74:1}, $intern_19 = 1.7976931348623157E308, $intern_20 = -1.7976931348623157E308, $intern_21 = 25000, $intern_22 = {8:1, 57:1}, $intern_23 = {8:1, 38:1, 57:1}, $intern_24 = {8:1, 9:1}, $intern_25 = 65536, $intern_26 = 65535, $intern_27 = 0.6599999999999999, $intern_28 = 0.0174533333333, $intern_29 = {83:1, 8:1, 9:1, 13:1}, $intern_30 = {l:0, m:0, h:524288}, $intern_31 = {l:4194303, m:4194303, h:524287}, $intern_32 = 524288, $intern_33 = {88:1, 8:1, 9:1}, $intern_34 = 86400000, $intern_35 = {23:1, 63:1, 43:1}, $intern_36 = 2000, $intern_37 = {60:1, 64:1}, $intern_38 = 0.001, $intern_39 = 4.9E-324, $intern_40 = 86399999, $intern_41 = {8:1, 45:1, 9:1, 59:1, 13:1}, $intern_42 = {110:1, 64:1}, $intern_43 = {23:1, 63:1, 66:1, 104:1}, $intern_44 = {25:1, 18:1}, $intern_45 = 57.29577951308232, $intern_46 = {36:1, 53:1}, $intern_47 = 0.4999, $intern_48 = {139:1}, $intern_49 = 4194303, $intern_50 = 1048575, $intern_51 = 4194304, $intern_52 = 17592186044416, $intern_53 = -17592186044416, $intern_54 = 16777216, $intern_55 = 33554432, $intern_56 = 67108864, $intern_57 = {138:1}, $intern_58 = {136:1, 172:1}, $intern_59 = {184:1}, $intern_60 = {96:1, 109:1, 102:1}, $intern_61 = {68:1}, $intern_62 = {96:1, 109:1, 102:1, 126:1}, $intern_63 = {96:1, 109:1, 189:1, 102:1, 42:1}, $intern_64 = {96:1, 102:1, 126:1}, $intern_65 = {8:1}, $intern_66 = {8:1, 9:1, 24:1, 68:1}, $intern_67 = {8:1, 108:1, 117:1, 130:1}, $intern_68 = {8:1, 9:1, 13:1, 244:1};
 var _, prototypesByTypeId_0, initFnList_0, permutationId = -1;
 function create_com_google_gwt_useragent_client_UserAgent(){
   switch (permutationId) {
@@ -540,9 +540,9 @@ function ChartAnimation(theChart, theRenderer, callback){
   this.callback = callback;
 }
 
-defineClass(312, 229, {}, ChartAnimation);
+defineClass(313, 229, {}, ChartAnimation);
 _.startTime = 0;
-var Lcom_domo_charting_ChartAnimation_2_classLit = createForClass('com.domo.charting', 'ChartAnimation', 312);
+var Lcom_domo_charting_ChartAnimation_2_classLit = createForClass('com.domo.charting', 'ChartAnimation', 313);
 function $addMouseAndTouchHandlers(this$static){
   var element;
   if (!this$static.canvas)
@@ -705,7 +705,7 @@ function $exportNativeFunctions(this$static){
   }
   );
   that_0.setUsePhoenixHover = $entry(function(hoverFlag){
-    return that_0.setRenderToUsePhoenixHover(Z)(hoverFlag);
+    return that_0.setRenderToUsePhoenixHover(hoverFlag);
   }
   );
 }
@@ -1021,10 +1021,10 @@ function exportAddCSRContainer(){
   , setChartJSON:function(chartJSON, chartState){
     return that.createChartFromJSONWithCurrentState(chartJSON, chartState);
   }
-  , version:'1.55.4'};
+  , version:'1.55.9'};
 }
 
-defineClass(376, 1, {}, Container, Container_0, Container_1);
+defineClass(377, 1, {}, Container, Container_0, Container_1);
 _.addEventListener_0 = function addEventListener_0(type_0, theFunction){
   $addEventListener(this.rnd, type_0, theFunction);
 }
@@ -1225,7 +1225,7 @@ _.unscaledHeight = 0;
 _.unscaledWidth = 0;
 _.wasInDrag_0 = false;
 _.width_0 = 0;
-var Lcom_domo_charting_Container_2_classLit = createForClass('com.domo.charting', 'Container', 376);
+var Lcom_domo_charting_Container_2_classLit = createForClass('com.domo.charting', 'Container', 377);
 function Container$1(this$0, val$element){
   this.this$01 = this$0;
   this.val$element2 = val$element;
@@ -1887,7 +1887,7 @@ function $animateAllComponents(this$static, startTime){
   for (comp$iterator = new ArrayList$1(this$static.compAry); comp$iterator.i < comp$iterator.this$01.array.length;) {
     comp = castTo($next_3(comp$iterator), 23);
     endTime = comp.drawAnimated(this$static.rnd, startTime);
-    compare_21(endTime, animTotalEndTime) > 0 && (animTotalEndTime = endTime);
+    compare_22(endTime, animTotalEndTime) > 0 && (animTotalEndTime = endTime);
   }
   return animTotalEndTime;
 }
@@ -2407,7 +2407,7 @@ function $drawAnimated(this$static, startTime){
       this$static.firstAnimationPass = false;
     }
     animTotalEndTime = $animateAllComponents(this$static, adjustedStartTime);
-    if (compare_21(adjustedStartTime, animTotalEndTime) < 0)
+    if (compare_22(adjustedStartTime, animTotalEndTime) < 0)
     ;
     else {
       hasChainedAnimations = false;
@@ -2453,7 +2453,7 @@ function $drawAnnotationIndicatorForShape(this$static, graph, innerBnds, innerBn
     instanceOf(dataObject, 87) && (cell = castTo(dataObject, 87).cell);
     !!cell && (pos = $getPositionForTime(castTo(scale, 56), cell.row.timeMS));
   }
-   else if (instanceOf(scale, 35)) {
+   else if (instanceOf(scale, 36)) {
     instanceOf(dataObject, 18) && (cell = castTo(dataObject, 18).cell);
     instanceOf(dataObject, 87) && (cell = castTo(dataObject, 87).cell);
     if (!!cell && graph.data_0.hasHiddenRows) {
@@ -2465,10 +2465,10 @@ function $drawAnnotationIndicatorForShape(this$static, graph, innerBnds, innerBn
         else 
           break;
       }
-      pos = castTo(scale, 35).getPositionForValue(cell.row.curIndex - hiddenRowsBeforeDisplayed);
+      pos = castTo(scale, 36).getPositionForValue(cell.row.curIndex - hiddenRowsBeforeDisplayed);
     }
      else 
-      !!cell && (pos = castTo(scale, 35).getPositionForValue(cell.row.curIndex));
+      !!cell && (pos = castTo(scale, 36).getPositionForValue(cell.row.curIndex));
   }
   if (cell) {
     timeValueStr = $getName(cell.row);
@@ -2630,7 +2630,7 @@ function $getAnimationDuration(this$static){
   for (comp$iterator = new ArrayList$1(this$static.compAry); comp$iterator.i < comp$iterator.this$01.array.length;) {
     comp = castTo($next_3(comp$iterator), 23);
     endTime = comp.getAnimationDuration();
-    compare_21(endTime, animationLength) > 0 && (animationLength = endTime);
+    compare_22(endTime, animationLength) > 0 && (animationLength = endTime);
   }
   return animationLength;
 }
@@ -3494,8 +3494,8 @@ function $sendCardBusHighlightMessage(this$static, filter){
     if (filter == null || $equals_2('none', filter))
       filter = 'null';
     else if ($isInternalFilter(filter) && !!this$static.lastShapeWithDrill) {
-      if (this$static.lastShapeWithDrill.dataObject != null && instanceOf(this$static.lastShapeWithDrill.dataObject, 36))
-        filter = $getCardBusHighlightFilter(castTo(this$static.lastShapeWithDrill.dataObject, 36));
+      if (this$static.lastShapeWithDrill.dataObject != null && instanceOf(this$static.lastShapeWithDrill.dataObject, 37))
+        filter = $getCardBusHighlightFilter(castTo(this$static.lastShapeWithDrill.dataObject, 37));
       else 
         return;
     }
@@ -3779,7 +3779,7 @@ function $getAdditionalLegendItemsForCell(this$static, cell, valueColumnName, co
       fillColor = null;
       !!format.filter && !!format.filter.values && format.filter.values.array.length > 0 && (fillColor = $getColorForCellValue(format, cell, valueColumnName));
       if (fillColor) {
-        legendItemInfo = castTo($get_1(this$static.additionalLegendItemsConditionalFormatMap, format), 36);
+        legendItemInfo = castTo($get_1(this$static.additionalLegendItemsConditionalFormatMap, format), 37);
         if (legendItemInfo)
           return legendItemInfo;
         else {
@@ -5219,7 +5219,7 @@ function containsMonthDaysOtherThanTestDay(ticks, testDate){
 
 function containsSubHourTime(ticks){
   var date;
-  if (compare_21(ticks, 0) != 0) {
+  if (compare_22(ticks, 0) != 0) {
     date = new Date_4(ticks);
     if (date.jsdate.getMinutes() != 0 || date.jsdate.getSeconds() != 0)
       return true;
@@ -5250,7 +5250,7 @@ function convertPopChartDateMacros(dateOutputFormat){
 
 function getDayOfMonth(ticks){
   var date;
-  if (compare_21(ticks, 0) != 0) {
+  if (compare_22(ticks, 0) != 0) {
     date = new Date_4(ticks);
     return date.jsdate.getDate();
   }
@@ -5765,7 +5765,7 @@ function LatLongProjectorLambert(){
   LatLongProjector.call(this);
 }
 
-defineClass(355, 241, {}, LatLongProjectorLambert);
+defineClass(356, 241, {}, LatLongProjectorLambert);
 _.project = function project_0(point){
   var F, lambda, lambda0, n, psi, psi0, psi1, psi2, roe, roe0, sp1, sp2, x_0, y_0;
   lambda = point.x_0 * $intern_6;
@@ -5786,12 +5786,12 @@ _.project = function project_0(point){
   return new CFPoint(x_0, y_0);
 }
 ;
-var Lcom_domo_charting_base_LatLongProjectorLambert_2_classLit = createForClass('com.domo.charting.base', 'LatLongProjectorLambert', 355);
+var Lcom_domo_charting_base_LatLongProjectorLambert_2_classLit = createForClass('com.domo.charting.base', 'LatLongProjectorLambert', 356);
 function LatLongProjectorMiller(){
   LatLongProjector.call(this);
 }
 
-defineClass(356, 241, {}, LatLongProjectorMiller);
+defineClass(357, 241, {}, LatLongProjectorMiller);
 _.project = function project_1(point){
   var lambda, lambda0, psi, x_0, y_0;
   point = $long180(this, point);
@@ -5803,7 +5803,7 @@ _.project = function project_1(point){
   return new CFPoint(x_0, y_0);
 }
 ;
-var Lcom_domo_charting_base_LatLongProjectorMiller_2_classLit = createForClass('com.domo.charting.base', 'LatLongProjectorMiller', 356);
+var Lcom_domo_charting_base_LatLongProjectorMiller_2_classLit = createForClass('com.domo.charting.base', 'LatLongProjectorMiller', 357);
 function $$init(this$static){
   this$static.NODATA_CLR = new CFColor_2('#E6E6E6');
   this$static.rangeComps = new ArrayList;
@@ -6707,7 +6707,7 @@ function $getLegendItemForRange(this$static, range){
     rangeIndex = $indexOf_1(this$static.rangeComps, range, 0);
     if (rangeIndex != -1) {
       for (lii$iterator = this$static.legend.legendItems.iterator(); lii$iterator.hasNext_0();) {
-        lii = castTo(lii$iterator.next_1(), 36);
+        lii = castTo(lii$iterator.next_1(), 37);
         if (!!lii.colInfo && lii.colInfo.curIndex == rangeIndex)
           return lii;
       }
@@ -8158,8 +8158,8 @@ _.setHoverData = function setHoverData_1(hoverObject, rnd){
         return true;
       }
     }
-     else if (instanceOf(hoverObject, 36)) {
-      lii = castTo(hoverObject, 36);
+     else if (instanceOf(hoverObject, 37)) {
+      lii = castTo(hoverObject, 37);
       if (lii.colInfo) {
         rangeIndex = lii.colInfo.curIndex;
         selectedRange = castTo($get_2(this.rangeComps, rangeIndex), 76);
@@ -9470,14 +9470,14 @@ function $compare(this$static, o1, o2){
   o1Name == null && (o1Name = '');
   o2Name = this$static.this$01.getSeriesNameFromRow(this$static.this$01.data_0, o2);
   o2Name == null && (o2Name = '');
-  return compare_27((checkCriticalNotNull(o1Name) , o1Name), (checkCriticalNotNull(o2Name) , o2Name));
+  return compare_28((checkCriticalNotNull(o1Name) , o1Name), (checkCriticalNotNull(o2Name) , o2Name));
 }
 
 function MapAreaLatLong$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(350, 1, {}, MapAreaLatLong$1);
+defineClass(351, 1, {}, MapAreaLatLong$1);
 _.compare = function compare_0(o1, o2){
   return $compare(this, castTo(o1, 7), castTo(o2, 7));
 }
@@ -9486,7 +9486,7 @@ _.equals_0 = function equals_1(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_base_MapAreaLatLong$1_2_classLit = createForClass('com.domo.charting.base', 'MapAreaLatLong/1', 350);
+var Lcom_domo_charting_base_MapAreaLatLong$1_2_classLit = createForClass('com.domo.charting.base', 'MapAreaLatLong/1', 351);
 function $getColNameForName(this$static, data_0, row){
   var column;
   column = $getColumnForName(data_0, row);
@@ -9850,7 +9850,7 @@ function $getOrigOrCalculatedOrigBounds(this$static){
   if (!!this$static.origBnds && this$static.origBnds.x_0 == 0 && this$static.origBnds.y_0 == 0) {
     if (!!this$static.origPaths && !this$static.calculatedOrigBnds) {
       if (this$static.origPaths.array.length == 1) {
-        this$static.calculatedOrigBnds = $getBoundsForPath(castTo($get_2(this$static.origPaths, 0), 13));
+        this$static.calculatedOrigBnds = $getBoundsForPath(castTo($get_2(this$static.origPaths, 0), 14));
       }
        else {
         minX = $intern_19;
@@ -9858,7 +9858,7 @@ function $getOrigOrCalculatedOrigBounds(this$static){
         minY = $intern_19;
         maxY = $intern_20;
         for (origPath$iterator = new ArrayList$1(this$static.origPaths); origPath$iterator.i < origPath$iterator.this$01.array.length;) {
-          origPath = castTo($next_3(origPath$iterator), 13);
+          origPath = castTo($next_3(origPath$iterator), 14);
           bnds = $getBoundsForPath(origPath);
           bnds.x_0 < minX && (minX = bnds.x_0);
           bnds.y_0 < minY && (minY = bnds.y_0);
@@ -9880,7 +9880,7 @@ function $moveAndScale(this$static, newBnds, scale){
   if (this$static.origPaths) {
     newScaledCompBounds = null;
     for (path$iterator = new ArrayList$1(this$static.origPaths); path$iterator.i < path$iterator.this$01.array.length;) {
-      path = castTo($next_3(path$iterator), 13);
+      path = castTo($next_3(path$iterator), 14);
       ge = new GraphicElement;
       newPath = $duplicate_3(path);
       bnds = $getBoundsForPath(path);
@@ -9965,7 +9965,7 @@ function ShapeComponent_0(source){
   if (!!source.origPaths && source.origPaths.array.length > 0) {
     this.origPaths = new ArrayList;
     for (path$iterator = new ArrayList$1(source.origPaths); path$iterator.i < path$iterator.this$01.array.length;) {
-      path = castTo($next_3(path$iterator), 13);
+      path = castTo($next_3(path$iterator), 14);
       !!path && $add_1(this.origPaths, $duplicate_3(path));
     }
   }
@@ -10230,7 +10230,7 @@ _.moveAndScale = function moveAndScale(newBnds, scale, fill, stroke, viewPort){
   if (this.origPaths) {
     newScaledCompBounds = null;
     for (path$iterator = new ArrayList$1(this.origPaths); path$iterator.i < path$iterator.this$01.array.length;) {
-      path = castTo($next_3(path$iterator), 13);
+      path = castTo($next_3(path$iterator), 14);
       bnds = $getBoundsForPath(path);
       if (bnds) {
         newX = newBnds.x_0 + (bnds.x_0 + this.origBnds.x_0) * scale;
@@ -11370,7 +11370,7 @@ function getDecimalPlacesToShowFromSignificantDigits(n, significantDigits, first
   return result;
 }
 
-defineClass(351, 1, {}, NumFormat);
+defineClass(352, 1, {}, NumFormat);
 _.alwaysShowDecimalPlaces = false;
 _.currencyBefore = true;
 _.currencyStr = '$';
@@ -11381,7 +11381,7 @@ _.thousandChar = 44;
 _.type_0 = 0;
 _.use3Sig = false;
 _.useThousandSep = true;
-var Lcom_domo_charting_base_NumFormat_2_classLit = createForClass('com.domo.charting.base', 'NumFormat', 351);
+var Lcom_domo_charting_base_NumFormat_2_classLit = createForClass('com.domo.charting.base', 'NumFormat', 352);
 function $clinit_NumberFormatter(){
   $clinit_NumberFormatter = emptyMethod;
   namedAbbreviations = getAbbreviations(null);
@@ -12286,7 +12286,7 @@ function getColumnTypeFromFilter(object){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       $printStackTraceImpl(e, ($clinit_System() , err), '', '');
     }
@@ -12502,7 +12502,7 @@ function getListOfValuesFromFilter(object){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       $printStackTraceImpl(e, ($clinit_System() , err), '', '');
     }
@@ -12550,7 +12550,7 @@ function getOperandFromFilter(object){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       $printStackTraceImpl(e, ($clinit_System() , err), '', '');
     }
@@ -12614,7 +12614,7 @@ function getRowFilterIntersection(filter1, filter2){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         $printStackTraceImpl(e, ($clinit_System() , err), '', '');
       }
@@ -12639,7 +12639,7 @@ function getValueListFromFilter(object){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       $printStackTraceImpl(e, ($clinit_System() , err), '', '');
     }
@@ -12660,7 +12660,7 @@ function getValues(values){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (!instanceOf($e0, 34))
+      if (!instanceOf($e0, 35))
         throw toJs($e0);
     }
   }
@@ -14784,6 +14784,7 @@ function Cell_0(source){
     this.timeMS = source.timeMS;
     this.altName = source.altName;
     this.hidden = source.hidden;
+    this.projectedIsActual = source.projectedIsActual;
     if (source.metaData != null) {
       this.metaData = initUnidimensionalArray(Lcom_domo_charting_data_Cell_2_classLit, $intern_9, 16, source.metaData.length, 0, 1);
       for (i = 0; i < source.metaData.length; i++)
@@ -14814,6 +14815,7 @@ _.toString_0 = function toString_6(){
 _.altValue = NaN;
 _.cloneColIndex = 0;
 _.hidden = false;
+_.projectedIsActual = false;
 _.projectedValue = NaN;
 _.timeMS = 0;
 _.value_0 = NaN;
@@ -15507,6 +15509,10 @@ function $setAltName(this$static, value_0){
   this$static.altName = value_0;
 }
 
+function $setCellMap(this$static, cellMap){
+  this$static.cellMap = cellMap;
+}
+
 function $setCloneIndicies(this$static){
   var entry, index_0, index$iterator, outerIter, tmpCell;
   for (index$iterator = (outerIter = (new AbstractMap$1(this$static.cellMap)).this$01.entrySet_0().iterator() , new AbstractMap$1$1(outerIter)); index$iterator.val$outerIter2.hasNext_0();) {
@@ -15777,7 +15783,7 @@ function $getColorForCategoryTime(this$static, cell){
   var parentName, timeMS;
   if (!!cell && !!cell.row) {
     timeMS = cell.row.timeMS;
-    compare_21(timeMS, 0) == 0 && (timeMS = getTimeMSForDateString($getRowName(cell), null, null, null).value_0);
+    compare_22(timeMS, 0) == 0 && (timeMS = getTimeMSForDateString($getRowName(cell), null, null, null).value_0);
     parentName = $getRowParentName(cell);
     if ($isMatchForTime(this$static.filter, timeMS, parentName))
       return this$static.color_0;
@@ -15849,21 +15855,23 @@ function $$init_5(this$static){
 }
 
 function $addExtraForcastItems(this$static, numItems, graph, method, periodOffset){
-  var cell, colIndex, curCol, extraRowIndex, extraRows, forecastPoint, forecastPoints, i, lastRow, newRow, regPoint, rowIndex;
+  var cell, colIndex, curCol, extraRowIndex, extraRows, firstColWithData, forecastPoint, forecastPoints, i, lastRow, newRow, regPoint, rowIndex;
   extraRows = new ArrayList;
   this$static.numProjectedRows > 0 && $clearProjectionRows(this$static);
   lastRow = castTo(this$static.rows_0.get_1(this$static.rows_0.size_1() - 1), 7);
   if (neq(lastRow.timeMS, 0)) {
+    firstColWithData = -1;
     for (colIndex = 0; colIndex < $getNumCols(this$static); colIndex++) {
       curCol = castTo(this$static.cols_0.get_1(colIndex), 7);
       forecastPoints = getForecastPoints(colIndex, graph, numItems, method, periodOffset);
       if (!forecastPoints || forecastPoints.array.length == 0)
         continue;
       extraRowIndex = 0;
+      firstColWithData == -1 && (firstColWithData = colIndex);
       for (i = forecastPoints.array.length - numItems; i < forecastPoints.array.length; i++) {
         forecastPoint = (checkCriticalElementIndex(i, forecastPoints.array.length) , castTo(forecastPoints.array[i], 10));
         newRow = null;
-        if (colIndex == 0) {
+        if (colIndex == firstColWithData) {
           newRow = new ColRowInfo;
           $setTimeMS_0(newRow, fromDouble_0(forecastPoint.x_0));
           newRow.type_0 = lastRow.type_0;
@@ -15945,7 +15953,7 @@ function $applyColumnShowAsUnFiltered(this$static, object){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         $printStackTraceImpl(e, ($clinit_System() , err), '', '');
       }
@@ -15983,7 +15991,7 @@ function $applyRowShowAsUnFiltered(this$static, object){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         $printStackTraceImpl(e, ($clinit_System() , err), '', '');
       }
@@ -16020,7 +16028,7 @@ function $applyShowAsFiltered(this$static, object){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         $printStackTraceImpl(e, ($clinit_System() , err), '', '');
       }
@@ -16195,7 +16203,7 @@ function $clearRowHiddenValueBewteenDates(this$static, startDate, endDate){
   var endTime, row, row$iterator, startTime, temp;
   startTime = getTimeMSForDateString(startDate, null, null, null).value_0;
   endTime = getTimeMSForDateString(endDate, null, null, null).value_0;
-  if (compare_21(endTime, startTime) < 0) {
+  if (compare_22(endTime, startTime) < 0) {
     temp = startTime;
     startTime = endTime;
     endTime = temp;
@@ -16636,7 +16644,7 @@ function $filterCatX(this$static, object){
                 }
                  catch ($e0) {
                   $e0 = toJava($e0);
-                  if (!instanceOf($e0, 34))
+                  if (!instanceOf($e0, 35))
                     throw toJs($e0);
                 }
               }
@@ -16647,7 +16655,7 @@ function $filterCatX(this$static, object){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -16685,7 +16693,7 @@ function $filterRows(this$static, object){
               }
                catch ($e0) {
                 $e0 = toJava($e0);
-                if (!instanceOf($e0, 34))
+                if (!instanceOf($e0, 35))
                   throw toJs($e0);
               }
 
@@ -16696,7 +16704,7 @@ function $filterRows(this$static, object){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -16734,7 +16742,7 @@ function $filterSeries(this$static, object, showAsFiltered){
       }
        catch ($e0) {
         $e0 = toJava($e0);
-        if (instanceOf($e0, 34)) {
+        if (instanceOf($e0, 35)) {
           e = $e0;
           $printStackTraceImpl(e, ($clinit_System() , err), '', '');
         }
@@ -16769,7 +16777,7 @@ function $filterSeriesShowAsFiltered(this$static, object){
       }
        catch ($e0) {
         $e0 = toJava($e0);
-        if (instanceOf($e0, 34)) {
+        if (instanceOf($e0, 35)) {
           e = $e0;
           $printStackTraceImpl(e, ($clinit_System() , err), '', '');
         }
@@ -16801,7 +16809,7 @@ function $filterTime(this$static, object){
               }
                catch ($e0) {
                 $e0 = toJava($e0);
-                if (!instanceOf($e0, 34))
+                if (!instanceOf($e0, 35))
                   throw toJs($e0);
               }
 
@@ -16811,7 +16819,7 @@ function $filterTime(this$static, object){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -16839,7 +16847,7 @@ function $filterX(this$static, object){
               }
                catch ($e0) {
                 $e0 = toJava($e0);
-                if (!instanceOf($e0, 34))
+                if (!instanceOf($e0, 35))
                   throw toJs($e0);
               }
 
@@ -16849,7 +16857,7 @@ function $filterX(this$static, object){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -16877,7 +16885,7 @@ function $filterY(this$static, object){
               }
                catch ($e0) {
                 $e0 = toJava($e0);
-                if (!instanceOf($e0, 34))
+                if (!instanceOf($e0, 35))
                   throw toJs($e0);
               }
 
@@ -16891,7 +16899,7 @@ function $filterY(this$static, object){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -17556,7 +17564,7 @@ function $getPaddingRows(this$static, daysPlusExtra, comp, locale){
     row = castTo(row$iterator.next_1(), 7);
     if (lastRow) {
       lastTimeMS = lastRow.timeMS;
-      if (compare_21(lastTimeMS, 0) != 0) {
+      if (compare_22(lastTimeMS, 0) != 0) {
         beyondNextTimeMS = add_1(lastTimeMS, msToAddToCurrentDate);
         while (!row.hidden && gt(row.timeMS, beyondNextTimeMS)) {
           lastDate = new Date_4(lastTimeMS);
@@ -17906,14 +17914,14 @@ function $hideSeries(this$static, object){
           }
            catch ($e0) {
             $e0 = toJava($e0);
-            if (!instanceOf($e0, 34))
+            if (!instanceOf($e0, 35))
               throw toJs($e0);
           }
         }
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (!instanceOf($e1, 34))
+        if (!instanceOf($e1, 35))
           throw toJs($e1);
       }
     }
@@ -18251,7 +18259,7 @@ function $setPeriodOverPeriodDates(this$static, index_0){
         break;
       }
     }
-    if (!!baseColumn && !!periodColumn && compare_21(periodFirstIndexDate, 0) != 0 && compare_21(baseFirstIndexDate, 0) != 0) {
+    if (!!baseColumn && !!periodColumn && compare_22(periodFirstIndexDate, 0) != 0 && compare_22(baseFirstIndexDate, 0) != 0) {
       for (i = 0; i < $size(baseColumn.cellMap); i++) {
         dateMapped = false;
         periodCell = null;
@@ -18436,7 +18444,7 @@ function $showTimeValuesBewteenValues(this$static, startDate, endDate){
   var cell, cell$iterator, endTime, entry, outerIter, row, row$iterator, startTime, temp, value_0;
   startTime = getTimeMSForDateString(startDate, null, null, null).value_0;
   endTime = getTimeMSForDateString(endDate, null, null, null).value_0;
-  if (compare_21(endTime, startTime) < 0) {
+  if (compare_22(endTime, startTime) < 0) {
     temp = startTime;
     startTime = endTime;
     endTime = temp;
@@ -18529,6 +18537,13 @@ function $showYValuesBewteenValues(this$static, lowValue, highValue){
       }
     }
   }
+}
+
+function $sortCellsByTimeValue(cellMap){
+  var cellAry;
+  cellAry = new ArrayList_1(new AbstractMap$2(cellMap));
+  $sort(cellAry, new DataGrid$9);
+  return cellAry;
 }
 
 function $sortRows(this$static, order){
@@ -18693,7 +18708,7 @@ function $transformOrderedColumnToNoGroupItemValue(this$static, columnOrder, gro
 }
 
 function $transformOrderedColumnToXYBubble(this$static){
-  var bubbleCell, bubbleCol, cell, col, col$iterator, colAltName, colInfo, colList, colMap, colName, curRowIndex, dataType, itemCell, limit, lower2Cell, lower2Col, lowerCell, lowerCol, mdCellsNeeded, mdColInfoY, median2Cell, median2Col, medianCell, medianCol, metadataList, newGrid, newYCell, outlierCell, outlierCol, row, row$iterator, rowAltName, rowIndex, rowInfo, rowList, rowMap, rowMetaData, rowName, rowParentName, rowType, seriesCell, seriesCol, upper2Cell, upper2Col, upperCell, upperCol, xCol, yCell, yCol, yearValsConverted;
+  var bubbleCell, bubbleCol, cell, cell$iterator, col, col$iterator, colAltName, colInfo, colList, colMap, colName, curRowIndex, dataType, index_0, itemCell, limit, lower2Cell, lower2Col, lowerCell, lowerCol, mdCellsNeeded, mdColInfoY, median2Cell, median2Col, medianCell, medianCol, metadataList, newCellMap, newGrid, newYCell, orderedCells, outlierCell, outlierCol, row, row$iterator, rowAltName, rowIndex, rowInfo, rowList, rowMap, rowMetaData, rowName, rowParentName, rowType, seriesCell, seriesCol, upper2Cell, upper2Col, upperCell, upperCol, xCol, yCell, yCol, yearValsConverted;
   if (!this$static.orderedColumnList)
     return this$static;
   limit = 26000;
@@ -18892,6 +18907,17 @@ function $transformOrderedColumnToXYBubble(this$static){
   newGrid.dateJoinColumn = this$static.dateJoinColumn;
   $setDateGrain(newGrid, this$static.dateGrain);
   limit < 0 && (newGrid.dataHasBeenLimited = true);
+  if ((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)).type_0 != null && $equals_2((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)).type_0, 'STRING') || $equals_2((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)).type_0, 'DATE') && neq($getFirstCell((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7))).timeMS, 0)) {
+    orderedCells = $sortCellsByTimeValue((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)).cellMap);
+    newCellMap = new HashMap;
+    index_0 = 0;
+    for (cell$iterator = new ArrayList$1(orderedCells); cell$iterator.i < cell$iterator.this$01.array.length;) {
+      cell = castTo($next_3(cell$iterator), 16);
+      $put_0(newCellMap, valueOf(index_0++), cell);
+    }
+    $reset_5((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)).cellMap);
+    $setCellMap((checkCriticalElementIndex(0, colList.array.length) , castTo(colList.array[0], 7)), newCellMap);
+  }
   return newGrid;
 }
 
@@ -19151,9 +19177,9 @@ var Lcom_domo_charting_data_DataGrid$7_2_classLit = createForClass('com.domo.cha
 function $compare_8(o1, o2){
   var result;
   result = sub_1(o1.timeMS, o2.timeMS);
-  if (compare_21(result, 0) < 0)
+  if (compare_22(result, 0) < 0)
     return -1;
-  else if (compare_21(result, 0) > 0)
+  else if (compare_22(result, 0) > 0)
     return 1;
   return 0;
 }
@@ -19171,6 +19197,29 @@ _.equals_0 = function equals_10(other){
 }
 ;
 var Lcom_domo_charting_data_DataGrid$8_2_classLit = createForClass('com.domo.charting.data', 'DataGrid/8', 303);
+function $compare_9(o1, o2){
+  var o1XVal, o2XVal;
+  if (neq(o1.timeMS, 0)) {
+    o1XVal = valueOf_0(o1.timeMS);
+    o2XVal = valueOf_0(o2.timeMS);
+    return compare_26(o1XVal.value_0, o2XVal.value_0);
+  }
+  return 0;
+}
+
+function DataGrid$9(){
+}
+
+defineClass(304, 1, {}, DataGrid$9);
+_.compare = function compare_10(o1, o2){
+  return $compare_9(castTo(o1, 16), castTo(o2, 16));
+}
+;
+_.equals_0 = function equals_11(other){
+  return this === other;
+}
+;
+var Lcom_domo_charting_data_DataGrid$9_2_classLit = createForClass('com.domo.charting.data', 'DataGrid/9', 304);
 function addDateGrainIfAllDataAndDate(dg){
   var hasDateData, row, row$iterator;
   if (dg.dateGrain == null) {
@@ -19245,7 +19294,7 @@ function addProjectionData(rnd, grid){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && rnd.log_0(getExceptionStackTrace(e));
       }
@@ -19272,7 +19321,7 @@ function addProjectionData(rnd, grid){
     }
      catch ($e1) {
       $e1 = toJava($e1);
-      if (instanceOf($e1, 34)) {
+      if (instanceOf($e1, 35)) {
         e = $e1;
         !!rnd && rnd.log_0(getExceptionStackTrace(e));
       }
@@ -19374,7 +19423,7 @@ function applySort(rnd, dataGrid, sort_0){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && $log_0(rnd, getExceptionStackTrace(e));
       }
@@ -19439,7 +19488,7 @@ function fillColorRanges(rnd, palette, colorRanges, colorRuleAry){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19466,7 +19515,7 @@ function fillColorTable(rnd, palette, colorRangeAry){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19488,7 +19537,7 @@ function fillGradients(rnd, palette, gradientsAry){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19545,7 +19594,7 @@ function getAnnotation(rnd, annotJson){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19637,7 +19686,7 @@ function getBounds(rnd, jsonObj, bndsKey){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19749,7 +19798,7 @@ function getChartDefinition(rnd, jsonObject){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && $log_0(rnd, getExceptionStackTrace(e));
       }
@@ -19779,7 +19828,7 @@ function getColorForProperty(rnd, jsonObject, property, palette){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19812,7 +19861,7 @@ function getColumnFormats(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19848,7 +19897,7 @@ function getColumnMetadata(rnd, numCols, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19928,7 +19977,7 @@ function getComponentDefinitions(rnd, jsonObject){
   }
    catch ($e1) {
     $e1 = toJava($e1);
-    if (instanceOf($e1, 34)) {
+    if (instanceOf($e1, 35)) {
       e = $e1;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -19966,7 +20015,7 @@ function getConditionalColors(rnd, jsonArray){
       }
        catch ($e0) {
         $e0 = toJava($e0);
-        if (instanceOf($e0, 34)) {
+        if (instanceOf($e0, 35)) {
           e = $e0;
           !!rnd && $log_0(rnd, getExceptionStackTrace(e));
         }
@@ -20072,7 +20121,7 @@ function getDataSources(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20105,7 +20154,7 @@ function getDataTypeFromType(type_0){
 function getDateNameForDateGroupedTrellis(level, timeMS, dateGrain, locale, includeYear){
   var firstLevelTrellisGrain, newDateStr, secondLevelTrellisGrain;
   newDateStr = '';
-  if (compare_21(timeMS, 0) != 0 && dateGrain != null) {
+  if (compare_22(timeMS, 0) != 0 && dateGrain != null) {
     firstLevelTrellisGrain = null;
     secondLevelTrellisGrain = null;
     if ($equals_2(dateGrain, 'DAY')) {
@@ -20188,7 +20237,7 @@ function getFormats(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20317,7 +20366,7 @@ function getGroupItemValueData(rnd, jsonObject, groupCol, itemCol, valueCol){
   }
    catch ($e1) {
     $e1 = toJava($e1);
-    if (instanceOf($e1, 34)) {
+    if (instanceOf($e1, 35)) {
       e = $e1;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20343,7 +20392,7 @@ function getHighlightFilters(rnd, filters){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && $log_0(rnd, getExceptionStackTrace(e));
       }
@@ -20512,7 +20561,7 @@ function getItemValueData(rnd, jsonObject, origDataType, itemCol, valueCol, grou
   }
    catch ($e1) {
     $e1 = toJava($e1);
-    if (instanceOf($e1, 34)) {
+    if (instanceOf($e1, 35)) {
       e = $e1;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20530,7 +20579,7 @@ function getJsonObject(jsonData){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (!instanceOf($e0, 34))
+    if (!instanceOf($e0, 35))
       throw toJs($e0);
   }
   return jsonObject;
@@ -20662,7 +20711,7 @@ function getLegacyData(rnd, jsonObject, itemCol, seriesColumns){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20684,7 +20733,7 @@ function getListOfColumnsFromColumnArray(rnd, columnNames){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20947,7 +20996,7 @@ function getMultiGroupItemValueData(rnd, jsonObject, groupCol, itemCol, valueCol
   }
    catch ($e1) {
     $e1 = toJava($e1);
-    if (instanceOf($e1, 34)) {
+    if (instanceOf($e1, 35)) {
       e = $e1;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -20975,7 +21024,7 @@ function getNameColorMap(rnd, jsonObject, palette){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21094,7 +21143,7 @@ function getNoGroupItemValueDataWithSeries(rnd, dataType, dateGrain, jsonObject,
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21117,7 +21166,7 @@ function getNotificationCode(rnd, jsonObject){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && $log_0(rnd, getExceptionStackTrace(e));
       }
@@ -21187,7 +21236,7 @@ function getOrderedColumnListData(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21218,7 +21267,7 @@ function getOverrides(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21251,7 +21300,7 @@ function getPalette(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21270,7 +21319,7 @@ function getPalette_0(rnd, jsonStr){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21367,7 +21416,7 @@ function getPeriodOverPeriodData(rnd, jsonObject, itemCol, valueCol, popPeriodCo
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21405,7 +21454,7 @@ function getPivotTableTotals(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21430,7 +21479,7 @@ function getPoint(rnd, jsonObj){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21555,7 +21604,7 @@ function getScaleMarker(rnd, jsonObject, isGoal){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21582,7 +21631,7 @@ function getSelectorColors(rnd, jsonObject, palette){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -21664,7 +21713,7 @@ function getSingleFilter(rnd, jsonFilter){
       }
        catch ($e0) {
         $e0 = toJava($e0);
-        if (instanceOf($e0, 34)) {
+        if (instanceOf($e0, 35)) {
           e = $e0;
           !!rnd && $log_0(rnd, getExceptionStackTrace(e));
         }
@@ -21904,7 +21953,7 @@ function hasGroupColumn(jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (!instanceOf($e0, 34))
+    if (!instanceOf($e0, 35))
       throw toJs($e0);
   }
   return false;
@@ -21943,7 +21992,7 @@ function isGeoJson(jsonObject){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (!instanceOf($e0, 34))
+      if (!instanceOf($e0, 35))
         throw toJs($e0);
     }
   }
@@ -21969,7 +22018,7 @@ function mappingsHas(mappings){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (!instanceOf($e0, 34))
+    if (!instanceOf($e0, 35))
       throw toJs($e0);
   }
   return false;
@@ -22020,7 +22069,7 @@ function mergeChartDefinitionWithCurrentState(rnd, chartDef, currentStateJSON, c
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -22030,7 +22079,7 @@ function mergeChartDefinitionWithCurrentState(rnd, chartDef, currentStateJSON, c
 }
 
 function postProcessTimeMSValues(dg, locale){
-  var monthShortNameMap, row, row$iterator, timeMS;
+  var cell, cell$iterator, col, col$iterator, entry, monthShortNameMap, outerIter, row, row$iterator, timeMS;
   if (!!dg && dg.dateGrain != null && $equals_2(dg.dateGrain, 'MONTH')) {
     monthShortNameMap = getStdCalMonthShortNameMap(locale);
     for (row$iterator = dg.rows_0.iterator(); row$iterator.hasNext_0();) {
@@ -22038,6 +22087,16 @@ function postProcessTimeMSValues(dg, locale){
       if ($equals_2(row.type_0, 'STRING') && row.parentName != null && $equals_2(row.parentName, 'CalendarMonth')) {
         timeMS = getTimeMSForDateString($getName(row), row.parentName, monthShortNameMap, locale);
         neq(timeMS.value_0, 0) && $setTimeMS_0(row, timeMS.value_0);
+      }
+    }
+    for (col$iterator = dg.cols_0.iterator(); col$iterator.hasNext_0();) {
+      col = castTo(col$iterator.next_1(), 7);
+      if ($equals_2(col.type_0, 'STRING') && col.name_0 != null && $equals_2(col.name_0, 'CalendarMonth') && col.mapping != null && $equals_2(col.mapping, 'XTIME') && !!col.cellMap) {
+        for (cell$iterator = (outerIter = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet((new AbstractMap$2(col.cellMap)).this$01)).this$01) , new AbstractMap$2$1(outerIter)); cell$iterator.val$outerIter2.hasNext;) {
+          cell = (entry = $next_1(cell$iterator.val$outerIter2) , castTo(entry.getValue(), 16));
+          timeMS = getTimeMSForDateString(cell.valueStr, 'CalendarMonth', monthShortNameMap, locale);
+          neq(timeMS.value_0, 0) && $setTimeMS(cell, timeMS.value_0);
+        }
       }
     }
   }
@@ -22048,6 +22107,16 @@ function postProcessTimeMSValues(dg, locale){
         if ($equals_2(row.type_0, 'STRING') && row.parentName != null && $equals_2(row.parentName, 'CalendarQuarter')) {
           timeMS = getTimeMSForDateString($getName(row), row.parentName, null, locale);
           neq(timeMS.value_0, 0) && $setTimeMS_0(row, timeMS.value_0);
+        }
+      }
+    }
+    for (col$iterator = dg.cols_0.iterator(); col$iterator.hasNext_0();) {
+      col = castTo(col$iterator.next_1(), 7);
+      if ($equals_2(col.type_0, 'STRING') && col.name_0 != null && $equals_2(col.name_0, 'CalendarQuarter') && col.mapping != null && $equals_2(col.mapping, 'XTIME') && !!col.cellMap) {
+        for (cell$iterator = (outerIter = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet((new AbstractMap$2(col.cellMap)).this$01)).this$01) , new AbstractMap$2$1(outerIter)); cell$iterator.val$outerIter2.hasNext;) {
+          cell = (entry = $next_1(cell$iterator.val$outerIter2) , castTo(entry.getValue(), 16));
+          timeMS = getTimeMSForDateString(cell.valueStr, 'CalendarQuarter', null, locale);
+          neq(timeMS.value_0, 0) && $setTimeMS(cell, timeMS.value_0);
         }
       }
     }
@@ -22127,7 +22196,7 @@ function processOrderedColumnListData(rnd, jsonObject){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       e = $e0;
       !!rnd && $log_0(rnd, getExceptionStackTrace(e));
     }
@@ -22246,7 +22315,7 @@ function setPeriodNames(rnd, dg, dsJsonObject){
     }
      catch ($e0) {
       $e0 = toJava($e0);
-      if (instanceOf($e0, 34)) {
+      if (instanceOf($e0, 35)) {
         e = $e0;
         !!rnd && $log_0(rnd, getExceptionStackTrace(e));
       }
@@ -22263,7 +22332,7 @@ function setPeriodNames(rnd, dg, dsJsonObject){
       }
        catch ($e1) {
         $e1 = toJava($e1);
-        if (instanceOf($e1, 34)) {
+        if (instanceOf($e1, 35)) {
           e = $e1;
           !!rnd && $log_0(rnd, getExceptionStackTrace(e));
         }
@@ -22278,7 +22347,7 @@ function setPeriodNames(rnd, dg, dsJsonObject){
       }
        catch ($e2) {
         $e2 = toJava($e2);
-        if (instanceOf($e2, 34)) {
+        if (instanceOf($e2, 35)) {
           e = $e2;
           !!rnd && $log_0(rnd, getExceptionStackTrace(e));
         }
@@ -22294,7 +22363,7 @@ function setPeriodNames(rnd, dg, dsJsonObject){
           }
            catch ($e3) {
             $e3 = toJava($e3);
-            if (instanceOf($e3, 34)) {
+            if (instanceOf($e3, 35)) {
               e = $e3;
               !!rnd && $log_0(rnd, getExceptionStackTrace(e));
             }
@@ -22308,7 +22377,7 @@ function setPeriodNames(rnd, dg, dsJsonObject){
   }
 }
 
-function setProjectedValOnLastPoint(projectedValue, colIndex, graph){
+function setProjectedValOnLastPoint(projectedValue, colIndex, graph, projectedIsActual){
   var cell, cell$iterator, col, data_0, entry, lastCell, newCell, newCellCol, newCellRow, outerIter, projRowIndex;
   data_0 = graph.data_0;
   if (graph.graphType == 12) {
@@ -22327,6 +22396,7 @@ function setProjectedValOnLastPoint(projectedValue, colIndex, graph){
     if (!!cell && !cell.row.hidden) {
       isNaN_0($getValue(cell)) && (cell.value_0 = 0);
       cell.projectedValue = projectedValue;
+      cell.projectedIsActual = projectedIsActual;
       if (!!cell.row && (!isNaN_0(cell.row.sumWithProjections) || !isNaN_0(cell.row.primarySum))) {
         cell.row.sumWithProjections = NaN;
         cell.row.primarySum = NaN;
@@ -22338,6 +22408,7 @@ function setProjectedValOnLastPoint(projectedValue, colIndex, graph){
       newCellCol = $getColumn(data_0, colIndex);
       newCell = new Cell(0);
       newCell.projectedValue = projectedValue;
+      newCell.projectedIsActual = projectedIsActual;
       newCell.row = newCellRow;
       newCell.column = newCellCol;
       $put_0(newCellCol.cellMap, valueOf(projRowIndex), newCell);
@@ -22483,7 +22554,7 @@ function updateRowIndexsForAllColumns(dataGrid){
   }
 }
 
-function $compare_9(o1, o2){
+function $compare_10(o1, o2){
   if (o1.x_0 > o2.x_0)
     return 1;
   else if (o1.x_0 == o2.x_0)
@@ -22495,11 +22566,11 @@ function DataUtils$1(){
 }
 
 defineClass(294, 1, {}, DataUtils$1);
-_.compare = function compare_10(o1, o2){
-  return $compare_9(castTo(o1, 10), castTo(o2, 10));
+_.compare = function compare_11(o1, o2){
+  return $compare_10(castTo(o1, 10), castTo(o2, 10));
 }
 ;
-_.equals_0 = function equals_11(other){
+_.equals_0 = function equals_12(other){
   return this === other;
 }
 ;
@@ -22515,6 +22586,10 @@ function $addValue(this$static, value_0){
 
 function $setDataJoinColumn(this$static, dateJoinColumn){
   this$static.dateJoinColumn = dateJoinColumn;
+}
+
+function $setDataSourceId_0(this$static, dataSourceId){
+  this$static.dataSourceId = dataSourceId;
 }
 
 function $setFiscal(this$static, value_0){
@@ -22540,14 +22615,14 @@ function FilterBase(col, op, colRowInfo){
 }
 
 defineClass(55, 1, {55:1}, FilterBase);
-_.equals_0 = function equals_12(o){
+_.equals_0 = function equals_13(o){
   var filter;
   if (this === o)
     return true;
   if (o == null || this.___clazz != getClass__Ljava_lang_Class___devirtual$(o))
     return false;
   filter = castTo(o, 55);
-  return equals_40(this.column, filter.column) && equals_40(this.values, filter.values) && equals_40(this.operand, filter.operand) && equals_40(this.dateJoinColumn, filter.dateJoinColumn) && equals_40(this.filterType, filter.filterType) && equals_40(($clinit_Boolean() , this.fiscal?true:false), filter.fiscal?true:false) && equals_40(this.label_0, filter.label_0) && equals_40(this.dataType, filter.dataType) && equals_40(this.cardURN, filter.cardURN) && equals_40(($clinit_Boolean() , this.dateGrainFilter?true:false), filter.dateGrainFilter?true:false) && equals_40(this.dataSourceId, filter.dataSourceId);
+  return equals_41(this.column, filter.column) && equals_41(this.values, filter.values) && equals_41(this.operand, filter.operand) && equals_41(this.dateJoinColumn, filter.dateJoinColumn) && equals_41(this.filterType, filter.filterType) && equals_41(($clinit_Boolean() , this.fiscal?true:false), filter.fiscal?true:false) && equals_41(this.label_0, filter.label_0) && equals_41(this.dataType, filter.dataType) && equals_41(this.cardURN, filter.cardURN) && equals_41(($clinit_Boolean() , this.dateGrainFilter?true:false), filter.dateGrainFilter?true:false) && equals_41(this.dataSourceId, filter.dataSourceId);
 }
 ;
 _.hashCode_0 = function hashCode_1(){
@@ -22888,12 +22963,12 @@ function $isMatchForTime(this$static, timeMS, columnName){
           if (this$static.timeValues.array.length > 1) {
             low = castTo($get_2(this$static.timeValues, 0), 78).value_0;
             high = castTo($get_2(this$static.timeValues, 1), 78).value_0;
-            if (compare_21(high, low) < 0) {
+            if (compare_22(high, low) < 0) {
               temp = high;
               high = low;
               low = temp;
             }
-            if (compare_21(timeMS, low) >= 0 && compare_21(timeMS, high) <= 0)
+            if (compare_22(timeMS, low) >= 0 && compare_22(timeMS, high) <= 0)
               return true;
           }
 
@@ -22925,14 +23000,14 @@ function Filter(){
 }
 
 defineClass(148, 55, {148:1, 55:1}, Filter);
-_.equals_0 = function equals_13(o){
+_.equals_0 = function equals_14(o){
   var filter;
   if (this === o)
     return true;
   if (o == null || Lcom_domo_charting_data_Filter_2_classLit != getClass__Ljava_lang_Class___devirtual$(o))
     return false;
   filter = castTo(o, 148);
-  return equals_40(this.column, filter.column) && equals_40(this.values, filter.values) && equals_40(this.operand, filter.operand);
+  return equals_41(this.column, filter.column) && equals_41(this.values, filter.values) && equals_41(this.operand, filter.operand);
 }
 ;
 _.hashCode_0 = function hashCode_2(){
@@ -23059,7 +23134,7 @@ function parse_0(chart, json){
   }
    catch ($e0) {
     $e0 = toJava($e0);
-    if (instanceOf($e0, 34)) {
+    if (instanceOf($e0, 35)) {
       return null;
     }
      else 
@@ -23149,7 +23224,7 @@ defineClass(58, 1, {58:1}, Range_0, Range_1);
 _.max_0 = NaN;
 _.min_0 = NaN;
 var Lcom_domo_charting_data_Range_2_classLit = createForClass('com.domo.charting.data', 'Range', 58);
-function $compare_10(o1, o2){
+function $compare_11(o1, o2){
   var o1Val, o2Val;
   o1Val = NaN;
   o2Val = NaN;
@@ -23167,16 +23242,16 @@ function $compare_10(o1, o2){
 function Range$1(){
 }
 
-defineClass(341, 1, {}, Range$1);
-_.compare = function compare_11(o1, o2){
-  return $compare_10(castTo(o1, 58), castTo(o2, 58));
+defineClass(342, 1, {}, Range$1);
+_.compare = function compare_12(o1, o2){
+  return $compare_11(castTo(o1, 58), castTo(o2, 58));
 }
 ;
-_.equals_0 = function equals_14(other){
+_.equals_0 = function equals_15(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_data_Range$1_2_classLit = createForClass('com.domo.charting.data', 'Range/1', 341);
+var Lcom_domo_charting_data_Range$1_2_classLit = createForClass('com.domo.charting.data', 'Range/1', 342);
 function $getLegendText(this$static, numberFormatter){
   if (!isNaN_0(this$static.min_0) && !isNaN_0(this$static.max_0)) {
     return this$static.min_0 == this$static.max_0?$formatNumber_1(numberFormatter, this$static.min_0):$formatNumber_1(numberFormatter, this$static.min_0) + ' - ' + $formatNumber_1(numberFormatter, this$static.max_0);
@@ -23210,8 +23285,8 @@ function SumoProperties(dataGrid){
   }
 }
 
-defineClass(358, 1, {}, SumoProperties);
-var Lcom_domo_charting_data_SumoProperties_2_classLit = createForClass('com.domo.charting.data', 'SumoProperties', 358);
+defineClass(359, 1, {}, SumoProperties);
+var Lcom_domo_charting_data_SumoProperties_2_classLit = createForClass('com.domo.charting.data', 'SumoProperties', 359);
 function UniqueValInfo(value_0, count){
   this.value_0 = value_0;
   this.count = count;
@@ -23819,8 +23894,8 @@ function $getFormattedText(this$static, text_0, cell, numberFormatter, component
 function $getNameAsFormattedDateStrIfDate(this$static, cell, valueStr){
   var catScale;
   if (!!cell.column && neq(cell.column.timeMS, 0)) {
-    if (!!$getCategoryScale(this$static.sGraph) && instanceOf($getCategoryScale(this$static.sGraph), 35)) {
-      catScale = castTo($getCategoryScale(this$static.sGraph), 35);
+    if (!!$getCategoryScale(this$static.sGraph) && instanceOf($getCategoryScale(this$static.sGraph), 36)) {
+      catScale = castTo($getCategoryScale(this$static.sGraph), 36);
       !!catScale && (valueStr = $getOutputFormattedRowName(catScale, cell.column, null, null));
     }
   }
@@ -24173,7 +24248,7 @@ function $replaceCATEGORY_NAME(this$static, cell, result){
     valueStr = $getRowName_0(this$static, cell);
     if (this$static.sGraph) {
       scale = $getCategoryScale(this$static.sGraph);
-      !!scale && instanceOf(scale, 35) && (valueStr = $getOutputFormattedRowName(castTo(scale, 35), cell.row, valueStr, cell));
+      !!scale && instanceOf(scale, 36) && (valueStr = $getOutputFormattedRowName(castTo(scale, 36), cell.row, valueStr, cell));
     }
     result = replaceMacroWithValue(result, '%_CATEGORY_NAME', valueStr);
   }
@@ -27390,6 +27465,10 @@ function getBadgeNameFromTypeAndAttributes(graphType, typeAttributes, dataGrid){
       return 'badge_range_selector';
     case 38:
       return 'badge_palette';
+    case 35:
+      return 'badge_basic_table';
+    case 36:
+      return 'badge_pivot_table';
   }
   return '';
 }
@@ -28780,7 +28859,7 @@ function setupGraphScales(graphType, typeAttributes, sGraph){
     case 21:
       if (!sGraph.typeAttributes || !sGraph.typeAttributes.stepLines) {
         categoryScale = $getCategoryScale(sGraph);
-        !!categoryScale && instanceOf(categoryScale, 35) && $setIsLineType(castTo(categoryScale, 35), true);
+        !!categoryScale && instanceOf(categoryScale, 36) && $setIsLineType(castTo(categoryScale, 36), true);
       }
 
       break;
@@ -28790,7 +28869,7 @@ function setupGraphScales(graphType, typeAttributes, sGraph){
     case 7:
       if ((!sGraph.typeAttributes || !sGraph.typeAttributes.stepLines) && (!sGraph.data_0 || $getNumRows(sGraph.data_0) > 1)) {
         categoryScale = $getCategoryScale(sGraph);
-        !!categoryScale && instanceOf(categoryScale, 35) && !$getShowDataTable(castTo(categoryScale, 35), true) && !$isTrellis(sGraph) && $setIsLineType(castTo(categoryScale, 35), true);
+        !!categoryScale && instanceOf(categoryScale, 36) && !$getShowDataTable(castTo(categoryScale, 36), true) && !$isTrellis(sGraph) && $setIsLineType(castTo(categoryScale, 36), true);
       }
 
   }
@@ -29040,7 +29119,7 @@ function isChartBigEnough(dimension){
   return false;
 }
 
-defineClass(314, 63, $intern_13, GraphPickerPanel);
+defineClass(315, 63, $intern_13, GraphPickerPanel);
 _.clearAnimation = function clearAnimation_1(){
   var pctComplete;
   this.animInfo = null;
@@ -29144,7 +29223,7 @@ _.thumbNailVerticalMargin = 0;
 _.thumbnailsVisible = false;
 _.verticalLabelPadding = 0;
 var backgroundFill, badgeFont, fill_1, maxThumbNailSize = 120, minThumbNailSize = 32, nameYOffset = 0, originalChartStroke, selectedStroke_0, spaceDim_0, unselectedStroke;
-var Lcom_domo_charting_graphs_GraphPickerPanel_2_classLit = createForClass('com.domo.charting.graphs', 'GraphPickerPanel', 314);
+var Lcom_domo_charting_graphs_GraphPickerPanel_2_classLit = createForClass('com.domo.charting.graphs', 'GraphPickerPanel', 315);
 function GraphType(graphType, attributes){
   this.type_0 = graphType;
   this.typeAttributes = attributes;
@@ -29663,7 +29742,7 @@ function $dontUseTimeScale(this$static){
   dateOutputFormat = this$static.sGraph.dateOutputFormat;
   if (dateOutputFormat != null) {
     scale = $getCategoryScale(this$static.sGraph);
-    instanceOf(scale, 35) && $setDateOutputFormat_0(castTo(scale, 35), dateOutputFormat);
+    instanceOf(scale, 36) && $setDateOutputFormat_0(castTo(scale, 36), dateOutputFormat);
   }
 }
 
@@ -29716,7 +29795,7 @@ function $format_0(this$static, rnd){
   baseScale = $getCategoryScale(this$static.sGraph);
   valueScale2 = $getScaleByTypeNumber(this$static.sGraph, 0, 1);
   rows_0 = null;
-  instanceOf(this$static, 151) && instanceOf(valueScale, 35)?(rows_0 = valueScale.rowsToDisplay):!!baseScale && (rows_0 = baseScale.rowsToDisplay);
+  instanceOf(this$static, 151) && instanceOf(valueScale, 36)?(rows_0 = valueScale.rowsToDisplay):!!baseScale && (rows_0 = baseScale.rowsToDisplay);
   this$static.createSeriesInfoObjs(this$static.sGraph, rows_0, baseScale, valueScale, valueScale2);
   !!this$static.graph.dataLabel && $drawDataLabels(this$static.graph.dataLabel, rnd, $allowDataLabelRotate(this$static));
   this$static.graph.setNeedsFormat(false);
@@ -29942,17 +30021,17 @@ function $getSeriesIndexForDataObject(this$static, dataObject){
       if (srsInfo.fullSeriesInfo) {
         if (maskUndefined(srsInfo.fullSeriesInfo) === maskUndefined(dataObject))
           return i0;
-        else if (instanceOf(dataObject, 36) && !!srsInfo.fullSeriesInfo.cell && srsInfo.fullSeriesInfo.cell.column == castTo(dataObject, 36).colInfo)
+        else if (instanceOf(dataObject, 37) && !!srsInfo.fullSeriesInfo.cell && srsInfo.fullSeriesInfo.cell.column == castTo(dataObject, 37).colInfo)
           return i0;
         else if (instanceOf(dataObject, 16) && !!srsInfo.fullSeriesInfo.cell && srsInfo.fullSeriesInfo.cell.column == castTo(dataObject, 16).column)
           return i0;
       }
-       else if (instanceOf(dataObject, 36)) {
+       else if (instanceOf(dataObject, 37)) {
         if (!!this$static.graph.seriesShapes && this$static.graph.seriesShapes.array.length > i0 && $get_2(this$static.graph.seriesShapes, i0) != null && !!castTo($get_2(this$static.graph.seriesShapes, i0), 19).srsShapeList && castTo($get_2(this$static.graph.seriesShapes, i0), 19).srsShapeList.array.length > 0) {
           shpInfo = castTo($get_2(castTo($get_2(this$static.graph.seriesShapes, i0), 19).srsShapeList, 0), 18);
-          if (!!shpInfo && !!shpInfo.cell && shpInfo.cell.column == castTo(dataObject, 36).colInfo)
+          if (!!shpInfo && !!shpInfo.cell && shpInfo.cell.column == castTo(dataObject, 37).colInfo)
             return i0;
-          else if (!!shpInfo && !shpInfo.cell && castTo(dataObject, 36).type_0 == 6 && instanceOf(shpInfo, 25) && castTo(shpInfo, 25).groupedRow != -1)
+          else if (!!shpInfo && !shpInfo.cell && castTo(dataObject, 37).type_0 == 6 && instanceOf(shpInfo, 25) && castTo(shpInfo, 25).groupedRow != -1)
             return i0;
         }
       }
@@ -30143,7 +30222,7 @@ function $processChartOptions_3(this$static){
           numRTSeries > 0 && $setNumRTSeries(this$static, numRTSeries);
           break;
         case 'x_cat_scale_pos':
-          !!scaleX && instanceOf(scaleX, 35) && $setPosition(scaleX, $getPositionForString(value_0));
+          !!scaleX && instanceOf(scaleX, 36) && $setPosition(scaleX, $getPositionForString(value_0));
           break;
         case 'x_time_scale_pos':
           !!scaleX && instanceOf(scaleX, 56) && $setPosition(scaleX, $getPositionForString(value_0));
@@ -30232,35 +30311,35 @@ function $processChartOptions_3(this$static){
           break;
         case 'max_label_length':
           scale1 = $getCategoryScale(this$static.sGraph);
-          !!scale1 && (instanceOf(scale1, 35)?$setMaxCatLen(castTo(scale1, 35), getInt(value_0, -1)):instanceOf(scale1, 95) && $setMaxCatLen_0(castTo(scale1, 95), getInt(value_0, -1)));
+          !!scale1 && (instanceOf(scale1, 36)?$setMaxCatLen(castTo(scale1, 36), getInt(value_0, -1)):instanceOf(scale1, 95) && $setMaxCatLen_0(castTo(scale1, 95), getInt(value_0, -1)));
           break;
         case 'max_rotated_label_length':
           scale2 = $getCategoryScale(this$static.sGraph);
-          !!scale2 && instanceOf(scale2, 35) && $setMaxCatLenRotated(castTo(scale2, 35), getInt(value_0, 30));
+          !!scale2 && instanceOf(scale2, 36) && $setMaxCatLenRotated(castTo(scale2, 36), getInt(value_0, 30));
           break;
         case 'horz_cat_fixed_width':
           scale3 = $getCategoryScale(this$static.sGraph);
-          !!scale3 && instanceOf(scale3, 35) && this$static.sGraph.isHorizontal && $setHorzCatFixedWidth(castTo(scale3, 35), getInt(value_0, -1));
+          !!scale3 && instanceOf(scale3, 36) && this$static.sGraph.isHorizontal && $setHorzCatFixedWidth(castTo(scale3, 36), getInt(value_0, -1));
           break;
         case 'cat_scale_fixed_margin':
           scale4 = $getCategoryScale(this$static.sGraph);
-          !!scale4 && instanceOf(scale4, 35) && this$static.sGraph.isHorizontal && $setHorzCatFixedMargin(castTo(scale4, 35), getInt(value_0, -1));
+          !!scale4 && instanceOf(scale4, 36) && this$static.sGraph.isHorizontal && $setHorzCatFixedMargin(castTo(scale4, 36), getInt(value_0, -1));
           break;
         case 'show_data_table':
           scale5 = $getCategoryScale(this$static.sGraph);
-          !!scale5 && instanceOf(scale5, 35) && !this$static.sGraph.isHorizontal && $setShowDataTable(castTo(scale5, 35), isTrue(value_0));
+          !!scale5 && instanceOf(scale5, 36) && !this$static.sGraph.isHorizontal && $setShowDataTable(castTo(scale5, 36), isTrue(value_0));
           break;
         case 'show_extra_categories':
           scale6 = $getCategoryScale(this$static.sGraph);
-          !!scale6 && instanceOf(scale6, 35) && !this$static.sGraph.isHorizontal && $setGroupedScaleCombined(castTo(scale6, 35), $equalsIgnoreCase(value_0, 'Below'));
+          !!scale6 && instanceOf(scale6, 36) && !this$static.sGraph.isHorizontal && $setGroupedScaleCombined(castTo(scale6, 36), $equalsIgnoreCase(value_0, 'Below'));
           break;
         case 'hide_chart_data':
           scale7 = $getCategoryScale(this$static.sGraph);
-          !!scale7 && instanceOf(scale7, 35) && !this$static.sGraph.isHorizontal && $setHideChartData(castTo(scale7, 35), isTrue(value_0));
+          !!scale7 && instanceOf(scale7, 36) && !this$static.sGraph.isHorizontal && $setHideChartData(castTo(scale7, 36), isTrue(value_0));
           break;
         case 'auto_abbrev_table_data':
           scale8 = $getCategoryScale(this$static.sGraph);
-          !!scale8 && instanceOf(scale8, 35) && !this$static.sGraph.isHorizontal && $setAutoAbbrevTableData(castTo(scale8, 35), isTrue(value_0));
+          !!scale8 && instanceOf(scale8, 36) && !this$static.sGraph.isHorizontal && $setAutoAbbrevTableData(castTo(scale8, 36), isTrue(value_0));
           break;
         case 'label_format_y':
         case 'label_format_x':
@@ -30274,7 +30353,7 @@ function $processChartOptions_3(this$static){
         case 'label_interval_x':
         case 'label_interval_y':
           scale = $getCategoryScale(this$static.sGraph);
-          !!scale && instanceOf(scale, 35) && $setLabelInterval(castTo(scale, 35), getInt(value_0, 0));
+          !!scale && instanceOf(scale, 36) && $setLabelInterval(castTo(scale, 36), getInt(value_0, 0));
           break;
         case 'divide_value_scale_by_y':
         case 'divide_value_scale_by_x':
@@ -30497,20 +30576,20 @@ function $selectRowsFromSrsShapesForTime(this$static, shapeInfoList){
     cell = shapeInfo.cell;
     if (cell) {
       time = cell.row.timeMS;
-      if (compare_21(time, 0) == 0)
+      if (compare_22(time, 0) == 0)
         break;
-      compare_21(time, startTime) < 0 && (startTime = time);
-      compare_21(time, endTime) > 0 && (endTime = time);
+      compare_22(time, startTime) < 0 && (startTime = time);
+      compare_22(time, endTime) > 0 && (endTime = time);
     }
   }
-  if (compare_21(startTime, 0) != 0 && compare_21(endTime, 0) != 0 && !!this$static.sGraph.data_0) {
+  if (compare_22(startTime, 0) != 0 && compare_22(endTime, 0) != 0 && !!this$static.sGraph.data_0) {
     count = $getNumRows(data_0);
     rows_0 = data_0.rows_0;
     setList = new ArrayList;
     for (i = 0; i < count; i++) {
       row = castTo(rows_0.get_1(i), 7);
       rowTime = row.timeMS;
-      compare_21(rowTime, startTime) >= 0 && compare_21(rowTime, endTime) <= 0 && $add_1(setList, valueOf(i));
+      compare_22(rowTime, startTime) >= 0 && compare_22(rowTime, endTime) <= 0 && $add_1(setList, valueOf(i));
     }
     $setRowHiddenValueBulk(data_0, setList, false);
     return true;
@@ -30528,9 +30607,9 @@ function $setAlwaysIncludeZero(this$static, key, value_0){
 function $setCatScaleJustification(this$static, key, value_0){
   var keyLowerCase, scale, suffixlength, suffixlength0, valLower;
   scale = (keyLowerCase = key.toLowerCase() , keyLowerCase.indexOf('cat_') != -1?$getCategoryScale(this$static.sGraph):(suffixlength0 = '_y'.length , $equals_2(keyLowerCase.substr(keyLowerCase.length - suffixlength0, suffixlength0), '_y')?$getYScale(this$static.sGraph, false):(suffixlength = '_x'.length , $equals_2(keyLowerCase.substr(keyLowerCase.length - suffixlength, suffixlength), '_x')?$getXScale(this$static.sGraph, false):$getValueScaleFromKey(this$static, key))));
-  if (!!scale && instanceOf(scale, 35) && this$static.sGraph.isHorizontal) {
+  if (!!scale && instanceOf(scale, 36) && this$static.sGraph.isHorizontal) {
     valLower = value_0.toLowerCase();
-    $equals_2(valLower, 'left')?(castTo(scale, 35).hAlign = 0 , undefined):$equals_2(valLower, 'right')?$setHAlign(castTo(scale, 35), HALIGN_RIGHT):$equals_2(valLower, 'center')?$setHAlign(castTo(scale, 35), HALIGN_CENTER):(castTo(scale, 35).hAlign = -1 , undefined);
+    $equals_2(valLower, 'left')?(castTo(scale, 36).hAlign = 0 , undefined):$equals_2(valLower, 'right')?$setHAlign(castTo(scale, 36), HALIGN_RIGHT):$equals_2(valLower, 'center')?$setHAlign(castTo(scale, 36), HALIGN_CENTER):(castTo(scale, 36).hAlign = -1 , undefined);
   }
 }
 
@@ -30599,7 +30678,7 @@ function $setHoverData_0(this$static, data_0, rnd){
   var annotation, catScale, hoverFromAnnotation, redrawNeeded;
   redrawNeeded = false;
   if (maskUndefined(this$static.hoverData) !== maskUndefined(data_0)) {
-    if ($usingCardBus(this$static.graph.chart) && ($equals_2('legacy', this$static.graph.data_0.originalDataType) || this$static.graph.data_0.isPeriodOverPeriod) && instanceOf(data_0, 36))
+    if ($usingCardBus(this$static.graph.chart) && ($equals_2('legacy', this$static.graph.data_0.originalDataType) || this$static.graph.data_0.isPeriodOverPeriod) && instanceOf(data_0, 37))
       return false;
     hoverFromAnnotation = false;
     this$static.hoverData != null && instanceOf(this$static.hoverData, 3) && castTo(this$static.hoverData, 3).array.length > 0 && instanceOf($get_2(castTo(this$static.hoverData, 3), 0), 46) && data_0 != null && instanceOf(data_0, 7) && (hoverFromAnnotation = true);
@@ -30620,17 +30699,17 @@ function $setHoverData_0(this$static, data_0, rnd){
       redrawNeeded = $setHoverEffects(this$static, null, rnd);
       redrawNeeded = redrawNeeded | $setHoverEffects_9(castTo(this$static.hoverData, 27), this$static.hoverData, -1);
     }
-     else if (this$static.hoverData != null && instanceOf(this$static.hoverData, 35)) {
+     else if (this$static.hoverData != null && instanceOf(this$static.hoverData, 36)) {
       redrawNeeded = $setHoverEffects(this$static, null, rnd);
-      redrawNeeded = redrawNeeded | $setHoverEffects_8(castTo(this$static.hoverData, 35), this$static.hoverData, rnd);
+      redrawNeeded = redrawNeeded | $setHoverEffects_8(castTo(this$static.hoverData, 36), this$static.hoverData, rnd);
     }
      else if (this$static.hoverData != null && instanceOf(this$static.hoverData, 16)) {
       redrawNeeded = $setHoverEffects(this$static, this$static.hoverData, rnd);
       catScale = $getCategoryScale(this$static.sGraph);
-      !!catScale && instanceOf(catScale, 35) && $getShowDataTable(castTo(catScale, 35), false) && (redrawNeeded = redrawNeeded | $setHoverEffects_8(castTo(catScale, 35), this$static.hoverData, rnd));
+      !!catScale && instanceOf(catScale, 36) && $getShowDataTable(castTo(catScale, 36), false) && (redrawNeeded = redrawNeeded | $setHoverEffects_8(castTo(catScale, 36), this$static.hoverData, rnd));
     }
      else {
-      data_0 != null && !instanceOf(data_0, 35) && !instanceOf(this$static, 151) && !instanceOf(this$static, 162) && $hideDataLabels_0(this$static.graph);
+      data_0 != null && !instanceOf(data_0, 36) && !instanceOf(this$static, 151) && !instanceOf(this$static, 162) && $hideDataLabels_0(this$static.graph);
       redrawNeeded = $setHoverEffects(this$static, this$static.hoverData, rnd);
       data_0 == null && !instanceOf(this$static, 151) && !instanceOf(this$static, 162) && $showDataLabels_0(this$static.graph);
     }
@@ -30782,7 +30861,7 @@ function $setScaleDateOutputFormat(this$static, value_0){
   value_0 = this$static.sGraph.dateOutputFormat;
   if (value_0 != null) {
     scale = $getCategoryScale(this$static.sGraph);
-    instanceOf(scale, 35)?$setDateOutputFormat_0(castTo(scale, 35), value_0):instanceOf(scale, 56) && castTo(scale, 56);
+    instanceOf(scale, 36)?$setDateOutputFormat_0(castTo(scale, 36), value_0):instanceOf(scale, 56) && castTo(scale, 56);
   }
 }
 
@@ -31232,7 +31311,7 @@ _.setFrame = function setFrame_4(type_0, easingType, startTime, curTime, endTime
     $removeItemsFromDrawArray(this);
     valueScale = $getValueScale(this.sGraph);
     this.createDrawObjectsForFrame(this.sGraph, type_0, curTime, valueScale);
-    if (compare_21(curTime, endTime) >= 0) {
+    if (compare_22(curTime, endTime) >= 0) {
       $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, $allowDataLabelRotate(this));
       $hasAnnotations(this.graph) && this.graph.drawAnnotations();
     }
@@ -31618,7 +31697,7 @@ function $drawDataLabel(this$static, dataLabel, rnd, existingLableRects, shpInfo
         if (dlText != null && dlText.length > 0) {
           oldPosition = dataLabel.position;
           dlRect = new CFRect_0($getRectForDisplay(barInfo, barInfo.rect));
-          data_0 != null && instanceOf(data_0, 36) && castTo(this$static.hoverData, 36).type_0 != 13 && !this$static.graph.typeAttributes.isStream && (dlRect = new CFRect_0($getOrigRect(barInfo)));
+          data_0 != null && instanceOf(data_0, 37) && castTo(this$static.hoverData, 37).type_0 != 13 && !this$static.graph.typeAttributes.isStream && (dlRect = new CFRect_0($getOrigRect(barInfo)));
           dataLabel.position = $getPositionOverride(dataLabel, barInfo.cell, dataLabel.position);
           (this$static.graph.typeAttributes.isSymbolOverlay || this$static.graph.typeAttributes.isSymbol) && !this$static.sGraph.isHorizontal && $setY_0(dlRect, dlRect.y_0 - dlRect.width_0 / 2);
           textPosRect = $getRectForPosition(dataLabel, rnd, dlRect, dlText);
@@ -31694,7 +31773,7 @@ function $drawHintsForList(this$static, rnd, bars){
 }
 
 function $drawHoverBarsOnBaseline(this$static, selectedIndex, drawGrayBars, hoverData){
-  if (!$usingCardBus(this$static.graph.chart) && hoverData != null && selectedIndex != -1 && !drawGrayBars && (instanceOf(hoverData, 36) || instanceOf(hoverData, 16)) && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph))
+  if (!$usingCardBus(this$static.graph.chart) && hoverData != null && selectedIndex != -1 && !drawGrayBars && (instanceOf(hoverData, 37) || instanceOf(hoverData, 16)) && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph))
     return true;
   return false;
 }
@@ -32073,7 +32152,7 @@ function $getSeriesInfoToUseForHoverHints(this$static, hoverData, seriesIndex){
 
 function $getSingleUseSeriesInfoForConditionalRuleHoverHints(this$static, hoverData){
   var indexInfo, indexInfo$iterator, list, shapeInfo, shapeInfo$iterator;
-  if (hoverData != null && instanceOf(hoverData, 36) && castTo(hoverData, 36).type_0 == 13 && !!this$static.colorRulesLegendMap && $size(this$static.colorRulesLegendMap) > 0 && this$static.graph.seriesShapes.array.length > 0) {
+  if (hoverData != null && instanceOf(hoverData, 37) && castTo(hoverData, 37).type_0 == 13 && !!this$static.colorRulesLegendMap && $size(this$static.colorRulesLegendMap) > 0 && this$static.graph.seriesShapes.array.length > 0) {
     list = new ArrayList;
     for (indexInfo$iterator = new ArrayList$1(this$static.graph.seriesShapes); indexInfo$iterator.i < indexInfo$iterator.this$01.array.length;) {
       indexInfo = castTo($next_3(indexInfo$iterator), 19);
@@ -32623,7 +32702,7 @@ _.drawAllBars = function drawAllBars(index_0, hoverData){
 ;
 _.drawAllBarsForOneHoverData = function drawAllBarsForOneHoverData(index_0, hoverData){
   var curBars, curIndex, drawGrayBars, hasClip, isSingleSeriesHover, minMaxScale, minMaxScale0, srsItem, srsItem$iterator, srsItem$iterator0, drawGrayBars_0;
-  if (hoverData != null && instanceOf(hoverData, 35))
+  if (hoverData != null && instanceOf(hoverData, 36))
     return;
   isSingleSeriesHover = hoverData != null && $getNumCols(this.graph.data_0) == 1 && this.graph.seriesShapes.array.length == 1 && index_0 == 0;
   if (isSingleSeriesHover && !!$getLegend(this.graph) && $getLegend(this.graph).hoverFromLegend) {
@@ -32638,7 +32717,7 @@ _.drawAllBarsForOneHoverData = function drawAllBarsForOneHoverData(index_0, hove
   for (srsItem$iterator0 = new ArrayList$1(this.graph.seriesShapes); srsItem$iterator0.i < srsItem$iterator0.this$01.array.length;) {
     srsItem = castTo($next_3(srsItem$iterator0), 19);
     if ($isBar(srsItem)) {
-      drawGrayBars = (drawGrayBars_0 = false , curIndex != index_0 && index_0 != -1?(drawGrayBars_0 = true):hoverData != null && this.graph.seriesShapes.array.length == 1 && $getNumCols(this.graph.data_0) == 1 && index_0 == 0?this.graph.highlightFromExternal?(this.graph.highlightFromExternal = false):$getNumCols(this.graph.data_0) > 1 && (drawGrayBars_0 = true):index_0 == -1 && hoverData != null && instanceOf(hoverData, 36) && !$dontHoverLegendItem(castTo(hoverData, 36))?(drawGrayBars_0 = true):index_0 == -1 && hoverData != null && instanceOf(hoverData, 7) && (drawGrayBars_0 = true) , drawGrayBars_0);
+      drawGrayBars = (drawGrayBars_0 = false , curIndex != index_0 && index_0 != -1?(drawGrayBars_0 = true):hoverData != null && this.graph.seriesShapes.array.length == 1 && $getNumCols(this.graph.data_0) == 1 && index_0 == 0?this.graph.highlightFromExternal?(this.graph.highlightFromExternal = false):$getNumCols(this.graph.data_0) > 1 && (drawGrayBars_0 = true):index_0 == -1 && hoverData != null && instanceOf(hoverData, 37) && !$dontHoverLegendItem(castTo(hoverData, 37))?(drawGrayBars_0 = true):index_0 == -1 && hoverData != null && instanceOf(hoverData, 7) && (drawGrayBars_0 = true) , drawGrayBars_0);
       hoverData != null && index_0 == curIndex && !this.graph.typeAttributes.isNestedBar && !isSingleSeriesHover?(curBars = srsItem):this.drawBarsForASeries(srsItem, drawGrayBars, index_0, hoverData);
     }
     ++curIndex;
@@ -32895,14 +32974,14 @@ function $setData_3(this$static, data_0){
   var displayLimit, tmpDisplayLimit;
   !this$static.originalData && (this$static.originalData = data_0);
   displayLimit = 0;
+  this$static.graph.hideOtherCategory = isTrue(this$static.graph.getChartOptionAsString('hide_other_category'));
   if (!!data_0 && !!this$static.graph && $chartOptionHasAValue(this$static.graph, 'display_limit') && !this$static.isArea && !this$static.graph.typeAttributes.percentOfCategoryData) {
     tmpDisplayLimit = getInt(this$static.graph.getChartOptionAsString('display_limit'), 0);
-    tmpDisplayLimit > 0 && $getNumRows(data_0) > tmpDisplayLimit + 1 && (displayLimit = tmpDisplayLimit);
+    tmpDisplayLimit > 0 && (!this$static.graph.hideOtherCategory && $getNumRows(data_0) > tmpDisplayLimit + 1 || this$static.graph.hideOtherCategory && $getNumRows(data_0) > tmpDisplayLimit) && (displayLimit = tmpDisplayLimit);
     data_0 = $clone(this$static.originalData);
   }
   $setData_2(this$static, data_0);
   $setDisplayLimit(this$static.graph, displayLimit);
-  this$static.graph.hideOtherCategory = isTrue(this$static.graph.getChartOptionAsString('hide_other_category'));
 }
 
 function HandlerStackedBar(){
@@ -32981,6 +33060,7 @@ _.createSeriesInfoObjs = function createSeriesInfoObjs_1(sGraph, rows_0, baseSca
         if (!isNaN(value_0) || !isNaN(projValue)) {
           isNaN(value_0) && (value_0 = 0);
           !isNaN(projValue) && !!cell.column && cell.column.isRunningTotal && (projValue = cell.altValue + (cell.projectedValue - cell.value_0));
+          !isNaN(projValue) && (projValue < 0 && value_0 > 0 || projValue > 0 && value_0 < 0) && (value_0 = 0);
           $calcStackedBarRectInfo(sbm, cell, value_0, baseScale, valueScale, curIndex, rowIndex, minValuePos, zeroValuePos, numColsInCategory, curCol, barIndex);
           !sGraph.isHorizontal && !this.graph.typeAttributes.isNestedBar && $calcStackedBarRectInfo(projSbm, cell, projValue, baseScale, valueScale, curIndex, 0, minValuePos, zeroValuePos, numColsInCategory, curCol, barIndex);
           if (!isNaN(projValue)) {
@@ -33007,7 +33087,7 @@ _.createSeriesInfoObjs = function createSeriesInfoObjs_1(sGraph, rows_0, baseSca
           }
           showAsFiltered = inShowAsFilteredMode && (curCol.showAsFiltered || curRow.showAsFiltered);
           showAsFiltered && (fillToUse = new CFFill($deSaturateAndLighten(fillToUse.color_0, 0.9, 0.4)));
-          barInfo = new SrsBarInfo_2(this, cell, sbm.barRect, sbm.origRectOffset, projSbm.barRect, fillToUse, lastState);
+          barInfo = new SrsBarInfo_2(this, cell, sbm.barRect, sbm.origRectOffset, projSbm.barRect, projValue, fillToUse, lastState);
           inShowAsFilteredMode && hasFilteredData && !showAsFiltered && (barInfo.highlightAlways = true);
           inShowAsFilteredMode && (barInfo.drillOnColOnly = drillColumnOnly);
           barList.array[barList.array.length] = barInfo;
@@ -33191,9 +33271,11 @@ _.reorderVertBarRects = function reorderVertBarRects_0(catBarList, numColsInCate
           if (barInfo.stackedProjRect) {
             if (barInfo.cell.projectedValue < barInfo.cell.value_0) {
               $setBottom(barInfo.stackedProjRect, $getBottom(barInfo.rect));
+              !!barInfo.origStackedProjRect && $setBottom(barInfo.origStackedProjRect, $getBottom(barInfo.rect));
             }
              else {
               $setBottom(barInfo.stackedProjRect, barInfo.rect.y_0);
+              !!barInfo.origStackedProjRect && $setBottom(barInfo.origStackedProjRect, $getBottom(barInfo.rect));
               $setHeight(lastPosRect, lastPosRect.height_0 + barInfo.stackedProjRect.height_0);
               $setBottom(lastPosRect, $getBottom(barInfo.rect));
             }
@@ -33206,9 +33288,11 @@ _.reorderVertBarRects = function reorderVertBarRects_0(catBarList, numColsInCate
           if (barInfo.stackedProjRect) {
             if (barInfo.cell.projectedValue < barInfo.cell.value_0) {
               $setBottom(barInfo.stackedProjRect, $getBottom(barInfo.rect));
+              !!barInfo.origStackedProjRect && $setBottom(barInfo.origStackedProjRect, $getBottom(barInfo.rect));
             }
              else {
               $setBottom(barInfo.stackedProjRect, barInfo.rect.y_0);
+              !!barInfo.origStackedProjRect && $setBottom(barInfo.origStackedProjRect, $getBottom(barInfo.rect));
               $setHeight(lastPosRect, lastPosRect.height_0 + barInfo.stackedProjRect.height_0);
               $setBottom(lastPosRect, $getBottom(barInfo.rect));
             }
@@ -33226,11 +33310,35 @@ _.reorderVertBarRects = function reorderVertBarRects_0(catBarList, numColsInCate
           lastNegRect = $getOrigRect(barInfo);
           barInfo.rect = $getOrigRect(barInfo);
           barInfo.stackedOffset = new CFPoint(0, 0);
+          if (barInfo.stackedProjRect) {
+            if (barInfo.cell.projectedValue < barInfo.cell.value_0) {
+              $setY_0(barInfo.stackedProjRect, $getBottom(barInfo.rect));
+              !!barInfo.origStackedProjRect && $setY_0(barInfo.origStackedProjRect, barInfo.rect.y_0);
+            }
+             else {
+              $setY_0(barInfo.stackedProjRect, barInfo.rect.y_0);
+              !!barInfo.origStackedProjRect && $setY_0(barInfo.origStackedProjRect, barInfo.rect.y_0);
+            }
+            $setHeight(lastNegRect, lastNegRect.height_0 + barInfo.stackedProjRect.height_0);
+            $setBottom(lastNegRect, $getBottom(barInfo.stackedProjRect));
+          }
         }
          else {
           $setY_0(barInfo.rect, lastNegRect.y_0 + lastNegRect.height_0);
           barInfo.stackedOffset = new CFPoint(0, origY - barInfo.rect.y_0);
           lastNegRect = barInfo.getRect();
+          if (barInfo.stackedProjRect) {
+            if (barInfo.cell.projectedValue < barInfo.cell.value_0) {
+              $setY_0(barInfo.stackedProjRect, $getBottom(barInfo.rect));
+              !!barInfo.origStackedProjRect && $setY_0(barInfo.origStackedProjRect, barInfo.rect.y_0);
+            }
+             else {
+              $setY_0(barInfo.stackedProjRect, barInfo.rect.y_0);
+              !!barInfo.origStackedProjRect && $setY_0(barInfo.origStackedProjRect, barInfo.rect.y_0);
+            }
+            $setHeight(lastNegRect, lastNegRect.height_0 + barInfo.stackedProjRect.height_0);
+            $setBottom(lastNegRect, $getBottom(barInfo.stackedProjRect));
+          }
         }
       }
     }
@@ -33414,7 +33522,7 @@ function HandlerArea(){
   HandlerStackedBar.call(this);
 }
 
-defineClass(328, 199, $intern_37, HandlerArea);
+defineClass(329, 199, $intern_37, HandlerArea);
 _.createDrawObjectsForFrame = function createDrawObjectsForFrame_1(sGraph, type_0, curTime, valueScale){
   var bar, hitShape, isComplete, minMaxScale, pctComplete, r, rects, seriesShapes, srsInfo, srsInfo$iterator, srsInfo$iterator0, srsItem, srsItem$iterator, transRectOrShape, transitionShape, zeroPos;
   sGraph.geAry.clear_0();
@@ -33566,7 +33674,7 @@ _.drawBarsForASeries = function drawBarsForASeries_0(srsItem, drawGrayBars, sele
         fill = new CFFill(($clinit_CFColor() , DISABLED_LIGHT_GRAY));
         this.graph.typeAttributes.isStream && (stroke = new CFStroke(WHITE, 1));
       }
-      if (!drawGrayBars && hoverData != null && instanceOf(hoverData, 36) && this.graph.typeAttributes.isStacked && !this.graph.typeAttributes.isStream) {
+      if (!drawGrayBars && hoverData != null && instanceOf(hoverData, 37) && this.graph.typeAttributes.isStacked && !this.graph.typeAttributes.isStream) {
         grayFill = new CFFill(($clinit_CFColor() , DISABLED_LIGHT_GRAY));
         $drawAreaFromRects(this, fullAreaInfo.rects, null, fullAreaInfo, grayFill, stroke);
         $drawAreaFromRects(this, fullAreaInfo.rects, fullAreaInfo.origOffsets, fullAreaInfo, fill, stroke);
@@ -33657,7 +33765,7 @@ _.setData = function setData_6(data_0){
     this.graph.data_0 = this.currentViewDataGrid;
     if ($getNumRows(this.graph.data_0) == 1) {
       scale = $getCategoryScale(this.sGraph);
-      instanceOf(scale, 35) && $setIsLineType(castTo(scale, 35), false);
+      instanceOf(scale, 36) && $setIsLineType(castTo(scale, 36), false);
     }
     $setData_3(this, this.currentViewDataGrid);
   }
@@ -33684,8 +33792,8 @@ _.shapeIsValidAnnotationPoint = function shapeIsValidAnnotationPoint_1(shape_0){
 }
 ;
 _.foldedStyle = false;
-var Lcom_domo_charting_graphs_HandlerArea_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerArea', 328);
-function $compare_11(o1, o2){
+var Lcom_domo_charting_graphs_HandlerArea_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerArea', 329);
+function $compare_12(o1, o2){
   var o1Val, o2Val;
   o1Val = $getValueOrProjection(o1.cell, true);
   isNaN(o1Val) && (o1Val = $intern_20);
@@ -33697,17 +33805,17 @@ function $compare_11(o1, o2){
 function HandlerBar$1(){
 }
 
-defineClass(319, 1, {}, HandlerBar$1);
-_.compare = function compare_12(o1, o2){
-  return $compare_11(castTo(o1, 18), castTo(o2, 18));
+defineClass(320, 1, {}, HandlerBar$1);
+_.compare = function compare_13(o1, o2){
+  return $compare_12(castTo(o1, 18), castTo(o2, 18));
 }
 ;
-_.equals_0 = function equals_15(other){
+_.equals_0 = function equals_16(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_HandlerBar$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/1', 319);
-function $compare_12(this$static, o1, o2){
+var Lcom_domo_charting_graphs_HandlerBar$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/1', 320);
+function $compare_13(this$static, o1, o2){
   var o1Int, o2Int;
   try {
     if (this$static.this$01.sGraph.isHorizontal) {
@@ -33735,17 +33843,17 @@ function HandlerBar$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(320, 1, {}, HandlerBar$2);
-_.compare = function compare_13(o1, o2){
-  return $compare_12(this, castTo(o1, 18), castTo(o2, 18));
+defineClass(321, 1, {}, HandlerBar$2);
+_.compare = function compare_14(o1, o2){
+  return $compare_13(this, castTo(o1, 18), castTo(o2, 18));
 }
 ;
-_.equals_0 = function equals_16(other){
+_.equals_0 = function equals_17(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_HandlerBar$2_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/2', 320);
-function $compare_13(this$static, o1, o2){
+var Lcom_domo_charting_graphs_HandlerBar$2_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/2', 321);
+function $compare_14(this$static, o1, o2){
   var dataObject1, dataObject2, o1Val, o2Val, sbi1, sbi2;
   dataObject1 = $getDataObjectForGE_0(this$static.this$01.graph, o1);
   dataObject2 = $getDataObjectForGE_0(this$static.this$01.graph, o2);
@@ -33767,16 +33875,16 @@ function HandlerBar$3(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(321, 1, {}, HandlerBar$3);
-_.compare = function compare_14(o1, o2){
-  return $compare_13(this, castTo(o1, 12), castTo(o2, 12));
+defineClass(322, 1, {}, HandlerBar$3);
+_.compare = function compare_15(o1, o2){
+  return $compare_14(this, castTo(o1, 12), castTo(o2, 12));
 }
 ;
-_.equals_0 = function equals_17(other){
+_.equals_0 = function equals_18(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_HandlerBar$3_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/3', 321);
+var Lcom_domo_charting_graphs_HandlerBar$3_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBar/3', 322);
 function $createFinalStateBars(this$static, categories, baseScale, valueScale){
   var barWidth, boxPlotList, boxRect, catScalePos, category, hiLowRect, highPos, highQPos, index_0, lastState, lowPos, lowQPos, medianPos, medianRect, minCatPos, minValuePos, srsBoxPlotInfo;
   if (!valueScale)
@@ -34116,7 +34224,7 @@ _.createDrawObjectsForFrame = function createDrawObjectsForFrame_3(sGraph, type_
 }
 ;
 _.drawAllBarsForOneHoverData = function drawAllBarsForOneHoverData_0(index_0, hoverData){
-  if (hoverData != null && instanceOf(hoverData, 35))
+  if (hoverData != null && instanceOf(hoverData, 36))
     return;
   $addInnerBoundsClip(this, !this.graph.isThumbnail, false, false);
   $drawAllBarsBullet(this, index_0, hoverData);
@@ -34217,7 +34325,7 @@ _.setData = function setData_8(data_0){
 }
 ;
 var Lcom_domo_charting_graphs_HandlerBullet_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBullet', 176);
-function $compare_14(this$static, o1, o2){
+function $compare_15(this$static, o1, o2){
   var dataObject1, dataObject2, o1Val, o2Val, sbi1, sbi2;
   dataObject1 = $getDataObjectForGE_0(this$static.this$01.graph, o1);
   dataObject2 = $getDataObjectForGE_0(this$static.this$01.graph, o2);
@@ -34246,17 +34354,17 @@ function HandlerBullet$1(this$0, val$curIndex){
   this.val$curIndex2 = val$curIndex;
 }
 
-defineClass(326, 1, {}, HandlerBullet$1);
-_.compare = function compare_15(o1, o2){
-  return $compare_14(this, castTo(o1, 12), castTo(o2, 12));
+defineClass(327, 1, {}, HandlerBullet$1);
+_.compare = function compare_16(o1, o2){
+  return $compare_15(this, castTo(o1, 12), castTo(o2, 12));
 }
 ;
-_.equals_0 = function equals_18(other){
+_.equals_0 = function equals_19(other){
   return this === other;
 }
 ;
 _.val$curIndex2 = 0;
-var Lcom_domo_charting_graphs_HandlerBullet$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBullet/1', 326);
+var Lcom_domo_charting_graphs_HandlerBullet$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerBullet/1', 327);
 function $clinit_HandlerCalendar(){
   $clinit_HandlerCalendar = emptyMethod;
   NODATA_CLR = new CFColor_2('#F0F0F0');
@@ -35104,7 +35212,7 @@ function $getMinMaxValuesForYear(this$static, Year){
   for (rowInfo$iterator = this$static.graph.data_0.rows_0.iterator(); rowInfo$iterator.hasNext_0();) {
     rowInfo = castTo(rowInfo$iterator.next_1(), 7);
     timeMS = rowInfo.timeMS;
-    if (compare_21(timeMS, 0) != 0) {
+    if (compare_22(timeMS, 0) != 0) {
       rowDate = new Date_4(timeMS);
       rowYear = rowDate.jsdate.getFullYear() - $intern_14;
       rowMonth = rowDate.jsdate.getMonth();
@@ -35566,15 +35674,15 @@ function $setViewForData(this$static){
       if (neq(rowInfo.timeMS, 0)) {
         date = new Date_4(rowInfo.timeMS);
         curTime = fromDouble_0(date.jsdate.getTime());
-        if (compare_21(startDateMillis, 0) == 0) {
+        if (compare_22(startDateMillis, 0) == 0) {
           startDateMillis = curTime;
           endDateMillis = curTime;
         }
          else {
-          compare_21(curTime, startDateMillis) < 0 && (startDateMillis = curTime);
-          compare_21(curTime, endDateMillis) > 0 && (endDateMillis = curTime);
+          compare_22(curTime, startDateMillis) < 0 && (startDateMillis = curTime);
+          compare_22(curTime, endDateMillis) > 0 && (endDateMillis = curTime);
         }
-        if (compare_21(startDateMillis, endDateMillis) == 0)
+        if (compare_22(startDateMillis, endDateMillis) == 0)
           this$static.view = 'day';
         else {
           daysDiff = div(sub_1(endDateMillis, startDateMillis), $intern_34);
@@ -35856,7 +35964,7 @@ function migrateChartOptions(overrides){
   }
 }
 
-defineClass(324, 60, $intern_37, HandlerCatScatter);
+defineClass(325, 60, $intern_37, HandlerCatScatter);
 _.createSeriesInfoObjs = function createSeriesInfoObjs_4(sGraph, rows_0, baseScale, valScale, valScale2){
   var barInfo, barList, barRect, barWidth, catScalePos, cell, cell$iterator, curBarWidth, curCol, curIndex, curRow, entry, groupBarList, i, lastState, minCatPos, minValuePos, numRows, outerIter, rects, rowIndex, srsInfo, stackedPosAry, stackedPosAryNegative, stackedPosAryPositive, vScale, value_0, valueScale, valueScalePos, zeroValuePos;
   this.sGraph = sGraph;
@@ -35984,7 +36092,7 @@ _.setData = function setData_10(data_0){
   $setData_2(this, this.currentViewDataGrid);
 }
 ;
-var Lcom_domo_charting_graphs_HandlerCatScatter_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerCatScatter', 324);
+var Lcom_domo_charting_graphs_HandlerCatScatter_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerCatScatter', 325);
 function $addHeadersToGeAry(this$static, headerGEs){
   var ge, ge$iterator;
   if (headerGEs) {
@@ -36786,7 +36894,7 @@ function HandlerCheckboxSelector(){
   this.marginY = 0;
 }
 
-defineClass(338, 149, {149:1}, HandlerCheckboxSelector);
+defineClass(339, 149, {149:1}, HandlerCheckboxSelector);
 _.drawItem = function drawItem_0(rnd, rowIndex, isSelected, itemRect, valStr, hAlignText){
   $drawItem(this, rnd, rowIndex, isSelected, itemRect, valStr);
 }
@@ -36945,7 +37053,7 @@ _.setFontSizeOverride = function setFontSizeOverride_0(value_0){
 _.checkboxSize = 18;
 _.isRadioStyle = false;
 _.numColsOverride = 0;
-var Lcom_domo_charting_graphs_HandlerCheckboxSelector_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerCheckboxSelector', 338);
+var Lcom_domo_charting_graphs_HandlerCheckboxSelector_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerCheckboxSelector', 339);
 function $addBackgroundDrillShape(this$static){
   var ddShape, hoverBnds;
   hoverBnds = $duplicate_5(this$static.graph.bnds);
@@ -37843,13 +37951,13 @@ function $dateSelClickOnDate(this$static, selDate){
      else {
       startTimeMS = fromDouble_0(this$static.dateSelStartDate.jsdate.getTime());
       curSelTimeMS = fromDouble_0(selDate.jsdate.getTime());
-      compare_21(startTimeMS, curSelTimeMS) == 0?(this$static.dateSelStartDate = null):(this$static.dateSelEndDate = new Date_4(fromDouble_0(selDate.jsdate.getTime())));
+      compare_22(startTimeMS, curSelTimeMS) == 0?(this$static.dateSelStartDate = null):(this$static.dateSelEndDate = new Date_4(fromDouble_0(selDate.jsdate.getTime())));
     }
   }
   if (!!this$static.dateSelStartDate && !!this$static.dateSelEndDate) {
     startTimeMS = fromDouble_0(this$static.dateSelStartDate.jsdate.getTime());
     endTimeMS = fromDouble_0(this$static.dateSelEndDate.jsdate.getTime());
-    if (compare_21(startTimeMS, endTimeMS) > 0) {
+    if (compare_22(startTimeMS, endTimeMS) > 0) {
       this$static.dateSelStartDate = new Date_4(endTimeMS);
       this$static.dateSelEndDate = new Date_4(startTimeMS);
     }
@@ -38757,7 +38865,7 @@ _.setFrame = function setFrame_8(type_0, easingType, startTime, curTime, endTime
     hasTransparencyInBackground && $addClipRegion(this);
     this.createDrawObjectsForFrame_0(rnd, type_0, curTime);
     hasTransparencyInBackground?$clearClipRegion(this):geAry.add_0(geWhiteShape);
-    compare_21(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
+    compare_22(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
   }
 }
 ;
@@ -39208,7 +39316,7 @@ _.setFrame = function setFrame_9(type_0, easingType, startTime, curTime, endTime
     }
     this.graph.geAry.clear_0();
     $createDrawObjectsForFrame_1(this, rnd, curTime);
-    compare_21(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
+    compare_22(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
   }
 }
 ;
@@ -39251,7 +39359,7 @@ function HandlerFunnelBar(){
   HandlerFunnel.call(this);
 }
 
-defineClass(336, 200, {}, HandlerFunnelBar);
+defineClass(337, 200, {}, HandlerFunnelBar);
 _.addLegendsOrSubComponents = function addLegendsOrSubComponents_6(chart){
   (this.graph.treatAsSmall || this.graph.simplifiedForMobile) && $setHasInteractions(this.graph, false);
 }
@@ -39376,7 +39484,7 @@ _.setHoverText_0 = function setHoverText_2(rnd, hoverData){
   $setHoverText_3(this, rnd, hoverData);
 }
 ;
-var Lcom_domo_charting_graphs_HandlerFunnelBar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerFunnelBar', 336);
+var Lcom_domo_charting_graphs_HandlerFunnelBar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerFunnelBar', 337);
 function $addBarPastEndOfScale(rect, valueScale, bar, shape_0, ge){
   var color_0, maxPos, pastEndRect, pastEndShape;
   maxPos = $getMinPosition_1(valueScale) + $getPositionForTime(valueScale, valueScale.adjustedMaxTime);
@@ -39606,7 +39714,7 @@ _.createSeriesInfoObjs = function createSeriesInfoObjs_5(sGraph, rows_0, baseSca
         !fillColor && (fillColor = $getColorForSeriesNameOrIndex_0(this.graph, cell.column, $getCurColIndex(cell)));
         fill = new CFFill(fillColor);
         !!$getMetaDataCell(cell, 0) && (endDate = $getMetaDataCell(cell, 0).timeMS);
-        if (this.fillEmptyEndDates && compare_21(endDate, 0) == 0) {
+        if (this.fillEmptyEndDates && compare_22(endDate, 0) == 0) {
           scale = $getScaleByPosition(sGraph, 1);
           !scale && (scale = $getScaleByPosition(sGraph, 3));
           if (!!scale && instanceOf(scale, 56)) {
@@ -39614,7 +39722,7 @@ _.createSeriesInfoObjs = function createSeriesInfoObjs_5(sGraph, rows_0, baseSca
             endDate = add_1(maxTime, 1187194880);
           }
         }
-        if (compare_21(startDate, 0) > 0 && compare_21(endDate, 0) > 0 && !!cell.column && !cell.column.hidden) {
+        if (compare_22(startDate, 0) > 0 && compare_22(endDate, 0) > 0 && !!cell.column && !cell.column.hidden) {
           pctIsNan = false;
           if ($isPctCompleteChart(this)) {
             pctCompleteCell = $getMetaDataCell(cell, PERCENT_COMPLETE);
@@ -39694,15 +39802,15 @@ _.getMinMaxTimeValues = function getMinMaxTimeValues_0(scale){
       cell = (entry = $next_1(cell$iterator.val$outerIter2) , castTo(entry.getValue(), 16));
       if (!$rowIsHidden(cell)) {
         time = cell.timeMS;
-        if (compare_21(time, 0) != 0) {
-          compare_21(time, minTime) < 0 && (minTime = time);
-          compare_21(time, maxTime) > 0 && (maxTime = time);
+        if (compare_22(time, 0) != 0) {
+          compare_22(time, minTime) < 0 && (minTime = time);
+          compare_22(time, maxTime) > 0 && (maxTime = time);
         }
         if ($getMetaDataCell(cell, 0)) {
           time = $getMetaDataCell(cell, 0).timeMS;
-          if (compare_21(time, 0) != 0) {
-            compare_21(time, minTime) < 0 && (minTime = time);
-            compare_21(time, maxTime) > 0 && (maxTime = time);
+          if (compare_22(time, 0) != 0) {
+            compare_22(time, minTime) < 0 && (minTime = time);
+            compare_22(time, maxTime) > 0 && (maxTime = time);
           }
         }
       }
@@ -41917,7 +42025,7 @@ _.createSeriesInfoObjs = function createSeriesInfoObjs_7(sGraph, rows_0, baseSca
     curRow = castTo(rows_0.get_1(i), 7);
     if (!curRow || curRow.hidden)
       continue;
-    valueScale = castTo($getValueScale(sGraph), 35);
+    valueScale = castTo($getValueScale(sGraph), 36);
     if (valueScale) {
       barList = new ArrayList;
       visibleColIndex = 0;
@@ -42398,7 +42506,7 @@ function HandlerHistogram(){
   HandlerBar.call(this);
 }
 
-defineClass(334, 60, $intern_37, HandlerHistogram);
+defineClass(335, 60, $intern_37, HandlerHistogram);
 _.adjustDataAfterRowsHidden = function adjustDataAfterRowsHidden_0(){
   $updateDataGrid(this);
   !!this.currentViewDataGrid && (this.currentViewDataGrid.hasHiddenRows = true);
@@ -42529,7 +42637,7 @@ _.setData = function setData_18(data_0){
 ;
 _.numBucketsOverride = -1;
 var maxBuckets = 20, minBuckets = 3;
-var Lcom_domo_charting_graphs_HandlerHistogram_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerHistogram', 334);
+var Lcom_domo_charting_graphs_HandlerHistogram_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerHistogram', 335);
 function $addFirstLastLargestSmallestHints_0(this$static, rnd, hoverLabel, srsItem){
   var firstInfo, firstPoint, labelPosition, largest, largestPoint, numberFormatter, smallest, smallestPoint, srsInfo, srsInfo$iterator, testValue, thisPoint;
   firstInfo = castTo($get_2(srsItem.srsShapeList, 0), 18);
@@ -43558,7 +43666,7 @@ function $setData_5(this$static, data_0){
   $chartOptionHasAValue(this$static.graph, 'outliers_below') && (this$static.outlierBelowVal = getDouble_0(this$static.graph.getChartOptionAsString('outliers_below'), NaN));
   if ($isTrellis(this$static.graph)) {
     catScale = $getCategoryScale(this$static.sGraph);
-    !!catScale && instanceOf(catScale, 35) && $setIsLineType(castTo(catScale, 35), false);
+    !!catScale && instanceOf(catScale, 36) && $setIsLineType(castTo(catScale, 36), false);
   }
   if (!isNaN_0(this$static.outlierAboveVal) || !isNaN_0(this$static.outlierBelowVal)) {
     $getNumCols(data_0);
@@ -44154,7 +44262,7 @@ _.setFrame = function setFrame_13(type_0, easingType, startTime, curTime, endTim
     valueScale2 = $getScaleByTypeNumber(this.sGraph, 0, 1);
     this.barHandler.createDrawObjectsForFrame(this.sGraph, type_0, curTime, valueScale2);
     $createDrawObjectsForFrame_2(this.lineHandler, this.sGraph, type_0, curTime, valueScale);
-    if (compare_21(curTime, endTime) >= 0) {
+    if (compare_22(curTime, endTime) >= 0) {
       $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
       $hasAnnotations(this.graph) && this.graph.drawAnnotations();
     }
@@ -44207,8 +44315,8 @@ function $showDatalabelsForSeries(this$static, data_0, rnd){
   var existingLabelRects, ge, i, itemsOnFront, srsInfo;
   existingLabelRects = new ArrayList;
   itemsOnFront = this$static.graph.frontGeAry.size_1();
-  if (instanceOf(data_0, 36)) {
-    castTo(data_0, 36).type_0 == 13?(srsInfo = $getSingleUseSeriesInfoForConditionalRuleHoverHints(this$static, data_0)):(srsInfo = $getSrsInfoByColumn(this$static, castTo(data_0, 36).colInfo));
+  if (instanceOf(data_0, 37)) {
+    castTo(data_0, 37).type_0 == 13?(srsInfo = $getSingleUseSeriesInfoForConditionalRuleHoverHints(this$static, data_0)):(srsInfo = $getSrsInfoByColumn(this$static, castTo(data_0, 37).colInfo));
     !!srsInfo && $drawDatalabelsForASeries(this$static.graph.dataLabel, rnd, true, existingLabelRects, srsInfo, data_0);
   }
    else if (instanceOf(data_0, 25)) {
@@ -45144,7 +45252,7 @@ function HandlerNightingale(){
   HandlerPie.call(this);
 }
 
-defineClass(331, 128, {128:1}, HandlerNightingale);
+defineClass(332, 128, {128:1}, HandlerNightingale);
 _.format_0 = function format_18(rnd){
   var angle, bnds, cell, curIndex, curRow, dataIndex, depComp, depComp$iterator, fill, i, lastState, numRowsToDisplay, pctOfTotal, sd, showingOther, startAngle, visibleIndex;
   $setAutoAbbreviateState(this.graph.numberFormatter, false);
@@ -45219,7 +45327,7 @@ _.format_0 = function format_18(rnd){
   $drawAllPieSlices(this, rnd);
 }
 ;
-var Lcom_domo_charting_graphs_HandlerNightingale_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerNightingale', 331);
+var Lcom_domo_charting_graphs_HandlerNightingale_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerNightingale', 332);
 function $createSeriesInfoObjs_0(this$static, sGraph, rows_0){
   var LineList, angle, cell, curCol, curRow, fill, fullLineInfo, i, incrementAngle, lastState, linePointInfo, numCategories, point, points, radarScale, radius, rowIndex, seriesColor, stroke, value_0, valueScale;
   if (!rows_0)
@@ -45342,7 +45450,7 @@ function HandlerRadar(){
   HandlerLine.call(this);
 }
 
-defineClass(330, 110, $intern_42, HandlerRadar);
+defineClass(331, 110, $intern_42, HandlerRadar);
 _.createDrawObjectsForFrame = function createDrawObjectsForFrame_8(sGraph, type_0, curTime, valueScale){
   var center, fullLineInfo, ge, pctComplete, radarScale, seriesFill, shape_0, srsItem, srsItem$iterator;
   radarScale = $getRadarScale(this);
@@ -45473,7 +45581,7 @@ _.setShowScaleLabels = function setShowScaleLabels_0(key, value_0){
 }
 ;
 _.transparencyPct = 90;
-var Lcom_domo_charting_graphs_HandlerRadar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerRadar', 330);
+var Lcom_domo_charting_graphs_HandlerRadar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerRadar', 331);
 function $drawSliderBubbleAndGetShape(this$static, xPos, yPos){
   var bubbleShape, geBubble, innerBubbleShape, innerRadius, radius;
   radius = this$static.sliderBubbleDiameter / 2;
@@ -46065,7 +46173,7 @@ function HandlerSparkBar(){
   this.compValueFont = new CFFont_0(null, 16, BLACK);
 }
 
-defineClass(327, 60, $intern_37, HandlerSparkBar);
+defineClass(328, 60, $intern_37, HandlerSparkBar);
 _.addLegendsOrSubComponents = function addLegendsOrSubComponents_11(chart){
   var compAry, dimension, graphHeight, halfGraphWidth, ta;
   this.graph.removeDependentCompsFromCompArray();
@@ -46202,7 +46310,7 @@ _.setData = function setData_25(data_0){
 _.hideComparative = false;
 _.hideSingleValue = false;
 _.showNextToLastOnCompGauge = false;
-var Lcom_domo_charting_graphs_HandlerSparkBar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSparkBar', 327);
+var Lcom_domo_charting_graphs_HandlerSparkBar_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSparkBar', 328);
 function $addBackgroundFillIfSpecified_0(this$static){
   var bkgRect, ge;
   if (this$static.bkgColor) {
@@ -46419,7 +46527,7 @@ function HandlerSparkLine(){
   this.compValueFont = new CFFont_0(null, 16, BLACK);
 }
 
-defineClass(329, 110, $intern_42, HandlerSparkLine);
+defineClass(330, 110, $intern_42, HandlerSparkLine);
 _.addLegendsOrSubComponents = function addLegendsOrSubComponents_12(chart){
   var compAry, dimension, graphHeight, halfGraphWidth, ta;
   this.graph.removeDependentCompsFromCompArray();
@@ -46576,13 +46684,13 @@ _.hideComparative = false;
 _.hideSingleValue = false;
 _.showNextToLastOnCompGauge = false;
 _.textLeftMargin = 0;
-var Lcom_domo_charting_graphs_HandlerSparkLine_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSparkLine', 329);
+var Lcom_domo_charting_graphs_HandlerSparkLine_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSparkLine', 330);
 function HandlerStock(){
   $clinit_HandlerBar();
   HandlerBar.call(this);
 }
 
-defineClass(333, 60, $intern_37, HandlerStock);
+defineClass(334, 60, $intern_37, HandlerStock);
 _.calcMinMaxOverride = function calcMinMaxOverride_6(scale, curMin, curMax){
   var cell, cell$iterator, entry, highVal, lowVal, max_0, min_0, outerIter, row;
   row = $getFirstVisibleRow(this.graph.data_0);
@@ -46701,7 +46809,7 @@ _.setData = function setData_27(data_0){
 }
 ;
 var CLOSE = 2, OPEN = 1;
-var Lcom_domo_charting_graphs_HandlerStock_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerStock', 333);
+var Lcom_domo_charting_graphs_HandlerStock_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerStock', 334);
 function $drawAllPieSlices_0(this$static, rnd){
   var dlShapes, ge, i, item_0, item$index, item$max, lblFont, otherEncountered, shape_0, slice_0, srsInfo, srsInfo$iterator;
   lblFont = $duplicate_2(this$static.labelFont);
@@ -47599,27 +47707,27 @@ _.baseLevelItemCount = 0;
 _.graphTotal = 0;
 _.numLevels = 0;
 var Lcom_domo_charting_graphs_HandlerSunburst_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSunburst', 143);
-function $compare_15(this$static, o1, o2){
+function $compare_16(this$static, o1, o2){
   var o1Name, o2Name;
   o1Name = getFullString(o1, this$static.this$01.orderedCols);
   o2Name = getFullString(o2, this$static.this$01.orderedCols);
-  return compare_27((checkCriticalNotNull(o1Name) , o1Name), (checkCriticalNotNull(o2Name) , o2Name));
+  return compare_28((checkCriticalNotNull(o1Name) , o1Name), (checkCriticalNotNull(o2Name) , o2Name));
 }
 
 function HandlerSunburst$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(332, 1, {}, HandlerSunburst$1);
-_.compare = function compare_16(o1, o2){
-  return $compare_15(this, castTo(o1, 7), castTo(o2, 7));
+defineClass(333, 1, {}, HandlerSunburst$1);
+_.compare = function compare_17(o1, o2){
+  return $compare_16(this, castTo(o1, 7), castTo(o2, 7));
 }
 ;
-_.equals_0 = function equals_19(other){
+_.equals_0 = function equals_20(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_HandlerSunburst$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSunburst/1', 332);
+var Lcom_domo_charting_graphs_HandlerSunburst$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerSunburst/1', 333);
 function $createDrawObjectsForFrame_3(this$static, rnd, curTime){
   var ge, label_0, labelColor, lastState, pctComplete, rectInfo, shape_0, srsColor, srsInfo, srsInfo$iterator, srsItem, srsItem$iterator, tmpGe;
   for (srsItem$iterator = new ArrayList$1(this$static.graph.seriesShapes); srsItem$iterator.i < srsItem$iterator.this$01.array.length;) {
@@ -48031,7 +48139,7 @@ _.setFrame = function setFrame_17(type_0, easingType, startTime, curTime, endTim
     }
     this.graph.geAry.clear_0();
     $createDrawObjectsForFrame_3(this, rnd, curTime);
-    compare_21(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
+    compare_22(curTime, endTime) >= 0 && $hasDataLabels(this.graph) && $drawDataLabels(this.graph.dataLabel, rnd, false);
   }
 }
 ;
@@ -48231,7 +48339,7 @@ function HandlerWaterfall(){
   HandlerBar.call(this);
 }
 
-defineClass(335, 60, $intern_37, HandlerWaterfall);
+defineClass(336, 60, $intern_37, HandlerWaterfall);
 _.createSeriesInfoObjs = function createSeriesInfoObjs_13(sGraph, rows_0, baseScale, valScale, valScale2){
   var BLUE_FILL, GREEN_FILL, RED_FILL, barInfo, barList, barRect, barWidth, catScalePos, cell, curCol, curRow, fill, height, lastState, minCatPos, minValuePos, numRows, origValue, origValuesScalePos, rowIndex, value_0, valueScale, valueScalePos, width_0, zeroValuePos;
   GREEN_FILL = new CFFill($getColor(this.graph, 'WaterfallGreen', '#A0D771'));
@@ -48354,7 +48462,7 @@ _.setData = function setData_30(data_0){
 _.reverseColorDir = false;
 _.showSummaryBars = false;
 _.summaryText = 'Summary';
-var Lcom_domo_charting_graphs_HandlerWaterfall_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerWaterfall', 335);
+var Lcom_domo_charting_graphs_HandlerWaterfall_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerWaterfall', 336);
 function $clinit_HandlerWordCloud(){
   $clinit_HandlerWordCloud = emptyMethod;
   defaultColor_0 = ($clinit_CFColor() , TEXT_DARK_GRAY);
@@ -48650,7 +48758,7 @@ function HandlerWordCloud(){
   this.wordFont = new CFFont_0(null, 12, defaultColor_0);
 }
 
-defineClass(337, 118, {}, HandlerWordCloud);
+defineClass(338, 118, {}, HandlerWordCloud);
 _.format_0 = function format_26(rnd){
   this.random = new Random;
   this.firstColor = $getColor(this.graph, 'WordCloudFirstOrange', '#FEAD59');
@@ -48752,7 +48860,7 @@ _.secondColor = null;
 _.startingRadius = 1;
 _.totalArea = 0;
 var defaultColor_0;
-var Lcom_domo_charting_graphs_HandlerWordCloud_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerWordCloud', 337);
+var Lcom_domo_charting_graphs_HandlerWordCloud_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerWordCloud', 338);
 function $addMeanUpperLowerSeries(this$static, cell, valueScale, xPos){
   var mean2Stroke, meanStroke, metricCell, upperLower2Stroke, upperLowerStroke;
   if (!cell)
@@ -49417,7 +49525,7 @@ _.getDrillFilter = function getDrillFilter_7(shapeInfo, clicked){
     return null;
   cell = shapeInfo.cell;
   if (!!cell && !shapeInfo.neverDrill) {
-    if (instanceOf($getCategoryScale(this.sGraph), 35)) {
+    if (instanceOf($getCategoryScale(this.sGraph), 36)) {
       rowName = cell.valueStr;
       rowHeaderName = $getRowOrigName(cell);
       $getRowDataSourceId(cell);
@@ -49515,9 +49623,9 @@ _.getMinMaxTimeValues = function getMinMaxTimeValues_1(scale){
       cell = (entry = $next_1(cell$iterator.val$outerIter2) , castTo(entry.getValue(), 16));
       if (!cell.hidden && !cell.column.hidden) {
         time = cell.timeMS;
-        if (compare_21(time, 0) != 0) {
-          compare_21(time, minTime) < 0 && (minTime = time);
-          compare_21(time, maxTime) > 0 && (maxTime = time);
+        if (compare_22(time, 0) != 0) {
+          compare_22(time, minTime) < 0 && (minTime = time);
+          compare_22(time, maxTime) > 0 && (maxTime = time);
           testDay == 0?(testDay = getDayOfMonth(time)):hasMonthDaysThatAreDifferent || (hasMonthDaysThatAreDifferent = containsMonthDaysOtherThanTestDay(time, testDay));
         }
       }
@@ -49755,34 +49863,34 @@ _.xScaleLine = NaN;
 _.yScaleLine = NaN;
 var BUBBLE_VALUE = 1, LOWER_VALUE = 3, LOWER_VALUE2 = 7, MEAN_VALUE = 2, MEAN_VALUE2 = 6, OUTLIER_VALUE = 5, UPPER_VALUE = 4, UPPER_VALUE2 = 8;
 var Lcom_domo_charting_graphs_HandlerXY_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerXY', 121);
-function $compare_16(o1, o2){
+function $compare_17(o1, o2){
   var o1XVal, o2XVal;
   if (neq(o1.timeMS, 0)) {
     o1XVal = valueOf_0(o1.timeMS);
     o2XVal = valueOf_0(o2.timeMS);
-    return compare_25(o1XVal.value_0, o2XVal.value_0);
+    return compare_26(o1XVal.value_0, o2XVal.value_0);
   }
    else {
     o1XVal = $getValue(o1);
     o2XVal = $getValue(o2);
-    return compare_23((checkCriticalNotNull(o1XVal) , o1XVal), (checkCriticalNotNull(o2XVal) , o2XVal));
+    return compare_24((checkCriticalNotNull(o1XVal) , o1XVal), (checkCriticalNotNull(o2XVal) , o2XVal));
   }
 }
 
 function HandlerXY$1(){
 }
 
-defineClass(318, 1, {}, HandlerXY$1);
-_.compare = function compare_17(o1, o2){
-  return $compare_16(castTo(o1, 16), castTo(o2, 16));
+defineClass(319, 1, {}, HandlerXY$1);
+_.compare = function compare_18(o1, o2){
+  return $compare_17(castTo(o1, 16), castTo(o2, 16));
 }
 ;
-_.equals_0 = function equals_20(other){
+_.equals_0 = function equals_21(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_HandlerXY$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerXY/1', 318);
-function $compare_17(o1, o2){
+var Lcom_domo_charting_graphs_HandlerXY$1_2_classLit = createForClass('com.domo.charting.graphs', 'HandlerXY/1', 319);
+function $compare_18(o1, o2){
   var o1XVal, o2XVal;
   o1XVal = $intern_20;
   if (instanceOf(o1, 28)) {
@@ -49801,11 +49909,11 @@ function HandlerXY$2(){
 }
 
 defineClass(140, 1, {}, HandlerXY$2);
-_.compare = function compare_18(o1, o2){
-  return $compare_17(castTo(o1, 18), castTo(o2, 18));
+_.compare = function compare_19(o1, o2){
+  return $compare_18(castTo(o1, 18), castTo(o2, 18));
 }
 ;
-_.equals_0 = function equals_21(other){
+_.equals_0 = function equals_22(other){
   return this === other;
 }
 ;
@@ -49828,7 +49936,7 @@ function $addHint(this$static, rnd, numberFormatter, cell, barInfo, labelPositio
   var point, rect;
   rect = $getRectForDisplay(barInfo, barInfo.getRect());
   !!barInfo.stackedProjRect && (rect = barInfo.stackedProjRect);
-  !$usingCardBus(this$static.graph.chart) && hoverData != null && instanceOf(hoverData, 36) && castTo(hoverData, 36).type_0 != 13 && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph)?(rect = $getRectForDisplay(barInfo, $getOrigRect(barInfo))):hoverData != null && instanceOf(hoverData, 16) && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph) && (rect = $getRectForDisplay(barInfo, $getOrigRect(barInfo)));
+  !$usingCardBus(this$static.graph.chart) && hoverData != null && instanceOf(hoverData, 37) && castTo(hoverData, 37).type_0 != 13 && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph)?(rect = $getRectForDisplay(barInfo, $getOrigRect(barInfo))):hoverData != null && instanceOf(hoverData, 16) && !this$static.graph.typeAttributes.isStream && !$hasProjections(this$static.sGraph) && (rect = $getRectForDisplay(barInfo, $getOrigRect(barInfo)));
   point = $getTextPointForRect(rect, labelPosition);
   $addHint_0(this$static, rnd, numberFormatter, cell, point, labelPosition, tooltipStyle, false);
 }
@@ -50012,7 +50120,7 @@ function $getExistingLegendItemInfoForSeries_0(this$static, colInfo){
   var legendItem, legendItem$iterator;
   if (!!this$static.legendItems && this$static.legendItems.size_1() > 0) {
     for (legendItem$iterator = this$static.legendItems.iterator(); legendItem$iterator.hasNext_0();) {
-      legendItem = castTo(legendItem$iterator.next_1(), 36);
+      legendItem = castTo(legendItem$iterator.next_1(), 37);
       if (legendItem.colInfo == colInfo)
         return legendItem;
     }
@@ -50200,8 +50308,8 @@ _.handleClick = function handleClick_12(shapeClicked){
     this.drillFilter = null;
     if (!!map_0 || !!graph && $hasInteractions(graph)) {
       dataObj = $getDataObjectForShape_0(graph, shapeClicked);
-      if (instanceOf(dataObj, 36)) {
-        if (this.handleClickInLegendItemInfo(shapeClicked, graph, usingCardBus, castTo(dataObj, 36)))
+      if (instanceOf(dataObj, 37)) {
+        if (this.handleClickInLegendItemInfo(shapeClicked, graph, usingCardBus, castTo(dataObj, 37)))
           return true;
       }
        else if (!!graph && instanceOf(dataObj, 18) && castTo(dataObj, 18).supportsDynamicFilter) {
@@ -50287,7 +50395,7 @@ function $addAdditionalGraphItems(this$static){
   addlLegendItems = this$static.getAdditionalLegendItems();
   if (!!addlLegendItems && addlLegendItems.array.length > 0) {
     for (lii$iterator = new ArrayList$1(addlLegendItems); lii$iterator.i < lii$iterator.this$01.array.length;) {
-      lii = castTo($next_3(lii$iterator), 36);
+      lii = castTo($next_3(lii$iterator), 37);
       this$static.legendItems.add_1(0, lii);
     }
     this$static.additionalItemsAdded = addlLegendItems.array.length;
@@ -50301,7 +50409,7 @@ function $addMoreItemAtIndex(this$static, moreIndex, sideMargins){
   numMore = $getNumDataItems(this$static) + titleCount - moreIndex;
   this$static.currentPage == 0 && (numMore += this$static.additionalItemsAdded);
   !!this$static.pageFirstIndices && this$static.pageFirstIndices.array.length > this$static.currentPage && (this$static.reverseOrder?this$static.pageFirstIndices.array.length > this$static.currentPage + 1 && (numMore = castTo($get_2(this$static.pageFirstIndices, this$static.currentPage + 1), 29).value_0):(numMore -= castTo($get_2(this$static.pageFirstIndices, this$static.currentPage), 29).value_0));
-  lastLii = castTo(this$static.legendItems.get_1(moreIndex), 36);
+  lastLii = castTo(this$static.legendItems.get_1(moreIndex), 37);
   liiMore = new LegendItemInfo_1(this$static, '' + numMore + ' ' + this$static.component.getLocalizedString('MORE_ITEMS'), new CFFill_1('Transparent'), null);
   liiMore.bnds = lastLii.bnds;
   liiMore.type_0 = 5;
@@ -50313,7 +50421,7 @@ function $addMoreItemAtIndex(this$static, moreIndex, sideMargins){
    else {
     liiMore.textInfo = new TextInfo('' + numMore + ' ' + getString('MORE_ITEMS', 'en'), lastLii.textInfo.textDimension);
   }
-  castTo(this$static.legendItems.get_1(moreIndex), 36).bnds = null;
+  castTo(this$static.legendItems.get_1(moreIndex), 37).bnds = null;
   this$static.legendItems.add_1(moreIndex, liiMore);
   this$static.currentPage > 0 && (sideMargins == 0?(this$static.scrollDnItem = new LegendItemInfo(this$static, 12, new CFRect(this$static.bnds.x_0, $getBottom(liiMore.bnds), this$static.bnds.width_0, 15))):(this$static.scrollDnItem = new LegendItemInfo(this$static, 12, new CFRect($getRight(this$static.bnds) - sideMargins, this$static.bnds.y_0, 15, this$static.bnds.height_0))));
 }
@@ -50321,7 +50429,7 @@ function $addMoreItemAtIndex(this$static, moreIndex, sideMargins){
 function $createDrawObjects_1(this$static){
   var lii, lii$iterator, sLegend;
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     sLegend = castTo(lii.legend, 66);
     !!lii.bnds && (lii.type_0 == 11?$drawScrollUp(lii):lii.type_0 == 12?$drawScrollDn(lii):!!lii.textInfo && !!lii.textInfo.wrappedLines?$drawWrappedLineLegendItem(lii, sLegend):!!lii.textInfo && lii.textInfo.singleLine != null && $drawSingleLineLegendItem(lii, sLegend));
   }
@@ -50332,8 +50440,8 @@ function $createDrawObjects_1(this$static){
 function $drawSrsLegendItemNotShown(this$static, shapeInfo, rnd){
   var bounds, lii, tmpGE;
   $hideMoreLegendItem(this$static);
-  bounds = castTo(this$static.legendItems.get_1(this$static.legendItems.size_1() - 1), 36).bnds;
-  this$static.moreIndex != -1 && this$static.moreIndex < this$static.legendItems.size_1() && (bounds = castTo(this$static.legendItems.get_1(this$static.moreIndex), 36).bnds);
+  bounds = castTo(this$static.legendItems.get_1(this$static.legendItems.size_1() - 1), 37).bnds;
+  this$static.moreIndex != -1 && this$static.moreIndex < this$static.legendItems.size_1() && (bounds = castTo(this$static.legendItems.get_1(this$static.moreIndex), 37).bnds);
   if (!!shapeInfo && !!shapeInfo.cell) {
     lii = this$static.getLegendItemInfoForSeries(this$static, shapeInfo.cell.column);
     if (lii) {
@@ -50472,7 +50580,7 @@ function $getMaxLegendItemWidth(this$static, rnd){
   maxWidth = 0;
   hasWrappedLines = false;
   for (legendItem$iterator = this$static.legendItems.iterator(); legendItem$iterator.hasNext_0();) {
-    legendItem = castTo(legendItem$iterator.next_1(), 36);
+    legendItem = castTo(legendItem$iterator.next_1(), 37);
     text_0 = $getItemText(legendItem);
     if (text_0 != null && text_0.indexOf('\n') != -1) {
       hasWrappedLines = true;
@@ -50510,7 +50618,7 @@ function $getMaxTruncatedWidthBottomLegend(this$static){
   var lii, lii$iterator, maxWidth;
   maxWidth = 0;
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     lii.textInfo.textDimension.width_0 > maxWidth && (maxWidth = lii.textInfo.textDimension.width_0);
   }
   return maxWidth;
@@ -50520,7 +50628,7 @@ function $getMaxWidthBottomLegend(this$static, rnd, legendItems, allowWrap){
   var col, col$iterator, dim, legendCols, lii, lii$iterator, longestText, maxLen, maxWidth, name_0, numMeasured, textDim;
   maxWidth = 0;
   for (lii$iterator = legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     allowWrap?(textDim = $getTextDimensions(lii, rnd, $intern_10, true)):(textDim = $getTextDimensions(lii, rnd, 0, false));
     textDim.width_0 > maxWidth && (maxWidth = textDim.width_0);
   }
@@ -50599,7 +50707,7 @@ function $getTmpLegendItemAry(this$static, numItemsToAdd){
   tmpLegendItems = new ArrayList;
   numItemsAdded = 0;
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     if (numItemsAdded == numItemsToAdd)
       break;
     tmpLegendItems.array[tmpLegendItems.array.length] = lii;
@@ -50612,7 +50720,7 @@ function $getTotalSideLegendHeight(this$static, rnd){
   var lii, lii$iterator, textDim, totalHeight;
   totalHeight = 0;
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     textDim = $getTextDimensions(lii, rnd, this$static.textAreaWidth, true);
     totalHeight += textDim.height_0;
     lii.type_0 == 9 && (totalHeight += this$static.titleMarkerMargin);
@@ -50636,7 +50744,7 @@ function $removeTemporaryItemIfExists(this$static){
   if (this$static.geAry.size_1() > 0) {
     ge = castTo(this$static.geAry.get_1(this$static.geAry.size_1() - 1), 12);
     dataObj = $getDataObjectForGE_0(this$static, ge);
-    dataObj != null && instanceOf(dataObj, 36) && castTo(dataObj, 36).isTemporary && this$static.geAry.remove(ge);
+    dataObj != null && instanceOf(dataObj, 37) && castTo(dataObj, 37).isTemporary && this$static.geAry.remove(ge);
   }
 }
 
@@ -50663,7 +50771,7 @@ function $setBottomLegendItemBounds(this$static, rnd, left, top_0, width_0){
   spaceBetweenItems = this$static.horzSpaceBetweenItems;
   this$static.numCols == 1 && (spaceBetweenItems = 0);
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     if (lii.type_0 != 9) {
       $setBounds_2(lii, new CFRect(curLeft, top_0, maxColWidth, lii.textInfo.textDimension.height_0));
       if (!!lii.textInfo && lii.textInfo.textDimension.width_0 > maxColWidth - (this$static.markerTextMargin + spaceBetweenItems - 2)) {
@@ -50693,7 +50801,7 @@ function $setBottomLegendItemBounds(this$static, rnd, left, top_0, width_0){
     }
     this$static.currentPage > 0 && (this$static.scrollUpItem = new LegendItemInfo(this$static, 11, new CFRect(this$static.bnds.x_0 + 10, this$static.bnds.y_0, 15, this$static.bnds.height_0)));
     if (curLeft != startingLeft) {
-      liHeight = castTo(this$static.legendItems.get_1(this$static.legendItems.size_1() - 1), 36).textInfo.textDimension.height_0;
+      liHeight = castTo(this$static.legendItems.get_1(this$static.legendItems.size_1() - 1), 37).textInfo.textDimension.height_0;
       liHeight == 0 && (liHeight = $getLineHeight(this$static.font_0, rnd));
       top_0 += liHeight + this$static.vertSpaceBetweenItems;
     }
@@ -50749,7 +50857,7 @@ function $setNumColsAndMaxItemsDisplayedForSpace(this$static, rnd){
     this$static.numCols = $getNumColsForMaxWidth(this$static, rnd, maxWidth, this$static.bnds.width_0 - this$static.bottomTopLegendMargin * 2, this$static.legendItems);
   }
   titleHeight = $getHeightNeededForTitle(this$static, rnd);
-  itemHeight = castTo(this$static.legendItems.get_1(0), 36).textInfo.textDimension.height_0;
+  itemHeight = castTo(this$static.legendItems.get_1(0), 37).textInfo.textDimension.height_0;
   maxLegendHeight = this$static.chart.dimension.height_0 / maxHeightDivisor;
   legendItemSpace = maxLegendHeight - (titleHeight + this$static.bottomTopLegendMargin);
   maxRows = round_int(legendItemSpace / (itemHeight + this$static.vertSpaceBetweenItems));
@@ -50775,7 +50883,7 @@ function $setNumColsAndMaxItemsDisplayedForSpace(this$static, rnd){
 function $setPagingIndices(this$static){
   var lastItemBeforeMore, lastItemBeforeMoreIndex, legendCols;
   legendCols = this$static.getLegendColumns();
-  lastItemBeforeMore = castTo(this$static.legendItems.get_1(this$static.moreIndex - 1), 36);
+  lastItemBeforeMore = castTo(this$static.legendItems.get_1(this$static.moreIndex - 1), 37);
   lastItemBeforeMoreIndex = -1;
   !!lastItemBeforeMore && !!lastItemBeforeMore.colInfo && (lastItemBeforeMoreIndex = legendCols.indexOf_0(lastItemBeforeMore.colInfo));
   this$static.currentPage == 0 && this$static.pageFirstIndices.array.length == 0?this$static.reverseOrder?$add_1(this$static.pageFirstIndices, valueOf(legendCols.size_1() - 1)):$add_1(this$static.pageFirstIndices, new Integer(0)):this$static.pageFirstIndices.array.length <= this$static.currentPage + 1?$add_1(this$static.pageFirstIndices, new Integer(lastItemBeforeMoreIndex)):$set(this$static.pageFirstIndices, this$static.currentPage + 1, new Integer(lastItemBeforeMoreIndex));
@@ -50786,7 +50894,7 @@ function $setSideLegendItemsBounds(this$static, left, top_0){
   this$static.moreIndex = -1;
   index_0 = 0;
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     if (this$static.currentPage > 0 && lii.type_0 != 9 && index_0 == 0) {
       this$static.scrollUpItem = new LegendItemInfo(this$static, 11, new CFRect(this$static.bnds.x_0, top_0, this$static.bnds.width_0, 15));
       top_0 += 15;
@@ -50835,7 +50943,7 @@ function $truncateItemsToWidth(this$static, rnd, truncatedItemWidth){
   var lii, lii$iterator, textWidth, truncText;
   textWidth = truncatedItemWidth - (this$static.markerSize + this$static.markerTextMargin + this$static.horzSpaceBetweenItems);
   for (lii$iterator = this$static.legendItems.iterator(); lii$iterator.hasNext_0();) {
-    lii = castTo(lii$iterator.next_1(), 36);
+    lii = castTo(lii$iterator.next_1(), 37);
     if (lii.textInfo.textDimension.width_0 > textWidth) {
       truncText = truncateString(rnd, lii.textInfo.singleLine, textWidth, this$static.font_0);
       lii.textInfo = new TextInfo(truncText, rnd.measureText_0(truncText, this$static.font_0));
@@ -50863,11 +50971,11 @@ function checkForHoveredItemFoundAndSetLegendItemState(hoverData, geAry, curSele
   for (i = 0; i < geAry.size_1(); i++) {
     ge = castTo(geAry.get_1(i), 12);
     dataObj = $getDataObjectForGE_0(component, ge);
-    if (dataObj != null && instanceOf(dataObj, 36)) {
-      legItemInfo = castTo(dataObj, 36);
+    if (dataObj != null && instanceOf(dataObj, 37)) {
+      legItemInfo = castTo(dataObj, 37);
       if (legItemInfo.type_0 != 9) {
         isCurrentItem = false;
-        hoverData != null && instanceOf(hoverData, 36)?(isCurrentItem = maskUndefined(hoverData) === maskUndefined(dataObj)):hoverData != null && instanceOf(hoverData, 18) && (isCurrentItem = castTo(component, 43).handler.isLegendItemSameSeries(legItemInfo, castTo(hoverData, 18)));
+        hoverData != null && instanceOf(hoverData, 37)?(isCurrentItem = maskUndefined(hoverData) === maskUndefined(dataObj)):hoverData != null && instanceOf(hoverData, 18) && (isCurrentItem = castTo(component, 43).handler.isLegendItemSameSeries(legItemInfo, castTo(hoverData, 18)));
         isCurrentItem && (hoveredItemFound = true);
         legItemInfo.type_0 != 11 && legItemInfo.type_0 != 12 && setHoverFillAndStrokeForLegendItem(ge, legItemInfo, isCurrentItem || curSelectedIsMoreItem, hoverData, component);
         textItems = ge.textAry;
@@ -51085,7 +51193,7 @@ _.setHoverEffects = function setHoverEffects_16(hoverData, rnd){
     return;
   if (!this.component.hasInteractions_0())
     return;
-  instanceOf(hoverData, 36) && (castTo(hoverData, 36).type_0 == 5 || castTo(hoverData, 36).type_0 == 11 || castTo(hoverData, 36).type_0 == 12) && (curSelectedIsMoreItem = true);
+  instanceOf(hoverData, 37) && (castTo(hoverData, 37).type_0 == 5 || castTo(hoverData, 37).type_0 == 11 || castTo(hoverData, 37).type_0 == 12) && (curSelectedIsMoreItem = true);
   $removeTemporaryItemIfExists(this);
   hoveredItemFound = checkForHoveredItemFoundAndSetLegendItemState(hoverData, this.geAry, curSelectedIsMoreItem, this.font_0, this.component);
   !hoveredItemFound && hoverData != null && instanceOf(hoverData, 18) && $drawSrsLegendItemNotShown(this, castTo(hoverData, 18), rnd);
@@ -51407,12 +51515,12 @@ function LegendItemInfo_1(legend, text_0, fill, stroke){
   this.stroke_0 = stroke;
 }
 
-defineClass(36, 1, {36:1}, LegendItemInfo, LegendItemInfo_0, LegendItemInfo_1);
+defineClass(37, 1, {37:1}, LegendItemInfo, LegendItemInfo_0, LegendItemInfo_1);
 _.isTemporary = false;
 _.symbolType = 0;
 _.type_0 = 0;
 _.variableMarkerSize = 0;
-var Lcom_domo_charting_graphs_LegendItemInfo_2_classLit = createForClass('com.domo.charting.graphs', 'LegendItemInfo', 36);
+var Lcom_domo_charting_graphs_LegendItemInfo_2_classLit = createForClass('com.domo.charting.graphs', 'LegendItemInfo', 37);
 function LegendMapArea(chart, name_0, map_0){
   $clinit_Legend();
   Legend.call(this, chart, name_0, map_0);
@@ -51469,7 +51577,7 @@ _.handleClickInLegendItemInfo = function handleClickInLegendItemInfo_0(shapeClic
 _.setDrillFilter = function setDrillFilter_2(shape_0, clicked){
   var dataObject;
   dataObject = $getDataObjectForShape_0(this.map_0, shape_0);
-  !!shape_0 && dataObject != null && instanceOf(dataObject, 36)?(this.drillFilter = $getDrillFilterFromLegendItemInfo(this.map_0, castTo(dataObject, 36))):!!shape_0 && shape_0.drillFilter != null && (this.drillFilter = shape_0.drillFilter);
+  !!shape_0 && dataObject != null && instanceOf(dataObject, 37)?(this.drillFilter = $getDrillFilterFromLegendItemInfo(this.map_0, castTo(dataObject, 37))):!!shape_0 && shape_0.drillFilter != null && (this.drillFilter = shape_0.drillFilter);
 }
 ;
 var Lcom_domo_charting_graphs_LegendMapArea_2_classLit = createForClass('com.domo.charting.graphs', 'LegendMapArea', 197);
@@ -52441,6 +52549,9 @@ function $clinit_TableCSR(){
   light_gray_fill = new CFColor_2('00000008');
   dark_gray_fill = new CFColor_2('FFFFFF08');
   Border_Stroke = new CFStroke_1('DDDDDD', 0.5);
+  COL_HOVER_COLOR = new CFColor_2('#e8f2ff');
+  ROW_HOVER_COLOR = new CFColor_2('#e8fff2');
+  CELL_HOVER_COLOR = new CFColor_2('#ffe8e8');
 }
 
 function $adjustViewPortYOffset(this$static, numZooms){
@@ -52510,11 +52621,11 @@ function $applySubTotalColors(this$static){
   var tRowCol, tRowCol$iterator, tRowCol$iterator0;
   if (!!this$static.tableGrid && !!this$static.tableGrid.rows_0 && this$static.tableGrid.rows_0.array.length > 0 && !!this$static.tableGrid.cols_0 && this$static.tableGrid.cols_0.array.length > 0) {
     for (tRowCol$iterator0 = new ArrayList$1(this$static.tableGrid.rows_0); tRowCol$iterator0.i < tRowCol$iterator0.this$01.array.length;) {
-      tRowCol = castTo($next_3(tRowCol$iterator0), 37);
+      tRowCol = castTo($next_3(tRowCol$iterator0), 30);
       tRowCol.isSubTotalRowCol && $setSubtotalAttributes(this$static, tRowCol);
     }
     for (tRowCol$iterator = new ArrayList$1(this$static.tableGrid.cols_0); tRowCol$iterator.i < tRowCol$iterator.this$01.array.length;) {
-      tRowCol = castTo($next_3(tRowCol$iterator), 37);
+      tRowCol = castTo($next_3(tRowCol$iterator), 30);
       tRowCol.isSubTotalRowCol && $setSubtotalAttributes(this$static, tRowCol);
     }
   }
@@ -52524,11 +52635,11 @@ function $applyTotalColors(this$static){
   var tRowCol, tRowCol$iterator, tRowCol$iterator0;
   if (!!this$static.tableGrid && !!this$static.tableGrid.rows_0 && this$static.tableGrid.rows_0.array.length > 0 && !!this$static.tableGrid.cols_0 && this$static.tableGrid.cols_0.array.length > 0) {
     for (tRowCol$iterator0 = new ArrayList$1(this$static.tableGrid.rows_0); tRowCol$iterator0.i < tRowCol$iterator0.this$01.array.length;) {
-      tRowCol = castTo($next_3(tRowCol$iterator0), 37);
+      tRowCol = castTo($next_3(tRowCol$iterator0), 30);
       tRowCol.isTotalRowCol && $setTotalAttributes(this$static, tRowCol);
     }
     for (tRowCol$iterator = new ArrayList$1(this$static.tableGrid.cols_0); tRowCol$iterator.i < tRowCol$iterator.this$01.array.length;) {
-      tRowCol = castTo($next_3(tRowCol$iterator), 37);
+      tRowCol = castTo($next_3(tRowCol$iterator), 30);
       tRowCol.isTotalRowCol && $setTotalAttributes(this$static, tRowCol);
     }
   }
@@ -52591,6 +52702,11 @@ function $freeResources_22(this$static, dataToKeep){
   $freeResources_15(this$static, dataToKeep);
   !!this$static.tableGrid && $freeResources_23(this$static.tableGrid);
   this$static.tableGrid = null;
+  !!this$static.conditionalFormats && (this$static.conditionalFormats.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1));
+  this$static.conditionalFormats = null;
+  !!this$static.rangeColors && (this$static.rangeColors.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1));
+  this$static.rangeColors = null;
+  this$static.hoverCell = null;
 }
 
 function $getChartOptionAsString_0(this$static, key){
@@ -52616,6 +52732,13 @@ function $getDisplayWidth(this$static){
   if (this$static.tableSize)
     return this$static.tableSize.width_0;
   return this$static.bnds.width_0;
+}
+
+function $getFillColorForTRowCol(row, col, rowColor, colColor){
+  var result;
+  result = rowColor?rowColor:colColor;
+  row.drawHoverState?(result = ROW_HOVER_COLOR):!!col && col.drawHoverState && (result = COL_HOVER_COLOR);
+  return result;
 }
 
 function $getFontForFace(this$static, face_0){
@@ -52758,6 +52881,13 @@ function $setFontSize(this$static, value_0){
     $equals_2(value_0, 'largest')?(this$static.fontSize = 16):$equals_2(value_0, 'larger')?(this$static.fontSize = 13):$equals_2(value_0, 'smaller')?(this$static.fontSize = 10):$equals_2(value_0, 'smallest') && (this$static.fontSize = 9);
   }
   return null;
+}
+
+function $setHoverRowsAndColsForHoverCell(this$static){
+  if (this$static.hoverCell) {
+    !!this$static.hoverCell.row && (this$static.hoverCell.row.drawHoverState = true);
+    !!this$static.hoverCell.column && (this$static.hoverCell.column.drawHoverState = true);
+  }
 }
 
 function $setNeedsFormat_1(this$static, value_0){
@@ -52941,6 +53071,23 @@ _.getChartOptionKeys = function getChartOptionKeys_0(){
   return $getChartOptionKeys_0(this);
 }
 ;
+_.getCompositeFilters = function getCompositeFilters_2(filters){
+  var endIndex, filter, startIndex, subFilter;
+  if (this.drillFilter != null && this.drillFilter.indexOf('filters":[{') != -1) {
+    startIndex = this.drillFilter.indexOf('{', 5);
+    endIndex = this.drillFilter.lastIndexOf(']');
+    subFilter = $substring_0(this.drillFilter, startIndex, endIndex);
+    startIndex = subFilter.indexOf('},{');
+    while (startIndex > 0) {
+      filter = subFilter.substr(0, startIndex + 1);
+      filters.array[filters.array.length] = filter;
+      subFilter = $substring_0(subFilter, startIndex + 2, subFilter.length);
+      startIndex = subFilter.indexOf('},{');
+    }
+    subFilter != null && (filters.array[filters.array.length] = subFilter , true);
+  }
+}
+;
 _.getFirstColumnFormat = function getFirstColumnFormat_0(){
   var entry, key, key$iterator, outerIter, theNumberFormatter;
   if (!!this.columnFormats && $size(this.columnFormats.map_0) > 0) {
@@ -53025,10 +53172,20 @@ _.setHoverData = function setHoverData_25(hoverData, rnd){
   var redrawNeeded;
   redrawNeeded = false;
   if (maskUndefined(this.hoverCell) !== maskUndefined(hoverData)) {
-    hoverData == null?(this.hoverCell = null):instanceOf(hoverData, 70) && (this.hoverCell = castTo(hoverData, 70));
+    !!this.tableGrid && $clearHover(this.tableGrid);
+    if (hoverData == null)
+      this.hoverCell = null;
+    else if (instanceOf(hoverData, 70)) {
+      this.hoverCell = castTo(hoverData, 70);
+      this.setHoverRowsAndColsForHoverCell();
+    }
     redrawNeeded = true;
   }
   return redrawNeeded;
+}
+;
+_.setHoverRowsAndColsForHoverCell = function setHoverRowsAndColsForHoverCell(){
+  $setHoverRowsAndColsForHoverCell(this);
 }
 ;
 _.setNeedsFormat = function setNeedsFormat_7(value_0){
@@ -53085,7 +53242,7 @@ _.totalRowStyle = 0;
 _.useLogScale = false;
 _.viewPortX = 0;
 _.viewPortY = 0;
-var Border_Stroke, dark_gray_fill, light_gray_fill, red_negative;
+var Border_Stroke, CELL_HOVER_COLOR, COL_HOVER_COLOR, ROW_HOVER_COLOR, dark_gray_fill, light_gray_fill, red_negative;
 var Lcom_domo_charting_graphs_TableCSR_2_classLit = createForClass('com.domo.charting.graphs', 'TableCSR', 236);
 function $addAllTotalValuesToTable(this$static, mainGrid, totalGrids, properties, rowList, colList, colIndexMap, rowIndexMap){
   var subtotalGrid, subtotalGrid$iterator, totalRow, valCol, valIndex;
@@ -53094,10 +53251,10 @@ function $addAllTotalValuesToTable(this$static, mainGrid, totalGrids, properties
       subtotalGrid = castTo($next_3(subtotalGrid$iterator), 61);
       $addTotalValuesToTable(subtotalGrid, properties, rowList, colList, colIndexMap, rowIndexMap);
     }
-    totalRow = castTo($get_2(rowList, rowList.array.length - 1), 37);
+    totalRow = castTo($get_2(rowList, rowList.array.length - 1), 30);
     !!totalRow && (totalRow.isTotalRowCol = true);
     for (valIndex = 0; valIndex < properties.pivotValues.array.length; valIndex++) {
-      valCol = castTo($get_2(colList, colList.array.length - valIndex - 1), 37);
+      valCol = castTo($get_2(colList, colList.array.length - valIndex - 1), 30);
       !!valCol && (valCol.isTotalRowCol = true);
     }
   }
@@ -53118,7 +53275,7 @@ function $addColumnForHeaderNames(this$static, rowList, colList, colIndexMap, le
     }
     cell = new TCell_0(colHeaderName);
     $addItem_2(column, cell, false, $size(column.cells_0));
-    row = castTo(rowList.get_1(rowIndex++), 37);
+    row = castTo(rowList.get_1(rowIndex++), 30);
     cell.row = row;
     $put_0(row.cells_0, valueOf(colIndex), cell);
   }
@@ -53171,7 +53328,7 @@ function $addHeaderColumnNames(this$static, rowList, colList, colIndexMap, worki
       comboLevelNames.array[comboLevelNames.array.length] = totalName;
       comboLevelNames.array[comboLevelNames.array.length] = valueName;
       $addColumnForHeaderNames(this$static, rowList, colList, colIndexMap, levelNamesCopy, comboLevelNames);
-      castTo(colList.get_1(colList.size_1() - 1), 37).isSubTotalRowCol = true;
+      castTo(colList.get_1(colList.size_1() - 1), 30).isSubTotalRowCol = true;
     }
   }
 }
@@ -53204,7 +53361,7 @@ function $addHeaderRowsNames(this$static, rowList, colList, rowIndexMap, working
     comboLevelNames = new ArrayList_1(levelNames);
     comboLevelNames.array[comboLevelNames.array.length] = totalName;
     $addRowForHeaderNames(this$static, rowList, colList, rowIndexMap, levelNamesCopy, comboLevelNames);
-    castTo(rowList.get_1(rowList.size_1() - 1), 37).isSubTotalRowCol = true;
+    castTo(rowList.get_1(rowList.size_1() - 1), 30).isSubTotalRowCol = true;
   }
 }
 
@@ -53221,7 +53378,7 @@ function $addRowForHeaderNames(this$static, rowList, colList, rowIndexMap, level
     }
     cell = new TCell_0(rowHeaderName);
     $addItem_2(row, cell, true, $size(row.cells_0));
-    column = castTo(colList.get_1(colIndex++), 37);
+    column = castTo(colList.get_1(colIndex++), 30);
     cell.column = column;
     $put_0(column.cells_0, valueOf(rowIndex), cell);
   }
@@ -53253,8 +53410,8 @@ function $addTotalValuesToTable(dataGrid, properties, rowList, colList, colIndex
       rowComboIndex = $getRowCombinationIndexForTotalRow(dataRow, rowIndexMap, rowIndexes, properties.pivotRows.array.length).value_0;
       colComboIndex = $getColumnCombinaitonIndexForTotalRow(dataRow, colIndexMap, colIndexes, properties.pivotColumns.array.length, castToString($get_2(properties.pivotValues, valueIndex))).value_0;
       if (rowComboIndex >= 0 && colComboIndex >= 0) {
-        row = (checkCriticalElementIndex(rowComboIndex, rowList.array.length) , castTo(rowList.array[rowComboIndex], 37));
-        column = (checkCriticalElementIndex(colComboIndex, colList.array.length) , castTo(colList.array[colComboIndex], 37));
+        row = (checkCriticalElementIndex(rowComboIndex, rowList.array.length) , castTo(rowList.array[rowComboIndex], 30));
+        column = (checkCriticalElementIndex(colComboIndex, colList.array.length) , castTo(colList.array[colComboIndex], 30));
         cell.row = row;
         $put_0(row.cells_0, valueOf(colComboIndex), cell);
         cell.column = column;
@@ -53279,8 +53436,8 @@ function $addValuesToTable(dataGrid, properties, rowList, colList, colIndexMap, 
       rowComboIndex = $getRowCombinationIndex(dataRow, rowIndexMap, rowIndexes, colIndexes).value_0;
       colComboIndex = $getColumnCombinaitonIndex(dataRow, colIndexMap, colIndexes, castToString($get_2(properties.pivotValues, valueIndex))).value_0;
       if (rowComboIndex >= 0 && colComboIndex >= 0) {
-        row = (checkCriticalElementIndex(rowComboIndex, rowList.array.length) , castTo(rowList.array[rowComboIndex], 37));
-        column = (checkCriticalElementIndex(colComboIndex, colList.array.length) , castTo(colList.array[colComboIndex], 37));
+        row = (checkCriticalElementIndex(rowComboIndex, rowList.array.length) , castTo(rowList.array[rowComboIndex], 30));
+        column = (checkCriticalElementIndex(colComboIndex, colList.array.length) , castTo(colList.array[colComboIndex], 30));
         $setParentName_0(column, castToString($get_2(properties.pivotValues, valueIndex)));
         cell.row = row;
         $put_0(row.cells_0, valueOf(colComboIndex), cell);
@@ -53316,7 +53473,7 @@ function $checkCellMatch(tRowCol, tCell, index_0){
 function $checkEmptyBelow(this$static, rowIndex, colIndex){
   var next;
   if (this$static.tableGrid.rows_0.array.length > rowIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30);
     return $checkCellEmpty(next, colIndex);
   }
   return false;
@@ -53325,7 +53482,7 @@ function $checkEmptyBelow(this$static, rowIndex, colIndex){
 function $checkEmptyRight(this$static, rowIndex, colIndex){
   var next;
   if (this$static.tableGrid.cols_0.array.length > colIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30);
     return $checkCellEmpty(next, rowIndex);
   }
   return false;
@@ -53334,7 +53491,7 @@ function $checkEmptyRight(this$static, rowIndex, colIndex){
 function $checkHeaderBelow(this$static, rowIndex){
   var next;
   if (this$static.tableGrid.rows_0.array.length > rowIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30);
     if (!!next && next.isHeaderRowCol)
       return true;
   }
@@ -53344,7 +53501,7 @@ function $checkHeaderBelow(this$static, rowIndex){
 function $checkHeaderRight(this$static, colIndex){
   var next;
   if (this$static.tableGrid.cols_0.array.length > colIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30);
     if (!!next && next.isHeaderRowCol)
       return true;
   }
@@ -53354,7 +53511,7 @@ function $checkHeaderRight(this$static, colIndex){
 function $checkMatchBelow(this$static, tCell, rowIndex, colIndex){
   var next;
   if (this$static.tableGrid.rows_0.array.length > rowIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30);
     return $checkCellMatch(next, tCell, colIndex);
   }
   return false;
@@ -53363,7 +53520,7 @@ function $checkMatchBelow(this$static, tCell, rowIndex, colIndex){
 function $checkMatchToRight(this$static, tCell, rowIndex, colIndex){
   var next;
   if (this$static.tableGrid.cols_0.array.length > colIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30);
     return $checkCellMatch(next, tCell, rowIndex);
   }
   return false;
@@ -53372,7 +53529,7 @@ function $checkMatchToRight(this$static, tCell, rowIndex, colIndex){
 function $checkSubtotalBelow(this$static, rowIndex){
   var next;
   if (this$static.tableGrid.rows_0.array.length > rowIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30);
     if (!!next && next.isSubTotalRowCol)
       return true;
   }
@@ -53382,7 +53539,7 @@ function $checkSubtotalBelow(this$static, rowIndex){
 function $checkSubtotalRight(this$static, colIndex){
   var next;
   if (this$static.tableGrid.cols_0.array.length > colIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30);
     if (!!next && next.isSubTotalRowCol)
       return true;
   }
@@ -53392,7 +53549,7 @@ function $checkSubtotalRight(this$static, colIndex){
 function $checkTotalRight(this$static, colIndex){
   var next;
   if (this$static.tableGrid.cols_0.array.length > colIndex + 1) {
-    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 37);
+    next = castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30);
     if (!!next && next.isTotalRowCol)
       return true;
   }
@@ -53469,7 +53626,7 @@ function $createTableGridFromPivotData(this$static){
     comboNameList = new ArrayList;
     comboNameList.array[comboNameList.array.length] = 'GRAND TOTAL';
     $addRowForHeaderNames(this$static, rowList, colList, rowIndexMap, totalList, comboNameList);
-    castTo($get_2(rowList, rowList.array.length - 1), 37).isTotalRowCol = true;
+    castTo($get_2(rowList, rowList.array.length - 1), 30).isTotalRowCol = true;
   }
   colLevelNames = new ArrayList;
   sortedValueNames = new ArrayList_1(properties.pivotValues);
@@ -53486,7 +53643,7 @@ function $createTableGridFromPivotData(this$static){
       comboNameList = new ArrayList;
       comboNameList.array[comboNameList.array.length] = valueName;
       $addColumnForHeaderNames(this$static, rowList, colList, colIndexMap, totalList, comboNameList);
-      castTo($get_2(colList, colList.array.length - 1), 37).isTotalRowCol = true;
+      castTo($get_2(colList, colList.array.length - 1), 30).isTotalRowCol = true;
     }
   }
   $addValuesToTable(this$static.data_0, properties, rowList, colList, colIndexMap, rowIndexMap);
@@ -53704,12 +53861,52 @@ function $processSingleChartOption(this$static, key){
   }
 }
 
+function $setColOfHeaderRowToHoverState(this$static, tCell, left, right){
+  var cellAbove, col, colIndex, previous, previous0, row, rowIndex;
+  if (!tCell)
+    return;
+  row = tCell.row;
+  col = tCell.column;
+  rowIndex = row.curIndex;
+  colIndex = col.curIndex;
+  col.drawHoverState = true;
+  if (rowIndex == 0) {
+    left && colIndex > 0 && (previous = castTo($get_2(this$static.tableGrid.cols_0, colIndex - 1), 30) , $checkCellMatch(previous, tCell, 0)) && $setColOfHeaderRowToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.cols_0, colIndex - 1), 30), valueOf(0)), true, false);
+    right && $checkMatchToRight(this$static, tCell, 0, colIndex) && $setColOfHeaderRowToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30), valueOf(0)), false, true);
+  }
+   else {
+    cellAbove = $getCellByIndex(col, valueOf(rowIndex - 1));
+    left && colIndex > 0 && (previous0 = castTo($get_2(this$static.tableGrid.cols_0, colIndex - 1), 30) , $checkCellMatch(previous0, tCell, rowIndex)) && (!cellAbove || (previous = castTo($get_2(this$static.tableGrid.cols_0, colIndex - 1), 30) , $checkCellMatch(previous, cellAbove, rowIndex - 1))) && $setColOfHeaderRowToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.cols_0, colIndex - 1), 30), valueOf(rowIndex)), true, false);
+    right && $checkMatchToRight(this$static, tCell, rowIndex, colIndex) && (!cellAbove || $checkMatchToRight(this$static, cellAbove, rowIndex - 1, colIndex)) && $setColOfHeaderRowToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.cols_0, colIndex + 1), 30), valueOf(rowIndex)), false, true);
+  }
+}
+
+function $setRowOfHeaderColToHoverState(this$static, tCell, up, down){
+  var cellToLeft, col, colIndex, previous, previous0, row, rowIndex;
+  if (!tCell)
+    return;
+  row = tCell.row;
+  col = tCell.column;
+  rowIndex = row.curIndex;
+  colIndex = col.curIndex;
+  row.drawHoverState = true;
+  if (colIndex == 0) {
+    up && rowIndex > 0 && (previous = castTo($get_2(this$static.tableGrid.rows_0, rowIndex - 1), 30) , $checkCellMatch(previous, tCell, 0)) && $setRowOfHeaderColToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.rows_0, rowIndex - 1), 30), valueOf(0)), true, false);
+    down && $checkMatchBelow(this$static, tCell, rowIndex, 0) && $setRowOfHeaderColToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30), valueOf(0)), false, true);
+  }
+   else {
+    cellToLeft = $getCellByIndex(row, valueOf(colIndex - 1));
+    up && rowIndex > 0 && (previous0 = castTo($get_2(this$static.tableGrid.rows_0, rowIndex - 1), 30) , $checkCellMatch(previous0, tCell, colIndex)) && (!cellToLeft || (previous = castTo($get_2(this$static.tableGrid.rows_0, rowIndex - 1), 30) , $checkCellMatch(previous, cellToLeft, colIndex - 1))) && $setRowOfHeaderColToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.rows_0, rowIndex - 1), 30), valueOf(colIndex)), true, false);
+    down && $checkMatchBelow(this$static, tCell, rowIndex, colIndex) && (!cellToLeft || $checkMatchBelow(this$static, cellToLeft, rowIndex, colIndex - 1)) && $setRowOfHeaderColToHoverState(this$static, $getCellByIndex(castTo($get_2(this$static.tableGrid.rows_0, rowIndex + 1), 30), valueOf(colIndex)), false, true);
+  }
+}
+
 function PivotTableCSR(theChart, name_0, type_0){
   $clinit_TableCSR();
   TableCSR.call(this, theChart, name_0, type_0);
 }
 
-defineClass(339, 236, $intern_35, PivotTableCSR);
+defineClass(340, 236, $intern_35, PivotTableCSR);
 _.format_0 = function format_32(rnd){
   var e;
   this.conditionalFormats = this.chart.conditionalFormats;
@@ -53793,12 +53990,12 @@ _.getTableCellBorder = function getTableCellBorder_0(tCell){
       if (value_0 == null || value_0.length == 0)
         return null;
     }
-    if (!castTo($get_2(this.tableGrid.rows_0, rowIndex + 1), 37).isHeaderRowCol) {
-      rowIndex > 0 && (previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 37) , $checkCellEmpty(previous, colIndex) && (result.top_0 = false));
+    if (!castTo($get_2(this.tableGrid.rows_0, rowIndex + 1), 30).isHeaderRowCol) {
+      rowIndex > 0 && (previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 30) , $checkCellEmpty(previous, colIndex) && (result.top_0 = false));
       return result;
     }
     if (colIndex > 0) {
-      previous = castTo($get_2(this.tableGrid.cols_0, colIndex - 1), 37);
+      previous = castTo($get_2(this.tableGrid.cols_0, colIndex - 1), 30);
       if ($checkCellMatch(previous, tCell, rowIndex)) {
         result.left_0 = false;
         $checkHeaderBelow(this, rowIndex) && (result.bottom = false);
@@ -53816,7 +54013,7 @@ _.getTableCellBorder = function getTableCellBorder_0(tCell){
   }
    else if (col.isHeaderRowCol) {
     if (rowIndex > 0) {
-      previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 37);
+      previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 30);
       if ($checkCellMatch(previous, tCell, colIndex)) {
         result.top_0 = false;
         $checkHeaderRight(this, colIndex) && (result.right = false);
@@ -53858,6 +54055,10 @@ _.setData = function setData_34(dataGrid){
   $setNeedsFormat_1(this, true);
 }
 ;
+_.setHoverRowsAndColsForHoverCell = function setHoverRowsAndColsForHoverCell_0(){
+  !!this.hoverCell && !!this.hoverCell.row && !!this.hoverCell.column?this.hoverCell.row.isHeaderRowCol?$setColOfHeaderRowToHoverState(this, this.hoverCell, true, true):this.hoverCell.column.isHeaderRowCol?$setRowOfHeaderColToHoverState(this, this.hoverCell, true, true):$setHoverRowsAndColsForHoverCell(this):$setHoverRowsAndColsForHoverCell(this);
+}
+;
 _.shouldDrawCellText = function shouldDrawCellText_0(tCell){
   var col, colIndex, previous, row, rowIndex;
   row = tCell.row;
@@ -53865,17 +54066,17 @@ _.shouldDrawCellText = function shouldDrawCellText_0(tCell){
   rowIndex = row.curIndex;
   colIndex = col.curIndex;
   if (row.isHeaderRowCol) {
-    if (!castTo($get_2(this.tableGrid.rows_0, rowIndex + 1), 37).isHeaderRowCol)
+    if (!castTo($get_2(this.tableGrid.rows_0, rowIndex + 1), 30).isHeaderRowCol)
       return true;
     if (colIndex > 0) {
-      previous = castTo($get_2(this.tableGrid.cols_0, colIndex - 1), 37);
+      previous = castTo($get_2(this.tableGrid.cols_0, colIndex - 1), 30);
       if ($checkCellMatch(previous, tCell, rowIndex))
         return false;
     }
   }
    else if (col.isHeaderRowCol) {
     if (rowIndex > 0) {
-      previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 37);
+      previous = castTo($get_2(this.tableGrid.rows_0, rowIndex - 1), 30);
       if ($checkCellMatch(previous, tCell, colIndex))
         return false;
     }
@@ -53906,7 +54107,7 @@ _.updateWithDefinition = function updateWithDefinition_3(compDef, datasourceMap,
 _.pivotCreated = false;
 _.showSubTotals = false;
 _.showTotals = false;
-var Lcom_domo_charting_graphs_PivotTableCSR_2_classLit = createForClass('com.domo.charting.graphs', 'PivotTableCSR', 339);
+var Lcom_domo_charting_graphs_PivotTableCSR_2_classLit = createForClass('com.domo.charting.graphs', 'PivotTableCSR', 340);
 function $adjustColumnExtraHorizontalPadding(this$static, currentWidth, targetWidth, maxCols){
   var col, colIndex, perColumn, totalAdded, visColCount;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
@@ -53915,7 +54116,7 @@ function $adjustColumnExtraHorizontalPadding(this$static, currentWidth, targetWi
     visColCount = 0;
     colIndex = 0;
     while (visColCount < maxCols && colIndex < this$static.cols_0.array.length) {
-      col = castTo($get_2(this$static.cols_0, colIndex++), 37);
+      col = castTo($get_2(this$static.cols_0, colIndex++), 30);
       if (col.hidden || col.isHeaderRowCol)
         continue;
       visColCount == maxCols - 1 && (perColumn = targetWidth - currentWidth - totalAdded);
@@ -53930,7 +54131,7 @@ function $alignColumnsForColumnsOfNumbers(this$static){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       $alignCellsInColumn(col);
     }
   }
@@ -53940,7 +54141,7 @@ function $applyAllowWrap_0(this$static){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       $applyWrapping(col);
     }
   }
@@ -53951,7 +54152,7 @@ function $applyAlternatingRowColors(this$static, alternateColor){
   if (!!this$static.rows_0 && this$static.rows_0.array.length > 0) {
     rowNum = 0;
     for (row$iterator = new ArrayList$1(this$static.rows_0); row$iterator.i < row$iterator.this$01.array.length;) {
-      row = castTo($next_3(row$iterator), 37);
+      row = castTo($next_3(row$iterator), 30);
       rowNum++ % 2 == 1 && $applyFillColorToCellsIfNotSet(row, alternateColor);
     }
   }
@@ -53962,7 +54163,7 @@ function $applyColorRanges(this$static, rangeByColumn, useLogScale){
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     rangeByColumn || $calcOverallRange(this$static, useLogScale);
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.isNumeric && $applyColorRanges_0(col);
     }
   }
@@ -53971,7 +54172,7 @@ function $applyColorRanges(this$static, rangeByColumn, useLogScale){
 function $applyColumnAlignment_0(this$static, columnIndex, alignment){
   var col;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > columnIndex) {
-    col = castTo($get_2(this$static.cols_0, columnIndex), 37);
+    col = castTo($get_2(this$static.cols_0, columnIndex), 30);
     $applyAlignmentToAllCells(col, alignment);
   }
 }
@@ -53980,7 +54181,7 @@ function $applyColumnAttributes(this$static, columnFormats){
   var align_0, bgColor, col, col$iterator, colformat, fill, style, text_0, textColor;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       colformat = null;
       !!columnFormats && (colformat = castTo($get_4(columnFormats, col.originalName), 68));
       !colformat && (colformat = col.columnFormat);
@@ -54006,7 +54207,7 @@ function $applyColumnFormats(this$static, columnFormats){
   var col, col$iterator, colformat, theNumberFormatter;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       colformat = null;
       !!columnFormats && (colformat = castTo($get_4(columnFormats, col.originalName), 68));
       !colformat && (colformat = col.columnFormat);
@@ -54024,7 +54225,7 @@ function $applyColumnFormats(this$static, columnFormats){
 function $applyColumnTextStyle_0(this$static, columnIndex, style){
   var col;
   if (!!this$static.cols_0 && this$static.cols_0.array.length >= columnIndex && columnIndex > 0) {
-    col = castTo($get_2(this$static.cols_0, columnIndex - 1), 37);
+    col = castTo($get_2(this$static.cols_0, columnIndex - 1), 30);
     $applyTextStyleToAllCells(col, style);
   }
 }
@@ -54034,11 +54235,11 @@ function $applyColumnWidths(this$static, columnWidths){
   if (columnWidths != null && !!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     widths = $split(columnWidths, ',', 0);
     for (i0 = 0; i0 < widths.length; i0++) {
-      i0 >= 0 && i0 < this$static.cols_0.array.length && $applyWidth((castTo($get_2(this$static.cols_0, i0), 37) , widths[i0]));
+      i0 >= 0 && i0 < this$static.cols_0.array.length && $applyWidth((castTo($get_2(this$static.cols_0, i0), 30) , widths[i0]));
     }
     if (widths.length < this$static.cols_0.array.length) {
       for (i = widths.length; i < this$static.cols_0.array.length; i++)
-        $applyWidth((castTo($get_2(this$static.cols_0, i), 37) , '10'));
+        $applyWidth((castTo($get_2(this$static.cols_0, i), 30) , '10'));
     }
   }
 }
@@ -54047,7 +54248,7 @@ function $applyFontColor_0(this$static, textColor){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.textColor = textColor;
       $setCellsTextColor(col, textColor);
     }
@@ -54058,7 +54259,7 @@ function $applyHeaderColumnAlignment_0(this$static, alignment){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.hAlign = alignment;
     }
   }
@@ -54068,7 +54269,7 @@ function $applyHeaderTextStyle_0(this$static, style){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.style_0 = style;
     }
   }
@@ -54080,7 +54281,7 @@ function $applyHiddenColumns(this$static, hiddenColumns){
     columns = $split(hiddenColumns, ',', 0);
     for (i = 0; i < columns.length; i++) {
       hideColumn = getInt(columns[i], -1);
-      hideColumn >= 1 && hideColumn < this$static.cols_0.array.length + 1 && (castTo($get_2(this$static.cols_0, hideColumn - 1), 37).hidden = true);
+      hideColumn >= 1 && hideColumn < this$static.cols_0.array.length + 1 && (castTo($get_2(this$static.cols_0, hideColumn - 1), 30).hidden = true);
     }
   }
 }
@@ -54089,7 +54290,7 @@ function $applyUseLogScale_0(this$static, useLog){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.useLogScale = useLog;
     }
   }
@@ -54103,7 +54304,7 @@ function $calcOverallRange(this$static, useLogScale){
     min_0 = NaN;
     max_0 = NaN;
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       colMin = $getMinValue_0(col);
       colMax = $getMaxValue_0(col);
       (isNaN_0((checkCriticalNotNull(min_0) , min_0)) || !isNaN(colMin) && colMin < (checkCriticalNotNull(min_0) , min_0)) && (min_0 = colMin);
@@ -54119,7 +54320,7 @@ function $calcOverallRangeLog(this$static){
     min_0 = NaN;
     max_0 = NaN;
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       colMin = $getMinValueNonNegative_0(col);
       colMax = $getMaxValue_0(col);
       (isNaN_0((checkCriticalNotNull(min_0) , min_0)) || !isNaN(colMin) && colMin < (checkCriticalNotNull(min_0) , min_0)) && (min_0 = colMin);
@@ -54137,7 +54338,7 @@ function $calculateOverallColumnWidth(this$static, maxCols){
     visColCount = 0;
     colIndex = 0;
     while (visColCount < maxCols && colIndex < this$static.cols_0.array.length) {
-      col = castTo($get_2(this$static.cols_0, colIndex++), 37);
+      col = castTo($get_2(this$static.cols_0, colIndex++), 30);
       if (col.hidden)
         continue;
       total += col.colWidth + col.table.leftCellPadding + col.table.rightCellPadding + col.extraHorizontalPadding;
@@ -54146,6 +54347,22 @@ function $calculateOverallColumnWidth(this$static, maxCols){
   }
   total += 1;
   return total;
+}
+
+function $clearHover(this$static){
+  var col, col$iterator, row, row$iterator;
+  if (this$static.rows_0) {
+    for (row$iterator = new ArrayList$1(this$static.rows_0); row$iterator.i < row$iterator.this$01.array.length;) {
+      row = castTo($next_3(row$iterator), 30);
+      row.drawHoverState = false;
+    }
+  }
+  if (this$static.cols_0) {
+    for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
+      col = castTo($next_3(col$iterator), 30);
+      col.drawHoverState = false;
+    }
+  }
 }
 
 function $createDrawArraysForCurrentView(this$static, rnd, viewPortX, viewPortY, maxCols){
@@ -54164,7 +54381,7 @@ function $drawBodyInViewPort(this$static, rnd, viewPortX, viewPortY, maxCols){
     endPos = viewRect.y_0 + viewRect.height_0;
     rowIndex = $getStartingRowIndexForCurrentView(this$static, viewPortY);
     for (; rowIndex < this$static.rows_0.array.length; rowIndex++) {
-      row = castTo($get_2(this$static.rows_0, rowIndex), 37);
+      row = castTo($get_2(this$static.rows_0, rowIndex), 30);
       $createDrawObjects_3(row, rnd, viewPortX, yPos, this$static, this$static.table, maxCols, viewRect.width_0);
       yPos += row.rowHeight + row.table.topCellPadding + row.table.bottomCellPadding;
       if (yPos > endPos)
@@ -54215,7 +54432,7 @@ function $formatCellsInCurrentView(this$static, rnd, maxColsToDisplay, viewPortY
   startingRowIndex = this$static.getFirstTableRow();
   if (!!this$static.rows_0 && this$static.rows_0.array.length > 0) {
     for (rowIndex = startingRowIndex; rowIndex < this$static.rows_0.array.length; rowIndex++) {
-      row = castTo($get_2(this$static.rows_0, rowIndex), 37);
+      row = castTo($get_2(this$static.rows_0, rowIndex), 30);
       if (row) {
         $formatIfNeeded_0(row, rnd);
         yPos += row.rowHeight + row.table.topCellPadding + row.table.bottomCellPadding;
@@ -54235,7 +54452,7 @@ function $formatHeaderCols(this$static, rnd){
     this$static.headerColWidth = 0;
     if (this$static.numHeaderCols > 0 && !!this$static.rows_0 && this$static.rows_0.array.length > 0) {
       for (colIndex = 0; colIndex < this$static.numHeaderCols; colIndex++) {
-        tRowCol = castTo($get_2(this$static.cols_0, colIndex), 37);
+        tRowCol = castTo($get_2(this$static.cols_0, colIndex), 30);
         $formatIfNeeded_0(tRowCol, rnd);
         this$static.headerColWidth += tRowCol.colWidth + tRowCol.table.leftCellPadding + tRowCol.table.rightCellPadding + tRowCol.extraHorizontalPadding;
       }
@@ -54251,7 +54468,7 @@ function $formatHeaderRow(this$static, rnd){
     if (this$static.numHeaderRows > 0) {
       this$static.headerRowHeight = 0;
       for (rowIndex = 0; rowIndex < this$static.numHeaderRows; rowIndex++) {
-        tRowCol = castTo($get_2(this$static.rows_0, rowIndex), 37);
+        tRowCol = castTo($get_2(this$static.rows_0, rowIndex), 30);
         if (tRowCol) {
           $formatIfNeeded_0(tRowCol, rnd);
           this$static.headerRowHeight += tRowCol.rowHeight + tRowCol.table.topCellPadding + tRowCol.table.bottomCellPadding;
@@ -54261,7 +54478,7 @@ function $formatHeaderRow(this$static, rnd){
      else {
       if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
         for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-          col = castTo($next_3(col$iterator), 37);
+          col = castTo($next_3(col$iterator), 30);
           dim = $formatNameIfNeeded(col, rnd, this$static.table);
           dim.height_0 > this$static.headerRowHeight && (this$static.headerRowHeight = dim.height_0);
         }
@@ -54276,14 +54493,14 @@ function $freeResources_23(this$static){
   var col, col$iterator, row, row$iterator;
   if (this$static.rows_0) {
     for (row$iterator = new ArrayList$1(this$static.rows_0); row$iterator.i < row$iterator.this$01.array.length;) {
-      row = castTo($next_3(row$iterator), 37);
+      row = castTo($next_3(row$iterator), 30);
       $freeResources_29(row);
     }
     this$static.rows_0.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1);
   }
   if (this$static.cols_0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       $freeResources_29(col);
     }
     this$static.cols_0.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1);
@@ -54297,7 +54514,7 @@ function $getColumnByOriginalName_0(this$static, column){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       if (col.originalName != null && $equals_2(col.originalName, column))
         return col;
     }
@@ -54314,7 +54531,7 @@ function $getColumnFormatOptionAsString(columnFormat, key){
 function $getFirstRowHeight(this$static){
   var result;
   result = 0;
-  !!this$static.rows_0 && this$static.rows_0.array.length > 0 && (result = $getRowDisplayHeight_0(castTo($get_2(this$static.rows_0, 0), 37)));
+  !!this$static.rows_0 && this$static.rows_0.array.length > 0 && (result = $getRowDisplayHeight_0(castTo($get_2(this$static.rows_0, 0), 30)));
   return result;
 }
 
@@ -54323,7 +54540,7 @@ function $getNumVisibleCols_0(this$static){
   count = 0;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       !!col && !col.hidden && ++count;
     }
   }
@@ -54337,7 +54554,7 @@ function $getStartingRowIndexForCurrentView(this$static, viewPortY){
   rowIndex = startingRowIndex;
   if (viewPortY > 0) {
     for (rowIndex = startingRowIndex; rowIndex < this$static.rows_0.array.length; rowIndex++) {
-      row = castTo($get_2(this$static.rows_0, rowIndex), 37);
+      row = castTo($get_2(this$static.rows_0, rowIndex), 30);
       rowHeight = row.rowHeight + row.table.topCellPadding + row.table.bottomCellPadding;
       if (curRowPosition + rowHeight > viewPortY)
         break;
@@ -54357,7 +54574,7 @@ function $getTableDimensions(this$static, rnd, maxCols){
     firstRowHeight = 0;
     startingRowIndex = this$static.getFirstTableRow();
     for (rowIndex = startingRowIndex; rowIndex < this$static.rows_0.array.length; rowIndex++) {
-      row = castTo($get_2(this$static.rows_0, rowIndex), 37);
+      row = castTo($get_2(this$static.rows_0, rowIndex), 30);
       if (row) {
         if (firstRowHeight == 0) {
           $formatIfNeeded_0(row, rnd);
@@ -54378,7 +54595,7 @@ function $layoutCells(this$static){
   var row, row$iterator;
   if (!!this$static.rows_0 && this$static.rows_0.array.length > 0) {
     for (row$iterator = new ArrayList$1(this$static.rows_0); row$iterator.i < row$iterator.this$01.array.length;) {
-      row = castTo($next_3(row$iterator), 37);
+      row = castTo($next_3(row$iterator), 30);
       $setValueStrFromValueForAllCells(row);
     }
   }
@@ -54388,7 +54605,7 @@ function $resetOverallColumnWidthsToMinimum(this$static, maxCols){
   var col, col$iterator;
   if (!!this$static.cols_0 && this$static.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       col.extraHorizontalPadding = 0;
     }
   }
@@ -54411,7 +54628,7 @@ function $setIndices(tRowCols){
   index_0 = 0;
   if (tRowCols.array.length > 0) {
     for (tRowCol$iterator = new ArrayList$1(tRowCols); tRowCol$iterator.i < tRowCol$iterator.this$01.array.length;) {
-      tRowCol = castTo($next_3(tRowCol$iterator), 37);
+      tRowCol = castTo($next_3(tRowCol$iterator), 30);
       $setCurIndex_0(tRowCol, index_0++);
     }
   }
@@ -54428,7 +54645,7 @@ function $setNumHeaderRows(this$static, numHeaderRows){
 function $setRangesForEachColumn(this$static, min_0, max_0){
   var col, col$iterator;
   for (col$iterator = new ArrayList$1(this$static.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-    col = castTo($next_3(col$iterator), 37);
+    col = castTo($next_3(col$iterator), 30);
     col.rangeMin = min_0;
     col.rangeMax = max_0;
   }
@@ -54464,7 +54681,7 @@ function TableGrid(theDataGrid, tableCSR){
         for (i = 0; i < numCols; i++) {
           cell = $getCellByCellIndex(row, i);
           cell?(tCell = new TCell(cell)):(tCell = new TCell_0(''));
-          $addItem_1((checkCriticalElementIndex(i, colList.array.length) , castTo(colList.array[i], 37)), tCell);
+          $addItem_1((checkCriticalElementIndex(i, colList.array.length) , castTo(colList.array[i], 30)), tCell);
           $addItem_2(tRow, tCell, true, $size(tRow.cells_0));
         }
         rowList.array[rowList.array.length] = tRow;
@@ -54491,7 +54708,7 @@ _.applyHeaderColors = function applyHeaderColors(headerRowColor, headerRowTextCo
   var col, col$iterator;
   if (!!this.cols_0 && this.cols_0.array.length > 0) {
     for (col$iterator = new ArrayList$1(this.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       $applyColorsToColumn(col, headerRowColor, headerRowTextColor);
     }
   }
@@ -54505,7 +54722,7 @@ _.drawHeaderRows = function drawHeaderRows(rnd, xPos, yPos, maxCols){
   if (!!this.cols_0 && this.cols_0.array.length > 0) {
     visibleCount = 0;
     for (col$iterator = new ArrayList$1(this.cols_0); col$iterator.i < col$iterator.this$01.array.length;) {
-      col = castTo($next_3(col$iterator), 37);
+      col = castTo($next_3(col$iterator), 30);
       if (col.hidden)
         continue;
       $createDrawObjectForName(col, rnd, xPos, yPos, this.headerRowHeight, this.table);
@@ -54534,7 +54751,7 @@ function PivotTableGrid(theRows, theCols){
   $setIndices(theCols);
 }
 
-defineClass(359, 242, {}, PivotTableGrid);
+defineClass(360, 242, {}, PivotTableGrid);
 _.applyConditionalFormats = function applyConditionalFormats_0(conditionalFormats){
   var colMatchFound, colMatchName, format, format$iterator, index_0, index0, tRowCol;
   if (!conditionalFormats || conditionalFormats.array.length == 0)
@@ -54545,7 +54762,7 @@ _.applyConditionalFormats = function applyConditionalFormats_0(conditionalFormat
     if (colMatchName != null && colMatchName.length > 0) {
       colMatchFound = false;
       for (index0 = 0; index0 < this.numHeaderRows; index0++) {
-        tRowCol = castTo($get_2(this.rows_0, index0), 37);
+        tRowCol = castTo($get_2(this.rows_0, index0), 30);
         if ($equals_2(colMatchName, tRowCol.parentName)) {
           $applyConditionalFormat(tRowCol, format, false, checkNotNull(format.applyToRow), false);
           colMatchFound = true;
@@ -54554,7 +54771,7 @@ _.applyConditionalFormats = function applyConditionalFormats_0(conditionalFormat
       }
       if (!colMatchFound) {
         for (index_0 = 0; index_0 < this.numHeaderCols; index_0++) {
-          tRowCol = castTo($get_2(this.cols_0, index_0), 37);
+          tRowCol = castTo($get_2(this.cols_0, index_0), 30);
           if ($equals_2(colMatchName, tRowCol.parentName)) {
             $applyConditionalFormat(tRowCol, format, checkNotNull(format.applyToRow), false, false);
             colMatchFound = true;
@@ -54564,7 +54781,7 @@ _.applyConditionalFormats = function applyConditionalFormats_0(conditionalFormat
       }
       if (!colMatchFound) {
         for (index_0 = this.numHeaderCols; index_0 < this.cols_0.array.length; index_0++) {
-          tRowCol = castTo($get_2(this.cols_0, index_0), 37);
+          tRowCol = castTo($get_2(this.cols_0, index_0), 30);
           $equals_2(colMatchName, tRowCol.parentName) && $applyConditionalFormat(tRowCol, format, false, false, true);
         }
       }
@@ -54576,11 +54793,11 @@ _.applyHeaderColors = function applyHeaderColors_0(headerRowColor, headerRowText
   var col, colIndex, row, rowIndex;
   if (!!this.rows_0 && this.rows_0.array.length > 0) {
     for (rowIndex = 0; rowIndex < this.numHeaderRows; rowIndex++) {
-      row = castTo($get_2(this.rows_0, rowIndex), 37);
+      row = castTo($get_2(this.rows_0, rowIndex), 30);
       $applyColorsToCells(row, headerRowColor, headerRowTextColor);
     }
     for (colIndex = 0; colIndex < this.numHeaderCols; colIndex++) {
-      col = castTo($get_2(this.cols_0, colIndex), 37);
+      col = castTo($get_2(this.cols_0, colIndex), 30);
       $applyColorsToCells(col, headerRowColor, headerRowTextColor);
     }
   }
@@ -54596,7 +54813,7 @@ _.drawHeaderCols = function drawHeaderCols_0(rnd, viewPortY){
     $setClipRect(this, clipRect);
     rowIndex = $getStartingRowIndexForCurrentView(this, viewPortY);
     for (; rowIndex < this.rows_0.array.length; rowIndex++) {
-      tRowCol = castTo($get_2(this.rows_0, rowIndex), 37);
+      tRowCol = castTo($get_2(this.rows_0, rowIndex), 30);
       if (tRowCol) {
         $createDrawObjects_3(tRowCol, rnd, 0, yPos, this, this.table, this.numHeaderCols, viewRect.width_0);
         yPos += tRowCol.rowHeight + tRowCol.table.topCellPadding + tRowCol.table.bottomCellPadding;
@@ -54616,7 +54833,7 @@ _.drawHeaderRows = function drawHeaderRows_0(rnd, xPos, yPos, maxCols){
     $setClipRect(this, clipRect);
   }
   for (rowIndex = 0; rowIndex < this.numHeaderRows; rowIndex++) {
-    tRowCol = castTo($get_2(this.rows_0, rowIndex), 37);
+    tRowCol = castTo($get_2(this.rows_0, rowIndex), 30);
     if (tRowCol) {
       $createDrawObjects_3(tRowCol, rnd, xPos, yPos, this, this.table, maxCols, viewRect.width_0);
       yPos += tRowCol.rowHeight + tRowCol.table.topCellPadding + tRowCol.table.bottomCellPadding;
@@ -54629,7 +54846,7 @@ _.getFirstTableRow = function getFirstTableRow_0(){
   return this.numHeaderRows;
 }
 ;
-var Lcom_domo_charting_graphs_PivotTableGrid_2_classLit = createForClass('com.domo.charting.graphs', 'PivotTableGrid', 359);
+var Lcom_domo_charting_graphs_PivotTableGrid_2_classLit = createForClass('com.domo.charting.graphs', 'PivotTableGrid', 360);
 function $addLabel(this$static, rnd, name_0){
   var ti;
   if (!!rnd && name_0 != null) {
@@ -54799,8 +55016,13 @@ function $setDrawInfo(this$static, drawPoint, hoverPosition, graph){
   projValStr = $formatNumber_1(graph.hoverNumberFormatter, projValue) + ' ' + getString('PROJECTED', graph.chart.locale);
   diffStr = $formatNumber_1(graph.hoverNumberFormatter, diff) + ' ' + getString('DIFFERENCE', graph.chart.locale);
   diff > 0 && (diffStr = '+' + diffStr);
-  this$static.hoverText = actValStr + '\n' + diffStr + '\n' + projValStr;
-  diff < 0 && (this$static.hoverText = projValStr + '\n' + diffStr + '\n' + actValStr);
+  if (!!this$static.cell && this$static.cell.projectedIsActual) {
+    this$static.hoverText = actValStr;
+  }
+   else {
+    this$static.hoverText = actValStr + '\n' + diffStr + '\n' + projValStr;
+    diff < 0 && (this$static.hoverText = projValStr + '\n' + diffStr + '\n' + actValStr);
+  }
 }
 
 function ProjectionInfo(actualValue, projectedValue, valPoint, cell){
@@ -54878,8 +55100,8 @@ function $adjustDataLabelFontSizeIfNeeded(this$static){
   var categoryScale, labelFontSize;
   if (this$static.isHorizontal) {
     categoryScale = $getCategoryScale(this$static);
-    if (!!categoryScale && instanceOf(categoryScale, 35)) {
-      labelFontSize = $getCurrentLabelFontSize(castTo(categoryScale, 35));
+    if (!!categoryScale && instanceOf(categoryScale, 36)) {
+      labelFontSize = $getCurrentLabelFontSize(castTo(categoryScale, 36));
       labelFontSize > 0 && !!this$static.dataLabel && !!this$static.dataLabel.font_0 && labelFontSize < this$static.dataLabel.font_0.size_0 && $setSize_0(this$static.dataLabel.font_0, labelFontSize);
     }
   }
@@ -55329,8 +55551,8 @@ function $getScaleForHvrDataStr(this$static, hvrDataStr){
 function $getScrollableHeightForChartWithDataTable(this$static, rnd, currentHeight){
   var scale, tableHeight;
   scale = $getScaleByPosition(this$static, 1);
-  if (instanceOf(scale, 35)) {
-    tableHeight = $getTableHeight(castTo(scale, 35), rnd, true);
+  if (instanceOf(scale, 36)) {
+    tableHeight = $getTableHeight(castTo(scale, 36), rnd, true);
     if (tableHeight > currentHeight * 0.3) {
       return round_int(currentHeight * 0.85 + tableHeight);
     }
@@ -55474,7 +55696,7 @@ function $getYScale(this$static, secondary){
 function $hasDataTable(this$static){
   var bottomScale;
   bottomScale = $getScaleByPosition(this$static, 1);
-  if (!!bottomScale && instanceOf(bottomScale, 35) && $getShowDataTable(castTo(bottomScale, 35), true))
+  if (!!bottomScale && instanceOf(bottomScale, 36) && $getShowDataTable(castTo(bottomScale, 36), true))
     return true;
   return false;
 }
@@ -55678,7 +55900,7 @@ function $setCategoryScaleToCorrectScaleType(this$static){
   }
    else 
     instanceOf(baseScale, 95) && $hasTimeData(this$static.data_0) && $sortRows(this$static.data_0, SORT_DATE);
-  if ($isTrellis(this$static) && !!baseScale && instanceOf(baseScale, 35) && baseScale.position == 1 && !groupedScaleCombined) {
+  if ($isTrellis(this$static) && !!baseScale && instanceOf(baseScale, 36) && baseScale.position == 1 && !groupedScaleCombined) {
     if (!$getScaleByPosition(this$static, 3)) {
       newTrellisScale = new CategoryScale(3, this$static, true);
       $add_1(this$static.scales, newTrellisScale);
@@ -55690,14 +55912,14 @@ function $setCategoryScaleToCorrectScaleType(this$static){
 function $setCategoryScaleToNonTimeScale(this$static){
   var baseScale, newScale, scalePosition;
   baseScale = $getCategoryScale(this$static);
-  if (!instanceOf(baseScale, 35)) {
+  if (!instanceOf(baseScale, 36)) {
     scalePosition = baseScale.position;
     $remove_3(this$static.scales, baseScale);
     newScale = new CategoryScale(scalePosition, this$static, false);
     $setLabelFont(newScale, baseScale.labelFont);
     baseScale = newScale;
     $setType_1(baseScale, ST_CATEGORY);
-    (this$static.graphType == 2 || this$static.graphType == 3 || this$static.graphType == 6 || this$static.graphType == 7 || this$static.graphType == 19 || this$static.graphType == 21) && (!this$static.typeAttributes || !this$static.typeAttributes.stepLines) && $getNumRows(this$static.data_0) > 1 && $setIsLineType(castTo(baseScale, 35), true);
+    (this$static.graphType == 2 || this$static.graphType == 3 || this$static.graphType == 6 || this$static.graphType == 7 || this$static.graphType == 19 || this$static.graphType == 21) && (!this$static.typeAttributes || !this$static.typeAttributes.stepLines) && $getNumRows(this$static.data_0) > 1 && $setIsLineType(castTo(baseScale, 36), true);
     $add_1(this$static.scales, baseScale);
     this$static.treatAsSmall && (baseScale.isHidden = true);
   }
@@ -55783,7 +56005,7 @@ function $shapeIsValidAnnotationPointIfAdding(this$static, shape_0){
 function $showDataTable(this$static){
   var scale;
   scale = $getCategoryScale(this$static);
-  if (instanceOf(scale, 35) && scale.position == 1 && $getShowDataTable(castTo(scale, 35), false))
+  if (instanceOf(scale, 36) && scale.position == 1 && $getShowDataTable(castTo(scale, 36), false))
     return true;
   return false;
 }
@@ -56068,9 +56290,9 @@ _.handleClick = function handleClick_14(shapeClicked){
   if (!needsRepaint) {
     if (shapeClicked) {
       dataObj = $getDataObjectForShape(shapeClicked, this);
-      if (dataObj != null && instanceOf(dataObj, 36) && $showDataTable(this)) {
+      if (dataObj != null && instanceOf(dataObj, 37) && $showDataTable(this)) {
         scale = $getCategoryScale(this);
-        instanceOf(scale, 35) && $handleClickOnLegendItemInfo(castTo(scale, 35), shapeClicked, castTo(dataObj, 36)) && (needsRepaint = true);
+        instanceOf(scale, 36) && $handleClickOnLegendItemInfo(castTo(scale, 36), shapeClicked, castTo(dataObj, 37)) && (needsRepaint = true);
       }
     }
   }
@@ -56231,23 +56453,23 @@ _.isHorizontal = false;
 _.neverUseTimeScale = false;
 var noPadding_0;
 var Lcom_domo_charting_graphs_ScaleGraph_2_classLit = createForClass('com.domo.charting.graphs', 'ScaleGraph', 40);
-function $compare_18(o1, o2){
+function $compare_19(o1, o2){
   return $compareTo_3(new Long(o2.createdDate), new Long(o1.createdDate));
 }
 
 function ScaleGraph$1(){
 }
 
-defineClass(304, 1, {}, ScaleGraph$1);
-_.compare = function compare_19(o1, o2){
-  return $compare_18(castTo(o1, 46), castTo(o2, 46));
+defineClass(305, 1, {}, ScaleGraph$1);
+_.compare = function compare_20(o1, o2){
+  return $compare_19(castTo(o1, 46), castTo(o2, 46));
 }
 ;
-_.equals_0 = function equals_22(other){
+_.equals_0 = function equals_23(other){
   return this === other;
 }
 ;
-var Lcom_domo_charting_graphs_ScaleGraph$1_2_classLit = createForClass('com.domo.charting.graphs', 'ScaleGraph/1', 304);
+var Lcom_domo_charting_graphs_ScaleGraph$1_2_classLit = createForClass('com.domo.charting.graphs', 'ScaleGraph/1', 305);
 function $addProjectionValPoint(this$static, projInfo){
   this$static.projectionInfo = projInfo;
 }
@@ -56517,17 +56739,6 @@ function $getOrigRect(this$static){
   return origRect;
 }
 
-function $getOrigStackedProjRect(this$static){
-  var origRect;
-  origRect = $duplicate_5(this$static.rect);
-  !!this$static.stackedProjRect && (origRect = $duplicate_5(this$static.stackedProjRect));
-  if (this$static.origStackedProjRect) {
-    $setWidth(origRect, this$static.origStackedProjRect.width_0);
-    $setHeight(origRect, this$static.origStackedProjRect.height_0);
-  }
-  return origRect;
-}
-
 function $getRectForDisplay(this$static, curRect){
   var barRect, rect;
   rect = curRect;
@@ -56624,7 +56835,7 @@ function SrsBarInfo_1(handler, cell, barRect, stackedOffset, fill, stroke, group
   this.useDotPlotBars = handler.graph.typeAttributes.isDotPlot;
 }
 
-function SrsBarInfo_2(handler, cell, barRect, stackedOffset, stackedProjRect, fill, lastState){
+function SrsBarInfo_2(handler, cell, barRect, stackedOffset, stackedProjRect, projValue, fill, lastState){
   SrsShapeInfo.call(this, cell, fill, null, lastState);
   this.handler = handler;
   this.rect = barRect;
@@ -56634,8 +56845,15 @@ function SrsBarInfo_2(handler, cell, barRect, stackedOffset, stackedProjRect, fi
   if (stackedProjRect) {
     this.origStackedProjRect = new CFRect(stackedProjRect.x_0, stackedProjRect.y_0, stackedProjRect.width_0, stackedProjRect.height_0);
     if (this.rect.height_0 < stackedProjRect.height_0) {
-      $setY_0(this.rect, stackedProjRect.y_0 + stackedProjRect.height_0 - this.rect.height_0);
-      $setHeight(stackedProjRect, this.rect.y_0 - stackedProjRect.y_0);
+      if (projValue < 0) {
+        $setY_0(this.rect, stackedProjRect.y_0);
+        $setY_0(stackedProjRect, $getBottom(this.rect));
+        $setHeight(stackedProjRect, stackedProjRect.height_0 - this.rect.height_0);
+      }
+       else {
+        $setY_0(this.rect, stackedProjRect.y_0 + stackedProjRect.height_0 - this.rect.height_0);
+        $setHeight(stackedProjRect, this.rect.y_0 - stackedProjRect.y_0);
+      }
     }
      else {
       $setY_0(this.rect, stackedProjRect.y_0);
@@ -57435,7 +57653,7 @@ function SrsStockInfo(handler, cell, hiLowRect, openCloseRect, fill){
   this.openCloseRect = openCloseRect;
 }
 
-defineClass(357, 25, $intern_44, SrsStockInfo);
+defineClass(358, 25, $intern_44, SrsStockInfo);
 _.freeResources_0 = function freeResources_51(){
   $freeResources_27(this);
   this.openCloseRect = null;
@@ -57459,7 +57677,7 @@ _.getShape = function getShape_0(){
   return $getDrawShapeForRect(this, this.rect);
 }
 ;
-var Lcom_domo_charting_graphs_SrsStockInfo_2_classLit = createForClass('com.domo.charting.graphs', 'SrsStockInfo', 357);
+var Lcom_domo_charting_graphs_SrsStockInfo_2_classLit = createForClass('com.domo.charting.graphs', 'SrsStockInfo', 358);
 function $calcDimensions(this$static, rnd, theFont, fontSize, fontColor){
   var dimension;
   this$static.font_0 = new CFFont_0(theFont.name_0, fontSize, fontColor);
@@ -57684,13 +57902,15 @@ function $applyRangeColorFromColumn(this$static){
 }
 
 function $createDrawObjects_2(this$static, rnd, xPos, yPos, table){
-  var borderPath, cellBackground, cellOverlay, cellRect, fill, font, ge, tCellBorder, textItem, textRect;
+  var borderPath, cellBackground, cellOverlay, cellRect, fill, font, ge, tCellBorder, textItem, textRect, theFill, result;
   if (!table)
     return;
   ge = new GraphicElement;
   cellRect = new CFRect(xPos, yPos, $getColumnDisplayWidth(this$static), $getRowDisplayHeight(this$static));
-  if (!!this$static.fillColor && table.shouldFillCell(this$static)) {
-    fill = new CFFill(this$static.fillColor);
+  theFill = this$static.fillColor;
+  theFill = (result = theFill , !!this$static.row && !!this$static.column && (this$static.row.drawHoverState && this$static.column.drawHoverState?(result = CELL_HOVER_COLOR):this$static.row.drawHoverState?(result = ROW_HOVER_COLOR):this$static.column.drawHoverState && (result = COL_HOVER_COLOR)) , result);
+  if (!!theFill && table.shouldFillCell(this$static)) {
+    fill = new CFFill(theFill);
     cellBackground = new CFShape_1(cellRect, fill, null);
     !!cellBackground.path && (cellBackground.path.shouldAntiAlias = true);
     !ge.shapeAry && (ge.shapeAry = new ArrayList);
@@ -57749,7 +57969,16 @@ function $getColumnDisplayWidth(this$static){
 }
 
 function $getDrillFilter_0(this$static){
-  this$static.drillFilter == null && !!this$static.cell && !!this$static.cell.row && (this$static.drillFilter = $getDrillFilterFromNonNumericCellsInRow(this$static.cell.row));
+  var filters;
+  if (this$static.drillFilter == null) {
+    if (!!this$static.cell && !!this$static.cell.row)
+      this$static.drillFilter = $getDrillFilterFromNonNumericCellsInRow(this$static.cell.row);
+    else {
+      filters = new ArrayList;
+      !!this$static.row && this$static.row.isHeaderRowCol && !!this$static.column?$getHeaderDrillFilters(this$static.column, filters, this$static.row.curIndex):!!this$static.column && this$static.column.isHeaderRowCol && !!this$static.row && $getHeaderDrillFilters(this$static.row, filters, this$static.column.curIndex);
+      this$static.drillFilter = ($clinit_StrUtil() , getDrillFilterFromFiltersAndPassThrough_0(filters));
+    }
+  }
   return this$static.drillFilter;
 }
 
@@ -57857,6 +58086,20 @@ _.left_0 = false;
 _.right = false;
 _.top_0 = false;
 var Lcom_domo_charting_graphs_TCellBorder_2_classLit = createForClass('com.domo.charting.graphs', 'TCellBorder', 243);
+function $addFilterToList(this$static, filters, tRowCol, tCell){
+  var filter, filterBase, rowHeaderName, rowNames;
+  rowHeaderName = tRowCol.parentName;
+  filterBase = new FilterBase(rowHeaderName, 'IN', null);
+  rowNames = new ArrayList;
+  $add_1(rowNames, $getValueStr_0(tCell));
+  filterBase.values = rowNames;
+  $setDataJoinColumn(filterBase, this$static.table.data_0.dateJoinColumn);
+  $setDataSourceId_0(filterBase, this$static.table.data_0.name_0);
+  $setFiscal(filterBase, this$static.table.data_0.isFiscalCalendar);
+  filter = getDrillFilterFromValues(filterBase);
+  filters.array[filters.array.length] = filter;
+}
+
 function $addItem_1(this$static, cell){
   $addItem_2(this$static, cell, false, $size(this$static.cells_0));
 }
@@ -58100,7 +58343,7 @@ function $createDrawObjectForName(this$static, rnd, xPos, yPos, rowHeight, table
 }
 
 function $createDrawObjects_3(this$static, rnd, xPos, yPos, tableGrid, table, maxCols, viewPortWidth){
-  var cellBackground, cellRect, col, color_0, fill, ge, index_0, tCell, visibleCount, xPosAfterCell;
+  var cellBackground, cellRect, col, fill, ge, index_0, tCell, theFill, visibleCount, xPosAfterCell;
   if (!!this$static.cells_0 && $size(this$static.cells_0) > 0) {
     visibleCount = 0;
     index_0 = 0;
@@ -58114,14 +58357,14 @@ function $createDrawObjects_3(this$static, rnd, xPos, yPos, tableGrid, table, ma
         }
       }
        else {
-        col = castTo($get_2(tableGrid.cols_0, index_0), 37);
+        col = castTo($get_2(tableGrid.cols_0, index_0), 30);
         if (!col.hidden) {
           xPosAfterCell = xPos + (col.colWidth + col.table.leftCellPadding + col.table.rightCellPadding + col.extraHorizontalPadding);
           if (xPosAfterCell >= 0 && xPos < viewPortWidth) {
-            if (!!this$static.fillColor || !!col.fillColor) {
-              color_0 = this$static.fillColor?this$static.fillColor:col.fillColor;
+            theFill = $getFillColorForTRowCol(this$static, col, this$static.fillColor, col.fillColor);
+            if (theFill) {
               cellRect = new CFRect(xPos, yPos, col.colWidth + col.table.leftCellPadding + col.table.rightCellPadding + col.extraHorizontalPadding, this$static.rowHeight + this$static.table.topCellPadding + this$static.table.bottomCellPadding);
-              fill = new CFFill(color_0);
+              fill = new CFFill(theFill);
               cellBackground = new CFShape_1(cellRect, fill, null);
               !!cellBackground.path && (cellBackground.path.shouldAntiAlias = true);
               ge = new GraphicElement_0(cellBackground);
@@ -58179,12 +58422,24 @@ function $formatNumber_2(this$static, value_0){
 
 function $freeResources_29(this$static){
   var entry, outerIter, tCell, tCell$iterator;
-  for (tCell$iterator = (outerIter = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet((new AbstractMap$2(this$static.cells_0)).this$01)).this$01) , new AbstractMap$2$1(outerIter)); tCell$iterator.val$outerIter2.hasNext;) {
-    tCell = (entry = $next_1(tCell$iterator.val$outerIter2) , castTo(entry.getValue(), 70));
-    tCell.cell = null;
+  if (this$static.cells_0) {
+    for (tCell$iterator = (outerIter = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet((new AbstractMap$2(this$static.cells_0)).this$01)).this$01) , new AbstractMap$2$1(outerIter)); tCell$iterator.val$outerIter2.hasNext;) {
+      tCell = (entry = $next_1(tCell$iterator.val$outerIter2) , castTo(entry.getValue(), 70));
+      tCell.cell = null;
+      tCell.row = null;
+      tCell.column = null;
+      tCell.textColor = null;
+      tCell.fillColor = null;
+      tCell.drillFilter = null;
+      tCell.contentDimension = null;
+    }
+    $reset_5(this$static.cells_0);
   }
-  $reset_5(this$static.cells_0);
   this$static.cells_0 = null;
+  !!this$static.rangeColors && (this$static.rangeColors.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1));
+  this$static.rangeColors = null;
+  !!this$static.rangeValues && (this$static.rangeValues.array = initUnidimensionalArray(Ljava_lang_Object_2_classLit, $intern_9, 1, 0, 5, 1));
+  this$static.rangeValues = null;
   this$static.table = null;
 }
 
@@ -58206,6 +58461,28 @@ function $getColorForValue(this$static, value_0){
   if (value_0 < checkNotNull(this$static.rangeMin))
     return castTo($get_2(this$static.rangeColors, 0), 15);
   return null;
+}
+
+function $getHeaderDrillFilters(this$static, filters, colRowIndex){
+  var index_0, tCell, tRowCol;
+  if (this$static.isRow) {
+    for (index_0 = 0; index_0 <= colRowIndex; index_0++) {
+      tCell = $getCellByIndex(this$static, valueOf(index_0));
+      if (!!tCell && !!tCell.column) {
+        tRowCol = tCell.column;
+        $addFilterToList(this$static, filters, tRowCol, tCell);
+      }
+    }
+  }
+   else {
+    for (index_0 = 0; index_0 <= colRowIndex; index_0++) {
+      tCell = $getCellByIndex(this$static, valueOf(index_0));
+      if (!!tCell && !!tCell.row) {
+        tRowCol = tCell.row;
+        $addFilterToList(this$static, filters, tRowCol, tCell);
+      }
+    }
+  }
 }
 
 function $getMaxValue_0(this$static){
@@ -58328,10 +58605,11 @@ function TRowCol(isThisARow){
   this.isRow = isThisARow;
 }
 
-defineClass(37, 1, {37:1}, TRowCol);
+defineClass(30, 1, {30:1}, TRowCol);
 _.colWidth = NaN;
 _.columnFormat = null;
 _.curIndex = 0;
+_.drawHoverState = false;
 _.extraHorizontalPadding = 0;
 _.formatted = false;
 _.hAlign = 0;
@@ -58345,7 +58623,7 @@ _.rowHeight = 0;
 _.style_0 = 0;
 _.useLogScale = false;
 _.vAlign = 11;
-var Lcom_domo_charting_graphs_TRowCol_2_classLit = createForClass('com.domo.charting.graphs', 'TRowCol', 37);
+var Lcom_domo_charting_graphs_TRowCol_2_classLit = createForClass('com.domo.charting.graphs', 'TRowCol', 30);
 function $addMultiplePercentVals(this$static, rnd, top_0, left, ge, valueBaseLineOffset, pctFont, percentValue, pctNumFormatter, srsSliceInfo){
   var cellLevel, level, origValue, pctVal;
   level = srsSliceInfo.level;
@@ -58800,8 +59078,8 @@ function $squarify(this$static, data_0, currentrow, container, stack_0){
 function TreeMapInfo(){
 }
 
-defineClass(353, 1, {}, TreeMapInfo);
-var Lcom_domo_charting_graphs_TreeMapInfo_2_classLit = createForClass('com.domo.charting.graphs', 'TreeMapInfo', 353);
+defineClass(354, 1, {}, TreeMapInfo);
+var Lcom_domo_charting_graphs_TreeMapInfo_2_classLit = createForClass('com.domo.charting.graphs', 'TreeMapInfo', 354);
 function $duplicate(this$static){
   var dupTA;
   dupTA = new TypeAttributes;
@@ -59055,12 +59333,12 @@ function JSONException(message){
   Exception_0.call(this, message);
 }
 
-defineClass(34, 38, {34:1, 8:1, 38:1, 57:1}, JSONException);
+defineClass(35, 38, {35:1, 8:1, 38:1, 57:1}, JSONException);
 _.getCause = function getCause_0(){
   return this.cause;
 }
 ;
-var Lcom_domo_charting_json_JSONException_2_classLit = createForClass('com.domo.charting.json', 'JSONException', 34);
+var Lcom_domo_charting_json_JSONException_2_classLit = createForClass('com.domo.charting.json', 'JSONException', 35);
 function $clinit_JSONObject(){
   $clinit_JSONObject = emptyMethod;
   TRUE = ($clinit_Boolean() , $clinit_Boolean() , true);
@@ -59292,7 +59570,7 @@ function JSONObject$Null(){
 }
 
 defineClass(192, 1, {192:1}, JSONObject$Null);
-_.equals_0 = function equals_23(object){
+_.equals_0 = function equals_24(object){
   return object == null || object === this;
 }
 ;
@@ -62024,9 +62302,9 @@ _.toString_0 = function toString_11(){
 _.height_0 = 0;
 _.width_0 = 0;
 var Lcom_domo_charting_model_CFDimension_2_classLit = createForClass('com.domo.charting.model', 'CFDimension', 51);
-defineClass(387, 1, {});
+defineClass(388, 1, {});
 _.noMouse = false;
-var Lcom_domo_charting_model_CFStyle_2_classLit = createForClass('com.domo.charting.model', 'CFStyle', 387);
+var Lcom_domo_charting_model_CFStyle_2_classLit = createForClass('com.domo.charting.model', 'CFStyle', 388);
 function $clinit_CFFill(){
   $clinit_CFFill = emptyMethod;
   TRANSPARENT_0 = new CFFill(($clinit_CFColor() , TRANSPARENT));
@@ -62083,7 +62361,7 @@ function getOutlineFill(fill){
   return fill;
 }
 
-defineClass(17, 387, {}, CFFill, CFFill_0, CFFill_1);
+defineClass(17, 388, {}, CFFill, CFFill_0, CFFill_1);
 _.toString_0 = function toString_12(){
   return this.type_0 == GRADIENT?'GRADIENT Type ' + this.gradientType + ' ' + $toString_0(this.color_0) + ' ' + $toString_0(this.color2):'SOLID ' + $toString_0(this.color_0);
 }
@@ -62189,7 +62467,7 @@ function CFFont_1(name_0, size_0, color_0, face_0){
   this.face_0 = face_0;
 }
 
-defineClass(22, 387, {}, CFFont, CFFont_0, CFFont_1);
+defineClass(22, 388, {}, CFFont, CFFont_0, CFFont_1);
 _.toString_0 = function toString_13(){
   return $toString_1(this);
 }
@@ -63851,7 +64129,7 @@ function getValueForSegment(pathData, startIndex, endIndex){
   return value_0;
 }
 
-defineClass(13, 1, {13:1}, CFPath, CFPath_0, CFPath_1, CFPath_2, CFPath_3, CFPath_4, CFPath_5, CFPath_6, CFPath_7, CFPath_8, CFPath_9, CFPath_10, CFPath_11, CFPath_12, CFPath_13, CFPath_14);
+defineClass(14, 1, {14:1}, CFPath, CFPath_0, CFPath_1, CFPath_2, CFPath_3, CFPath_4, CFPath_5, CFPath_6, CFPath_7, CFPath_8, CFPath_9, CFPath_10, CFPath_11, CFPath_12, CFPath_13, CFPath_14);
 _.toString_0 = function toString_14(){
   var curveEl, pe, pe$iterator, quadEl, rectEl, retStr;
   retStr = '';
@@ -63885,7 +64163,7 @@ _.isCircle = false;
 _.isLine = false;
 _.shouldAntiAlias = false;
 var arrowLen = 5, halfArrow = 5;
-var Lcom_domo_charting_model_CFPath_2_classLit = createForClass('com.domo.charting.model', 'CFPath', 13);
+var Lcom_domo_charting_model_CFPath_2_classLit = createForClass('com.domo.charting.model', 'CFPath', 14);
 function CFPathElement(){
   this.type_0 = 4;
 }
@@ -64854,7 +65132,7 @@ function getOutlineStroke(fill, stroke){
   return stroke;
 }
 
-defineClass(20, 387, {}, CFStroke, CFStroke_0, CFStroke_1, CFStroke_2);
+defineClass(20, 388, {}, CFStroke, CFStroke_0, CFStroke_1, CFStroke_2);
 _.toString_0 = function toString_17(){
   return '' + this.width_0 + ' ' + $toString_0(this.color_0);
 }
@@ -65405,8 +65683,8 @@ _.freeResources_0 = function freeResources_55(){
 }
 ;
 _.getIsLineType = function getIsLineType(){
-  if (instanceOf(this, 35))
-    return castTo(this, 35).isLineType;
+  if (instanceOf(this, 36))
+    return castTo(this, 36).isLineType;
   return false;
 }
 ;
@@ -65697,7 +65975,7 @@ function $drawDataTable(this$static, rnd, ge, stroke, rect){
   legend = castTo($getLegend(this$static.graph), 153);
   !legend && (legend = new LegendScaledGraph(this$static.graph.chart, 'tmpLegend', this$static.graph, 0));
   rowTitleDisplayed = initUnidimensionalArray(Z_classLit, $intern_24, 41, this$static.tableCols.array.length, 16, 1);
-  this$static.colValues = initUnidimensionalArray(Lcom_domo_charting_base_GraphicElement_2_classLit, $intern_17, 394, this$static.tableCols.array.length, 0, 2);
+  this$static.colValues = initUnidimensionalArray(Lcom_domo_charting_base_GraphicElement_2_classLit, $intern_17, 395, this$static.tableCols.array.length, 0, 2);
   for (i = 0; i < this$static.rowsToDisplay.size_1(); i++) {
     top_0 = rect.y_0 + rect.height_0 - numCols * lineHeight;
     row = castTo(this$static.rowsToDisplay.get_1(i), 7);
@@ -65706,7 +65984,7 @@ function $drawDataTable(this$static, rnd, ge, stroke, rect){
     for (col = 0; col < this$static.tableCols.array.length; col++) {
       colInfo = castTo($get_2(this$static.tableCols, col), 7);
       cell = $getCellByCellIndex(colInfo, rowIndex);
-      i == 0 && (this$static.colValues[col] = initUnidimensionalArray(Lcom_domo_charting_base_GraphicElement_2_classLit, {394:1, 8:1, 9:1, 14:1}, 12, this$static.rowsToDisplay.size_1(), 0, 1));
+      i == 0 && (this$static.colValues[col] = initUnidimensionalArray(Lcom_domo_charting_base_GraphicElement_2_classLit, {395:1, 8:1, 9:1, 13:1}, 12, this$static.rowsToDisplay.size_1(), 0, 1));
       if (!rowTitleDisplayed[col] && !!cell) {
         name_0 = $getName(colInfo);
         nameRect = new CFRect(this$static.bnds.x_0 + 1, top_0, rect.x_0 - (this$static.bnds.x_0 + 1), lineHeight);
@@ -65730,7 +66008,7 @@ function $drawDataTable(this$static, rnd, ge, stroke, rect){
            else {
             addlItems = $getAdditionalLegendItems_1(legend);
             for (tmpLII$iterator = new ArrayList$1(addlItems); tmpLII$iterator.i < tmpLII$iterator.this$01.array.length;) {
-              tmpLII = castTo($next_3(tmpLII$iterator), 36);
+              tmpLII = castTo($next_3(tmpLII$iterator), 37);
               if (tmpLII.type_0 == 6) {
                 lii = tmpLII;
                 nameTextGE = drawTextInBounds(rnd, nameTextRect, $getItemText(tmpLII), this$static.curLabelFont, 0, VALIGN_MIDDLE, this$static.curLabelFont.size_0, null, null);
@@ -65982,7 +66260,7 @@ function $getLegendItemInfoForCell(this$static, cell){
   var col, lii, lii$iterator;
   col = cell.column;
   for (lii$iterator = new ArrayList$1(this$static.dataTableLegendItems); lii$iterator.i < lii$iterator.this$01.array.length;) {
-    lii = castTo($next_3(lii$iterator), 36);
+    lii = castTo($next_3(lii$iterator), 37);
     if (lii.colInfo == col)
       return lii;
   }
@@ -66260,11 +66538,11 @@ function $setHoverEffects_8(this$static, hoverData, rnd){
   }
    else {
     if (this$static.showDataTable) {
-      if (hoverData != null && instanceOf(hoverData, 36)) {
+      if (hoverData != null && instanceOf(hoverData, 37)) {
         if ($indexOf_1(this$static.dataTableLegendItems, hoverData, 0) == -1) {
-          col = castTo(hoverData, 36).colInfo;
+          col = castTo(hoverData, 37).colInfo;
           for (lii$iterator = new ArrayList$1(this$static.dataTableLegendItems); lii$iterator.i < lii$iterator.this$01.array.length;) {
-            lii = castTo($next_3(lii$iterator), 36);
+            lii = castTo($next_3(lii$iterator), 37);
             if (lii.colInfo == col) {
               hoverData = lii;
               break;
@@ -66272,7 +66550,7 @@ function $setHoverEffects_8(this$static, hoverData, rnd){
           }
         }
         checkForHoveredItemFoundAndSetLegendItemState(hoverData, this$static.geAry, false, this$static.labelFont, this$static.graph);
-        $setDataRowHighlight(this$static, castTo(hoverData, 36));
+        $setDataRowHighlight(this$static, castTo(hoverData, 37));
         this$static.dataTableLegendItemHovered = true;
       }
        else if (this$static.dataTableLegendItemHovered) {
@@ -66288,7 +66566,7 @@ function $setHoverEffects_8(this$static, hoverData, rnd){
 
 function $setHoverEffectsForOneHoverData(this$static, hoverData, rnd){
   var barInfo, catFont, catName, dataObj, dim, halfHeight, halfWidth, highlightFont, highlightedLabel, innerBnds, item_0, item$iterator, items, row, ti, x_0, y_0;
-  if (hoverData != null && instanceOf(hoverData, 35)) {
+  if (hoverData != null && instanceOf(hoverData, 36)) {
     if (!!this$static.sortGE && this$static.sortGE.dataObject != null) {
       dataObj = $getDataObjectForGE(this$static.sortGE, this$static.graph);
       if (instanceOf(dataObj, 27))
@@ -66444,7 +66722,7 @@ function CategoryScale(position, grph, isSecondary){
   this.curLabelFont = this.labelFont;
 }
 
-defineClass(35, 53, $intern_46, CategoryScale);
+defineClass(36, 53, $intern_46, CategoryScale);
 _.addLabels = function addLabels_0(rnd){
   var dim, drillStr, ge, hAlignment, heightPt, i, index_0, labelTI, labelTop, lenPt, lineHeight, lineText, lineText$iterator, margin, pos, rect, row, scaleHotRegionShp, scaleRect, textItem, textItem$index, textItem$max, textItems, ti, titleDim, titleSpace, valueScale, visibleIndex, widthPt, x_0, xOffset, y_0, yOffset;
   if (this.isHidden || !this.rowsToDisplay)
@@ -66955,7 +67233,7 @@ _.showDataTable = false;
 _.tableHeight = 0;
 _.titleHeight = 0;
 _.useColData = false;
-var Lcom_domo_charting_scales_CategoryScale_2_classLit = createForClass('com.domo.charting.scales', 'CategoryScale', 35);
+var Lcom_domo_charting_scales_CategoryScale_2_classLit = createForClass('com.domo.charting.scales', 'CategoryScale', 36);
 function $getCatDisplayAry(this$static, rnd){
   var i, lastDrawnPos, minSpace;
   this$static.graph.isHorizontal?(minSpace = $getLineHeight(this$static.curLabelFont, rnd) * 0.9):(minSpace = $getLineHeight(this$static.curLabelFont, rnd) * this$static.angleMultiplierHeight.x_0);
@@ -67002,7 +67280,7 @@ function CategoryScaleMarimekko(position, grph){
   this.minFontSize = this.curLabelFont.size_0;
 }
 
-defineClass(235, 35, $intern_46, CategoryScaleMarimekko);
+defineClass(235, 36, $intern_46, CategoryScaleMarimekko);
 _.getFirstLabelPosition = function getFirstLabelPosition_0(){
   return $getMinPosition(this) + this.catPositionAry[0] - this.halfAreaWidth;
 }
@@ -67204,7 +67482,7 @@ function $drawLinearRegressionLine(this$static, srsInfo){
 }
 
 function $drawProjectionBar_0(this$static, srsInfo, drawGray){
-  var actualValue, barColor, baseScale, col, dottedRect, dottedShape, ge, geProjBar2, origStackedProjBar, projBar, projBarIndex, projBarInfo, projBarRect, projBarShape, projBarShape2, projInfo, projLine, projValue, projXYPoint, regStroke, valScale;
+  var actualValue, barColor, baseScale, col, dottedRect, dottedShape, ge, geProjBar2, origStackedProjBar, projBar, projBarIndex, projBarInfo, projBarRect, projBarShape, projBarShape2, projInfo, projLine, projValue, projXYPoint, projectedIsActual, regStroke, valScale, origRect;
   projBarIndex = -1;
   projInfo = srsInfo.projectionInfo;
   !!projInfo && !!projInfo.valuePoint && (projBarIndex = round_int(projInfo.valuePoint.x_0));
@@ -67219,7 +67497,7 @@ function $drawProjectionBar_0(this$static, srsInfo, drawGray){
     dottedShape = null;
     if (this$static.graph.typeAttributes.isStacked) {
       projBar = projBarInfo.stackedProjRect;
-      origStackedProjBar = $getOrigStackedProjRect(projBarInfo);
+      origStackedProjBar = (origRect = $duplicate_5(projBarInfo.rect) , !!projBarInfo.stackedProjRect && (origRect = $duplicate_5(projBarInfo.stackedProjRect)) , !!projBarInfo.origStackedProjRect && (origRect = $duplicate_5(projBarInfo.origStackedProjRect)) , origRect);
     }
      else {
       projBarRect = $getRectForDisplay(projBarInfo, null);
@@ -67260,34 +67538,43 @@ function $drawProjectionBar_0(this$static, srsInfo, drawGray){
     projBarShape = new CFShape_1(projBar, new CFFill(barColor), null);
     projBarShape2 = null;
     geProjBar2 = null;
+    projectedIsActual = false;
+    projValue == actualValue && !!projInfo.cell && projInfo.cell.projectedIsActual && (projectedIsActual = true);
     !!projBarShape.path && (projBarShape.path.shouldAntiAlias = true);
     if (actualValue < projValue && projValue > 0 || actualValue > projValue && projValue < 0 || this$static.graph.typeAttributes.isStacked) {
-      if (actualValue < projValue) {
-        geProjBar2 = $getPatternProjBarGE(this$static, barColor, projBar);
-        !ge.shapeAry && (ge.shapeAry = new ArrayList);
-        $add_1(ge.shapeAry, projBarShape);
-        if (origStackedProjBar)
-          $addShape(geProjBar2, $getDottedRectShape(origStackedProjBar, ($clinit_CFColor() , BLACK)));
-        else {
-          dottedRect = new CFRect(projBar.x_0, projBar.y_0, projBar.width_0, projBar.height_0);
-          $setHeight(dottedRect, $getBottom(projBarInfo.getRect()) - projBar.y_0);
-          $addShape(geProjBar2, $getDottedRectShape(dottedRect, ($clinit_CFColor() , BLACK)));
-        }
-      }
-       else {
-        if (projValue < 0) {
-          geProjBar2 = $getPatternProjBarGE(this$static, barColor, projBar);
-          dottedRect = new CFRect(projBar.x_0, projBar.y_0, projBar.width_0, projBar.height_0);
-          $setHeight(dottedRect, projBarInfo.getRect().height_0 + projBar.height_0);
-          $setY_0(dottedRect, projBarInfo.getRect().y_0);
-          dottedShape = $getDottedRectShape(dottedRect, ($clinit_CFColor() , BLACK));
-          !geProjBar2.shapeAry && (geProjBar2.shapeAry = new ArrayList);
-          $add_1(geProjBar2.shapeAry, dottedShape);
-          dottedShape = null;
+      if (!projectedIsActual) {
+        if (actualValue < projValue) {
+          projValue > 0?(geProjBar2 = $getPatternProjBarGE(this$static, barColor, projBar)):(geProjBar2 = new GraphicElement);
+          !ge.shapeAry && (ge.shapeAry = new ArrayList);
+          $add_1(ge.shapeAry, projBarShape);
+          if (origStackedProjBar)
+            $addShape(geProjBar2, $getDottedRectShape(origStackedProjBar, ($clinit_CFColor() , BLACK)));
+          else {
+            dottedRect = new CFRect(projBar.x_0, projBar.y_0, projBar.width_0, projBar.height_0);
+            $setHeight(dottedRect, $getBottom(projBarInfo.getRect()) - projBar.y_0);
+            $addShape(geProjBar2, $getDottedRectShape(dottedRect, ($clinit_CFColor() , BLACK)));
+          }
         }
          else {
-          projBarShape2 = new CFShape_1(projBar, ($clinit_CFFill() , TRANSPARENT_0), null);
-          dottedShape = $getDottedRectShape(projBar, ($clinit_CFColor() , BLACK));
+          if (projValue < 0) {
+            geProjBar2 = $getPatternProjBarGE(this$static, barColor, projBar);
+            dottedRect = new CFRect(projBar.x_0, projBar.y_0, projBar.width_0, projBar.height_0);
+            if (origStackedProjBar) {
+              dottedRect = new CFRect(origStackedProjBar.x_0, origStackedProjBar.y_0, origStackedProjBar.width_0, origStackedProjBar.height_0);
+            }
+             else {
+              $setHeight(dottedRect, projBarInfo.getRect().height_0 + projBar.height_0);
+              $setY_0(dottedRect, projBarInfo.getRect().y_0);
+            }
+            dottedShape = $getDottedRectShape(dottedRect, ($clinit_CFColor() , BLACK));
+            !geProjBar2.shapeAry && (geProjBar2.shapeAry = new ArrayList);
+            $add_1(geProjBar2.shapeAry, dottedShape);
+            dottedShape = null;
+          }
+           else {
+            projBarShape2 = new CFShape_1(projBar, ($clinit_CFFill() , TRANSPARENT_0), null);
+            dottedShape = $getDottedRectShape(projBar, ($clinit_CFColor() , BLACK));
+          }
         }
       }
       projXYPoint = null;
@@ -67792,7 +68079,7 @@ function $processChartOptions_14(this$static){
 }
 
 function $setProjectionValPoint(this$static){
-  var average, col, colIndex, lastPoint, lastRowSort, lastRowSortDesc, numPointsToAvg, periodOffset, primaryValScale, projMethod, projValue, regressionPoints, secondaryValScale, tempSortNeeded;
+  var average, col, colIndex, lastPoint, lastRowSort, lastRowSortDesc, numPointsToAvg, periodOffset, primaryValScale, projMethod, projValue, regressionPoints, row, secondaryValScale, tempSortNeeded;
   if ($is100pctStacked(this$static.graph))
     return;
   for (colIndex = $getNumCols(this$static.graph.data_0) - 1; colIndex >= 0; colIndex--) {
@@ -67806,11 +68093,11 @@ function $setProjectionValPoint(this$static){
       numPointsToAvg = this$static.projectionNumPointsToAvg2;
     }
     if (projMethod == 2) {
-      setProjectedValOnLastPoint(projValue, colIndex, this$static.graph);
+      setProjectedValOnLastPoint(projValue, colIndex, this$static.graph, false);
     }
      else if (projMethod == 1) {
       average = $getProjectedAverage(this$static, colIndex, numPointsToAvg);
-      setProjectedValOnLastPoint(average, colIndex, this$static.graph);
+      setProjectedValOnLastPoint(average, colIndex, this$static.graph, false);
     }
      else if (projMethod == 3 || projMethod == 5 || projMethod == 6) {
       tempSortNeeded = false;
@@ -67826,7 +68113,11 @@ function $setProjectionValPoint(this$static){
       regressionPoints = this$static.regressionInfo.regressionValues;
       if (!!regressionPoints && regressionPoints.array.length > 0) {
         lastPoint = castTo($get_2(regressionPoints, this$static.regressionInfo.lastActualValIndex), 10);
-        setProjectedValOnLastPoint(lastPoint.y_0, colIndex, this$static.graph);
+        setProjectedValOnLastPoint(lastPoint.y_0, colIndex, this$static.graph, false);
+      }
+       else {
+        row = $getLastVisibleRow(this$static.graph.data_0);
+        !!row.cellMap && $get_1(row.cellMap, valueOf(colIndex)) != null && !isNaN_0($getValue(castTo($get_1(row.cellMap, valueOf(colIndex)), 16))) && setProjectedValOnLastPoint($getValue(castTo($get_1(row.cellMap, valueOf(colIndex)), 16)), colIndex, this$static.graph, true);
       }
       tempSortNeeded && (lastRowSortDesc?$sortRowsDesc(this$static.graph.data_0, lastRowSort, false):$sortRows(this$static.graph.data_0, lastRowSort));
     }
@@ -68388,12 +68679,12 @@ function $setHoverEffects_9(this$static, hoverData, seriesIndex){
 function $setHoverEffectsForOneHoverData_0(this$static, hoverData, seriesIndex){
   var curCol, primaryScale, secondaryScale;
   if (hoverData != null) {
-    if (instanceOf(hoverData, 35))
+    if (instanceOf(hoverData, 36))
       return false;
     if ($getValueScaleByNumber(this$static.graph, 1)) {
       curCol = null;
-      if (instanceOf(hoverData, 36) && !!castTo(hoverData, 36).colInfo)
-        curCol = castTo(hoverData, 36).colInfo;
+      if (instanceOf(hoverData, 37) && !!castTo(hoverData, 37).colInfo)
+        curCol = castTo(hoverData, 37).colInfo;
       else if (instanceOf(hoverData, 18) && !!castTo(hoverData, 18).cell) {
         curCol = castTo(hoverData, 18).cell.column;
         !curCol && this$static.graph.typeAttributes.isNestedBar && instanceOf(hoverData, 25) && (curCol = $getColumn(this$static.graph.data_0, $getNumCols(this$static.graph.data_0) - 1));
@@ -70168,7 +70459,7 @@ function $addFirstMinor(this$static, rnd, currentTicks){
   this$static.nextMinorIndex = 0;
   this$static.firstMajorIsOnMajorBoundary = false;
   firstMinor = $getCurrentMinor(this$static, currentTicks);
-  if (compare_21(firstMinor, 0) != 0 && gte_0(firstMinor, this$static.adjustedMinTime)) {
+  if (compare_22(firstMinor, 0) != 0 && gte_0(firstMinor, this$static.adjustedMinTime)) {
     this$static.minorDivisionsArray[this$static.nextMinorIndex] = firstMinor;
     pos = toDouble_0(sub_1(firstMinor, this$static.adjustedMinTime)) * this$static.ratio + $getMinPosition_1(this$static);
     label_0 = $getLabelForMinorUnit(this$static, firstMinor);
@@ -70213,7 +70504,7 @@ function $addMinorLabelInfoToArrays(this$static, rnd, pos, text_0){
 function $adjustIfBars(this$static, numRows){
   var halfTimeMSToAdd, ticks, valRange, ticks_0, handler;
   ticks = (ticks_0 = 0 , handler = this$static.graph.handler , !!handler && instanceOf(handler, 60) && this$static.graph.graphType != 6 && this$static.graph.graphType != 7?(ticks_0 = $getMinimumTicksBetweenBars(castTo(handler, 60), numRows)):!!handler && instanceOf(handler, 111) && (ticks_0 = $getMinimumTicksBetweenBars_0(castTo(handler, 111), numRows)) , ticks_0);
-  if (compare_21(ticks, 0) > 0) {
+  if (compare_22(ticks, 0) > 0) {
     this$static.hasSubHourData && (ticks = $getSubHourBarWidthInTicks(this$static, ticks));
     this$static.minimumBarIncrement = ticks;
     halfTimeMSToAdd = div(this$static.minimumBarIncrement, 2);
@@ -70532,7 +70823,7 @@ function $getPositionForTime(this$static, ticks){
 }
 
 function $getSubHourBarWidthInTicks(this$static, ticks){
-  compare_21(ticks, 3600000) < 0 && compare_21(ticks, 60000) > 0 && (compare_21(ticks, 600000) > 0 && gt(sub_1(this$static.maxTime, this$static.minTime), 7200000)?(ticks = 600000):compare_21(ticks, 240000) > 0 && gt(sub_1(this$static.maxTime, this$static.minTime), 1800000)?(ticks = 240000):(ticks = 60000));
+  compare_22(ticks, 3600000) < 0 && compare_22(ticks, 60000) > 0 && (compare_22(ticks, 600000) > 0 && gt(sub_1(this$static.maxTime, this$static.minTime), 7200000)?(ticks = 600000):compare_22(ticks, 240000) > 0 && gt(sub_1(this$static.maxTime, this$static.minTime), 1800000)?(ticks = 240000):(ticks = 60000));
   return ticks;
 }
 
@@ -70574,7 +70865,7 @@ function $isDateToday(this$static, ticks){
   $setSeconds(testDate, 0);
   testTicks = div(fromDouble_0(testDate.jsdate.getTime()), $intern_10);
   todayTicks = div(fromDouble_0(today.jsdate.getTime()), $intern_10);
-  if (compare_21(testTicks, todayTicks) == 0)
+  if (compare_22(testTicks, todayTicks) == 0)
     return true;
   return false;
 }
@@ -70643,10 +70934,10 @@ function $setMajorMinorUnits(this$static){
   endDate = new Date_4(this$static.maxTime);
   startYear = beginDate.jsdate.getFullYear() - $intern_14 + $intern_14;
   endYear = endDate.jsdate.getFullYear() - $intern_14 + $intern_14;
-  if (startYear == endYear || compare_21(minutesApart, 1054080) < 0) {
-    if (compare_21(minutesApart, 20160) > 0 && !this$static.hasMonthDaysThatAreDifferent)
+  if (startYear == endYear || compare_22(minutesApart, 1054080) < 0) {
+    if (compare_22(minutesApart, 20160) > 0 && !this$static.hasMonthDaysThatAreDifferent)
       return;
-    else if (compare_21(minutesApart, 4320) > 0 || this$static.useBarWidths && gte_0(this$static.minimumBarIncrement, $intern_34)) {
+    else if (compare_22(minutesApart, 4320) > 0 || this$static.useBarWidths && gte_0(this$static.minimumBarIncrement, $intern_34)) {
       this$static.majorIncUnit = 2;
       this$static.minorIncUnit = 3;
     }
@@ -71208,7 +71499,7 @@ function XYCategoryScale(position, grph){
   CategoryScale.call(this, position, grph, false);
 }
 
-defineClass(123, 35, {35:1, 53:1, 123:1}, XYCategoryScale);
+defineClass(123, 36, {36:1, 53:1, 123:1}, XYCategoryScale);
 _.limitDataIfNeeded = function limitDataIfNeeded_0(numRows, formatPass){
   var cell, curIndex, entry, i, lastName, newRow, numCells, outerIter, parentDisplayName, parentName, row, row$iterator, rowIndex, rowInfos, rowName, rowName$iterator;
   this.rowNameIndexMap = new LinkedHashMap;
@@ -71259,15 +71550,15 @@ function Animation$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(313, 1, {}, Animation$1);
+defineClass(314, 1, {}, Animation$1);
 _.execute = function execute(timestamp){
   $execute(this, timestamp);
 }
 ;
-var Lcom_google_gwt_animation_client_Animation$1_2_classLit = createForClass('com.google.gwt.animation.client', 'Animation/1', 313);
-defineClass(392, 1, {});
+var Lcom_google_gwt_animation_client_Animation$1_2_classLit = createForClass('com.google.gwt.animation.client', 'Animation/1', 314);
+defineClass(393, 1, {});
 var instance;
-var Lcom_google_gwt_animation_client_AnimationScheduler_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationScheduler', 392);
+var Lcom_google_gwt_animation_client_AnimationScheduler_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationScheduler', 393);
 defineClass(203, 1, {203:1});
 var Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationScheduler/AnimationHandle', 203);
 function AnimationSchedulerImplStandard(){
@@ -71287,24 +71578,24 @@ function requestImpl(cb, element){
   return {id:handle};
 }
 
-defineClass(342, 392, {}, AnimationSchedulerImplStandard);
+defineClass(343, 393, {}, AnimationSchedulerImplStandard);
 _.requestAnimationFrame_0 = function requestAnimationFrame_0(callback, element){
   var handle;
   handle = requestImpl(callback, element);
   return new AnimationSchedulerImplStandard$1(handle);
 }
 ;
-var Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplStandard', 342);
+var Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplStandard', 343);
 function AnimationSchedulerImplStandard$1(val$handle){
   this.val$handle2 = val$handle;
 }
 
-defineClass(343, 203, {203:1}, AnimationSchedulerImplStandard$1);
+defineClass(344, 203, {203:1}, AnimationSchedulerImplStandard$1);
 _.cancel = function cancel(){
   cancelImpl(this.val$handle2);
 }
 ;
-var Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard$1_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplStandard/1', 343);
+var Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard$1_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplStandard/1', 344);
 function $cancelAnimationFrame(this$static, requestId){
   $remove_3(this$static.animationRequests, requestId);
   this$static.animationRequests.array.length == 0 && $cancel_0(this$static.timer);
@@ -71312,8 +71603,8 @@ function $cancelAnimationFrame(this$static, requestId){
 
 function $updateAnimations(this$static){
   var curAnimations, duration, requestId, requestId$index, requestId$max;
-  curAnimations = initUnidimensionalArray(Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_2_classLit, {395:1, 8:1, 9:1, 14:1}, 204, this$static.animationRequests.array.length, 0, 1);
-  curAnimations = castTo($toArray_0(this$static.animationRequests, curAnimations), 395);
+  curAnimations = initUnidimensionalArray(Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_2_classLit, {396:1, 8:1, 9:1, 13:1}, 204, this$static.animationRequests.array.length, 0, 1);
+  curAnimations = castTo($toArray_0(this$static.animationRequests, curAnimations), 396);
   duration = new Duration;
   for (requestId$index = 0 , requestId$max = curAnimations.length; requestId$index < requestId$max; ++requestId$index) {
     requestId = curAnimations[requestId$index];
@@ -71328,7 +71619,7 @@ function AnimationSchedulerImplTimer(){
   this.timer = new AnimationSchedulerImplTimer$1(this);
 }
 
-defineClass(344, 392, {}, AnimationSchedulerImplTimer);
+defineClass(345, 393, {}, AnimationSchedulerImplTimer);
 _.requestAnimationFrame_0 = function requestAnimationFrame_1(callback, element){
   var requestId;
   requestId = new AnimationSchedulerImplTimer$AnimationHandleImpl(this, callback);
@@ -71337,7 +71628,7 @@ _.requestAnimationFrame_0 = function requestAnimationFrame_1(callback, element){
   return requestId;
 }
 ;
-var Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplTimer', 344);
+var Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplTimer', 345);
 function $cancel_0(this$static){
   if (!this$static.timerId) {
     return;
@@ -71375,7 +71666,7 @@ function setTimeout_0(func, time){
   return $wnd.setTimeout(func, time);
 }
 
-defineClass(345, 1, {});
+defineClass(346, 1, {});
 _.fire = function fire(scheduleCancelCounter){
   if (scheduleCancelCounter != this.cancelCounter) {
     return;
@@ -71387,13 +71678,13 @@ _.fire = function fire(scheduleCancelCounter){
 _.cancelCounter = 0;
 _.isRepeating = false;
 _.timerId = null;
-var Lcom_google_gwt_user_client_Timer_2_classLit = createForClass('com.google.gwt.user.client', 'Timer', 345);
+var Lcom_google_gwt_user_client_Timer_2_classLit = createForClass('com.google.gwt.user.client', 'Timer', 346);
 function AnimationSchedulerImplTimer$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(346, 345, {}, AnimationSchedulerImplTimer$1);
-var Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$1_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplTimer/1', 346);
+defineClass(347, 346, {}, AnimationSchedulerImplTimer$1);
+var Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$1_2_classLit = createForClass('com.google.gwt.animation.client', 'AnimationSchedulerImplTimer/1', 347);
 function AnimationSchedulerImplTimer$AnimationHandleImpl(this$0, callback){
   this.this$01 = this$0;
   this.callback = callback;
@@ -71417,7 +71708,7 @@ function $setWidth_1(this$static, width_0){
   ($clinit_DOM() , this$static.element).style['width'] = width_0;
 }
 
-defineClass(380, 1, {});
+defineClass(381, 1, {});
 _.toString_0 = function toString_18(){
   if (!this.element) {
     return '(null handle)';
@@ -71425,8 +71716,8 @@ _.toString_0 = function toString_18(){
   return $getString(($clinit_DOM() , this.element));
 }
 ;
-var Lcom_google_gwt_user_client_ui_UIObject_2_classLit = createForClass('com.google.gwt.user.client.ui', 'UIObject', 380);
-defineClass(381, 380, $intern_4);
+var Lcom_google_gwt_user_client_ui_UIObject_2_classLit = createForClass('com.google.gwt.user.client.ui', 'UIObject', 381);
+defineClass(382, 381, $intern_4);
 _.onBrowserEvent = function onBrowserEvent_0(event_0){
   var related;
   switch ($clinit_DOM() , $eventGetTypeInt(($clinit_DOMImpl() , event_0).type)) {
@@ -71440,14 +71731,14 @@ _.onBrowserEvent = function onBrowserEvent_0(event_0){
   }
 }
 ;
-var Lcom_google_gwt_user_client_ui_Widget_2_classLit = createForClass('com.google.gwt.user.client.ui', 'Widget', 381);
+var Lcom_google_gwt_user_client_ui_Widget_2_classLit = createForClass('com.google.gwt.user.client.ui', 'Widget', 382);
 function $clinit_FocusWidget(){
   $clinit_FocusWidget = emptyMethod;
   $clinit_FocusImpl();
 }
 
-defineClass(382, 381, $intern_4);
-var Lcom_google_gwt_user_client_ui_FocusWidget_2_classLit = createForClass('com.google.gwt.user.client.ui', 'FocusWidget', 382);
+defineClass(383, 382, $intern_4);
+var Lcom_google_gwt_user_client_ui_FocusWidget_2_classLit = createForClass('com.google.gwt.user.client.ui', 'FocusWidget', 383);
 function $getCanvasElement(this$static){
   return $clinit_DOM() , this$static.element;
 }
@@ -71475,15 +71766,15 @@ function createIfSupported(){
   return new Canvas_0(element);
 }
 
-defineClass(282, 382, $intern_4, Canvas_0);
+defineClass(282, 383, $intern_4, Canvas_0);
 var detector;
 var Lcom_google_gwt_canvas_client_Canvas_2_classLit = createForClass('com.google.gwt.canvas.client', 'Canvas', 282);
-defineClass(383, 1, {});
-var Lcom_google_gwt_canvas_client_Canvas$CanvasElementSupportDetector_2_classLit = createForClass('com.google.gwt.canvas.client', 'Canvas/CanvasElementSupportDetector', 383);
+defineClass(384, 1, {});
+var Lcom_google_gwt_canvas_client_Canvas$CanvasElementSupportDetector_2_classLit = createForClass('com.google.gwt.canvas.client', 'Canvas/CanvasElementSupportDetector', 384);
 function Canvas$CanvasElementSupportDetectedMaybe(){
 }
 
-defineClass(283, 383, {}, Canvas$CanvasElementSupportDetectedMaybe);
+defineClass(283, 384, {}, Canvas$CanvasElementSupportDetectedMaybe);
 var Lcom_google_gwt_canvas_client_Canvas$CanvasElementSupportDetectedMaybe_2_classLit = createForClass('com.google.gwt.canvas.client', 'Canvas/CanvasElementSupportDetectedMaybe', 283);
 var Lcom_google_gwt_core_client_JavaScriptObject_2_classLit = createForClass('com.google.gwt.core.client', 'JavaScriptObject$', 0);
 function $arc(this$static, x_0, y_0, radius, startAngle, endAngle, anticlockwise){
@@ -71568,7 +71859,7 @@ _.compareTo = function compareTo(other){
   return $compareTo(this, castTo(other, 117));
 }
 ;
-_.equals_0 = function equals_24(other){
+_.equals_0 = function equals_25(other){
   return this === other;
 }
 ;
@@ -71710,8 +72001,8 @@ function now_1(){
   return (new Date).getTime();
 }
 
-defineClass(362, 1, {});
-var Lcom_google_gwt_core_client_Scheduler_2_classLit = createForClass('com.google.gwt.core.client', 'Scheduler', 362);
+defineClass(363, 1, {});
+var Lcom_google_gwt_core_client_Scheduler_2_classLit = createForClass('com.google.gwt.core.client', 'Scheduler', 363);
 function $clinit_Impl(){
   $clinit_Impl = emptyMethod;
   !!($clinit_StackTraceCreator() , collector);
@@ -71879,7 +72170,7 @@ function runScheduledTasks(tasks, rescheduled){
   return rescheduled;
 }
 
-defineClass(266, 362, {}, SchedulerImpl);
+defineClass(266, 363, {}, SchedulerImpl);
 var INSTANCE;
 var Lcom_google_gwt_core_client_impl_SchedulerImpl_2_classLit = createForClass('com.google.gwt.core.client.impl', 'SchedulerImpl', 266);
 function $clinit_StackTraceCreator(){
@@ -71929,12 +72220,12 @@ function supportsErrorStack(){
 }
 
 var collector;
-defineClass(373, 1, {});
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/Collector', 373);
+defineClass(374, 1, {});
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/Collector', 374);
 function StackTraceCreator$CollectorLegacy(){
 }
 
-defineClass(258, 373, {}, StackTraceCreator$CollectorLegacy);
+defineClass(258, 374, {}, StackTraceCreator$CollectorLegacy);
 _.collect = function collect(error){
   var seen = {}, name_1;
   var fnStack = [];
@@ -72011,7 +72302,7 @@ function $parse(this$static, stString){
   return this$static.createSte(fileName, toReturn, line, col);
 }
 
-defineClass(374, 373, {});
+defineClass(375, 374, {});
 _.collect = function collect_0(error){
 }
 ;
@@ -72036,11 +72327,11 @@ _.getStackTrace = function getStackTrace_0(t){
   return stackTrace;
 }
 ;
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 374);
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 375);
 function StackTraceCreator$CollectorModernNoSourceMap(){
 }
 
-defineClass(259, 374, {}, StackTraceCreator$CollectorModernNoSourceMap);
+defineClass(259, 375, {}, StackTraceCreator$CollectorModernNoSourceMap);
 _.createSte = function createSte_0(fileName, method, line, col){
   return new StackTraceElement(method, fileName, -1);
 }
@@ -72083,7 +72374,7 @@ _.toString_1 = function toString_20(elem){
 ;
 var impl_0;
 var Lcom_google_gwt_dom_client_DOMImpl_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImpl', 139);
-defineClass(390, 139, $intern_48);
+defineClass(391, 139, $intern_48);
 _.eventGetRelatedTarget = function eventGetRelatedTarget(evt){
   return evt.relatedTarget;
 }
@@ -72096,28 +72387,28 @@ _.isOrHasChild = function isOrHasChild(parent_0, child){
   return parent_0.contains(child);
 }
 ;
-var Lcom_google_gwt_dom_client_DOMImplStandard_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplStandard', 390);
-defineClass(391, 390, $intern_48);
+var Lcom_google_gwt_dom_client_DOMImplStandard_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplStandard', 391);
+defineClass(392, 391, $intern_48);
 _.eventGetCurrentTarget = function eventGetCurrentTarget_0(event_0){
   return event_0.currentTarget || $wnd;
 }
 ;
-var Lcom_google_gwt_dom_client_DOMImplStandardBase_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplStandardBase', 391);
+var Lcom_google_gwt_dom_client_DOMImplStandardBase_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplStandardBase', 392);
 function DOMImplIE9(){
   $clinit_DOMImpl();
 }
 
-defineClass(317, 391, $intern_48, DOMImplIE9);
+defineClass(318, 392, $intern_48, DOMImplIE9);
 _.isOrHasChild = function isOrHasChild_0(parent_0, child){
   return isOrHasChildImpl(parent_0, child);
 }
 ;
-var Lcom_google_gwt_dom_client_DOMImplIE9_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplIE9', 317);
+var Lcom_google_gwt_dom_client_DOMImplIE9_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplIE9', 318);
 function DOMImplMozilla(){
   $clinit_DOMImpl();
 }
 
-defineClass(316, 390, $intern_48, DOMImplMozilla);
+defineClass(317, 391, $intern_48, DOMImplMozilla);
 _.eventGetRelatedTarget = function eventGetRelatedTarget_0(evt){
   var relatedTarget = evt.relatedTarget;
   if (!relatedTarget) {
@@ -72146,7 +72437,7 @@ _.toString_1 = function toString_21(elem){
   return outer;
 }
 ;
-var Lcom_google_gwt_dom_client_DOMImplMozilla_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplMozilla', 316);
+var Lcom_google_gwt_dom_client_DOMImplMozilla_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplMozilla', 317);
 function isOrHasChildImpl(parent_0, child){
   if (parent_0.nodeType != 1 && parent_0.nodeType != 9) {
     return parent_0 == child;
@@ -72169,8 +72460,8 @@ function DOMImplWebkit(){
   $clinit_DOMImpl();
 }
 
-defineClass(315, 391, $intern_48, DOMImplWebkit);
-var Lcom_google_gwt_dom_client_DOMImplWebkit_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplWebkit', 315);
+defineClass(316, 392, $intern_48, DOMImplWebkit);
+var Lcom_google_gwt_dom_client_DOMImplWebkit_2_classLit = createForClass('com.google.gwt.dom.client', 'DOMImplWebkit', 316);
 function $createCanvasElement(this$static){
   return ($clinit_DOMImpl() , this$static).createElement('canvas');
 }
@@ -72324,7 +72615,7 @@ function divMod(a, b, computeRemainder){
   if (bpower != -1) {
     return divModByShift(a, bpower, negative, aIsNegative, computeRemainder);
   }
-  if (compare_20(a, b) < 0) {
+  if (compare_21(a, b) < 0) {
     computeRemainder && (aIsNegative?(remainder_0 = neg(a)):(remainder_0 = create0(a.l, a.m, a.h)));
     return create0(0, 0, 0);
   }
@@ -72486,7 +72777,7 @@ function add_0(a, b){
   return create0(sum0 & $intern_49, sum1 & $intern_49, sum2 & $intern_50);
 }
 
-function compare_20(a, b){
+function compare_21(a, b){
   var a0, a1, a2, b0, b1, b2, signA, signB;
   signA = a.h >> 19;
   signB = b.h >> 19;
@@ -72677,7 +72968,7 @@ function sub_0(a, b){
 }
 
 function toDouble(a){
-  if (compare_20(a, ($clinit_BigLongLib$Const() , ZERO)) < 0) {
+  if (compare_21(a, ($clinit_BigLongLib$Const() , ZERO)) < 0) {
     return -toDoubleHelper(neg(a));
   }
   return a.l + a.m * $intern_51 + a.h * $intern_52;
@@ -72757,7 +73048,7 @@ function add_1(a, b){
   return createLongEmul(add_0(isSmallLong0(a)?toBigLong(a):a, isSmallLong0(b)?toBigLong(b):b));
 }
 
-function compare_21(a, b){
+function compare_22(a, b){
   var result;
   if (isSmallLong0(a) && isSmallLong0(b)) {
     result = a - b;
@@ -72765,7 +73056,7 @@ function compare_21(a, b){
       return result;
     }
   }
-  return compare_20(isSmallLong0(a)?toBigLong(a):a, isSmallLong0(b)?toBigLong(b):b);
+  return compare_21(isSmallLong0(a)?toBigLong(a):a, isSmallLong0(b)?toBigLong(b):b);
 }
 
 function createLongEmul(big_0){
@@ -72792,7 +73083,7 @@ function div(a, b){
 }
 
 function eq(a, b){
-  return compare_21(a, b) == 0;
+  return compare_22(a, b) == 0;
 }
 
 function fromDouble_0(value_0){
@@ -72803,11 +73094,11 @@ function fromDouble_0(value_0){
 }
 
 function gt(a, b){
-  return compare_21(a, b) > 0;
+  return compare_22(a, b) > 0;
 }
 
 function gte_0(a, b){
-  return compare_21(a, b) >= 0;
+  return compare_22(a, b) >= 0;
 }
 
 function isSmallLong0(value_0){
@@ -72815,11 +73106,11 @@ function isSmallLong0(value_0){
 }
 
 function lt(a, b){
-  return compare_21(a, b) < 0;
+  return compare_22(a, b) < 0;
 }
 
 function lte(a, b){
-  return compare_21(a, b) <= 0;
+  return compare_22(a, b) <= 0;
 }
 
 function mul_0(a, b){
@@ -72845,7 +73136,7 @@ function neg_0(a){
 }
 
 function neq(a, b){
-  return compare_21(a, b) != 0;
+  return compare_22(a, b) != 0;
 }
 
 function sub_1(a, b){
@@ -73001,10 +73292,10 @@ function LogConfiguration$LogConfigurationImplRegular(){
 
 defineClass(247, 1, {}, LogConfiguration$LogConfigurationImplRegular);
 var Lcom_google_gwt_logging_client_LogConfiguration$LogConfigurationImplRegular_2_classLit = createForClass('com.google.gwt.logging.client', 'LogConfiguration/LogConfigurationImplRegular', 247);
-defineClass(384, 1, {});
-var Ljava_util_logging_Formatter_2_classLit = createForClass('java.util.logging', 'Formatter', 384);
-defineClass(385, 384, {});
-var Lcom_google_gwt_logging_impl_FormatterImpl_2_classLit = createForClass('com.google.gwt.logging.impl', 'FormatterImpl', 385);
+defineClass(385, 1, {});
+var Ljava_util_logging_Formatter_2_classLit = createForClass('java.util.logging', 'Formatter', 385);
+defineClass(386, 385, {});
+var Lcom_google_gwt_logging_impl_FormatterImpl_2_classLit = createForClass('com.google.gwt.logging.impl', 'FormatterImpl', 386);
 function $format_8(this$static, event_0){
   var message, date, s;
   message = new StringBuilder;
@@ -73021,15 +73312,15 @@ function TextLogFormatter(showStackTraces){
   this.showStackTraces = showStackTraces;
 }
 
-defineClass(221, 385, {}, TextLogFormatter);
+defineClass(221, 386, {}, TextLogFormatter);
 _.showStackTraces = false;
 var Lcom_google_gwt_logging_client_TextLogFormatter_2_classLit = createForClass('com.google.gwt.logging.client', 'TextLogFormatter', 221);
-defineClass(375, 1, {});
-var Ljava_io_OutputStream_2_classLit = createForClass('java.io', 'OutputStream', 375);
+defineClass(376, 1, {});
+var Ljava_io_OutputStream_2_classLit = createForClass('java.io', 'OutputStream', 376);
 function FilterOutputStream(out){
 }
 
-defineClass(219, 375, {}, FilterOutputStream);
+defineClass(219, 376, {}, FilterOutputStream);
 var Ljava_io_FilterOutputStream_2_classLit = createForClass('java.io', 'FilterOutputStream', 219);
 function PrintStream(out){
   FilterOutputStream.call(this, out);
@@ -73307,7 +73598,7 @@ function getFirstAncestorWithListener(evt){
   return curElem;
 }
 
-defineClass(388, 138, $intern_57);
+defineClass(389, 138, $intern_57);
 _.initEventSystem = function initEventSystem(){
   $initEventSystem();
 }
@@ -73318,15 +73609,15 @@ _.sinkEvents = function sinkEvents(elem, bits){
 }
 ;
 var bitlessEventDispatchers, captureElem, captureEventDispatchers, dispatchEvent_1, dispatchUnhandledEvent;
-var Lcom_google_gwt_user_client_impl_DOMImplStandard_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplStandard', 388);
-defineClass(389, 388, $intern_57);
-var Lcom_google_gwt_user_client_impl_DOMImplStandardBase_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplStandardBase', 389);
+var Lcom_google_gwt_user_client_impl_DOMImplStandard_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplStandard', 389);
+defineClass(390, 389, $intern_57);
+var Lcom_google_gwt_user_client_impl_DOMImplStandardBase_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplStandardBase', 390);
 function DOMImplIE9_0(){
   $clinit_DOMImplStandard();
 }
 
-defineClass(309, 389, $intern_57, DOMImplIE9_0);
-var Lcom_google_gwt_user_client_impl_DOMImplIE9_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplIE9', 309);
+defineClass(310, 390, $intern_57, DOMImplIE9_0);
+var Lcom_google_gwt_user_client_impl_DOMImplIE9_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplIE9', 310);
 function $clinit_DOMImplMozilla(){
   $clinit_DOMImplMozilla = emptyMethod;
   $clinit_DOMImplStandard();
@@ -73351,7 +73642,7 @@ function DOMImplMozilla_0(){
   $clinit_DOMImplMozilla();
 }
 
-defineClass(310, 388, $intern_57, DOMImplMozilla_0);
+defineClass(311, 389, $intern_57, DOMImplMozilla_0);
 _.initEventSystem = function initEventSystem_0(){
   $initEventSystem();
   $initSyntheticMouseUpEvents();
@@ -73363,13 +73654,13 @@ _.sinkEvents = function sinkEvents_0(elem, bits){
   bits & $intern_5 && elem.addEventListener('DOMMouseScroll', ($clinit_DOMImplStandard() , dispatchEvent_1), false);
 }
 ;
-var Lcom_google_gwt_user_client_impl_DOMImplMozilla_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplMozilla', 310);
+var Lcom_google_gwt_user_client_impl_DOMImplMozilla_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplMozilla', 311);
 function DOMImplWebkit_0(){
   $clinit_DOMImplStandard();
 }
 
-defineClass(311, 389, $intern_57, DOMImplWebkit_0);
-var Lcom_google_gwt_user_client_impl_DOMImplWebkit_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplWebkit', 311);
+defineClass(312, 390, $intern_57, DOMImplWebkit_0);
+var Lcom_google_gwt_user_client_impl_DOMImplWebkit_2_classLit = createForClass('com.google.gwt.user.client.impl', 'DOMImplWebkit', 312);
 function foreach_0(map_0, fn){
   for (var e in map_0) {
     map_0.hasOwnProperty(e) && fn(e, map_0[e]);
@@ -73393,8 +73684,8 @@ function FocusImplIE6(){
   $clinit_FocusImpl();
 }
 
-defineClass(307, 136, {136:1}, FocusImplIE6);
-var Lcom_google_gwt_user_client_ui_impl_FocusImplIE6_2_classLit = createForClass('com.google.gwt.user.client.ui.impl', 'FocusImplIE6', 307);
+defineClass(308, 136, {136:1}, FocusImplIE6);
+var Lcom_google_gwt_user_client_ui_impl_FocusImplIE6_2_classLit = createForClass('com.google.gwt.user.client.ui.impl', 'FocusImplIE6', 308);
 function FocusImplStandard(){
   $clinit_FocusImpl();
 }
@@ -73405,8 +73696,8 @@ function FocusImplSafari(){
   $clinit_FocusImpl();
 }
 
-defineClass(308, 172, $intern_58, FocusImplSafari);
-var Lcom_google_gwt_user_client_ui_impl_FocusImplSafari_2_classLit = createForClass('com.google.gwt.user.client.ui.impl', 'FocusImplSafari', 308);
+defineClass(309, 172, $intern_58, FocusImplSafari);
+var Lcom_google_gwt_user_client_ui_impl_FocusImplSafari_2_classLit = createForClass('com.google.gwt.user.client.ui.impl', 'FocusImplSafari', 309);
 function assertCompileTimeUserAgent(){
   var compileTimeValue, impl, runtimeValue;
   impl = castTo(create_com_google_gwt_useragent_client_UserAgent(), 184);
@@ -73625,8 +73916,8 @@ function ArrayIndexOutOfBoundsException(msg){
   IndexOutOfBoundsException.call(this, msg);
 }
 
-defineClass(361, 154, $intern_23, ArrayIndexOutOfBoundsException);
-var Ljava_lang_ArrayIndexOutOfBoundsException_2_classLit = createForClass('java.lang', 'ArrayIndexOutOfBoundsException', 361);
+defineClass(362, 154, $intern_23, ArrayIndexOutOfBoundsException);
+var Ljava_lang_ArrayIndexOutOfBoundsException_2_classLit = createForClass('java.lang', 'ArrayIndexOutOfBoundsException', 362);
 function ArrayStoreException(){
   RuntimeException.call(this);
 }
@@ -73639,10 +73930,10 @@ function $clinit_Boolean(){
 }
 
 function $compareTo_0(this$static, b){
-  return compare_22((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(b) , b));
+  return compare_23((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(b) , b));
 }
 
-function compare_22(x_0, y_0){
+function compare_23(x_0, y_0){
   $clinit_Boolean();
   return x_0 == y_0?0:x_0?1:-1;
 }
@@ -73762,19 +74053,19 @@ function __parseAndValidateLong(s){
       firstTime = false;
     }
      else {
-      if (compare_21(toReturn, minValue) < 0) {
+      if (compare_22(toReturn, minValue) < 0) {
         throw toJs(new NumberFormatException('For input string: "' + orig + '"'));
       }
       toReturn = mul_0(toReturn, radixPower);
     }
     toReturn = sub_1(toReturn, head);
   }
-  if (compare_21(toReturn, 0) > 0) {
+  if (compare_22(toReturn, 0) > 0) {
     throw toJs(new NumberFormatException('For input string: "' + orig + '"'));
   }
   if (!negative) {
     toReturn = neg_0(toReturn);
-    if (compare_21(toReturn, 0) < 0) {
+    if (compare_22(toReturn, 0) < 0) {
       throw toJs(new NumberFormatException('For input string: "' + orig + '"'));
     }
   }
@@ -73785,10 +74076,10 @@ defineClass(166, 1, {8:1, 166:1});
 var floatRegex;
 var Ljava_lang_Number_2_classLit = createForClass('java.lang', 'Number', 166);
 function $compareTo_1(this$static, b){
-  return compare_23((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(b) , b));
+  return compare_24((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(b) , b));
 }
 
-function compare_23(x_0, y_0){
+function compare_24(x_0, y_0){
   if (x_0 < y_0) {
     return -1;
   }
@@ -73820,14 +74111,14 @@ function IllegalStateException(){
 defineClass(260, 105, $intern_23, IllegalStateException);
 var Ljava_lang_IllegalStateException_2_classLit = createForClass('java.lang', 'IllegalStateException', 260);
 function $compareTo_2(this$static, b){
-  return compare_24(this$static.value_0, b.value_0);
+  return compare_25(this$static.value_0, b.value_0);
 }
 
 function Integer(value_0){
   this.value_0 = value_0;
 }
 
-function compare_24(x_0, y_0){
+function compare_25(x_0, y_0){
   return x_0 < y_0?-1:x_0 > y_0?1:0;
 }
 
@@ -73892,7 +74183,7 @@ _.compareTo = function compareTo_0(b){
   return $compareTo_2(this, castTo(b, 29));
 }
 ;
-_.equals_0 = function equals_25(o){
+_.equals_0 = function equals_26(o){
   return instanceOf(o, 29) && castTo(o, 29).value_0 == this.value_0;
 }
 ;
@@ -73913,20 +74204,20 @@ function $clinit_Integer$BoxedValues(){
 
 var boxedValues;
 function $compareTo_3(this$static, b){
-  return compare_25(this$static.value_0, b.value_0);
+  return compare_26(this$static.value_0, b.value_0);
 }
 
 function Long(value_0){
   this.value_0 = value_0;
 }
 
-function compare_25(x_0, y_0){
-  return compare_21(x_0, y_0) < 0?-1:compare_21(x_0, y_0) > 0?1:0;
+function compare_26(x_0, y_0){
+  return compare_22(x_0, y_0) < 0?-1:compare_22(x_0, y_0) > 0?1:0;
 }
 
 function valueOf_0(i){
   var rebase, result;
-  if (compare_21(i, -129) > 0 && compare_21(i, 128) < 0) {
+  if (compare_22(i, -129) > 0 && compare_22(i, 128) < 0) {
     rebase = toInt_0(i) + 128;
     result = ($clinit_Long$BoxedValues() , boxedValues_0)[rebase];
     !result && (result = boxedValues_0[rebase] = new Long(i));
@@ -73940,7 +74231,7 @@ _.compareTo = function compareTo_1(b){
   return $compareTo_3(this, castTo(b, 78));
 }
 ;
-_.equals_0 = function equals_26(o){
+_.equals_0 = function equals_27(o){
   return instanceOf(o, 78) && eq(castTo(o, 78).value_0, this.value_0);
 }
 ;
@@ -74014,11 +74305,11 @@ function StackTraceElement(methodName, fileName, lineNumber){
 }
 
 defineClass(127, 1, {8:1, 127:1}, StackTraceElement);
-_.equals_0 = function equals_27(other){
+_.equals_0 = function equals_28(other){
   var st;
   if (instanceOf(other, 127)) {
     st = castTo(other, 127);
-    return this.lineNumber == st.lineNumber && equals_40(this.methodName, st.methodName) && equals_40(this.className, st.className) && equals_40(this.fileName, st.fileName);
+    return this.lineNumber == st.lineNumber && equals_41(this.methodName, st.methodName) && equals_41(this.className, st.className) && equals_41(this.fileName, st.fileName);
   }
   return false;
 }
@@ -74038,7 +74329,7 @@ function $charAt_0(this$static, index_0){
 }
 
 function $compareTo_4(this$static, other){
-  return compare_27((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(other) , other));
+  return compare_28((checkCriticalNotNull(this$static) , this$static), (checkCriticalNotNull(other) , other));
 }
 
 function $concat(this$static, str){
@@ -74267,7 +74558,7 @@ function $clinit_System(){
   out_0 = new PrintStream(null);
 }
 
-defineClass(409, 1, {});
+defineClass(410, 1, {});
 var err, out_0;
 function UnsupportedOperationException(){
   RuntimeException.call(this);
@@ -74413,7 +74704,7 @@ function getEntryValueOrNull(entry){
   return !entry?null:entry.getValue();
 }
 
-defineClass(379, 1, $intern_61);
+defineClass(380, 1, $intern_61);
 _.clear_0 = function clear_1(){
   this.entrySet_0().clear_0();
 }
@@ -74426,7 +74717,7 @@ _.containsKey = function containsKey(key){
   return !!$implFindEntry(this, key, false);
 }
 ;
-_.equals_0 = function equals_28(obj){
+_.equals_0 = function equals_29(obj){
   var entry, entry$iterator, otherMap;
   if (obj === this) {
     return true;
@@ -74485,7 +74776,7 @@ _.toString_0 = function toString_31(){
   return !joiner.builder?joiner.emptyValue:joiner.suffix.length == 0?joiner.builder.string:joiner.builder.string + ('' + joiner.suffix);
 }
 ;
-var Ljava_util_AbstractMap_2_classLit = createForClass('java.util', 'AbstractMap', 379);
+var Ljava_util_AbstractMap_2_classLit = createForClass('java.util', 'AbstractMap', 380);
 function $containsKey(this$static, key){
   return instanceOfString(key)?$hasStringValue(this$static, key):!!$getEntry(this$static.hashCodeMap, key);
 }
@@ -74541,7 +74832,7 @@ function $size(this$static){
   return this$static.hashCodeMap.size_0 + this$static.stringMap.size_0;
 }
 
-defineClass(170, 379, $intern_61);
+defineClass(170, 380, $intern_61);
 _.clear_0 = function clear_2(){
   $reset_5(this);
 }
@@ -74571,8 +74862,8 @@ _.size_1 = function size_2(){
 }
 ;
 var Ljava_util_AbstractHashMap_2_classLit = createForClass('java.util', 'AbstractHashMap', 170);
-defineClass(378, 109, $intern_62);
-_.equals_0 = function equals_29(o){
+defineClass(379, 109, $intern_62);
+_.equals_0 = function equals_30(o){
   var other;
   if (o === this) {
     return true;
@@ -74591,7 +74882,7 @@ _.hashCode_0 = function hashCode_8(){
   return hashCode_13(this);
 }
 ;
-var Ljava_util_AbstractSet_2_classLit = createForClass('java.util', 'AbstractSet', 378);
+var Ljava_util_AbstractSet_2_classLit = createForClass('java.util', 'AbstractSet', 379);
 function $contains(this$static, o){
   if (instanceOf(o, 44)) {
     return $containsEntry(this$static.this$01, castTo(o, 44));
@@ -74603,7 +74894,7 @@ function AbstractHashMap$EntrySet(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(31, 378, $intern_62, AbstractHashMap$EntrySet);
+defineClass(32, 379, $intern_62, AbstractHashMap$EntrySet);
 _.clear_0 = function clear_3(){
   this.this$01.clear_0();
 }
@@ -74630,7 +74921,7 @@ _.size_1 = function size_3(){
   return this.this$01.size_1();
 }
 ;
-var Ljava_util_AbstractHashMap$EntrySet_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySet', 31);
+var Ljava_util_AbstractHashMap$EntrySet_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySet', 32);
 function $computeHasNext(this$static){
   if (this$static.current.hasNext_0()) {
     return true;
@@ -74671,7 +74962,7 @@ function AbstractHashMap$EntrySetIterator(this$0){
   this['_gwt_modCount'] = modCount;
 }
 
-defineClass(32, 1, {}, AbstractHashMap$EntrySetIterator);
+defineClass(33, 1, {}, AbstractHashMap$EntrySetIterator);
 _.next_1 = function next_0(){
   return $next_1(this);
 }
@@ -74685,7 +74976,7 @@ _.remove_1 = function remove_4(){
 }
 ;
 _.hasNext = false;
-var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 32);
+var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 33);
 function $sort_0(this$static, c){
   var a, i;
   a = this$static.toArray();
@@ -74713,7 +75004,7 @@ _.clear_0 = function clear_4(){
   this.removeRange(0, this.size_1());
 }
 ;
-_.equals_0 = function equals_30(o){
+_.equals_0 = function equals_31(o){
   var elem, elem$iterator, elemOther, iterOther, other;
   if (o === this) {
     return true;
@@ -74743,7 +75034,7 @@ _.hashCode_0 = function hashCode_9(){
 _.indexOf_0 = function indexOf(toFind){
   var i, n;
   for (i = 0 , n = this.size_1(); i < n; ++i) {
-    if (equals_40(toFind, this.get_1(i))) {
+    if (equals_41(toFind, this.get_1(i))) {
       return i;
     }
   }
@@ -74895,7 +75186,7 @@ function AbstractMap$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(54, 378, $intern_62, AbstractMap$1);
+defineClass(54, 379, $intern_62, AbstractMap$1);
 _.clear_0 = function clear_5(){
   this.this$01.clear_0();
 }
@@ -74945,7 +75236,7 @@ function AbstractMap$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(30, 109, $intern_60, AbstractMap$2);
+defineClass(31, 109, $intern_60, AbstractMap$2);
 _.clear_0 = function clear_6(){
   $reset_5(this.this$01);
 }
@@ -74963,12 +75254,12 @@ _.size_1 = function size_6(){
   return $size(this.this$01);
 }
 ;
-var Ljava_util_AbstractMap$2_2_classLit = createForClass('java.util', 'AbstractMap/2', 30);
+var Ljava_util_AbstractMap$2_2_classLit = createForClass('java.util', 'AbstractMap/2', 31);
 function AbstractMap$2$1(val$outerIter){
   this.val$outerIter2 = val$outerIter;
 }
 
-defineClass(33, 1, {}, AbstractMap$2$1);
+defineClass(34, 1, {}, AbstractMap$2$1);
 _.hasNext_0 = function hasNext_2(){
   return this.val$outerIter2.hasNext;
 }
@@ -74982,7 +75273,7 @@ _.remove_1 = function remove_11(){
   $remove_0(this.val$outerIter2);
 }
 ;
-var Ljava_util_AbstractMap$2$1_2_classLit = createForClass('java.util', 'AbstractMap/2/1', 33);
+var Ljava_util_AbstractMap$2$1_2_classLit = createForClass('java.util', 'AbstractMap/2/1', 34);
 function $setValue_0(this$static, value_0){
   var oldValue;
   oldValue = this$static.value_0;
@@ -74991,13 +75282,13 @@ function $setValue_0(this$static, value_0){
 }
 
 defineClass(156, 1, {156:1, 44:1});
-_.equals_0 = function equals_31(other){
+_.equals_0 = function equals_32(other){
   var entry;
   if (!instanceOf(other, 44)) {
     return false;
   }
   entry = castTo(other, 44);
-  return equals_40(this.key, entry.getKey()) && equals_40(this.value_0, entry.getValue());
+  return equals_41(this.key, entry.getKey()) && equals_41(this.value_0, entry.getValue());
 }
 ;
 _.getKey = function getKey(){
@@ -75028,14 +75319,14 @@ function AbstractMap$SimpleEntry(key, value_0){
 
 defineClass(135, 156, {156:1, 135:1, 44:1}, AbstractMap$SimpleEntry);
 var Ljava_util_AbstractMap$SimpleEntry_2_classLit = createForClass('java.util', 'AbstractMap/SimpleEntry', 135);
-defineClass(386, 1, {44:1});
-_.equals_0 = function equals_32(other){
+defineClass(387, 1, {44:1});
+_.equals_0 = function equals_33(other){
   var entry;
   if (!instanceOf(other, 44)) {
     return false;
   }
   entry = castTo(other, 44);
-  return equals_40(this.val$entry2.value[0], entry.getKey()) && equals_40($getValue_2(this), entry.getValue());
+  return equals_41(this.val$entry2.value[0], entry.getKey()) && equals_41($getValue_2(this), entry.getValue());
 }
 ;
 _.hashCode_0 = function hashCode_11(){
@@ -75046,19 +75337,19 @@ _.toString_0 = function toString_33(){
   return this.val$entry2.value[0] + '=' + $getValue_2(this);
 }
 ;
-var Ljava_util_AbstractMapEntry_2_classLit = createForClass('java.util', 'AbstractMapEntry', 386);
+var Ljava_util_AbstractMapEntry_2_classLit = createForClass('java.util', 'AbstractMapEntry', 387);
 function $containsEntry_0(this$static, entry){
   var key, lookupEntry;
   key = entry.getKey();
   lookupEntry = $getEntry_0(this$static, key);
-  return !!lookupEntry && equals_40(lookupEntry.value_0, entry.getValue());
+  return !!lookupEntry && equals_41(lookupEntry.value_0, entry.getValue());
 }
 
 function $containsKey_0(this$static, k){
   return !!$getEntry_0(this$static, k);
 }
 
-defineClass(393, 379, $intern_61);
+defineClass(394, 380, $intern_61);
 _.containsEntry = function containsEntry_0(entry){
   return $containsEntry_0(this, entry);
 }
@@ -75079,12 +75370,12 @@ _.keySet_0 = function keySet_0(){
   return new AbstractNavigableMap$NavigableKeySet(this);
 }
 ;
-var Ljava_util_AbstractNavigableMap_2_classLit = createForClass('java.util', 'AbstractNavigableMap', 393);
+var Ljava_util_AbstractNavigableMap_2_classLit = createForClass('java.util', 'AbstractNavigableMap', 394);
 function AbstractNavigableMap$EntrySet(this$0){
   this.this$01_0 = this$0;
 }
 
-defineClass(238, 378, $intern_62, AbstractNavigableMap$EntrySet);
+defineClass(238, 379, $intern_62, AbstractNavigableMap$EntrySet);
 _.contains_0 = function contains_4(o){
   return instanceOf(o, 44) && $containsEntry_0(this.this$01_0, castTo(o, 44));
 }
@@ -75111,7 +75402,7 @@ function AbstractNavigableMap$NavigableKeySet(map_0){
   this.map_0 = map_0;
 }
 
-defineClass(239, 378, $intern_62, AbstractNavigableMap$NavigableKeySet);
+defineClass(239, 379, $intern_62, AbstractNavigableMap$NavigableKeySet);
 _.clear_0 = function clear_7(){
   $clear_0(this.map_0);
 }
@@ -75190,7 +75481,7 @@ function $get_2(this$static, index_0){
 
 function $indexOf_1(this$static, o, index_0){
   for (; index_0 < this$static.array.length; ++index_0) {
-    if (equals_40(o, this$static.array[index_0])) {
+    if (equals_41(o, this$static.array[index_0])) {
       return index_0;
     }
   }
@@ -75536,7 +75827,7 @@ _.add_1 = function add_9(index_0, element){
   throw toJs(new UnsupportedOperationException);
 }
 ;
-_.equals_0 = function equals_33(o){
+_.equals_0 = function equals_34(o){
   return equals_Ljava_lang_Object__Z__devirtual$(this.list, o);
 }
 ;
@@ -75614,7 +75905,7 @@ _.entrySet_0 = function entrySet_1(){
   return this.entrySet;
 }
 ;
-_.equals_0 = function equals_34(o){
+_.equals_0 = function equals_35(o){
   return equals_Ljava_lang_Object__Z__devirtual$(this.map_0, o);
 }
 ;
@@ -75657,7 +75948,7 @@ function Collections$UnmodifiableSet(set_0){
 }
 
 defineClass(223, 222, $intern_64, Collections$UnmodifiableSet);
-_.equals_0 = function equals_35(o){
+_.equals_0 = function equals_36(o){
   return equals_Ljava_lang_Object__Z__devirtual$(this.coll, o);
 }
 ;
@@ -75719,7 +76010,7 @@ function Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry(entr
 }
 
 defineClass(224, 1, {44:1}, Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry);
-_.equals_0 = function equals_36(o){
+_.equals_0 = function equals_37(o){
   return this.entry.equals_0(o);
 }
 ;
@@ -75756,27 +76047,27 @@ function $clinit_Comparators(){
 }
 
 var INTERNAL_NATURAL_ORDER;
-function $compare_19(a, b){
+function $compare_20(a, b){
   return checkCriticalNotNull(a) , compareTo_Ljava_lang_Object__I__devirtual$(a, (checkCriticalNotNull(b) , b));
 }
 
-function $compare_20(a, b){
-  return $compare_19(castTo(a, 108), castTo(b, 108));
+function $compare_21(a, b){
+  return $compare_20(castTo(a, 108), castTo(b, 108));
 }
 
 function Comparators$NaturalOrderComparator(){
 }
 
-defineClass(354, 1, $intern_65, Comparators$NaturalOrderComparator);
-_.compare = function compare_26(a, b){
-  return $compare_20(a, b);
+defineClass(355, 1, $intern_65, Comparators$NaturalOrderComparator);
+_.compare = function compare_27(a, b){
+  return $compare_21(a, b);
 }
 ;
-_.equals_0 = function equals_37(other){
+_.equals_0 = function equals_38(other){
   return this === other;
 }
 ;
-var Ljava_util_Comparators$NaturalOrderComparator_2_classLit = createForClass('java.util', 'Comparators/NaturalOrderComparator', 354);
+var Ljava_util_Comparators$NaturalOrderComparator_2_classLit = createForClass('java.util', 'Comparators/NaturalOrderComparator', 355);
 function checkStructuralChange(host, iterator){
   if (iterator['_gwt_modCount'] != host['_gwt_modCount']) {
     throw toJs(new ConcurrentModificationException);
@@ -75799,10 +76090,10 @@ function ConcurrentModificationException(){
   RuntimeException.call(this);
 }
 
-defineClass(360, 105, $intern_23, ConcurrentModificationException);
-var Ljava_util_ConcurrentModificationException_2_classLit = createForClass('java.util', 'ConcurrentModificationException', 360);
+defineClass(361, 105, $intern_23, ConcurrentModificationException);
+var Ljava_util_ConcurrentModificationException_2_classLit = createForClass('java.util', 'ConcurrentModificationException', 361);
 function $compareTo_5(this$static, other){
-  return compare_25(fromDouble_0(this$static.jsdate.getTime()), fromDouble_0(other.jsdate.getTime()));
+  return compare_26(fromDouble_0(this$static.jsdate.getTime()), fromDouble_0(other.jsdate.getTime()));
 }
 
 function $fixDaylightSavings(this$static, requestedHours){
@@ -75888,7 +76179,7 @@ _.compareTo = function compareTo_2(other){
   return $compareTo_5(this, castTo(other, 21));
 }
 ;
-_.equals_0 = function equals_38(obj){
+_.equals_0 = function equals_39(obj){
   return instanceOf(obj, 21) && eq(fromDouble_0(this.jsdate.getTime()), fromDouble_0(castTo(obj, 21).jsdate.getTime()));
 }
 ;
@@ -75926,7 +76217,7 @@ function HashMap_1(toBeCopied){
 }
 
 defineClass(24, 170, $intern_66, HashMap, HashMap_0, HashMap_1);
-_.equals_1 = function equals_39(value1, value2){
+_.equals_1 = function equals_40(value1, value2){
   return maskUndefined(value1) === maskUndefined(value2) || value1 != null && equals_Ljava_lang_Object__Z__devirtual$(value1, value2);
 }
 ;
@@ -76004,13 +76295,13 @@ function InternalHashCodeMap(host){
   this.host = host;
 }
 
-defineClass(306, 1, {96:1}, InternalHashCodeMap);
+defineClass(307, 1, {96:1}, InternalHashCodeMap);
 _.iterator = function iterator_9(){
   return new InternalHashCodeMap$1(this);
 }
 ;
 _.size_0 = 0;
-var Ljava_util_InternalHashCodeMap_2_classLit = createForClass('java.util', 'InternalHashCodeMap', 306);
+var Ljava_util_InternalHashCodeMap_2_classLit = createForClass('java.util', 'InternalHashCodeMap', 307);
 function InternalHashCodeMap$1(this$0){
   this.this$01 = this$0;
   this.chains = this.this$01.backingMap.entries();
@@ -76246,7 +76537,7 @@ function InternalStringMap$2(this$0, val$entry, val$lastValueMod){
   this.val$lastValueMod3 = val$lastValueMod;
 }
 
-defineClass(292, 386, {44:1}, InternalStringMap$2);
+defineClass(292, 387, {44:1}, InternalStringMap$2);
 _.getKey = function getKey_1(){
   return this.val$entry2.value[0];
 }
@@ -76401,7 +76692,7 @@ function LinkedHashMap$EntrySet(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(322, 378, $intern_62, LinkedHashMap$EntrySet);
+defineClass(323, 379, $intern_62, LinkedHashMap$EntrySet);
 _.clear_0 = function clear_11(){
   $clear(this.this$01);
 }
@@ -76428,14 +76719,14 @@ _.size_1 = function size_13(){
   return $size(this.this$01.map_0);
 }
 ;
-var Ljava_util_LinkedHashMap$EntrySet_2_classLit = createForClass('java.util', 'LinkedHashMap/EntrySet', 322);
+var Ljava_util_LinkedHashMap$EntrySet_2_classLit = createForClass('java.util', 'LinkedHashMap/EntrySet', 323);
 function LinkedHashMap$EntrySet$EntryIterator(this$1){
   this.this$11 = this$1;
   this.next_0 = this$1.this$01.head.next_0;
   recordLastKnownStructure(this$1.this$01.map_0, this);
 }
 
-defineClass(323, 1, {}, LinkedHashMap$EntrySet$EntryIterator);
+defineClass(324, 1, {}, LinkedHashMap$EntrySet$EntryIterator);
 _.next_1 = function next_10(){
   return checkStructuralChange(this.this$11.this$01.map_0, this) , checkCriticalElement(this.next_0 != this.this$11.this$01.head) , this.last = this.next_0 , this.next_0 = this.next_0.next_0 , this.last;
 }
@@ -76453,20 +76744,20 @@ _.remove_1 = function remove_28(){
   this.last = null;
 }
 ;
-var Ljava_util_LinkedHashMap$EntrySet$EntryIterator_2_classLit = createForClass('java.util', 'LinkedHashMap/EntrySet/EntryIterator', 323);
+var Ljava_util_LinkedHashMap$EntrySet$EntryIterator_2_classLit = createForClass('java.util', 'LinkedHashMap/EntrySet/EntryIterator', 324);
 function $clinit_Locale(){
   $clinit_Locale = emptyMethod;
   ROOT = new Locale$1;
   defaultLocale = new Locale$4;
 }
 
-defineClass(372, 1, {});
+defineClass(373, 1, {});
 var ROOT, defaultLocale;
-var Ljava_util_Locale_2_classLit = createForClass('java.util', 'Locale', 372);
+var Ljava_util_Locale_2_classLit = createForClass('java.util', 'Locale', 373);
 function Locale$1(){
 }
 
-defineClass(255, 372, {}, Locale$1);
+defineClass(255, 373, {}, Locale$1);
 _.toString_0 = function toString_38(){
   return '';
 }
@@ -76475,7 +76766,7 @@ var Ljava_util_Locale$1_2_classLit = createForClass('java.util', 'Locale/1', 255
 function Locale$4(){
 }
 
-defineClass(256, 372, {}, Locale$4);
+defineClass(256, 373, {}, Locale$4);
 _.toString_0 = function toString_39(){
   return 'unknown';
 }
@@ -76485,9 +76776,9 @@ function NoSuchElementException(){
   RuntimeException.call(this);
 }
 
-defineClass(340, 105, $intern_23, NoSuchElementException);
-var Ljava_util_NoSuchElementException_2_classLit = createForClass('java.util', 'NoSuchElementException', 340);
-function equals_40(a, b){
+defineClass(341, 105, $intern_23, NoSuchElementException);
+var Ljava_util_NoSuchElementException_2_classLit = createForClass('java.util', 'NoSuchElementException', 341);
+function equals_41(a, b){
   return maskUndefined(a) === maskUndefined(b) || a != null && equals_Ljava_lang_Object__Z__devirtual$(a, b);
 }
 
@@ -76544,11 +76835,11 @@ function Random(){
   this.seedlo = 12004216;
 }
 
-defineClass(352, 1, {}, Random);
+defineClass(353, 1, {}, Random);
 _.seedhi = 0;
 _.seedlo = 0;
 var twoToTheXMinus24, twoToTheXMinus48;
-var Ljava_util_Random_2_classLit = createForClass('java.util', 'Random', 352);
+var Ljava_util_Random_2_classLit = createForClass('java.util', 'Random', 353);
 function $add_2(this$static, newElement){
   !this$static.builder?(this$static.builder = new StringBuilder_1(this$static.prefix)):$append_3(this$static.builder, this$static.delimiter);
   $append_2(this$static.builder, newElement);
@@ -76577,7 +76868,7 @@ function $getEntry_0(this$static, key){
   var c, childNum, tree;
   tree = this$static.root;
   while (tree) {
-    c = $compare_20(key, tree.key);
+    c = $compare_21(key, tree.key);
     if (c == 0) {
       return tree;
     }
@@ -76601,10 +76892,10 @@ function $inOrderAdd(this$static, list, type_0, current, fromKey, fromInclusive,
 
 function $inRange(this$static, type_0, key, fromKey, fromInclusive, toKey, toInclusive){
   var compare, compare0;
-  if (type_0.fromKeyValid() && (compare0 = $compare_20(key, fromKey) , compare0 < 0 || !fromInclusive && compare0 == 0)) {
+  if (type_0.fromKeyValid() && (compare0 = $compare_21(key, fromKey) , compare0 < 0 || !fromInclusive && compare0 == 0)) {
     return false;
   }
-  if (type_0.toKeyValid() && (compare = $compare_20(key, toKey) , compare > 0 || !toInclusive && compare == 0)) {
+  if (type_0.toKeyValid() && (compare = $compare_21(key, toKey) , compare > 0 || !toInclusive && compare == 0)) {
     return false;
   }
   return true;
@@ -76616,7 +76907,7 @@ function $insert(this$static, tree, newNode, state){
     return newNode;
   }
    else {
-    c = $compare_20(newNode.key, tree.key);
+    c = $compare_21(newNode.key, tree.key);
     if (c == 0) {
       state.value_0 = $setValue_0(tree, newNode.value_0);
       state.found = true;
@@ -76683,9 +76974,9 @@ function $removeWithState(this$static, key, state){
     grandparent = parent_0;
     parent_0 = node;
     node = node.child[dir_0];
-    c = $compare_20(key, node.key);
+    c = $compare_21(key, node.key);
     dir_0 = c < 0?0:1;
-    c == 0 && (!state.matchValue || equals_40(node.value_0, state.value_0)) && (found = node);
+    c == 0 && (!state.matchValue || equals_41(node.value_0, state.value_0)) && (found = node);
     if (!(!!node && node.isRed) && !$isRed(node.child[dir_0])) {
       if ($isRed(node.child[1 - dir_0])) {
         parent_0 = parent_0.child[last] = $rotateSingle(node, dir_0);
@@ -76728,10 +77019,10 @@ function $removeWithState(this$static, key, state){
 function $replaceNode(this$static, head, node, newNode){
   var direction, parent_0;
   parent_0 = head;
-  direction = parent_0.key == null || $compare_20(node.key, parent_0.key) > 0?1:0;
+  direction = parent_0.key == null || $compare_21(node.key, parent_0.key) > 0?1:0;
   while (parent_0.child[direction] != node) {
     parent_0 = parent_0.child[direction];
-    direction = $compare_20(node.key, parent_0.key) > 0?1:0;
+    direction = $compare_21(node.key, parent_0.key) > 0?1:0;
   }
   parent_0.child[direction] = newNode;
   newNode.isRed = node.isRed;
@@ -76764,7 +77055,7 @@ function TreeMap(){
   this.cmp = ($clinit_Comparators() , $clinit_Comparators() , INTERNAL_NATURAL_ORDER);
 }
 
-defineClass(178, 393, {8:1, 68:1}, TreeMap);
+defineClass(178, 394, {8:1, 68:1}, TreeMap);
 _.clear_0 = function clear_12(){
   $clear_0(this);
 }
@@ -76887,17 +77178,17 @@ function TreeMap$SubMapType$1(){
   TreeMap$SubMapType.call(this, 'Head', 1);
 }
 
-defineClass(347, 130, $intern_67, TreeMap$SubMapType$1);
+defineClass(348, 130, $intern_67, TreeMap$SubMapType$1);
 _.toKeyValid = function toKeyValid_0(){
   return true;
 }
 ;
-var Ljava_util_TreeMap$SubMapType$1_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/1', 347, null);
+var Ljava_util_TreeMap$SubMapType$1_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/1', 348, null);
 function TreeMap$SubMapType$2(){
   TreeMap$SubMapType.call(this, 'Range', 2);
 }
 
-defineClass(348, 130, $intern_67, TreeMap$SubMapType$2);
+defineClass(349, 130, $intern_67, TreeMap$SubMapType$2);
 _.fromKeyValid = function fromKeyValid_0(){
   return true;
 }
@@ -76906,22 +77197,22 @@ _.toKeyValid = function toKeyValid_1(){
   return true;
 }
 ;
-var Ljava_util_TreeMap$SubMapType$2_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/2', 348, null);
+var Ljava_util_TreeMap$SubMapType$2_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/2', 349, null);
 function TreeMap$SubMapType$3(){
   TreeMap$SubMapType.call(this, 'Tail', 3);
 }
 
-defineClass(349, 130, $intern_67, TreeMap$SubMapType$3);
+defineClass(350, 130, $intern_67, TreeMap$SubMapType$3);
 _.fromKeyValid = function fromKeyValid_1(){
   return true;
 }
 ;
-var Ljava_util_TreeMap$SubMapType$3_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/3', 349, null);
+var Ljava_util_TreeMap$SubMapType$3_2_classLit = createForEnum('java.util', 'TreeMap/SubMapType/3', 350, null);
 function TreeSet(){
   this.map_0 = new TreeMap;
 }
 
-defineClass(325, 378, {8:1, 96:1, 109:1, 102:1, 126:1}, TreeSet);
+defineClass(326, 379, {8:1, 96:1, 109:1, 102:1, 126:1}, TreeSet);
 _.add_0 = function add_10(o){
   return $put_4(this.map_0, o, ($clinit_Boolean() , FALSE_0)) == null;
 }
@@ -76947,7 +77238,7 @@ _.size_1 = function size_15(){
   return this.map_0.size_0;
 }
 ;
-var Ljava_util_TreeSet_2_classLit = createForClass('java.util', 'TreeSet', 325);
+var Ljava_util_TreeSet_2_classLit = createForClass('java.util', 'TreeSet', 326);
 function $clinit_Level(){
   $clinit_Level = emptyMethod;
   ALL = new Level$LevelAll;
@@ -76988,7 +77279,7 @@ function parse_1(name_0){
   }
 }
 
-defineClass(377, 1, $intern_65);
+defineClass(378, 1, $intern_65);
 _.getName = function getName_0(){
   return 'DUMMY';
 }
@@ -77002,11 +77293,11 @@ _.toString_0 = function toString_42(){
 }
 ;
 var ALL, CONFIG, FINE, FINER, FINEST, INFO, OFF, SEVERE, WARNING;
-var Ljava_util_logging_Level_2_classLit = createForClass('java.util.logging', 'Level', 377);
+var Ljava_util_logging_Level_2_classLit = createForClass('java.util.logging', 'Level', 378);
 function Level$LevelAll(){
 }
 
-defineClass(271, 377, $intern_65, Level$LevelAll);
+defineClass(271, 378, $intern_65, Level$LevelAll);
 _.getName = function getName_1(){
   return 'ALL';
 }
@@ -77019,7 +77310,7 @@ var Ljava_util_logging_Level$LevelAll_2_classLit = createForClass('java.util.log
 function Level$LevelConfig(){
 }
 
-defineClass(272, 377, $intern_65, Level$LevelConfig);
+defineClass(272, 378, $intern_65, Level$LevelConfig);
 _.getName = function getName_2(){
   return 'CONFIG';
 }
@@ -77032,7 +77323,7 @@ var Ljava_util_logging_Level$LevelConfig_2_classLit = createForClass('java.util.
 function Level$LevelFine(){
 }
 
-defineClass(273, 377, $intern_65, Level$LevelFine);
+defineClass(273, 378, $intern_65, Level$LevelFine);
 _.getName = function getName_3(){
   return 'FINE';
 }
@@ -77045,7 +77336,7 @@ var Ljava_util_logging_Level$LevelFine_2_classLit = createForClass('java.util.lo
 function Level$LevelFiner(){
 }
 
-defineClass(274, 377, $intern_65, Level$LevelFiner);
+defineClass(274, 378, $intern_65, Level$LevelFiner);
 _.getName = function getName_4(){
   return 'FINER';
 }
@@ -77058,7 +77349,7 @@ var Ljava_util_logging_Level$LevelFiner_2_classLit = createForClass('java.util.l
 function Level$LevelFinest(){
 }
 
-defineClass(275, 377, $intern_65, Level$LevelFinest);
+defineClass(275, 378, $intern_65, Level$LevelFinest);
 _.getName = function getName_5(){
   return 'FINEST';
 }
@@ -77071,7 +77362,7 @@ var Ljava_util_logging_Level$LevelFinest_2_classLit = createForClass('java.util.
 function Level$LevelInfo(){
 }
 
-defineClass(276, 377, $intern_65, Level$LevelInfo);
+defineClass(276, 378, $intern_65, Level$LevelInfo);
 _.getName = function getName_6(){
   return 'INFO';
 }
@@ -77084,7 +77375,7 @@ var Ljava_util_logging_Level$LevelInfo_2_classLit = createForClass('java.util.lo
 function Level$LevelOff(){
 }
 
-defineClass(277, 377, $intern_65, Level$LevelOff);
+defineClass(277, 378, $intern_65, Level$LevelOff);
 _.getName = function getName_7(){
   return 'OFF';
 }
@@ -77097,7 +77388,7 @@ var Ljava_util_logging_Level$LevelOff_2_classLit = createForClass('java.util.log
 function Level$LevelSevere(){
 }
 
-defineClass(278, 377, $intern_65, Level$LevelSevere);
+defineClass(278, 378, $intern_65, Level$LevelSevere);
 _.getName = function getName_8(){
   return 'SEVERE';
 }
@@ -77110,7 +77401,7 @@ var Ljava_util_logging_Level$LevelSevere_2_classLit = createForClass('java.util.
 function Level$LevelWarning(){
 }
 
-defineClass(279, 377, $intern_65, Level$LevelWarning);
+defineClass(279, 378, $intern_65, Level$LevelWarning);
 _.getName = function getName_9(){
   return 'WARNING';
 }
@@ -77165,11 +77456,11 @@ function LogRecord(msg){
   this.millis = ($clinit_System() , fromDouble_0(now_2()));
 }
 
-defineClass(305, 1, $intern_65, LogRecord);
+defineClass(306, 1, $intern_65, LogRecord);
 _.loggerName = '';
 _.millis = 0;
 _.thrown = null;
-var Ljava_util_logging_LogRecord_2_classLit = createForClass('java.util.logging', 'LogRecord', 305);
+var Ljava_util_logging_LogRecord_2_classLit = createForClass('java.util.logging', 'LogRecord', 306);
 function $actuallyLog(this$static, record){
   var handler, handler$array, handler$array0, handler$index, handler$index0, handler$max, handler$max0, logger;
   for (handler$array0 = castTo($toArray_0(this$static.handlers, initUnidimensionalArray(Ljava_util_logging_Handler_2_classLit, $intern_68, 155, this$static.handlers.array.length, 0, 1)), 244) , handler$index0 = 0 , handler$max0 = handler$array0.length; handler$index0 < handler$max0; ++handler$index0) {
@@ -77351,7 +77642,7 @@ function checkNotNull(reference){
   return reference;
 }
 
-function compare_27(a, b){
+function compare_28(a, b){
   return a == b?0:a < b?-1:1;
 }
 

@@ -7,6 +7,7 @@ import {
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
 import * as Phoenix from '../lib/phoenix';
+import US_MAP from '../maps/us.json';
 
 const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
@@ -161,18 +162,38 @@ export class PhoenixChart {
         }
       },
       components: {
-        graph: {
-          type: 'graph',
-          badgetype: type,
-          datasource: 'default',
-          columnFormats: {},
-          overrides: options.properties || {}
-        }
+        graph:
+          type !== PHOENIX_CHART_TYPE.MAP
+            ? {
+                type: 'graph',
+                badgetype: type,
+                datasource: 'default',
+                columnFormats: {},
+                overrides: options.properties || {}
+              }
+            : null,
+        map:
+          type === PHOENIX_CHART_TYPE.MAP
+            ? {
+                type: 'map',
+                badgetype: type,
+                mapdef: 'map',
+                datasource: 'default',
+                columnFormats: {},
+                overrides: options.properties || {}
+              }
+            : null
       },
+      maps: type === PHOENIX_CHART_TYPE.MAP ? US_MAP : null,
       conditionalFormats: [],
       locale: 'en-US',
       version: '6'
     };
+    if (type !== PHOENIX_CHART_TYPE.MAP) {
+      // Make sure there is nothing maps related when it's not a map
+      delete config.maps;
+      delete config.components.map;
+    }
     if (options.colors) {
       config.palette = this._createPalette(options.colors);
     }

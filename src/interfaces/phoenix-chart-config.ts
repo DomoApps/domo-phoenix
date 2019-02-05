@@ -3,7 +3,14 @@ export interface PropertyOverridesMap {
 }
 
 interface Component {
-  map?: {};
+  map?: {
+    type: string;
+    badgetype: string;
+    mapdef: string;
+    datasource: string;
+    columnFormats: Object;
+    overrides: PropertyOverridesMap;
+  };
   graph?: {
     type: string;
     badgetype: string;
@@ -76,6 +83,7 @@ export interface PhoenixChartConfig {
     [key: string]: PhoenixData;
   };
   components: Component;
+  maps?: any;
   palette?: PhoenixChartPalette;
   conditionalFormats: Conditional[];
   locale?: string;

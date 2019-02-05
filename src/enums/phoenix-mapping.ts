@@ -7,5 +7,6 @@ export enum PHOENIX_MAPPING {
   PREVIOUS = 'PREVIOUS',
   TARGET = 'TARGET',
   MIN = 'MIN',
-  MAX = 'MAX'
+  MAX = 'MAX',
+  BUBBLESIZE = 'BUBBLESIZE'
 }

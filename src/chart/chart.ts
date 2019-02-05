@@ -189,7 +189,11 @@ export class PhoenixChart {
       locale: 'en-US',
       version: '6'
     };
-    if (type !== PHOENIX_CHART_TYPE.MAP) {
+    if (type === PHOENIX_CHART_TYPE.MAP) {
+      config.phoenixZoom = false;
+      // Make sure there is nothing graphs related when it's not a graph
+      delete config.components.graph;
+    } else {
       // Make sure there is nothing maps related when it's not a map
       delete config.maps;
       delete config.components.map;

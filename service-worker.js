@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pages/Labs/domo-phoenix-docs/precache-manifest.d8f9ec85775f82701c3193446c409429.js"
+  "/domo-phoenix/precache-manifest.9544a4505ff951a2a8a73a2fbbd74e2d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pages/Labs/domo-phoenix-docs/index.html", {
+workbox.routing.registerNavigationRoute("/domo-phoenix/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

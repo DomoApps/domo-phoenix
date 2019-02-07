@@ -1,0 +1,355 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 651,
+  		"height": 600,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -5.1347227,
+  			"xmax": 9.562222,
+  			"ymin": 41.364166,
+  			"ymax": 51.09111,
+  			"scale": 3615.2383,
+  			"xscalemin": -0.08486569,
+  			"yscalemin": 51.006252
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Rhone-Alpes",
+  					"code": "FRA-RHA",
+  					"longname": "Rhône-Alpes",
+  					"altname": "Rhone-Alpes",
+  					"altcode": "FR-V",
+  					"x": 372.0,
+  					"y": 287.0,
+  					"width": 153.0,
+  					"height": 149.0,
+  					"logicalcenterx": 73.0,
+  					"logicalcentery": 67.0,
+  					"polys": [{
+  						"path": "M8,16l0,4l5,2l13,0l6,-7l6,1l6,5l3,0l6,-21l10,0l3,2l3,1l0,2l9,10l6,-6l4,5l6,-1l8,-10l4,3l-2,8l-6,3l2,4l8,-2l3,-6l-2,-4l4,-5l9,-4l11,1l1,18l12,11l-2,6l-7,2l-1,4l1,3l7,8l2,5l7,5l0,11l-8,6l-5,2l-3,-1l-6,3l-5,3l-12,-2l-1,6l5,1l2,5l0,4l-9,1l-9,4l-7,9l-6,1l-2,6l3,3l-3,2l-6,-1l-2,5l2,3l8,3l3,4l-1,6l-9,2l-4,-4l-9,-2l-1,-3l-5,-1l-10,4l-4,-5l-4,0l0,3l-8,-4l-5,0l-4,3l-10,-1l-5,-15l-3,-3l-1,-9l7,-7l5,-1l7,-6l2,-6l4,-4l1,-6l-7,-11l-7,1l-1,2l-11,0l4,-8l-3,-6l-6,-6l-4,-7l1,-7l4,-7l-3,-13l6,-4M58,139l5,-5l-5,-3l-3,5l1,3l2,0"
+  					}]
+  				},{
+  					"name": "Provence-Alpes-Cote d'Azur",
+  					"code": "FRA-PAC",
+  					"longname": "Provence-Alpes-Côte d'Azur",
+  					"altname": "Provence-Alpes-Cote d'Azur",
+  					"altcode": "FR-U",
+  					"x": 400.0,
+  					"y": 371.0,
+  					"width": 155.0,
+  					"height": 132.0,
+  					"logicalcenterx": 82.0,
+  					"logicalcentery": 74.0,
+  					"polys": [{
+  						"path": "M17,57l0,-3l4,0l4,5l10,-4l5,1l1,3l9,2l4,4l9,-2l1,-6l-3,-4l-8,-3l-2,-3l2,-5l6,1l3,-2l-3,-3l2,-6l6,-1l7,-9l9,-4l9,-1l0,-4l-2,-5l-5,-1l1,-6l12,2l5,-3l6,12l13,5l0,6l-7,13l2,10l7,8l15,6l3,1l9,-5l2,1l2,5l-1,5l-7,8l2,7l-4,2l-1,-1l-1,3l-11,4l-11,15l-4,1l-7,8l0,1l3,1l-3,6l-5,0l-15,5l-1,4l-5,-2l-5,-1l-5,4l-3,-2l2,-2l-6,-4l-16,-2l0,-6l-2,-3l-4,2l-9,0l1,-3l6,-3l2,-3l-9,-4l-1,2l1,5l-7,1l-2,1l0,2l-4,-2l0,-7l-3,-3l2,11l2,2l-9,0l1,-4l-4,-1l-9,0l0,-3l-3,1l7,-6l3,-7l5,0l1,-2l1,-8l9,-10l-9,-17M30,55l-2,0l-1,-3l3,-5l5,3l-5,5"
+  					}]
+  				},{
+  					"name": "Poitou-Charentes",
+  					"code": "FRA-PCH",
+  					"longname": "Poitou-Charentes",
+  					"altcode": "FR-T",
+  					"x": 143.0,
+  					"y": 246.0,
+  					"width": 120.0,
+  					"height": 130.0,
+  					"logicalcenterx": 64.0,
+  					"logicalcentery": 64.0,
+  					"polys": [{
+  						"path": "M94,93l-4,4l-4,9l-8,5l-1,8l-14,11l-6,0l-8,-4l-3,-7l-7,-4l-5,0l-3,-10l-9,-8l-10,-7l1,-5l3,-1l0,-4l4,-1l1,-9l-4,-8l2,-10l7,-3l9,5l9,-4l-3,-3l0,-13l-4,-13l-4,-4l0,-7l9,0l5,-5l14,-1l9,-4l2,1l10,14l12,-1l6,5l7,9l1,9l5,4l4,2l3,5l-1,2l-6,3l-2,4l-4,0l-4,3l-1,11l5,5l-5,8l-5,3l-3,6M11,62l-9,-4l-2,-2l3,-1l8,4l1,2l-1,1M13,84l-2,-6l-4,-3l-1,-6l5,3l4,6l-2,6"
+  					}]
+  				},{
+  					"name": "Picardie",
+  					"code": "FRA-PIC",
+  					"longname": "Picardie",
+  					"altname": "Picardy",
+  					"altcode": "FR-S",
+  					"x": 273.0,
+  					"y": 46.0,
+  					"width": 117.0,
+  					"height": 95.0,
+  					"logicalcenterx": 58.0,
+  					"logicalcentery": 45.0,
+  					"polys": [{
+  						"path": "M0,19l3,-4l4,-14l2,-1l3,2l6,-2l13,9l10,-1l3,2l-4,4l2,3l1,-2l4,0l10,5l6,1l2,-3l2,0l6,4l12,-1l3,-2l5,-1l10,2l7,4l2,-1l3,1l2,6l-1,9l-7,8l1,5l-1,9l0,2l-8,-1l-8,3l1,8l-3,8l2,4l-7,10l-4,-1l-9,-9l0,-5l-3,-1l-14,3l-7,-1l-11,-7l-3,2l-7,-4l-8,4l-6,-2l-1,-3l2,-17l-2,-2l-1,-9l3,-5l-2,-8l-13,-11"
+  					}]
+  				},{
+  					"name": "Pays de la Loire",
+  					"code": "FRA-PDL",
+  					"longname": "Pays de la Loire",
+  					"altcode": "FR-R",
+  					"x": 104.0,
+  					"y": 159.0,
+  					"width": 145.0,
+  					"height": 141.0,
+  					"logicalcenterx": 74.0,
+  					"logicalcentery": 67.0,
+  					"polys": [{
+  						"path": "M111,88l-2,-1l-9,4l-14,1l-5,5l-9,0l0,7l4,4l4,13l0,13l3,3l-9,4l-9,-5l-7,3l-4,0l-1,2l-24,-14l-2,-10l-11,-13l0,-3l7,-9l-3,-4l-5,-2l2,-9l8,0l8,5l-5,-5l-5,-3l-6,1l-6,3l-11,-4l1,-5l2,-2l3,1l-2,-3l5,0l3,-3l4,1l3,-3l2,-7l9,-3l8,0l3,-3l6,-3l9,3l4,-11l6,-4l-1,-30l8,0l6,4l8,-1l3,-3l6,2l4,-4l4,2l1,4l4,5l4,0l5,-5l5,-1l3,3l1,7l4,3l12,6l2,2l0,12l-4,11l-6,4l0,3l-7,4l-5,1l-4,-1l-8,28M15,100l-2,-4l-3,0l0,-4l3,0l3,5l-1,3M9,113l-5,-2l3,-1l2,3"
+  					}]
+  				},{
+  					"name": "Nord-Pas-de-Calais",
+  					"code": "FRA-NPC",
+  					"longname": "Nord-Pas-de-Calais",
+  					"altcode": "FR-O",
+  					"x": 281.0,
+  					"y": 0.0,
+  					"width": 106.0,
+  					"height": 70.0,
+  					"logicalcenterx": 46.0,
+  					"logicalcentery": 39.0,
+  					"polys": [{
+  						"path": "M1,46l-1,-2l0,-20l2,-11l7,-5l30,-8l4,17l10,7l3,-3l7,-2l4,8l2,8l3,2l6,-1l4,1l3,6l4,3l10,0l6,4l1,3l-2,16l-2,1l-7,-4l-10,-2l-5,1l-3,2l-12,1l-6,-4l-2,0l-2,3l-6,-1l-10,-5l-4,0l-1,2l-2,-3l4,-4l-3,-2l-10,1l-13,-9l-6,2l-3,-2"
+  					}]
+  				},{
+  					"name": "Midi-Pyrenees",
+  					"code": "FRA-MPY",
+  					"longname": "Midi-Pyrénées",
+  					"altname": "Midi-Pyrenees",
+  					"altcode": "FR-N",
+  					"x": 190.0,
+  					"y": 381.0,
+  					"width": 173.0,
+  					"height": 156.0,
+  					"logicalcenterx": 84.0,
+  					"logicalcentery": 81.0,
+  					"polys": [{
+  						"path": "M34,148l-11,-3l-11,2l-5,-5l-7,-5l1,-9l10,-11l3,-9l3,-2l-1,-6l-5,-9l-5,0l-1,-5l3,-11l-1,-3l2,-3l11,-2l7,-3l4,1l7,-4l6,-1l3,3l10,-8l4,-12l4,-1l-3,-10l5,-4l15,-18l1,-8l3,-2l2,1l10,7l6,-3l6,0l6,22l12,-2l7,-13l5,-5l6,7l3,8l2,3l5,6l3,8l-1,11l9,3l1,3l-3,5l6,2l2,3l-9,10l-9,4l0,5l-13,5l-6,-1l-1,5l3,3l-1,3l-3,2l-22,3l-4,-2l-7,0l-7,6l-1,5l1,4l10,4l3,9l-1,7l-4,1l-2,2l3,4l3,1l5,0l4,4l-8,1l-2,3l-8,2l-2,-3l-8,-2l-4,0l-2,3l-4,-7l-8,0l-4,-5l-17,-5l-3,2l-1,3l2,6l-12,0"
+  					}]
+  				},{
+  					"name": "Lorraine",
+  					"code": "FRA-LOR",
+  					"longname": "Lorraine",
+  					"altcode": "FR-M",
+  					"x": 418.0,
+  					"y": 90.0,
+  					"width": 113.0,
+  					"height": 111.0,
+  					"logicalcenterx": 52.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M19,0l2,2l1,5l13,-3l8,6l5,0l2,-4l3,0l6,3l4,-1l6,6l6,12l4,1l1,-1l-1,-2l4,-2l4,2l3,4l8,0l5,-4l3,0l7,8l-1,3l-10,4l-12,-7l-4,8l0,3l6,6l3,-4l6,6l-1,10l-5,6l-2,9l4,5l-3,11l-5,9l-1,7l-2,3l-8,-4l-26,-7l-4,5l-4,1l-9,-9l1,-7l-3,-6l-8,-3l-1,-4l-4,-6l-4,-1l-10,-6l-6,-11l1,-6l4,-9l-3,-10l6,-14l-2,-5l1,-5l1,-1l7,2l4,-3l0,-2"
+  					}]
+  				},{
+  					"name": "Limousin",
+  					"code": "FRA-LIM",
+  					"longname": "Limousin",
+  					"altcode": "FR-L",
+  					"x": 237.0,
+  					"y": 294.0,
+  					"width": 87.0,
+  					"height": 95.0,
+  					"logicalcenterx": 48.0,
+  					"logicalcentery": 42.0,
+  					"polys": [{
+  						"path": "M72,1l11,12l4,16l-3,4l-6,5l6,9l-3,6l2,8l-1,3l-11,9l-5,16l-3,3l-6,0l-6,3l-10,-7l-2,-1l-3,2l-10,-12l1,-7l3,-3l-1,-5l-7,-3l-4,-8l-8,0l-10,-6l3,-6l5,-3l5,-8l-5,-5l1,-11l4,-3l4,0l2,-4l6,-3l10,3l6,-4l4,2l7,-3l20,1"
+  					}]
+  				},{
+  					"name": "Languedoc-Roussillon",
+  					"code": "FRA-LNR",
+  					"longname": "Languedoc-Roussillon",
+  					"altcode": "FR-K",
+  					"x": 283.0,
+  					"y": 386.0,
+  					"width": 143.0,
+  					"height": 166.0,
+  					"logicalcenterx": 70.0,
+  					"logicalcentery": 87.0,
+  					"polys": [{
+  						"path": "M4,151l8,-2l2,-3l8,-1l-4,-4l-5,0l-3,-1l-3,-4l2,-2l4,-1l1,-7l-3,-9l-10,-4l-1,-4l1,-5l7,-6l7,0l4,2l22,-3l3,-2l1,-3l-3,-3l1,-5l6,1l13,-5l0,-5l9,-4l9,-10l-2,-3l-6,-2l3,-5l-1,-3l-9,-3l1,-11l-3,-8l-5,-6l5,-14l1,-2l3,2l9,-6l4,9l9,-3l9,7l1,9l3,3l5,15l10,1l4,-3l5,0l8,4l9,17l-9,10l-1,8l-1,2l-5,0l-3,7l-7,6l2,2l-6,-1l-3,-5l-6,1l-19,15l-11,4l-7,7l-8,19l3,7l1,11l4,2l1,6l-10,-3l-13,5l0,4l-6,0l-12,-6l-6,1l-3,3l-3,1l-6,-6l-8,-4l1,-3l2,-1"
+  					}]
+  				},{
+  					"name": "Ile-del-France",
+  					"code": "FRA-IDF",
+  					"longname": "Île-de-France",
+  					"altname": "Ile-de-France",
+  					"altcode": "FR-J",
+  					"x": 277.0,
+  					"y": 117.0,
+  					"width": 85.0,
+  					"height": 70.0,
+  					"logicalcenterx": 41.0,
+  					"logicalcentery": 33.0,
+  					"polys": [{
+  						"path": "M79,52l-3,2l-12,1l-4,13l-10,2l-6,0l-2,-7l-4,-5l-7,0l-11,3l1,-3l-2,-5l-8,-7l-8,-12l0,-10l-3,-5l0,-8l5,-1l4,-10l1,3l6,2l8,-4l7,4l3,-2l11,7l7,1l14,-3l3,1l0,5l9,9l4,1l-1,8l4,7l-5,5l-1,8"
+  					}]
+  				},{
+  					"name": "Haute-Normandie",
+  					"code": "FRA-HNR",
+  					"longname": "Haute-Normandie",
+  					"altname": "Upper Normandy",
+  					"altcode": "FR-Q",
+  					"x": 219.0,
+  					"y": 65.0,
+  					"width": 69.0,
+  					"height": 88.0,
+  					"logicalcenterx": 38.0,
+  					"logicalcentery": 43.0,
+  					"polys": [{
+  						"path": "M58,71l-2,1l-5,9l-3,2l-9,0l-9,5l-4,-3l-2,-5l-5,-5l-7,-3l2,-4l0,-11l-3,-4l-2,-14l8,-3l-7,2l-6,-2l-4,-2l6,-13l16,-8l19,-5l7,-3l6,-5l13,11l2,8l-3,5l1,9l2,2l-2,17l-4,10l-5,1l0,8"
+  					}]
+  				},{
+  					"name": "Franche-Comte",
+  					"code": "FRA-FRC",
+  					"longname": "Franche-Comté",
+  					"altname": "Franche-Comte",
+  					"altcode": "FR-I",
+  					"x": 437.0,
+  					"y": 190.0,
+  					"width": 80.0,
+  					"height": 112.0,
+  					"logicalcenterx": 36.0,
+  					"logicalcentery": 51.0,
+  					"polys": [{
+  						"path": "M4,27l2,-4l3,-1l4,2l4,-2l1,-5l7,-11l4,-1l4,-5l26,7l8,4l1,2l6,2l6,15l-7,1l-4,9l4,-1l0,5l-13,19l-5,2l-2,5l-1,9l-13,11l1,3l-3,7l-8,10l-6,1l-4,-5l-6,6l-9,-10l0,-2l5,-12l-4,-10l5,-4l-6,-2l-4,-4l2,-6l5,-3l4,-12l-3,-9l1,-6l0,-4l-2,-2l-3,1"
+  					}]
+  				},{
+  					"name": "Corse",
+  					"code": "FRA-COR",
+  					"longname": "Corse",
+  					"altname": "Corsica",
+  					"altcode": "FR-H",
+  					"x": 603.0,
+  					"y": 494.0,
+  					"width": 47.0,
+  					"height": 105.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 55.0,
+  					"polys": [{
+  						"path": "M6,67l4,-4l-7,-4l-2,-6l5,-3l-6,-7l6,-12l15,-8l2,-4l7,0l1,3l2,-1l1,-3l-2,-6l0,-10l4,-2l2,2l2,10l0,12l4,5l3,26l-6,12l1,16l-5,12l-1,10l-2,0l-3,-4l-16,-6l-1,-5l4,-2l2,-3l-9,-1l-2,-2l4,-9l-2,-2l-6,2l-2,-3l3,-2l0,-1"
+  					}]
+  				},{
+  					"name": "Champagne-Ardenne",
+  					"code": "FRA-CHA",
+  					"longname": "Champagne-Ardenne",
+  					"altcode": "FR-G",
+  					"x": 356.0,
+  					"y": 57.0,
+  					"width": 106.0,
+  					"height": 162.0,
+  					"logicalcenterx": 48.0,
+  					"logicalcentery": 91.0,
+  					"polys": [{
+  						"path": "M81,33l0,2l-4,3l-7,-2l-1,1l-1,5l2,5l-6,14l3,10l-4,9l-1,6l6,11l10,6l4,1l4,6l1,4l8,3l3,6l-1,7l9,9l-7,11l-1,5l-4,2l-4,-2l-3,1l-2,4l-4,2l-14,-7l0,-4l1,-3l-8,-12l-9,-1l-2,4l-27,2l-7,-13l-15,-16l1,-8l5,-5l-4,-7l1,-8l7,-10l-2,-4l3,-8l-1,-8l8,-3l8,1l0,-2l1,-9l-1,-5l7,-8l1,-9l-2,-6l12,1l7,-3l0,-6l5,-5l3,0l-2,11l2,11l2,1l3,-1l17,11"
+  					}]
+  				},{
+  					"name": "Centre",
+  					"code": "FRA-CEN",
+  					"longname": "Centre",
+  					"altcode": "FR-F",
+  					"x": 215.0,
+  					"y": 136.0,
+  					"width": 130.0,
+  					"height": 163.0,
+  					"logicalcenterx": 70.0,
+  					"logicalcentery": 92.0,
+  					"polys": [{
+  						"path": "M127,135l-4,1l-7,4l-2,-1l-5,5l-1,7l-8,1l-6,7l-20,-1l-7,3l-4,-2l-6,4l-10,-3l1,-2l-3,-5l-4,-2l-5,-4l-1,-9l-7,-9l-6,-5l-12,1l-10,-14l8,-28l4,1l5,-1l7,-4l0,-3l6,-4l4,-11l0,-12l-2,-2l2,-1l-3,-7l1,-2l5,-1l3,-5l-1,-5l-5,-6l0,-3l9,-5l9,0l3,-2l5,-9l2,-1l3,5l0,10l8,12l8,7l2,5l-1,3l11,-3l7,0l4,5l2,7l6,0l10,-2l4,1l4,9l-4,6l-1,7l-5,5l4,9l-4,4l3,5l-3,7l4,3l5,14l0,12l-2,4"
+  					}]
+  				},{
+  					"name": "Bretagne",
+  					"code": "FRA-BRT",
+  					"longname": "Bretagne",
+  					"altname": "Brittany",
+  					"altcode": "FR-E",
+  					"x": 14.0,
+  					"y": 133.0,
+  					"width": 156.0,
+  					"height": 99.0,
+  					"logicalcenterx": 80.0,
+  					"logicalcentery": 43.0,
+  					"polys": [{
+  						"path": "M155,28l1,30l-6,4l-4,11l-9,-3l-6,3l-3,3l-8,0l-9,3l-2,7l-3,3l-4,-1l-3,3l-6,0l0,-3l5,0l-9,-3l-10,2l-2,-3l5,0l3,-3l0,-2l-10,2l-9,-1l1,7l-2,1l0,-8l-3,-4l-11,-7l-14,-4l-6,-6l-7,1l-2,4l-7,-1l1,-4l-3,-6l-4,-4l-8,-2l1,-2l18,-1l-1,-6l-5,-3l-3,1l-2,3l-3,-6l4,-4l0,3l14,1l-10,-4l0,-1l-13,0l-1,-2l1,-9l4,-3l4,0l3,-4l8,-2l16,-2l0,5l4,1l0,-2l2,-3l9,4l3,-4l-2,-3l2,-3l3,0l4,1l6,-2l5,0l2,3l14,20l10,-7l7,-2l11,6l2,5l1,-1l-2,-7l1,-3l6,-1l-1,4l2,2l7,0l2,-1l6,11l3,0l5,-4l7,3M66,99l-6,-2l0,-5l8,5l-2,2"
+  					}]
+  				},{
+  					"name": "Bourgogne",
+  					"code": "FRA-BOR",
+  					"longname": "Bourgogne",
+  					"altname": "Burgundy",
+  					"altcode": "FR-D",
+  					"x": 335.0,
+  					"y": 169.0,
+  					"width": 113.0,
+  					"height": 140.0,
+  					"logicalcenterx": 55.0,
+  					"logicalcentery": 73.0,
+  					"polys": [{
+  						"path": "M106,48l3,-1l2,2l0,4l-1,6l3,9l-4,12l-5,3l-2,6l4,4l6,2l-5,4l4,10l-5,12l-3,-1l-3,-2l-10,0l-6,21l-3,0l-6,-5l-6,-1l-6,7l-13,0l-5,-2l0,-4l4,-4l-1,-8l-10,-5l0,-4l-4,-6l-2,-1l-2,3l-4,2l-3,-4l-8,2l-6,-4l-2,-3l2,-4l0,-12l-5,-14l-4,-3l3,-7l-3,-5l4,-4l-4,-9l5,-5l1,-7l4,-6l-4,-9l-4,-1l4,-13l12,-1l3,-2l15,16l7,13l27,-2l2,-4l9,1l8,12l-1,3l0,4l14,7l4,-2"
+  					}]
+  				},{
+  					"name": "Basse-Normandie",
+  					"code": "FRA-BNR",
+  					"longname": "Basse-Normandie",
+  					"altname": "Lower Normandy",
+  					"altcode": "FR-P",
+  					"x": 137.0,
+  					"y": 82.0,
+  					"width": 118.0,
+  					"height": 101.0,
+  					"logicalcenterx": 57.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M112,71l0,3l5,6l1,5l-3,5l-5,1l-1,2l3,7l-2,1l-12,-6l-4,-3l-1,-7l-3,-3l-5,1l-5,5l-4,0l-4,-5l-1,-4l-4,-2l-4,4l-6,-2l-3,3l-8,1l-6,-4l-8,0l-7,-3l-5,4l-3,0l-6,-11l10,0l-5,-3l-3,-4l1,-17l-1,1l-1,-2l0,-11l-5,-9l-2,-2l-1,-16l-4,-3l1,-3l12,5l5,0l4,-3l6,2l1,4l-3,4l7,12l2,-2l6,1l4,2l16,2l8,4l8,-2l7,-5l7,-2l2,14l3,4l0,11l-2,4l7,3l5,5l2,5l4,3"
+  					}]
+  				},{
+  					"name": "Auvergne",
+  					"code": "FRA-AVR",
+  					"longname": "Auvergne",
+  					"altcode": "FR-C",
+  					"x": 300.0,
+  					"y": 271.0,
+  					"width": 107.0,
+  					"height": 137.0,
+  					"logicalcenterx": 49.0,
+  					"logicalcentery": 72.0,
+  					"polys": [{
+  						"path": "M80,32l-6,4l3,13l-4,7l-1,7l4,7l6,6l3,6l-4,8l11,0l1,-2l7,-1l7,11l-1,6l-4,4l-2,6l-7,6l-5,1l-7,7l-9,-7l-9,3l-4,-9l-9,6l-3,-2l-1,2l-5,14l-2,-3l-3,-8l-6,-7l-5,5l-7,13l-12,2l-6,-22l3,-3l5,-16l11,-9l1,-3l-2,-8l3,-6l-6,-9l6,-5l3,-4l-4,-16l-11,-12l6,-7l8,-1l1,-7l5,-5l2,1l7,-4l4,-1l2,3l6,4l8,-2l3,4l4,-2l2,-3l2,1l4,6l0,4l10,5l1,8l-4,4"
+  					}]
+  				},{
+  					"name": "Aquitaine",
+  					"code": "FRA-AQT",
+  					"longname": "Aquitaine",
+  					"altcode": "FR-B",
+  					"x": 124.0,
+  					"y": 339.0,
+  					"width": 149.0,
+  					"height": 183.0,
+  					"logicalcenterx": 72.0,
+  					"logicalcentery": 85.0,
+  					"polys": [{
+  						"path": "M2,148l-2,-4l5,-1l3,-3l8,-13l13,-62l3,-2l5,0l-5,-7l-4,6l7,-51l3,-5l0,3l6,5l7,8l2,14l7,14l0,-6l-5,-9l-2,-13l5,0l7,4l3,7l8,4l6,0l14,-11l1,-8l8,-5l4,-9l4,-4l10,6l8,0l4,8l7,3l1,5l-3,3l-1,7l10,12l-1,8l-15,18l-5,4l3,10l-4,1l-4,12l-10,8l-3,-3l-6,1l-7,4l-4,-1l-7,3l-11,2l-2,3l1,3l-3,11l1,5l5,0l5,9l1,6l-3,2l-3,9l-10,11l-1,9l-4,3l-7,1l-8,-8l-1,-4l-9,0l-16,-8l-2,2l-4,0l-2,-3l3,-3l1,-8l-12,-4l-3,1"
+  					}]
+  				},{
+  					"name": "Alsace",
+  					"code": "FRA-ALS",
+  					"longname": "Alsace",
+  					"altcode": "FR-A",
+  					"x": 504.0,
+  					"y": 120.0,
+  					"width": 52.0,
+  					"height": 105.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 46.0,
+  					"polys": [{
+  						"path": "M23,104l-6,1l-2,-1l-2,-4l-6,-15l-6,-2l-1,-2l2,-3l1,-7l5,-9l3,-11l-4,-5l2,-9l5,-6l1,-10l-6,-6l-3,4l-6,-6l0,-3l4,-8l12,7l10,-4l1,-3l12,-2l13,5l-4,4l-1,6l-8,10l-3,6l-2,11l1,3l-7,15l0,5l3,4l-4,17l4,7l-3,3l0,3l-5,5"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Paris, France",
+  					"x": 311.0,
+  					"y": 144.0
+  				},{
+  					"name": "Lyons, France",
+  					"x": 421.0,
+  					"y": 334.0
+  				},{
+  					"name": "Bordeaux, France",
+  					"x": 184.0,
+  					"y": 392.0
+  				}]}]}}

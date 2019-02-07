@@ -1,0 +1,277 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 442,
+  		"height": 600,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": 5.8641663,
+  			"xmax": 15.038887,
+  			"ymin": 47.27472,
+  			"ymax": 55.056664,
+  			"scale": 4402.385,
+  			"xscalemin": -0.050254826,
+  			"yscalemin": 54.988487
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Thuringen",
+  					"code": "THR",
+  					"longname": "Thüringen",
+  					"altname": "Thuringia",
+  					"altcode": "TH",
+  					"x": 196.0,
+  					"y": 264.0,
+  					"width": 127.0,
+  					"height": 109.0,
+  					"logicalcenterx": 52.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M59,103l-3,-5l-11,-2l-7,2l0,3l3,2l-2,6l-6,-1l-6,-10l-14,-15l-4,0l-3,3l0,-5l1,-4l-1,-3l-5,1l0,-11l5,-11l7,-8l-6,-13l-7,-9l1,-4l3,-2l6,-1l10,-7l17,-9l12,3l0,2l-2,0l3,12l14,4l3,12l5,8l13,1l3,5l6,0l6,5l10,2l3,-8l-1,-1l1,-3l3,1l11,12l-10,8l-4,0l-1,6l2,3l2,1l-8,8l-6,3l-2,-1l-3,3l-1,7l-3,2l-15,1l-5,-5l0,-5l-4,-1l-5,4l2,9l-1,6l-6,-1"
+  					}]
+  				},{
+  					"name": "Schleswig-Holstein",
+  					"code": "SHL",
+  					"longname": "Schleswig-Holstein",
+  					"altcode": "SH",
+  					"x": 125.0,
+  					"y": 0.0,
+  					"width": 135.0,
+  					"height": 131.0,
+  					"logicalcenterx": 68.0,
+  					"logicalcentery": 68.0,
+  					"polys": [{
+  						"path": "M32,75l-2,-3l-6,0l-1,-2l0,-3l3,-8l-10,2l-3,-5l2,-5l11,-1l5,-3l1,-3l-9,-15l-5,-5l-2,-7l-3,-1l0,-1l-12,0l0,9l-1,-1l1,-11l4,-11l3,-1l-4,8l4,4l9,-1l3,2l4,-2l5,1l13,4l1,3l4,1l2,-2l3,1l-1,1l7,-1l9,3l6,0l5,9l0,9l-3,3l-6,3l1,1l12,-2l21,10l5,4l3,0l7,-6l2,0l-1,0l5,0l1,13l-9,9l-4,1l-2,2l1,4l5,2l-1,5l-5,5l1,6l2,4l5,2l1,3l-2,6l-3,0l-1,5l-8,5l-2,6l-12,-5l-5,-7l0,-9l-3,-6l-3,0l-10,8l-5,-1l-1,5l-9,-6l-7,-14l-2,-3l-6,-3l-11,0l-3,-4l-3,-6l2,-2l6,2l1,-5M12,29l-7,-2l0,-2l3,-2l5,1l1,2l-2,3M3,34l-3,-4l3,-3l2,6l-2,1M15,44l-2,-3l5,-2l0,3l-3,2M133,47l2,4l-8,0l-6,-3l3,-7l7,3l2,3M30,42l-3,4l-4,0l0,-3l2,-2l5,1"
+  					}]
+  				},{
+  					"name": "Sachsen-Anhalt",
+  					"code": "SCA",
+  					"longname": "Sachsen-Anhalt",
+  					"altname": "Saxony-Anhalt",
+  					"altcode": "ST",
+  					"x": 227.0,
+  					"y": 156.0,
+  					"width": 122.0,
+  					"height": 162.0,
+  					"logicalcenterx": 52.0,
+  					"logicalcentery": 80.0,
+  					"polys": [{
+  						"path": "M49,0l2,4l8,3l-1,2l4,2l9,0l5,2l1,4l-2,13l-3,7l2,3l7,-1l-3,11l-2,15l12,13l6,3l4,-1l20,8l3,5l1,8l-5,5l-8,-2l-8,3l-2,2l-10,0l0,3l-6,1l-4,-1l-2,3l-2,19l3,12l4,4l-1,3l1,1l-3,8l-10,-2l-6,-5l-6,0l-3,-5l-13,-1l-5,-8l-3,-12l-14,-4l-3,-12l2,0l0,-2l-12,-3l-3,-8l-1,-9l1,-3l-3,-9l4,-3l15,-1l4,-7l-2,-2l1,-2l-4,-25l-2,-7l-6,-7l-2,-6l1,-4l8,-1l5,-4l8,1l2,2l3,-1l4,-2l7,-10l3,0"
+  					}]
+  				},{
+  					"name": "Sachsen",
+  					"code": "SCH",
+  					"longname": "Sachsen",
+  					"altname": "Saxony",
+  					"altcode": "SN",
+  					"x": 292.0,
+  					"y": 260.0,
+  					"width": 149.0,
+  					"height": 113.0,
+  					"logicalcenterx": 68.0,
+  					"logicalcentery": 46.0,
+  					"polys": [{
+  						"path": "M17,46l-4,-4l-3,-12l2,-19l2,-3l4,1l6,-1l0,-3l10,0l2,-2l8,-3l8,2l7,5l2,6l-1,8l10,-2l8,3l7,1l9,-1l7,-3l2,-7l2,-2l7,1l11,-5l6,0l2,-3l2,1l1,2l10,4l2,9l3,6l-2,17l-7,18l-9,-2l0,-5l-3,-6l-4,-2l-9,-1l-2,5l6,4l-3,4l-15,6l-12,7l-8,2l-5,8l-4,-2l-6,4l-3,6l-5,1l-5,6l-3,1l-4,-3l-16,5l-5,7l-4,8l-2,-1l-5,-8l-4,0l-6,-2l0,-3l-4,-2l1,-7l3,-3l2,1l6,-3l8,-8l-2,-1l-2,-3l1,-6l4,0l10,-8l-11,-12l-3,-1"
+  					}]
+  				},{
+  					"name": "Saarland",
+  					"code": "SRL",
+  					"longname": "Saarland",
+  					"altcode": "SL",
+  					"x": 17.0,
+  					"y": 414.0,
+  					"width": 51.0,
+  					"height": 40.0,
+  					"logicalcenterx": 29.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M0,11l0,-5l13,1l18,-7l14,5l4,15l2,1l-6,10l4,5l-4,4l-10,-1l-3,-5l-4,-3l-4,0l-1,5l-5,-1l-9,-20l-6,-5l-3,1"
+  					}]
+  				},{
+  					"name": "Rheinland-Pfalz",
+  					"code": "RPF",
+  					"longname": "Rheinland-Pfalz",
+  					"altname": "Rhineland-Palatinate",
+  					"altcode": "RP",
+  					"x": 8.0,
+  					"y": 316.0,
+  					"width": 116.0,
+  					"height": 151.0,
+  					"logicalcenterx": 65.0,
+  					"logicalcentery": 78.0,
+  					"polys": [{
+  						"path": "M58,134l-4,-5l6,-10l-2,-1l-4,-15l-14,-5l-18,7l-13,-1l4,-10l4,-3l2,-8l-7,-1l-6,-5l-4,-6l-2,-8l3,-13l12,-7l6,-3l4,0l5,3l5,-2l-1,-3l2,-6l7,-5l19,-5l5,-6l13,-5l3,-4l0,-6l2,-1l3,1l9,17l4,1l-1,3l2,5l-2,4l-4,-1l-2,2l-2,9l3,1l4,9l-10,5l-8,11l5,7l16,-5l6,5l4,16l-3,7l3,7l1,10l3,1l-1,6l-2,7l-4,4l-1,9l-5,9l-2,1l-14,-6l-14,0l-9,-10l-6,-1"
+  					}]
+  				},{
+  					"name": "Nordrhein-Westfalen",
+  					"code": "NWS",
+  					"longname": "Nordrhein-Westfalen",
+  					"altname": "North Rhine- Westphalia",
+  					"altcode": "NW",
+  					"x": 0.0,
+  					"y": 195.0,
+  					"width": 174.0,
+  					"height": 164.0,
+  					"logicalcenterx": 83.0,
+  					"logicalcentery": 79.0,
+  					"polys": [{
+  						"path": "M173,68l-7,9l-6,7l-4,-1l0,-3l-3,-2l-6,2l1,5l-13,5l-4,6l2,2l5,-2l2,7l-6,7l-5,2l-7,14l-3,1l-3,-2l-7,8l1,2l0,4l-1,1l-4,-1l-9,-17l-3,-1l-2,1l0,6l-3,4l-13,5l-5,6l-19,5l-7,5l-2,6l1,3l-5,2l-5,-3l-4,0l-6,3l-2,-12l-4,-1l-1,-7l2,-2l-12,-12l0,-6l3,-1l1,-5l-2,-5l-6,0l-2,-3l0,-2l2,-2l10,-4l-1,-9l8,-9l0,-11l-5,-8l-3,-8l-3,-3l1,-1l-1,-3l8,-6l3,-1l8,4l5,0l11,-4l3,1l4,-4l-1,-4l-3,-2l1,-6l5,-1l2,-3l8,-5l3,-2l8,0l11,-7l3,-5l5,-1l5,6l5,0l3,5l-5,17l4,4l11,-3l4,-4l5,2l5,-4l-2,-13l-2,-4l-1,-4l13,-6l2,2l1,8l7,0l5,-1l1,-4l4,-3l3,2l-1,5l-3,6l-3,-1l-1,6l4,10l4,1l6,12l2,9l6,0l0,4l-3,5l-1,7l3,0"
+  					}]
+  				},{
+  					"name": "Niedersachsen",
+  					"code": "NDR",
+  					"longname": "Niedersachsen",
+  					"altname": "Lower Saxony",
+  					"altcode": "NI",
+  					"x": 46.0,
+  					"y": 90.0,
+  					"width": 227.0,
+  					"height": 200.0,
+  					"logicalcenterx": 115.0,
+  					"logicalcentery": 87.0,
+  					"polys": [{
+  						"path": "M197,98l2,7l4,25l-1,2l2,2l-4,7l-15,1l-4,3l3,9l-1,3l1,9l3,8l-17,9l-10,7l-6,1l-3,2l-2,-1l-5,0l-4,3l3,4l-3,1l-9,-5l3,-3l2,0l-2,-9l5,-4l-3,-5l-9,-1l-3,0l1,-7l3,-5l0,-4l-6,0l-2,-9l-6,-12l-4,-1l-4,-10l1,-6l3,1l3,-6l1,-5l-3,-2l-4,3l-1,4l-5,1l-7,0l-1,-8l-2,-2l-13,6l1,4l2,4l2,13l-5,4l-5,-2l-4,4l-11,3l-4,-4l5,-17l-3,-5l-5,0l-5,-6l-5,1l-3,5l-11,7l-8,0l-3,2l-1,-4l2,-7l-4,-6l-1,2l-9,-2l-3,-3l0,-5l3,0l-2,-6l2,-1l14,1l1,-13l7,-14l1,-19l2,-5l4,0l2,1l-1,-1l-6,-2l-7,0l-2,-2l1,-9l4,-9l9,-6l9,1l20,-3l4,2l1,5l5,5l0,3l-5,2l0,2l6,6l4,-1l1,-3l1,-5l-4,-1l2,-6l3,0l7,5l1,3l-2,4l1,7l0,-8l3,-3l1,2l2,-2l0,-6l-5,-2l-1,-7l5,-13l4,-1l3,3l7,2l14,-3l5,3l12,19l8,3l2,7l5,4l19,-2l12,5l5,1l2,4l12,9l5,2l2,-1l19,10l-7,10l-4,2l-3,1l-2,-2l-8,-1l-5,4l-8,1l-1,4l2,6l6,7M104,67l3,-3l0,-7l-22,-6l7,7l3,6l9,3M40,11l0,-2l6,-1l1,2l-5,-1l-2,2M6,22l-4,-3l6,-1l1,1l-4,1l1,2"
+  					}]
+  				},{
+  					"name": "Mecklenburg-Vorpommern",
+  					"code": "MKV",
+  					"longname": "Mecklenburg-Vorpommern",
+  					"altcode": "MV",
+  					"x": 228.0,
+  					"y": 27.0,
+  					"width": 175.0,
+  					"height": 129.0,
+  					"logicalcenterx": 85.0,
+  					"logicalcentery": 77.0,
+  					"polys": [{
+  						"path": "M124,33l2,-1l1,2l-1,2l-6,-3l-7,-5l0,-3l6,-1l-1,-2l-3,-2l2,-4l-4,-5l7,0l3,-3l4,7l2,0l0,-5l-5,-2l-1,-2l-5,4l-1,-7l3,-2l5,-1l1,1l-2,3l1,4l12,1l0,3l-4,3l0,3l2,3l4,1l2,5l-1,4l-1,0l-1,-5l-8,0l-6,7M110,18l1,-10l2,-1l-3,11M10,93l1,-5l3,0l2,-6l-1,-3l-5,-2l-2,-4l-1,-6l6,-6l1,-2l8,-5l4,0l4,6l7,1l3,-3l1,-5l3,0l2,-4l0,-2l2,-3l21,-4l9,-8l8,-14l7,2l9,0l2,1l-2,1l-8,-1l-2,2l-9,1l-4,7l0,3l4,1l-1,-3l7,-6l19,-3l5,9l7,3l10,11l0,-2l10,-5l4,5l0,4l4,11l-2,5l6,5l15,5l8,27l-6,3l-2,4l-7,0l-1,-8l-4,-3l-20,0l-5,11l-13,2l-8,8l-21,-8l-4,1l-9,-6l-2,-2l-7,-1l-2,4l0,1l-4,5l-10,0l-4,2l-1,3l5,8l-2,4l-3,0l-19,-10l-2,1l-5,-2l-12,-9l-2,-4l-5,-1l2,-6l8,-5M164,57l0,4l-8,0l-7,3l-3,-1l5,-3l2,-5l3,1l0,-3l-4,-6l-2,0l-3,5l-5,-12l2,-1l4,6l5,2l11,10M46,47l-5,4l2,-3l3,-1M38,58l-2,0l-1,-2l4,-3l1,1l-2,4"
+  					}]
+  				},{
+  					"name": "Hessen",
+  					"code": "HSS",
+  					"longname": "Hessen",
+  					"altname": "Hesse",
+  					"altcode": "HE",
+  					"x": 89.0,
+  					"y": 263.0,
+  					"width": 120.0,
+  					"height": 172.0,
+  					"logicalcenterx": 63.0,
+  					"logicalcentery": 80.0,
+  					"polys": [{
+  						"path": "M31,157l-3,-7l3,-7l-4,-16l-6,-5l-16,5l-5,-7l8,-11l10,-5l-4,-9l-3,-1l2,-9l2,-2l4,1l2,-4l-2,-5l1,-3l1,-1l0,-4l-1,-2l7,-8l3,2l3,-1l7,-14l5,-2l6,-7l-2,-7l-5,2l-2,-2l4,-6l13,-5l-1,-5l6,-2l3,2l0,3l4,1l6,-7l7,-9l9,1l3,5l-5,4l2,9l-2,0l-3,3l9,5l3,-1l-3,-4l4,-3l5,0l2,1l-1,4l7,9l6,13l-7,8l-5,11l0,11l5,-1l1,3l-1,4l0,5l-3,6l-5,2l-13,13l-6,1l0,9l-5,2l-2,-4l-7,-1l-11,3l-2,4l4,17l3,5l-2,11l1,4l1,5l-6,0l-7,8l-3,0l1,-5l-6,-7l-1,-5l-13,2"
+  					}]
+  				},{
+  					"name": "Hamburg",
+  					"code": "HMB",
+  					"longname": "Hamburg",
+  					"altcode": "HH",
+  					"x": 189.0,
+  					"y": 104.0,
+  					"width": 27.0,
+  					"height": 24.0,
+  					"logicalcenterx": 13.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M27,22l-19,2l-5,-4l-2,-7l3,1l0,-1l-4,-1l1,-5l5,1l10,-8l3,0l3,6l0,9l5,7"
+  					}]
+  				},{
+  					"name": "Bremen",
+  					"code": "BRM",
+  					"longname": "Bremen",
+  					"altcode": "HB",
+  					"x": 131.0,
+  					"y": 111.0,
+  					"width": 22.0,
+  					"height": 46.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M2,0l5,2l0,6l-2,2l-1,-2l-2,-8M19,46l-9,-3l-3,-6l-7,-7l22,6l0,7l-3,3"
+  					}]
+  				},{
+  					"name": "Brandenburg",
+  					"code": "BRN",
+  					"longname": "Brandenburg",
+  					"altcode": "BB",
+  					"x": 273.0,
+  					"y": 124.0,
+  					"width": 153.0,
+  					"height": 159.0,
+  					"logicalcenterx": 87.0,
+  					"logicalcentery": 75.0,
+  					"polys": [{
+  						"path": "M3,32l2,-4l-5,-8l1,-3l4,-2l10,0l4,-5l0,-1l2,-4l7,1l2,2l9,6l4,-1l21,8l8,-8l13,-2l5,-11l20,0l4,3l1,8l7,0l2,-4l6,-3l-2,22l-9,8l1,8l23,20l1,6l-4,8l2,8l6,4l3,13l-2,13l-4,6l3,7l5,4l0,6l-1,3l-2,-1l-2,3l-6,0l-11,5l-7,-1l-2,2l-2,7l-7,3l-9,1l-7,-1l-8,-3l-10,2l1,-8l-2,-6l-7,-5l5,-5l-1,-8l-3,-5l-20,-8l-4,1l-6,-3l-12,-13l2,-15l3,-11l-7,1l-2,-3l3,-7l2,-13l-1,-4l-5,-2l-9,0l-4,-2l1,-2l-8,-3l-2,-4M98,83l5,-9l-6,-5l-7,-7l-10,-2l-6,4l-2,14l1,1l5,-1l9,2l3,-2l8,1l0,4"
+  					}]
+  				},{
+  					"name": "Berlin",
+  					"code": "BER",
+  					"longname": "Berlin",
+  					"altcode": "BE",
+  					"x": 345.0,
+  					"y": 184.0,
+  					"width": 31.0,
+  					"height": 23.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M26,23l0,-4l-8,-1l-3,2l-9,-2l-5,1l-1,-1l2,-14l6,-4l10,2l7,7l6,5l-5,9"
+  					}]
+  				},{
+  					"name": "Bayern",
+  					"code": "BYR",
+  					"longname": "Bayern",
+  					"altname": "Bavaria",
+  					"altcode": "BY",
+  					"x": 148.0,
+  					"y": 347.0,
+  					"width": 245.0,
+  					"height": 252.0,
+  					"logicalcenterx": 123.0,
+  					"logicalcentery": 124.0,
+  					"polys": [{
+  						"path": "M30,228l12,-7l5,2l7,-1l2,-3l-1,-13l2,-17l-3,-15l-4,-6l4,-8l2,-1l3,1l7,-5l1,-6l5,-4l2,-5l0,-14l-5,-9l-4,-1l-3,-8l-4,-4l-2,-10l2,-4l-1,-10l-2,-2l-2,4l-5,1l-1,-8l-6,-11l-5,0l-3,-4l-10,-1l-6,1l0,3l5,1l0,5l-8,5l-8,1l-1,-4l2,-11l-3,-5l-4,-17l2,-4l11,-3l7,1l2,4l5,-2l0,-9l6,-1l13,-13l5,-2l3,-6l3,-3l4,0l14,15l6,10l6,1l2,-6l-3,-2l0,-3l7,-2l11,2l3,5l6,1l1,-6l-2,-9l5,-4l4,1l0,5l5,5l15,-1l3,-2l4,2l0,3l6,2l6,12l0,4l14,10l3,4l-4,11l0,7l3,2l8,18l7,7l8,0l11,12l11,9l1,3l11,4l2,3l4,2l5,8l1,11l-5,9l-10,-5l-4,1l0,11l-3,5l-5,5l-13,4l-8,4l-6,7l14,20l-5,10l1,1l5,-1l3,3l1,3l-2,11l-1,3l-3,-1l-8,-5l-1,-2l0,-3l1,0l-4,-5l-4,0l-8,4l-3,-3l-13,2l0,2l-10,0l-17,4l-6,5l-6,0l-8,7l-14,3l-2,-1l-4,-9l-11,-2l-7,1l-6,-4l1,11l-7,10l-8,3l3,-7l-15,-13l-8,-5l-5,5l-6,0l2,-4"
+  					}]
+  				},{
+  					"name": "Baden-Wurttemberg",
+  					"code": "BWR",
+  					"longname": "Baden-Württemberg",
+  					"altname": "Baden-Württemberg",
+  					"altcode": "BW",
+  					"x": 69.0,
+  					"y": 406.0,
+  					"width": 153.0,
+  					"height": 173.0,
+  					"logicalcenterx": 81.0,
+  					"logicalcentery": 95.0,
+  					"polys": [{
+  						"path": "M48,169l-12,-4l-6,4l-21,1l-4,-2l3,-1l0,-2l-4,1l-4,-9l3,-12l4,-8l-3,-6l1,-5l9,-17l0,-4l4,-14l4,-7l11,-10l2,-7l5,-6l2,-1l5,-9l1,-9l4,-4l2,-7l1,-6l-3,-1l-1,-10l13,-2l1,5l6,7l-1,5l3,0l7,-8l6,0l-1,-5l8,-1l8,-5l0,-5l-5,-1l0,-3l6,-1l10,1l3,4l5,0l6,11l1,8l5,-1l2,-4l2,2l1,10l-2,4l2,10l4,4l3,8l4,1l5,9l0,14l-2,5l-5,4l-1,6l-7,5l-3,-1l-2,1l-4,8l4,6l3,15l-2,17l1,13l-2,3l-7,1l-5,-2l-12,7l-2,4l-16,-10l-12,-3l-8,3l-4,-6l-1,1l1,3l-4,-1l1,-5l-4,-3l-5,-1l-5,2l-4,6l4,4l7,-1l1,1l-3,4l-2,-3l-5,5"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Munich, Germany",
+  					"x": 279.0,
+  					"y": 532.0
+  				},{
+  					"name": "Hamburg, Germany",
+  					"x": 202.0,
+  					"y": 117.0
+  				},{
+  					"name": "Frankfurt, Germany",
+  					"x": 134.0,
+  					"y": 379.0
+  				},{
+  					"name": "Bremen, Germany",
+  					"x": 145.0,
+  					"y": 152.0
+  				},{
+  					"name": "Berlin, Germany",
+  					"x": 359.0,
+  					"y": 194.0
+  				}]}]}}

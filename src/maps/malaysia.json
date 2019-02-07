@@ -1,0 +1,235 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 800,
+  		"height": 268,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": 99.64082,
+  			"xmax": 119.27582,
+  			"ymin": 0.8527776,
+  			"ymax": 7.35361,
+  			"scale": 2344.4648,
+  			"xscalemin": -0.17028637,
+  			"yscalemin": 7.2962513
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Terengganu",
+  					"code": "MY13",
+  					"longname": "Terengganu Darul Iman",
+  					"altname": "Terengganu",
+  					"altcode": "TRG",
+  					"x": 111.0,
+  					"y": 62.0,
+  					"width": 45.0,
+  					"height": 81.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M11,44l0,-3l-6,-3l0,-7l-3,-4l-1,-10l-1,-11l7,-6l12,10l8,5l7,11l9,18l2,19l-2,6l-4,-1l-2,3l2,7l-1,3l-4,-6l-4,-3l-5,-2l-4,1l1,-7l4,-5l-1,-1l-1,-2l-4,0l-1,-2l1,-5l-1,-1l-5,-1l-3,-3"
+  					}]
+  				},{
+  					"name": "Selangor",
+  					"code": "MY12",
+  					"longname": "Selangor Darul Ehsan",
+  					"altname": "Selangor",
+  					"altcode": "SGR",
+  					"x": 46.0,
+  					"y": 143.0,
+  					"width": 47.0,
+  					"height": 52.0,
+  					"logicalcenterx": 29.0,
+  					"logicalcentery": 24.0,
+  					"polys": [{
+  						"path": "M45,24l2,10l-3,6l-5,2l0,4l-2,6l-8,-4l-5,-6l-4,0l-1,-3l4,-5l-3,-10l-7,-8l-3,-6l-10,-8l2,-2l4,0l12,7l6,-4l5,4l5,-4l7,7l-2,4l0,6l2,3l4,1M33,32l4,0l1,-6l-5,0l0,6"
+  					}]
+  				},{
+  					"name": "Sarawak",
+  					"code": "MY11",
+  					"longname": "Sarawak",
+  					"altcode": "SWK",
+  					"x": 403.0,
+  					"y": 96.0,
+  					"width": 249.0,
+  					"height": 171.0,
+  					"logicalcenterx": 154.0,
+  					"logicalcentery": 100.0,
+  					"polys": [{
+  						"path": "M188,18l3,2l4,8l12,13l7,-5l3,-9l-4,-16l8,-3l2,-3l0,10l3,11l10,3l-3,-6l1,-6l-3,-8l-3,-4l2,-2l7,2l5,-5l3,1l1,2l2,15l-1,16l2,3l-3,18l2,10l-2,0l-2,4l-1,12l-5,2l-5,-1l-5,5l-2,11l5,2l1,3l-12,9l-5,1l-1,4l1,4l2,1l0,5l-6,6l-6,14l-7,-3l-6,3l-6,-1l-7,1l-11,9l-3,-3l-5,0l-5,-3l-9,-3l-5,-5l-21,0l-11,5l0,3l-3,9l-8,1l-5,5l-6,-1l-10,1l-9,-3l-12,3l-4,4l-11,2l-9,-6l-5,-7l-6,-2l-5,-7l-9,-7l-2,-2l0,-3l-4,-6l-1,-3l4,-7l0,5l2,4l9,7l14,0l3,-4l8,7l8,3l-2,4l2,0l2,-5l2,0l14,8l9,1l-3,-2l-6,0l-4,-2l-3,-6l9,-19l2,-3l2,1l2,-2l-8,0l1,-4l1,-7l6,4l4,-2l-2,-4l2,-9l8,-6l18,-3l37,-10l17,-22l13,-13l7,-10l3,-8l-1,-6l8,0M72,104l-1,-10l1,-2l3,3l1,14l-2,1l-2,-4l0,-2"
+  					}]
+  				},{
+  					"name": "Sabah",
+  					"code": "MY16",
+  					"longname": "Sabah",
+  					"altcode": "SBH",
+  					"x": 632.0,
+  					"y": 0.0,
+  					"width": 167.0,
+  					"height": 133.0,
+  					"logicalcenterx": 79.0,
+  					"logicalcentery": 83.0,
+  					"polys": [{
+  						"path": "M68,7l1,-4l4,-3l1,3l-5,2l-1,2M77,2l7,-2l0,7l-5,1l-2,2l-1,-2l1,-6M132,112l3,0l-1,3l2,1l4,-1l2,4l-4,3l-15,2l-8,4l-12,-6l-3,1l1,2l-2,5l-6,-1l-9,-7l-28,2l-3,1l-6,-2l-7,0l-4,3l-6,-3l-9,7l-1,3l-2,-3l1,-16l-2,-15l-1,-2l-3,-1l3,-2l0,-4l-8,-6l0,-4l6,-4l11,-1l2,-1l3,-8l6,-4l2,-11l15,-15l6,-9l1,-6l4,-7l3,3l1,6l-3,7l1,2l2,0l8,-10l-1,-5l4,-3l5,3l1,12l7,4l8,1l3,4l1,6l-6,3l3,4l0,5l-6,4l11,-1l4,-2l4,-4l6,7l-1,2l-8,1l2,5l7,0l2,-5l8,0l23,15l6,1l4,-2l4,4l0,5l-2,3l-6,4l-15,5l-6,-1l-8,-3l-9,6l0,2l6,7l5,3M88,28l3,-1l1,-1l-2,-1l3,-1l2,2l-3,3l-4,0l0,-1M0,86l2,-5l2,4l-1,1l-3,1l0,-1M131,109l4,-1l5,2l-3,2l-7,-2l1,-1M103,130l-2,-2l2,-2l9,4l-9,0"
+  					}]
+  				},{
+  					"name": "Pulau Pinang",
+  					"code": "MY09",
+  					"longname": "Penang",
+  					"altname": "Pulau Pinang",
+  					"altcode": "PNG",
+  					"x": 22.0,
+  					"y": 72.0,
+  					"width": 15.0,
+  					"height": 19.0,
+  					"logicalcenterx": 11.0,
+  					"logicalcentery": 9.0,
+  					"polys": [{
+  						"path": "M8,19l2,-7l-4,-12l8,2l1,16l-3,0l-4,1M5,5l-1,8l-4,0l0,-8l5,0"
+  					}]
+  				},{
+  					"name": "Perlis",
+  					"code": "MY08",
+  					"longname": "Perlis Indera Kayangan",
+  					"altname": "Perils",
+  					"altcode": "PLS",
+  					"x": 0.0,
+  					"y": 26.0,
+  					"width": 30.0,
+  					"height": 18.0,
+  					"logicalcenterx": 25.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M22,18l-2,-6l3,-12l4,0l3,7l-1,3l-7,8M9,10l2,5l-7,3l-4,-7l6,1l3,-2"
+  					}]
+  				},{
+  					"name": "Perak",
+  					"code": "MY07",
+  					"longname": "Perak Darul Ridzuan",
+  					"altname": "Perak",
+  					"altcode": "PRK",
+  					"x": 29.0,
+  					"y": 59.0,
+  					"width": 56.0,
+  					"height": 91.0,
+  					"logicalcenterx": 30.0,
+  					"logicalcentery": 47.0,
+  					"polys": [{
+  						"path": "M1,32l4,-1l3,2l12,-10l4,-8l1,-7l-1,-2l2,-1l7,6l6,-7l11,-4l3,2l1,4l-1,10l3,1l0,5l-3,2l-2,-2l-3,4l-3,9l-1,7l-4,7l1,4l-2,7l5,3l7,24l-5,4l-5,-4l-6,4l-12,-7l-8,0l-2,-2l1,-4l6,-1l-10,-7l-2,-6l1,-19l-8,-8l-1,-4l1,-1"
+  					}]
+  				},{
+  					"name": "Pahang",
+  					"code": "MY06",
+  					"longname": "Pahang Darul Makmur",
+  					"altname": "Pahang",
+  					"altcode": "PHG",
+  					"x": 68.0,
+  					"y": 106.0,
+  					"width": 93.0,
+  					"height": 95.0,
+  					"logicalcenterx": 49.0,
+  					"logicalcentery": 42.0,
+  					"polys": [{
+  						"path": "M23,61l-4,-1l-2,-3l0,-6l2,-4l-7,-7l-7,-24l-5,-3l2,-7l11,2l5,-3l0,-4l2,0l3,3l2,-3l7,0l3,4l6,0l1,-2l10,0l2,-3l3,3l5,1l1,1l-1,5l1,2l4,0l1,2l1,1l-4,5l-1,7l4,-1l5,2l4,3l4,6l1,-3l-2,-7l2,-3l4,1l-2,2l1,6l-4,9l2,4l4,6l-2,5l0,18l8,11l-1,6l1,3l-12,-6l-7,3l-8,-4l-6,-7l-5,-2l0,-2l-7,-4l-5,-5l-12,-3l-7,-4l-1,0"
+  					}]
+  				},{
+  					"name": "Negeri Sembilan",
+  					"code": "MY05",
+  					"longname": "Negeri Sembilan Darul Khusus",
+  					"altname": "Negeri Sembilan",
+  					"altcode": "NSN",
+  					"x": 83.0,
+  					"y": 167.0,
+  					"width": 40.0,
+  					"height": 36.0,
+  					"logicalcenterx": 20.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M36,35l-10,-3l-10,1l-5,3l-6,-3l-2,-4l-3,-1l2,-6l0,-4l5,-2l3,-6l-2,-10l1,0l7,4l12,3l5,5l7,4l0,2l-4,17"
+  					}]
+  				},{
+  					"name": "Melaka",
+  					"code": "MY04",
+  					"longname": "Malacca",
+  					"altname": "Melaka",
+  					"altcode": "MLK",
+  					"x": 94.0,
+  					"y": 199.0,
+  					"width": 25.0,
+  					"height": 17.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 7.0,
+  					"polys": [{
+  						"path": "M0,4l5,-3l10,-1l10,3l-3,3l0,9l-2,2l-13,-6l-7,-7"
+  					}]
+  				},{
+  					"name": "Kuala Lumpur",
+  					"code": "MY",
+  					"longname": "Kuala Lumpur",
+  					"altcode": "KUL",
+  					"x": 79.0,
+  					"y": 169.0,
+  					"width": 5.0,
+  					"height": 6.0,
+  					"logicalcenterx": 2.0,
+  					"logicalcentery": 3.0,
+  					"polys": [{
+  						"path": "M0,6l0,-6l5,0l-1,6l-4,0"
+  					}]
+  				},{
+  					"name": "Kelantan",
+  					"code": "MY03",
+  					"longname": "Kelantan Darul Naim",
+  					"altname": "Kelantan",
+  					"altcode": "KTN",
+  					"x": 69.0,
+  					"y": 46.0,
+  					"width": 53.0,
+  					"height": 68.0,
+  					"logicalcenterx": 28.0,
+  					"logicalcentery": 39.0,
+  					"polys": [{
+  						"path": "M14,19l2,-1l3,2l5,-5l0,-3l7,-9l0,-3l10,3l8,13l-7,6l1,11l1,10l3,4l0,7l6,3l0,3l-2,3l-10,0l-1,2l-6,0l-3,-4l-7,0l-2,3l-3,-3l-2,0l0,4l-5,3l-11,-2l-1,-4l4,-7l1,-7l3,-9l3,-4l2,2l3,-2l0,-5l-3,-1l1,-10"
+  					}]
+  				},{
+  					"name": "Kedah",
+  					"code": "MY02",
+  					"longname": "Kedah Darul Aman",
+  					"altname": "Kedah",
+  					"altcode": "KDH",
+  					"x": 22.0,
+  					"y": 33.0,
+  					"width": 38.0,
+  					"height": 59.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 25.0,
+  					"polys": [{
+  						"path": "M0,11l7,-8l1,-3l11,3l4,-2l3,3l1,8l11,0l-1,13l-2,1l-2,5l-2,1l1,2l-1,7l-4,8l-12,10l-3,-2l3,0l-1,-16l-8,-2l1,-16l-4,-10l-3,-2"
+  					}]
+  				},{
+  					"name": "Johor",
+  					"code": "MY01",
+  					"longname": "Johor Darul Ta'zim",
+  					"altname": "Johor",
+  					"altcode": "JHR",
+  					"x": 114.0,
+  					"y": 183.0,
+  					"width": 73.0,
+  					"height": 66.0,
+  					"logicalcenterx": 37.0,
+  					"logicalcentery": 35.0,
+  					"polys": [{
+  						"path": "M70,1l1,6l-2,1l-2,-3l2,-5l1,1M5,19l4,-17l5,2l6,7l8,4l7,-3l12,6l-1,-3l1,-6l8,4l1,5l5,9l10,21l2,14l-3,2l-3,-1l-3,-5l1,-1l-5,-6l2,4l0,5l-8,-2l-5,1l-7,7l-6,-10l-22,-13l-5,-1l-9,-9l2,-2l0,-9l3,-3"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Singapore",
+  					"x": 149.0,
+  					"y": 236.0
+  				}]}]}}

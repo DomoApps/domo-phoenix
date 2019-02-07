@@ -1,0 +1,815 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 570,
+  		"height": 510,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -25.361752,
+  			"xmax": 63.503334,
+  			"ymin": -46.982002,
+  			"ymax": 37.559593,
+  			"scale": 415.89218,
+  			"xscalemin": -0.7035695,
+  			"yscalemin": 36.84226
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "AO",
+  					"code": "AO",
+  					"longname": "Angola",
+  					"x": 247.0,
+  					"y": 297.0,
+  					"width": 77.0,
+  					"height": 87.0,
+  					"logicalcenterx": 44.0,
+  					"logicalcentery": 50.0,
+  					"polys": [{
+  						"path": "M9,30l-1,1l-1,-2l2,-1l1,-3l-4,-9l-4,-5l8,-2l19,0l2,2l-1,1l2,6l4,5l6,-1l5,0l1,-2l1,-1l0,-3l6,-1l0,3l8,0l0,4l1,3l-1,7l2,3l1,3l0,2l-1,1l1,2l2,-1l3,0l2,-1l3,1l1,-1l0,10l-1,2l1,1l-13,1l0,20l1,3l8,7l-16,2l-4,-1l-8,0l-3,-3l-27,1l-5,-3l-1,-1l-4,2l-3,0l-2,1l0,-10l1,-1l2,-6l2,-9l2,-2l0,-1l3,-3l2,-4l1,-5l-4,-8l-1,-3l1,-1M6,0l2,1l-4,3l0,4l-2,0l0,-2l-1,-2l1,-2l3,-2l1,0"
+  					}]
+  				},{
+  					"name": "BF",
+  					"code": "BF",
+  					"longname": "Burkina Faso",
+  					"x": 132.0,
+  					"y": 171.0,
+  					"width": 52.0,
+  					"height": 38.0,
+  					"logicalcenterx": 25.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M31,0l6,0l0,4l1,1l0,2l2,2l4,2l-2,0l0,3l4,2l4,0l1,1l-1,1l2,3l-3,3l-4,0l-3,3l-3,0l-4,-1l-3,2l-14,0l-1,3l1,1l0,4l1,2l-1,0l-2,-2l-2,-1l-5,1l-1,1l-4,-1l-1,-3l-2,0l-1,-1l1,-2l-1,-2l1,-1l1,-2l0,-2l-1,0l4,-1l2,-3l0,-2l1,-1l-1,-2l3,-3l0,1l3,2l1,-1l0,-3l3,0l0,-3l2,-1l3,1l0,-3l6,-2l3,-2"
+  					}]
+  				},{
+  					"name": "BI",
+  					"code": "BI",
+  					"longname": "Burundi",
+  					"x": 356.0,
+  					"y": 284.0,
+  					"width": 12.0,
+  					"height": 13.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M9,0l1,0l-1,3l3,1l0,1l-3,3l-3,4l-1,1l-3,0l-1,-4l1,-4l-2,-3l1,-1l1,1l0,1l3,0l1,-1l0,-2l3,0"
+  					}]
+  				},{
+  					"name": "BJ",
+  					"code": "BJ",
+  					"longname": "Benin",
+  					"x": 173.0,
+  					"y": 188.0,
+  					"width": 20.0,
+  					"height": 41.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M19,5l-1,2l1,2l1,3l0,1l-1,1l0,3l-2,1l-1,4l-2,1l0,17l-7,1l1,-1l-2,-4l0,-13l-1,-2l-1,-5l-4,-2l1,-4l3,-3l4,0l3,-3l0,-3l2,-1l6,5"
+  					}]
+  				},{
+  					"name": "BW",
+  					"code": "BW",
+  					"longname": "Botswana",
+  					"x": 298.0,
+  					"y": 383.0,
+  					"width": 59.0,
+  					"height": 61.0,
+  					"logicalcenterx": 28.0,
+  					"logicalcentery": 29.0,
+  					"polys": [{
+  						"path": "M33,0l0,1l5,7l1,3l3,3l3,1l1,3l2,0l0,4l2,3l7,2l0,1l2,1l-3,1l0,1l-4,1l-4,4l-4,3l-1,4l-3,2l-3,1l-3,7l-5,1l-5,-2l-2,-2l-3,0l-3,6l-5,5l-6,-1l0,1l-1,-3l2,-2l-1,-2l-2,-5l-3,-3l0,-18l7,0l0,-25l14,-2l2,3l4,-3l1,0l1,1l2,-2l2,0"
+  					}]
+  				},{
+  					"name": "CD",
+  					"code": "CD",
+  					"longname": "Congo DRC",
+  					"altname": "Democratic Republic of the Congo",
+  					"altcode": "Zaire",
+  					"x": 249.0,
+  					"y": 234.0,
+  					"width": 122.0,
+  					"height": 121.0,
+  					"logicalcenterx": 66.0,
+  					"logicalcentery": 52.0,
+  					"polys": [{
+  						"path": "M90,1l1,1l3,0l1,-1l3,1l1,1l1,2l4,2l2,-2l3,2l2,-3l1,1l3,4l2,1l1,1l2,1l-1,3l1,2l-1,2l3,2l-8,9l0,1l-2,3l-1,10l-2,1l-1,4l-2,1l1,2l2,3l-1,4l1,4l0,3l2,5l0,5l4,4l3,7l-12,2l0,2l-3,3l1,3l0,6l-2,5l1,2l3,4l3,0l0,-1l2,0l0,8l-1,0l0,-2l-4,2l-1,-3l-2,-2l0,-1l-4,-2l-2,0l-2,-4l-1,0l-1,2l-5,0l-5,-2l0,-3l-4,1l-1,1l-2,-1l1,-2l-2,-1l-1,1l-3,-1l-2,1l-3,0l-2,1l-1,-2l1,-1l0,-2l-1,-3l-2,-3l1,-7l-1,-3l0,-4l-8,0l0,-3l-6,1l0,3l-1,1l-1,2l-5,0l-6,1l-4,-5l-2,-6l1,-1l-2,-2l-23,0l-2,1l-2,-2l2,0l0,-4l4,-3l2,1l2,-2l1,0l3,-1l0,3l1,1l4,-4l2,-1l0,-1l2,0l2,-5l0,-7l5,-6l3,-2l2,-2l0,-3l1,-3l0,-4l1,-4l0,-4l4,-7l0,-1l-1,-6l2,0l2,-4l3,-1l4,2l2,3l8,1l3,1l2,-1l2,-4l4,2l5,-3l1,-1l2,2l4,-1l1,-2l5,1"
+  					}]
+  				},{
+  					"name": "CF",
+  					"code": "CF",
+  					"longname": "Central African Republic",
+  					"x": 263.0,
+  					"y": 196.0,
+  					"width": 84.0,
+  					"height": 58.0,
+  					"logicalcenterx": 38.0,
+  					"logicalcentery": 29.0,
+  					"polys": [{
+  						"path": "M54,1l5,7l1,3l-2,2l1,2l4,1l0,2l4,1l2,2l1,2l-1,1l8,5l0,2l1,2l-1,0l5,2l2,5l-3,-1l-1,1l-3,0l-1,-1l-5,-1l-1,2l-4,1l-2,-2l-1,1l-5,3l-4,-2l-2,4l-2,1l-3,-1l-8,-1l-2,-3l-4,-2l-3,1l-2,4l-2,0l1,6l-7,-2l-6,2l-1,4l-2,4l-1,-5l-5,-5l-1,-4l-3,-2l0,-3l-1,-1l1,-4l-1,-1l2,-1l3,-7l1,-2l3,1l4,-3l2,2l6,-3l5,0l4,-4l-1,-2l9,-1l8,-7l1,0l0,-4l5,-2l2,1"
+  					}]
+  				},{
+  					"name": "CG",
+  					"code": "CG",
+  					"longname": "Congo",
+  					"x": 242.0,
+  					"y": 244.0,
+  					"width": 48.0,
+  					"height": 57.0,
+  					"logicalcenterx": 29.0,
+  					"logicalcentery": 29.0,
+  					"polys": [{
+  						"path": "M41,0l7,2l0,1l-4,7l0,4l-1,4l0,4l-1,3l0,3l-2,2l-3,2l-5,6l0,7l-2,5l-2,0l0,1l-2,1l-4,4l-1,-1l0,-3l-3,1l-1,0l-2,2l-4,-2l-1,0l-3,2l-1,2l-2,-4l1,-2l-2,2l-2,-3l-1,0l0,-2l2,-1l3,1l1,-2l-2,-1l0,-1l-2,-1l1,-3l1,1l1,-2l3,1l1,-1l-1,-2l1,-1l2,1l1,2l3,1l2,-2l0,2l2,0l1,-1l0,-2l1,0l0,-9l-3,-2l-1,-3l1,-2l2,-1l1,-2l-1,-2l-1,-1l-2,0l-4,1l-1,-3l1,-3l9,0l2,1l5,1l2,2l0,-4l1,0l2,-4l1,-4l6,-2"
+  					}]
+  				},{
+  					"name": "CI",
+  					"code": "CI",
+  					"longname": "Republic of Cote d'Ivoire",
+  					"altname": "Ivory Coast",
+  					"x": 113.0,
+  					"y": 201.0,
+  					"width": 39.0,
+  					"height": 42.0,
+  					"logicalcenterx": 20.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M15,4l1,0l1,-2l2,0l1,1l2,0l1,3l4,1l1,-1l5,-1l2,1l2,2l1,0l-1,3l1,1l1,4l-1,2l-2,5l-1,2l2,8l1,0l1,2l0,1l-2,0l1,0l-2,0l-1,-1l0,1l-5,-1l2,1l0,-1l-6,1l-1,0l5,0l-13,2l0,0l-1,1l-8,3l-1,-3l1,-3l0,-3l-2,-1l-1,-2l-5,-1l2,-4l-1,-3l2,0l0,-3l1,0l0,-1l-2,-1l0,-1l4,0l0,-1l-2,-1l0,-2l1,0l-3,-3l0,-3l1,-1l3,-2l3,1l1,-1l2,0l0,-2l1,1l1,-2l1,4"
+  					}]
+  				},{
+  					"name": "CM",
+  					"code": "CM",
+  					"longname": "Cameroon",
+  					"x": 225.0,
+  					"y": 183.0,
+  					"width": 49.0,
+  					"height": 75.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M1,56l0,-1l-1,0l0,-1l1,-2l1,-4l8,-8l0,1l2,0l1,-2l2,3l1,0l0,1l2,0l1,-3l2,-1l0,-1l2,-4l0,-3l4,-3l1,-4l2,-1l0,-3l1,-1l2,-5l1,-2l2,0l3,-2l0,-4l-2,-1l-1,-1l-1,-4l2,0l1,2l2,1l0,3l1,0l1,2l-1,6l1,3l3,3l-9,0l-2,2l8,8l3,5l-1,1l-1,2l-3,7l-2,1l1,1l-1,4l1,1l0,3l3,2l1,4l5,5l1,5l-1,0l0,4l-2,-2l-5,-1l-2,-1l-9,0l-10,-1l-2,1l-10,0l0,-2l1,-3l-1,-1l1,-2l0,1l-2,-1l3,-2l-1,1l-2,0l0,0l1,-1l-1,-1l1,0l0,-1l-1,1l-3,0l-1,-1l-1,-3l-1,-1l0,1"
+  					}]
+  				},{
+  					"name": "CV",
+  					"code": "CV",
+  					"longname": "Cape Verde",
+  					"x": 0.0,
+  					"y": 164.0,
+  					"width": 3.0,
+  					"height": 2.0,
+  					"logicalcenterx": 1.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M2,0l1,1l-2,1l-1,-1l2,-1"
+  					}]
+  				},{
+  					"name": "DJ",
+  					"code": "DJ",
+  					"longname": "Djibouti",
+  					"x": 441.0,
+  					"y": 188.0,
+  					"width": 11.0,
+  					"height": 12.0,
+  					"logicalcenterx": 5.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M10,2l1,3l-4,1l-2,2l3,-1l2,1l-2,3l-2,0l-5,1l-1,-1l0,-4l4,-6l3,1l2,-2l1,2"
+  					}]
+  				},{
+  					"name": "DZ",
+  					"code": "DZ",
+  					"longname": "Algeria",
+  					"x": 106.0,
+  					"y": 4.0,
+  					"width": 140.0,
+  					"height": 139.0,
+  					"logicalcenterx": 65.0,
+  					"logicalcentery": 70.0,
+  					"polys": [{
+  						"path": "M106,0l3,1l1,1l6,-1l0,1l-2,1l0,1l-2,1l2,1l-1,5l1,3l0,1l1,1l-2,3l0,2l-3,3l-1,0l0,3l1,5l2,1l2,2l0,3l5,3l3,15l-1,0l1,1l2,5l1,5l-1,4l2,3l-2,4l2,4l-1,2l-2,1l-1,1l4,7l0,2l1,3l2,1l3,0l4,2l1,0l3,5l-30,19l-11,11l-10,2l-6,1l-2,-1l1,-2l0,-3l-4,-1l-2,0l-1,-2l-2,1l-2,-2l-3,-2l0,-2l-41,-27l-26,-17l-1,-10l7,-5l4,-3l3,1l2,-1l2,0l5,-2l3,-4l3,-1l3,-3l2,0l0,-1l-1,-1l0,-2l-1,-2l6,-1l1,-2l11,-1l-1,-2l2,-2l-3,-1l-2,-4l1,-3l-1,-1l0,-3l-1,-5l0,-1l-3,-2l6,-2l1,-2l2,-2l2,0l1,-1l2,0l3,-3l4,-2l9,-2l2,0l3,-2l1,1l5,-2l6,0l4,2l2,-1l4,-1l1,-2l4,2l2,0l0,-2"
+  					}]
+  				},{
+  					"name": "EG",
+  					"code": "EG",
+  					"longname": "Egypt",
+  					"x": 331.0,
+  					"y": 48.0,
+  					"width": 73.0,
+  					"height": 76.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 40.0,
+  					"polys": [{
+  						"path": "M48,2l3,2l0,7l1,1l1,2l-2,3l2,2l0,3l1,3l5,5l0,3l2,2l0,5l8,16l4,4l-2,0l1,6l-3,2l-2,0l-2,4l-3,1l-1,3l-3,0l-3,-2l-11,0l0,-2l-1,2l-42,-1l0,-54l-1,-7l2,-4l-1,-6l2,-2l1,2l4,-1l9,2l1,1l3,0l0,1l4,0l4,2l9,-4l1,1l-1,-2l5,-1l3,2l2,-1"
+  					}]
+  				},{
+  					"name": "ER",
+  					"code": "ER",
+  					"longname": "Eritrea",
+  					"x": 407.0,
+  					"y": 151.0,
+  					"width": 43.0,
+  					"height": 39.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M17,4l2,10l3,6l0,-3l2,1l0,3l3,0l1,2l3,1l3,4l4,3l0,2l1,0l2,3l2,0l0,1l-2,2l-3,-1l-4,-5l-5,-5l-6,-4l-3,0l-2,1l-1,-2l-4,1l-4,-3l-2,5l-2,-2l-1,0l0,1l-4,0l0,-6l3,-8l0,-1l1,-4l2,0l1,-2l6,-2l1,-2l3,4"
+  					}]
+  				},{
+  					"name": "ES",
+  					"code": "ES",
+  					"longname": "Canarias",
+  					"x": 51.0,
+  					"y": 76.0,
+  					"width": 20.0,
+  					"height": 7.0,
+  					"logicalcenterx": 2.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M5,2l-2,4l-1,1l-2,-3l5,-2M20,0l0,4l-2,2l-1,0l1,-1l1,-4l1,-1"
+  					}]
+  				},{
+  					"name": "ET",
+  					"code": "ET",
+  					"longname": "Ethiopia",
+  					"x": 383.0,
+  					"y": 172.0,
+  					"width": 98.0,
+  					"height": 76.0,
+  					"logicalcenterx": 37.0,
+  					"logicalcentery": 41.0,
+  					"polys": [{
+  						"path": "M37,3l4,-1l1,2l2,-1l3,0l6,4l5,5l4,5l-4,6l0,4l1,1l5,-1l2,0l-2,3l0,2l2,3l1,0l1,3l4,3l19,7l7,0l-21,19l-9,1l-3,1l-1,2l-6,1l-1,1l-5,0l-2,-2l-6,2l-2,3l-9,-1l-8,-6l-6,0l-1,-2l0,-4l-2,-1l-1,1l0,-1l-2,-3l0,-3l-1,-1l-4,-3l-2,-3l-1,-2l-5,-1l2,-4l3,1l2,-1l1,-5l1,-6l0,-3l2,-1l1,0l2,-6l4,-6l3,0l0,-2l3,-9l4,0l0,-1l1,0l2,2l2,-5l4,3"
+  					}]
+  				},{
+  					"name": "FR",
+  					"code": "FR",
+  					"longname": "Mayotte",
+  					"x": 456.0,
+  					"y": 353.0,
+  					"width": 1.0,
+  					"height": 2.0,
+  					"logicalcenterx": 0.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M1,0l0,2l-1,-1l1,-1"
+  					}]
+  				},{
+  					"name": "GA",
+  					"code": "GA",
+  					"longname": "Gabon",
+  					"x": 228.0,
+  					"y": 253.0,
+  					"width": 35.0,
+  					"height": 41.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M7,14l-4,0l-1,-2l1,0l1,1l-1,-4l1,0l2,1l9,-1l0,-8l2,-1l10,1l-1,3l1,3l4,-1l2,0l1,1l1,2l-1,2l-2,1l-1,2l1,3l3,2l0,9l-1,0l0,2l-1,1l-2,0l0,-2l-2,2l-3,-1l-1,-2l-2,-1l-1,1l1,2l-1,1l-3,-1l-1,2l-1,-1l-1,3l2,1l0,1l2,1l-1,2l-3,-1l-2,1l0,2l-3,-4l3,3l0,-1l-3,-1l-2,-3l1,-1l-2,1l-4,-4l3,2l1,-1l-1,0l-1,-1l-1,1l-1,-1l-2,-3l2,1l-1,-1l-1,0l-2,-4l2,2l2,0l-2,0l0,-2l-1,1l0,-2l2,0l0,-1l3,-1l-4,1l-2,0l2,-4l0,-4l1,1l0,-1l2,1l1,-1l1,0"
+  					}]
+  				},{
+  					"name": "GH",
+  					"code": "GH",
+  					"longname": "Ghana",
+  					"x": 148.0,
+  					"y": 197.0,
+  					"width": 29.0,
+  					"height": 43.0,
+  					"logicalcenterx": 13.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M24,34l1,1l-3,1l-6,3l-5,2l-3,2l-7,-2l1,-1l2,0l0,-1l-1,-2l-1,0l-2,-8l1,-2l2,-5l1,-2l-1,-4l-1,-1l1,-3l-1,-2l0,-4l-1,-1l1,-3l14,0l3,-2l1,1l0,3l3,2l0,5l-1,0l2,1l0,3l-1,1l2,3l0,4l-1,1l1,1l-1,3l2,3l3,2l-2,1l0,1l-1,0l-2,-1"
+  					}]
+  				},{
+  					"name": "GM",
+  					"code": "GM",
+  					"longname": "Gambia",
+  					"altname": "The Gambia",
+  					"x": 58.0,
+  					"y": 183.0,
+  					"width": 19.0,
+  					"height": 6.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 2.0,
+  					"polys": [{
+  						"path": "M4,2l4,0l1,-1l2,-1l4,2l3,0l1,1l-3,1l-5,-2l-1,1l-4,1l0,1l-6,1l0,-2l1,-1l1,2l1,-1l1,1l0,-1l4,-1l1,0l-5,0l0,-1"
+  					}]
+  				},{
+  					"name": "GN",
+  					"code": "GN",
+  					"longname": "Guinea",
+  					"x": 71.0,
+  					"y": 191.0,
+  					"width": 48.0,
+  					"height": 34.0,
+  					"logicalcenterx": 21.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M2,14l1,-2l-1,0l-1,1l0,-2l-1,0l1,-3l6,-2l0,-2l-1,-1l2,-1l-1,-2l4,0l0,1l11,0l0,1l1,1l1,0l1,-1l2,2l2,-2l4,1l1,-1l2,-1l-1,-1l3,0l1,2l1,1l-1,2l3,2l-1,2l2,0l0,3l1,1l1,0l0,2l-1,1l0,3l3,3l-1,0l0,2l2,1l0,1l-4,0l0,1l2,1l0,1l-1,0l0,3l-2,0l-2,-1l-1,3l-1,0l-1,-1l-1,0l0,-2l-1,-4l-2,-1l-3,0l-3,2l1,-3l-1,-2l0,-2l-4,-4l-8,1l-2,3l-2,2l-1,0l1,-1l-1,0l-1,-2l0,1l-1,-1l0,1l-1,-1l1,-1l-1,-2l0,1l-2,0l0,-2l-3,0l-1,-2"
+  					}]
+  				},{
+  					"name": "GQ",
+  					"code": "GQ",
+  					"longname": "Equatorial Guinea",
+  					"x": 224.0,
+  					"y": 244.0,
+  					"width": 19.0,
+  					"height": 19.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M2,0l1,1l-1,3l-2,0l0,-2l2,-2M6,17l2,-3l1,-2l0,-3l0,1l10,0l0,8l-9,1l0,-1l-2,0l-2,-1"
+  					}]
+  				},{
+  					"name": "GW",
+  					"code": "GW",
+  					"longname": "Guinea-Bissau",
+  					"x": 59.0,
+  					"y": 191.0,
+  					"width": 20.0,
+  					"height": 12.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M10,7l-1,0l1,1l1,-1l-2,-1l-1,2l0,-3l2,0l1,1l0,-2l-6,2l1,-1l2,-1l-3,0l0,1l-2,1l-1,-2l2,-1l2,0l-3,0l0,-1l-1,2l-2,-1l7,-1l3,-2l9,0l1,2l-2,1l1,1l0,2l-6,2l-1,3l-1,1l0,-3l-1,2l0,-2l-1,1l-1,-1l2,-2"
+  					}]
+  				},{
+  					"name": "KE",
+  					"code": "KE",
+  					"longname": "Kenya",
+  					"x": 388.0,
+  					"y": 234.0,
+  					"width": 52.0,
+  					"height": 66.0,
+  					"logicalcenterx": 24.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M33,66l-9,-6l-1,-2l0,-3l-23,-14l0,-7l4,-6l2,-1l1,-4l0,-4l-3,-4l0,-3l-2,-1l-1,-3l9,-8l0,1l1,-1l2,1l0,4l1,2l6,0l8,6l9,1l2,-3l6,-2l2,2l5,0l-6,7l-1,24l4,5l-2,2l-2,1l-1,-1l1,2l-2,0l0,1l-3,2l-1,3l-2,4l-1,1l-1,2l-2,2"
+  					}]
+  				},{
+  					"name": "KM",
+  					"code": "KM",
+  					"longname": "Comoros",
+  					"x": 445.0,
+  					"y": 344.0,
+  					"width": 1.0,
+  					"height": 3.0,
+  					"logicalcenterx": 0.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M1,0l0,3l-1,-1l1,-2"
+  					}]
+  				},{
+  					"name": "LR",
+  					"code": "LR",
+  					"longname": "Liberia",
+  					"x": 95.0,
+  					"y": 217.0,
+  					"width": 26.0,
+  					"height": 26.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M12,20l-3,-2l0,-1l-5,-2l1,-1l-1,0l-4,-2l1,0l-1,-1l0,-2l5,-4l0,-2l2,-1l0,-2l3,0l2,1l1,4l0,2l1,0l1,1l1,0l1,-3l2,1l1,3l-2,4l5,1l1,2l2,1l0,3l-1,3l1,3l-1,0l-7,-2l-5,-3l-1,-1"
+  					}]
+  				},{
+  					"name": "LS",
+  					"code": "LS",
+  					"longname": "Lesotho",
+  					"x": 341.0,
+  					"y": 456.0,
+  					"width": 15.0,
+  					"height": 15.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M11,0l4,4l0,2l-2,2l0,2l-5,2l-1,3l-2,-1l-2,-2l-3,-4l3,-2l2,-4l6,-2"
+  					}]
+  				},{
+  					"name": "LY",
+  					"code": "LY",
+  					"longname": "Libya",
+  					"x": 227.0,
+  					"y": 36.0,
+  					"width": 107.0,
+  					"height": 103.0,
+  					"logicalcenterx": 54.0,
+  					"logicalcentery": 46.0,
+  					"polys": [{
+  						"path": "M20,3l3,0l3,-1l7,2l2,2l4,0l2,6l3,3l13,3l8,5l4,-1l3,-4l1,-2l-2,-5l2,-4l10,-5l3,0l7,2l0,3l1,1l12,2l1,2l-2,2l1,6l-2,4l1,7l0,68l-7,0l0,4l-29,-17l-24,-12l-6,4l-6,2l-5,-4l-9,-2l-3,-5l-1,0l-4,-2l-3,0l-2,-1l-1,-3l0,-2l-4,-7l1,-1l2,-1l1,-2l-2,-4l2,-4l-2,-3l1,-4l-1,-5l-2,-5l-1,-1l1,0l3,-1l2,-4l-1,-5l1,-2l2,0l1,-2l2,-2l4,-2l0,-6l5,3"
+  					}]
+  				},{
+  					"name": "MA",
+  					"code": "MA",
+  					"longname": "Morocco",
+  					"x": 53.0,
+  					"y": 17.0,
+  					"width": 104.0,
+  					"height": 119.0,
+  					"logicalcenterx": 53.0,
+  					"logicalcentery": 52.0,
+  					"polys": [{
+  						"path": "M73,0l1,0l0,3l6,3l5,-2l2,1l2,-1l1,-1l0,1l1,2l4,0l3,2l0,1l1,5l0,3l1,1l-1,3l2,4l3,1l-2,2l1,2l-11,1l-1,2l-6,1l1,2l0,2l1,1l0,1l-2,0l-3,3l-3,1l-3,4l-5,2l-2,0l-2,1l-3,-1l-4,3l-7,5l1,10l0,10l-22,1l1,19l-4,2l-3,3l1,10l-26,2l-1,4l0,-6l1,-4l2,-2l5,-11l-1,1l6,-7l0,-5l2,-6l6,-5l3,-7l1,-2l5,-1l5,-2l2,-4l4,-2l2,-2l3,-7l1,-2l-2,-2l0,-5l3,-7l0,-3l5,-6l7,-3l4,-3l1,-2l1,-1l-1,0l5,-12l3,-1"
+  					}]
+  				},{
+  					"name": "MG",
+  					"code": "MG",
+  					"longname": "Madagascar",
+  					"x": 443.0,
+  					"y": 349.0,
+  					"width": 47.0,
+  					"height": 89.0,
+  					"logicalcenterx": 21.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M1,61l2,0l1,3l1,0l0,1l0,-2l2,1l1,-1l3,0l0,3l0,-2l1,2l0,-3l1,0l-2,0l-1,-2l0,2l-5,1l-4,-4l2,0l1,-2l1,-4l5,5l-4,-5l2,-3l-1,-2l2,0l-1,0l0,-3l-1,1l-2,-6l1,-5l1,-1l0,1l-2,0l1,-3l3,1l-1,0l-2,-2l2,-2l1,-4l2,1l2,-2l1,1l1,-1l1,1l0,-2l2,1l0,-1l1,1l1,-1l0,1l2,1l-1,2l2,2l0,-1l-1,-1l0,-2l-2,-2l0,-1l4,-3l1,1l-1,2l1,-1l0,1l1,-1l-1,-2l3,-3l0,1l-1,2l3,-3l1,0l0,1l1,-2l-2,1l-1,-1l1,-2l1,1l1,-1l-1,-3l0,-1l1,0l1,2l2,-3l1,0l2,-3l-1,-3l3,-3l0,2l1,1l1,2l2,2l-1,2l1,0l1,5l-1,1l-1,0l2,0l0,1l2,6l-2,4l-1,-1l-1,-2l-2,-1l1,1l-1,0l0,4l1,1l-1,3l1,1l-1,0l-1,2l0,4l-3,7l-1,-1l1,2l-2,6l-2,0l2,1l-3,7l-3,1l1,-1l1,1l-1,3l-2,0l1,0l1,1l-2,3l-1,6l-1,0l1,1l-1,2l-1,0l1,1l-1,1l-2,6l-3,2l-2,-1l-1,-2l0,-3l-1,3l3,2l-6,3l-2,0l-2,-2l-3,0l-2,-2l-2,-5l0,-5l2,-1l0,0l-2,1l0,-1l2,-1l-2,0l-2,-7l1,-5"
+  					}]
+  				},{
+  					"name": "ML",
+  					"code": "ML",
+  					"longname": "Mali",
+  					"x": 87.0,
+  					"y": 102.0,
+  					"width": 108.0,
+  					"height": 104.0,
+  					"logicalcenterx": 74.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M46,0l41,27l0,2l3,2l2,2l2,-1l1,2l2,0l4,1l0,3l-1,2l2,1l6,-1l0,19l-2,5l-3,2l-3,0l-1,1l-10,0l-2,2l-11,0l-3,2l-6,2l0,3l-3,-1l-2,1l0,3l-3,0l0,3l-1,1l-3,-2l0,-1l-3,3l1,2l-1,1l0,2l-2,3l-4,1l1,0l0,2l-1,2l-1,1l1,2l-1,2l-2,0l-1,2l-1,0l-1,-4l-1,2l-1,-1l0,2l-2,0l-1,1l-3,-1l-3,2l0,-2l-1,0l-1,-1l0,-3l-2,0l1,-2l-3,-2l1,-2l-1,-1l-1,-2l-3,0l1,1l-2,1l-1,1l-4,-1l-2,2l-2,-2l-1,1l-1,0l-1,-1l0,-5l-1,-3l-2,1l-1,-3l0,-1l-2,-6l1,0l2,-1l0,-4l2,-1l3,3l3,-2l7,0l1,-2l1,1l24,-1l1,-6l-2,-1l-9,-60l12,0"
+  					}]
+  				},{
+  					"name": "MR",
+  					"code": "MR",
+  					"longname": "Mauritania",
+  					"x": 53.0,
+  					"y": 85.0,
+  					"width": 80.0,
+  					"height": 91.0,
+  					"logicalcenterx": 36.0,
+  					"logicalcentery": 51.0,
+  					"polys": [{
+  						"path": "M80,17l-12,0l9,60l2,1l-1,6l-24,1l-1,-1l-1,2l-7,0l-3,2l-3,-3l-2,1l0,4l-2,1l-1,0l-4,-3l-5,-6l-2,0l-4,-3l-4,0l-4,1l-3,0l-2,2l0,2l0,-4l2,-6l0,-4l-1,-6l-3,-3l1,-1l1,-6l-2,-2l-1,0l-2,-4l-1,3l1,-4l26,-2l-1,-10l3,-3l4,-2l-1,-19l22,-1l0,-10l26,17"
+  					}]
+  				},{
+  					"name": "MU",
+  					"code": "MU",
+  					"longname": "Mauritius",
+  					"x": 531.0,
+  					"y": 404.0,
+  					"width": 3.0,
+  					"height": 3.0,
+  					"logicalcenterx": 1.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M2,0l1,2l-1,1l-2,0l0,-1l2,-2"
+  					}]
+  				},{
+  					"name": "MW",
+  					"code": "MW",
+  					"longname": "Malawi",
+  					"x": 378.0,
+  					"y": 329.0,
+  					"width": 20.0,
+  					"height": 51.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 24.0,
+  					"polys": [{
+  						"path": "M9,2l0,-1l2,2l2,3l0,5l2,4l-2,-1l-2,5l1,7l0,1l2,0l1,1l5,7l0,3l-1,6l-2,1l-2,2l1,2l0,2l-1,-1l0,-1l-4,-4l-1,-3l2,-3l0,-5l-1,-1l-5,1l-2,-4l-2,0l-2,-3l2,-2l0,-3l4,-3l-1,0l-1,-1l0,-4l1,-2l-1,-2l3,-2l-2,-3l0,-2l-1,-1l-1,0l0,-2l6,2"
+  					}]
+  				},{
+  					"name": "MZ",
+  					"code": "MZ",
+  					"longname": "Mozambique",
+  					"x": 363.0,
+  					"y": 338.0,
+  					"width": 66.0,
+  					"height": 107.0,
+  					"logicalcenterx": 44.0,
+  					"logicalcentery": 43.0,
+  					"polys": [{
+  						"path": "M28,65l1,2l0,1l1,3l1,4l1,1l0,-1l0,5l-2,7l1,-1l0,2l-2,3l-10,4l0,-3l-4,-2l-3,-7l1,3l0,2l1,0l3,3l2,1l1,2l-5,3l-1,2l0,-1l-1,2l-1,0l0,1l1,0l1,2l1,-2l0,6l-5,-1l0,-5l-1,-1l0,-11l-2,-6l-1,-7l7,-7l-1,-1l1,-2l0,-2l1,0l3,-4l0,-1l-2,-2l1,-3l-1,-1l1,-1l0,-2l1,-1l-1,-2l1,-4l-1,-3l1,-1l-7,-3l-4,-2l-5,0l0,-3l-1,-3l1,-1l18,-6l2,4l5,-1l1,1l0,5l-2,3l1,3l4,4l0,1l1,1l0,-2l-1,-2l2,-2l2,-1l1,-6l0,-3l-5,-7l-1,-1l-2,0l0,-1l-1,-7l2,-5l2,1l3,0l3,-1l3,2l3,-1l3,1l2,-1l2,-2l3,1l8,-3l4,-2l1,0l0,3l-1,2l1,7l-1,0l1,2l-1,2l1,-1l0,3l-1,1l-1,0l2,0l0,7l1,-1l0,3l-1,0l1,1l-2,1l1,0l0,1l-4,5l-2,1l0,1l-3,2l-1,0l0,-2l0,3l-3,0l-3,2l-5,2l-2,1l1,0l-1,2l-2,-1l1,0l0,1l-2,1l1,0l-2,2l-2,0l-2,-3l-2,-1l4,3l1,1l0,2l-1,0l-3,2l-5,4l-2,-1l1,1l-1,1l1,0l0,1l-1,3l2,1"
+  					}]
+  				},{
+  					"name": "NA",
+  					"code": "NA",
+  					"longname": "Namibia",
+  					"x": 247.0,
+  					"y": 377.0,
+  					"width": 84.0,
+  					"height": 81.0,
+  					"logicalcenterx": 35.0,
+  					"logicalcentery": 35.0,
+  					"polys": [{
+  						"path": "M10,1l5,3l27,-1l3,3l8,0l4,1l16,-2l6,-1l3,0l2,2l-2,0l-2,2l-1,-1l-1,0l-4,3l-2,-3l-14,2l0,25l-7,0l0,44l-2,0l-3,3l-3,-1l-3,1l-3,-1l-2,-1l0,-3l-1,-1l-2,0l0,1l-1,2l-2,1l-4,-5l-3,-4l-3,-11l1,-5l-3,-6l0,-11l-7,-11l-1,-4l-4,-7l-3,-5l-2,-3l0,-4l2,-1l3,0l4,-2l1,1"
+  					}]
+  				},{
+  					"name": "NE",
+  					"code": "NE",
+  					"longname": "Niger",
+  					"x": 169.0,
+  					"y": 110.0,
+  					"width": 103.0,
+  					"height": 83.0,
+  					"logicalcenterx": 63.0,
+  					"logicalcentery": 42.0,
+  					"polys": [{
+  						"path": "M91,6l6,-2l1,10l2,4l-1,1l4,4l-1,3l-1,7l-1,15l-11,11l0,3l-2,1l1,5l-2,0l-1,2l-2,0l-2,3l-7,-2l-5,0l-4,1l-3,3l-6,-1l-6,-3l-3,2l-3,1l-3,-4l-6,-2l-2,1l-4,0l-3,2l0,3l-3,3l0,6l-6,-5l-2,1l0,3l-2,-3l1,-1l-1,-1l-4,0l-4,-2l0,-3l2,0l-4,-2l-2,-2l0,-2l-1,-1l0,-4l5,0l2,-2l10,0l1,-1l3,0l3,-2l2,-5l0,-19l10,-2l11,-11l30,-19l9,2l5,4"
+  					}]
+  				},{
+  					"name": "NG",
+  					"code": "NG",
+  					"longname": "Nigeria",
+  					"x": 187.0,
+  					"y": 178.0,
+  					"width": 77.0,
+  					"height": 63.0,
+  					"logicalcenterx": 37.0,
+  					"logicalcentery": 27.0,
+  					"polys": [{
+  						"path": "M18,56l0,-2l-1,0l1,-1l-2,0l0,0l-1,1l-4,-4l-7,0l3,-1l1,0l0,1l4,0l-3,0l0,-1l-5,0l0,1l-4,0l0,-17l2,-1l1,-4l2,-1l0,-3l1,-1l0,-1l-1,-3l-1,-2l1,-2l0,-6l3,-3l0,-3l3,-2l4,0l2,-1l6,2l3,4l3,-1l3,-2l6,3l6,1l3,-3l4,-1l5,0l7,2l2,-3l2,0l1,-2l2,0l3,5l1,4l1,1l2,1l0,4l-3,2l-2,0l-1,2l-2,5l-1,1l0,3l-2,1l-1,4l-4,3l0,3l-2,4l0,1l-2,1l-1,3l-2,0l0,-1l-1,0l-2,-3l-1,2l-2,0l0,-1l-8,8l-1,4l-1,2l-1,1l-3,-4l0,1l2,3l0,1l-2,0l-2,1l-1,-2l0,1l-2,1l0,-2l-3,0l1,3l-1,0l0,-2l0,1l-1,1l-1,0l0,-1l-1,1l0,-1l-1,0l1,-4l1,-1l-3,1l-1,-1l0,-1l-2,0l2,-1l-1,0l-1,1M19,60l-2,-2l2,1l3,-1l-1,2l0,3l-2,-2l-1,0l2,-1l-1,0"
+  					}]
+  				},{
+  					"name": "PT",
+  					"code": "PT",
+  					"longname": "Madeira",
+  					"x": 47.0,
+  					"y": 45.0,
+  					"width": 4.0,
+  					"height": 2.0,
+  					"logicalcenterx": 1.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M0,0l4,1l-2,1l-2,-1l0,-1"
+  					}]
+  				},{
+  					"name": "RE",
+  					"code": "RE",
+  					"longname": "Reunion",
+  					"x": 517.0,
+  					"y": 409.0,
+  					"width": 4.0,
+  					"height": 4.0,
+  					"logicalcenterx": 2.0,
+  					"logicalcentery": 2.0,
+  					"polys": [{
+  						"path": "M2,0l2,2l-1,2l-2,-1l-1,-1l2,-2"
+  					}]
+  				},{
+  					"name": "RW",
+  					"code": "RW",
+  					"longname": "Rwanda",
+  					"x": 355.0,
+  					"y": 276.0,
+  					"width": 13.0,
+  					"height": 11.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 5.0,
+  					"polys": [{
+  						"path": "M11,0l2,3l0,5l-6,0l0,2l-1,1l-3,0l0,-1l-1,-1l-1,1l-1,-2l2,-1l1,-4l2,-1l1,-1l1,1l4,-2"
+  					}]
+  				},{
+  					"name": "SC",
+  					"code": "SC",
+  					"longname": "Seychelles",
+  					"x": 524.0,
+  					"y": 304.0,
+  					"width": 0.0,
+  					"height": 0.0,
+  					"polys": [{
+  						"path": "M0,0"
+  					}]
+  				},{
+  					"name": "SD",
+  					"code": "SD",
+  					"longname": "Sudan",
+  					"x": 311.0,
+  					"y": 114.0,
+  					"width": 110.0,
+  					"height": 98.0,
+  					"logicalcenterx": 56.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M93,3l2,1l5,4l0,3l2,4l-1,-1l2,17l3,2l1,2l3,2l-1,2l-6,2l-1,2l-2,0l-1,4l0,1l-3,8l0,6l-3,9l0,2l-3,0l-4,6l-2,6l-1,0l-2,1l0,3l-1,6l-2,-1l0,-5l-5,-4l1,-9l-3,0l0,2l-4,-1l1,2l1,4l-4,3l-4,6l-3,0l-6,-6l-3,3l0,2l-5,0l-1,2l-9,-1l-4,1l-1,-1l-1,-2l-1,-1l0,-2l-4,0l-2,1l-1,2l-1,1l-2,3l0,2l-2,2l-4,-1l-1,-2l2,-2l-1,-3l-5,-7l1,-3l-3,-2l1,-2l-1,0l0,-4l-2,-1l-2,1l0,-1l1,-3l1,-1l0,-4l3,-2l-2,-2l3,-1l-1,-1l2,-3l0,-2l2,-1l5,0l0,-30l7,0l0,-14l42,1l1,-2l0,2l11,0l3,2l3,0l1,-3l3,-1l2,-4l2,0l3,-2l1,3"
+  					}]
+  				},{
+  					"name": "SH",
+  					"code": "SH",
+  					"longname": "Saint Helena",
+  					"x": 138.0,
+  					"y": 373.0,
+  					"width": 0.0,
+  					"height": 0.0,
+  					"polys": [{
+  						"path": "M0,0"
+  					}]
+  				},{
+  					"name": "SL",
+  					"code": "SL",
+  					"longname": "Sierra Leone",
+  					"x": 82.0,
+  					"y": 208.0,
+  					"width": 20.0,
+  					"height": 20.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 9.0,
+  					"polys": [{
+  						"path": "M2,11l0,-1l1,0l0,-1l-2,1l-1,-1l0,-1l3,-1l-2,1l1,-2l0,1l-2,0l3,-3l2,-3l8,-1l4,4l0,2l1,2l-1,3l3,-2l0,2l-2,1l0,2l-5,4l0,2l-1,0l-6,-3l1,-1l-2,-1l1,-1l-2,1l0,-1l-1,0l0,-1l-1,-1l-1,0l-1,-2l2,1"
+  					}]
+  				},{
+  					"name": "SN",
+  					"code": "SN",
+  					"longname": "Senegal",
+  					"x": 53.0,
+  					"y": 164.0,
+  					"width": 40.0,
+  					"height": 30.0,
+  					"logicalcenterx": 18.0,
+  					"logicalcentery": 15.0,
+  					"polys": [{
+  						"path": "M19,0l4,3l2,0l5,6l4,3l2,6l0,1l1,3l2,-1l1,3l0,4l-11,0l0,-1l-13,0l-3,2l-7,1l-1,-1l1,0l0,-1l1,1l0,-1l5,0l1,-2l0,2l-2,0l-1,-2l3,-1l-1,0l-2,1l-1,2l-2,0l0,-1l-1,1l0,-3l-1,2l0,-2l6,-1l0,-1l4,-1l1,-1l5,2l3,-1l-1,-1l-3,0l-4,-2l-2,1l-1,1l-7,0l1,-3l-1,1l0,-1l3,0l-3,-1l1,0l-2,2l-3,-4l-2,-1l2,-1l2,-3l4,-9l3,0l4,-1l4,0"
+  					}]
+  				},{
+  					"name": "SO",
+  					"code": "SO",
+  					"longname": "Somalia",
+  					"x": 433.0,
+  					"y": 195.0,
+  					"width": 70.0,
+  					"height": 86.0,
+  					"logicalcenterx": 47.0,
+  					"logicalcentery": 37.0,
+  					"polys": [{
+  						"path": "M70,1l-1,3l0,5l-1,1l2,0l-3,1l-1,6l-5,8l-2,1l-6,13l-7,9l-13,13l-8,5l-8,6l-9,9l-1,0l-1,2l-1,0l0,1l-1,2l-4,-5l1,-24l6,-7l1,-1l6,-1l1,-2l3,-1l9,-1l21,-19l-7,0l-19,-7l-4,-3l-1,-3l-1,0l-2,-3l0,-2l4,-6l1,1l3,4l2,2l2,1l3,0l5,-3l4,1l2,0l5,-3l1,1l6,-1l6,0l5,-2l4,-2l3,1"
+  					}]
+  				},{
+  					"name": "SS",
+  					"code": "SS",
+  					"longname": "South Sudan",
+  					"x": 326.0,
+  					"y": 190.0,
+  					"width": 72.0,
+  					"height": 56.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M63,18l2,1l-1,5l-2,1l-3,-1l-2,4l5,1l1,2l2,3l4,3l1,1l0,3l2,3l-9,8l-3,3l-3,-1l-4,1l-2,1l-1,0l-1,-2l-2,1l-2,-1l-2,2l-2,-1l-1,-1l-2,-1l-3,-4l-1,-1l-2,3l-3,-2l-2,2l-4,-2l-1,-2l-1,-1l-2,-5l-5,-2l1,0l-1,-2l0,-2l-8,-5l1,-1l-1,-2l-2,-2l-4,-1l0,-2l2,-2l0,-2l2,-3l1,-1l1,-2l2,-1l4,0l0,2l1,1l1,2l1,1l4,-1l9,1l1,-2l5,0l0,-2l3,-3l6,6l3,0l4,-6l4,-3l-1,-4l-1,-2l4,1l0,-2l3,0l-1,9l5,4l0,5"
+  					}]
+  				},{
+  					"name": "ST",
+  					"code": "ST",
+  					"longname": "Sao Tome and Principe",
+  					"x": 212.0,
+  					"y": 266.0,
+  					"width": 2.0,
+  					"height": 3.0,
+  					"logicalcenterx": 0.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M1,0l1,1l-2,2l0,-2l1,-1"
+  					}]
+  				},{
+  					"name": "SZ",
+  					"code": "SZ",
+  					"longname": "Swaziland",
+  					"x": 365.0,
+  					"y": 436.0,
+  					"width": 8.0,
+  					"height": 12.0,
+  					"logicalcenterx": 4.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M7,2l1,1l0,5l-1,1l0,2l-2,1l-3,-1l-2,-4l0,-1l3,-5l1,-1l3,2"
+  					}]
+  				},{
+  					"name": "TD",
+  					"code": "TD",
+  					"longname": "Chad",
+  					"x": 256.0,
+  					"y": 110.0,
+  					"width": 69.0,
+  					"height": 110.0,
+  					"logicalcenterx": 39.0,
+  					"logicalcentery": 55.0,
+  					"polys": [{
+  						"path": "M69,29l0,26l-5,0l-2,1l0,2l-2,3l1,1l-3,1l2,2l-3,2l0,4l-1,1l-1,3l0,1l2,-1l2,1l0,4l1,0l-1,2l3,2l-1,3l-2,-1l-5,2l0,4l-1,0l-8,7l-9,1l1,2l-4,4l-5,0l-6,3l-2,-2l-4,3l-3,-1l1,-1l-3,-5l-8,-8l2,-2l9,0l-3,-3l-1,-3l1,-6l-1,-2l-1,0l0,-3l-2,-1l-1,-2l-2,0l-3,-5l-1,-5l2,-1l0,-3l11,-11l1,-15l1,-7l1,-3l-4,-4l1,-1l-2,-4l-1,-10l6,-4l24,12l29,17"
+  					}]
+  				},{
+  					"name": "TF",
+  					"code": "TF",
+  					"longname": "French Southern Territories",
+  					"x": 421.0,
+  					"y": 409.0,
+  					"width": 0.0,
+  					"height": 0.0,
+  					"polys": [{
+  						"path": "M0,0"
+  					}]
+  				},{
+  					"name": "TG",
+  					"code": "TG",
+  					"longname": "Togo",
+  					"x": 167.0,
+  					"y": 197.0,
+  					"width": 14.0,
+  					"height": 33.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M4,1l3,0l-1,4l4,2l1,5l1,2l0,13l2,4l-1,1l-2,0l1,0l-2,1l-3,-2l-2,-3l1,-3l-1,-1l1,-1l0,-4l-2,-3l1,-1l0,-3l-2,-1l1,0l0,-5l-3,-2l0,-3l-1,-1l4,1"
+  					}]
+  				},{
+  					"name": "TN",
+  					"code": "TN",
+  					"longname": "Tunisia",
+  					"x": 215.0,
+  					"y": 2.0,
+  					"width": 27.0,
+  					"height": 58.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 26.0,
+  					"polys": [{
+  						"path": "M18,5l5,-3l0,2l-2,3l-1,1l-1,2l1,3l3,1l1,4l-3,4l-4,3l-1,2l4,4l1,-1l0,2l1,0l0,-2l1,1l1,2l0,1l3,0l0,6l-4,2l-2,2l-1,2l-2,0l-1,2l1,5l-2,4l-3,1l-3,-15l-5,-3l0,-3l-2,-2l-2,-1l-1,-5l0,-3l1,0l3,-3l0,-2l2,-3l-1,-1l0,-1l-1,-3l1,-5l-2,-1l2,-1l0,-1l2,-1l0,-1l3,-2l4,-1l1,0l-1,1l2,-1l1,1l0,1l1,2l-1,0l1,1"
+  					}]
+  				},{
+  					"name": "TZ",
+  					"code": "TZ",
+  					"longname": "Tanzania",
+  					"x": 358.0,
+  					"y": 275.0,
+  					"width": 69.0,
+  					"height": 70.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 34.0,
+  					"polys": [{
+  						"path": "M63,43l-1,4l2,-2l-1,4l1,3l0,2l1,-1l-1,2l2,3l-1,2l1,-1l3,3l0,1l-4,2l-8,3l-3,-1l-2,2l-2,1l-3,-1l-3,1l-3,-2l-3,1l-3,0l-2,-4l0,-5l-2,-3l-2,-2l0,1l-9,-3l-4,-1l0,-1l-1,0l-2,-2l-2,0l-2,-3l-3,-7l-4,-4l0,-5l-2,-5l0,-3l3,0l1,-1l3,-4l3,-3l0,-1l-3,-1l1,-3l2,0l0,-5l-2,-3l22,0l0,-1l23,14l0,3l1,2l9,6l-3,9l0,2l2,1l1,2l1,0l1,2l-2,2"
+  					}]
+  				},{
+  					"name": "UG",
+  					"code": "UG",
+  					"longname": "Uganda",
+  					"x": 360.0,
+  					"y": 242.0,
+  					"width": 35.0,
+  					"height": 36.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M30,3l2,1l0,3l3,4l0,4l-1,4l-2,1l-4,6l0,8l-22,0l-4,2l-1,-1l-1,1l1,-10l2,-3l0,-1l8,-9l-3,-2l1,-2l-1,-2l1,-3l2,-2l2,1l2,-1l1,2l1,0l2,-1l4,-1l3,1l3,-3l1,3"
+  					}]
+  				},{
+  					"name": "YE",
+  					"code": "YE",
+  					"longname": "Yemen",
+  					"x": 517.0,
+  					"y": 191.0,
+  					"width": 8.0,
+  					"height": 3.0,
+  					"logicalcenterx": 3.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M1,0l7,1l-6,2l-2,-2l1,-1"
+  					}]
+  				},{
+  					"name": "ZA",
+  					"code": "ZA",
+  					"longname": "South Africa",
+  					"x": 277.0,
+  					"y": 412.0,
+  					"width": 101.0,
+  					"height": 88.0,
+  					"logicalcenterx": 58.0,
+  					"logicalcentery": 47.0,
+  					"polys": [{
+  						"path": "M37,82l-3,1l-2,2l-7,0l1,1l-2,0l-3,2l-4,-1l0,-1l-3,-1l0,-2l-2,0l0,2l-1,-1l1,-4l-3,-4l1,0l-1,-1l-1,0l1,-2l1,0l1,-1l0,-5l-6,-11l-3,-9l-2,-3l0,-1l2,0l0,-3l2,0l1,1l0,3l2,1l3,1l3,-1l3,1l3,-3l2,0l0,-26l3,3l2,5l1,2l-2,2l1,3l0,-1l6,1l5,-5l3,-6l3,0l2,2l5,2l5,-1l3,-7l3,-1l3,-2l1,-4l4,-3l4,-4l4,-1l0,-1l3,-1l2,0l3,2l4,-1l3,1l1,7l2,6l0,11l-3,-2l-1,1l-3,5l0,1l2,4l3,1l2,-1l0,-2l1,-1l5,1l-4,11l-5,5l-3,-3l1,2l2,1l-7,11l-10,10l-5,6l-9,5l-5,0l0,2l-4,-1l-2,2l-6,-2l-3,1l-4,-1M72,56l5,-2l0,-2l2,-2l0,-2l-4,-4l-6,2l-2,4l-3,2l3,4l2,2l2,1l1,-3"
+  					}]
+  				},{
+  					"name": "ZM",
+  					"code": "ZM",
+  					"longname": "Zambia",
+  					"x": 311.0,
+  					"y": 321.0,
+  					"width": 74.0,
+  					"height": 64.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 33.0,
+  					"polys": [{
+  						"path": "M60,3l2,2l1,0l0,1l4,1l3,1l0,2l1,0l1,1l0,2l2,3l-3,2l1,2l-1,2l0,4l1,1l1,0l-4,3l0,3l-2,2l2,3l2,0l-18,6l-1,1l1,3l-6,0l-4,2l-1,4l-6,3l-5,6l-2,1l-3,-1l-1,0l-2,-1l-3,0l-2,-2l-3,0l-6,1l-8,-7l-1,-3l0,-20l13,-1l-1,-1l1,-2l0,-10l2,1l-1,2l2,1l1,-1l4,-1l0,3l5,2l5,0l1,-2l1,0l2,4l2,0l4,2l0,1l2,2l1,3l4,-2l0,2l1,0l0,-8l-2,0l0,1l-3,0l-3,-4l-1,-2l2,-5l0,-6l-1,-3l3,-3l0,-2l12,-2l2,3l2,0"
+  					}]
+  				},{
+  					"name": "ZW",
+  					"code": "ZW",
+  					"longname": "Zimbabwe",
+  					"x": 331.0,
+  					"y": 369.0,
+  					"width": 49.0,
+  					"height": 45.0,
+  					"logicalcenterx": 25.0,
+  					"logicalcentery": 22.0,
+  					"polys": [{
+  						"path": "M33,0l0,3l5,0l4,2l7,3l-1,1l1,3l-1,4l1,2l-1,1l0,2l-1,1l1,1l-1,3l2,2l0,1l-3,4l-1,0l0,2l-1,2l1,1l-7,7l-3,-1l-4,1l-3,-2l-2,0l-2,-1l0,-1l-7,-2l-2,-3l0,-4l-2,0l-1,-3l-3,-1l-3,-3l-1,-3l-5,-7l0,-1l3,0l2,1l1,0l3,1l2,-1l5,-6l6,-3l1,-4l4,-2l6,0"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": []}]}}

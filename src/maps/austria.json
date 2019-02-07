@@ -1,0 +1,160 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 800,
+  		"height": 407,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": 9.533569,
+  			"xmax": 17.166386,
+  			"ymin": 46.407494,
+  			"ymax": 49.018883,
+  			"scale": 8906.703,
+  			"xscalemin": -0.045171037,
+  			"yscalemin": 48.995888
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Wien",
+  					"code": "AUT-WIE",
+  					"longname": "Wien",
+  					"altname": "Vienna",
+  					"altcode": "AT.WI",
+  					"x": 697.0,
+  					"y": 102.0,
+  					"width": 41.0,
+  					"height": 32.0,
+  					"logicalcenterx": 20.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M4,32l-4,-6l4,-14l16,-12l5,1l12,8l4,18l-26,2l-11,3"
+  					}]
+  				},{
+  					"name": "Vorarlberg",
+  					"code": "AUT-VRR",
+  					"longname": "Vorarlberg",
+  					"altcode": "AT.VO",
+  					"x": 0.0,
+  					"y": 215.0,
+  					"width": 74.0,
+  					"height": 117.0,
+  					"logicalcenterx": 38.0,
+  					"logicalcentery": 54.0,
+  					"polys": [{
+  						"path": "M5,81l4,-5l0,-5l-6,-18l-3,-5l8,-13l5,-2l3,-3l-2,-9l-6,-3l-3,-4l1,-7l4,2l13,0l3,-8l5,-1l15,9l28,26l-2,9l-5,7l4,20l-8,6l-2,5l-1,19l1,16l-3,0l-5,-3l-19,-12l0,-5l2,-5l-2,-3l-29,-8"
+  					}]
+  				},{
+  					"name": "Tirol",
+  					"code": "AUT-TIR",
+  					"longname": "Tirol",
+  					"altname": "Tyrol",
+  					"altcode": "AT.TR",
+  					"x": 60.0,
+  					"y": 211.0,
+  					"width": 303.0,
+  					"height": 157.0,
+  					"logicalcenterx": 126.0,
+  					"logicalcentery": 63.0,
+  					"polys": [{
+  						"path": "M36,119l3,-10l-10,-11l-4,1l-5,10l-9,8l-10,4l-1,-16l1,-19l2,-5l8,-6l-4,-20l7,0l11,-5l15,-19l0,-7l-3,-7l-1,-8l5,-2l10,8l12,-1l23,6l6,18l13,2l21,-5l18,-12l12,-1l12,-10l34,-6l19,3l2,-3l-1,-4l27,-2l6,6l6,-2l2,6l5,7l4,10l-4,10l-17,17l-34,4l-5,-1l-3,4l1,15l4,14l-7,4l-33,12l-4,0l-1,-2l-9,-3l-15,-1l-34,7l-8,8l0,4l-3,9l-6,8l-14,0l-5,-3l-5,-2l-3,-5l-8,-7l-13,4l-7,-1l-3,-3M270,90l9,9l1,3l-3,5l13,20l13,10l0,1l-3,4l-3,-1l-21,5l-4,11l-15,0l-12,-5l-5,-4l-9,-19l-13,-11l-4,-9l-1,-8l7,-3l4,-5l4,0l11,-11l12,-1l9,3l10,6"
+  					}]
+  				},{
+  					"name": "Steiermark",
+  					"code": "AUT-STR",
+  					"longname": "Steiermark",
+  					"altname": "Styria",
+  					"altcode": "AT.ST",
+  					"x": 427.0,
+  					"y": 183.0,
+  					"width": 272.0,
+  					"height": 185.0,
+  					"logicalcenterx": 151.0,
+  					"logicalcentery": 88.0,
+  					"polys": [{
+  						"path": "M272,61l-7,3l-5,11l8,27l4,25l-11,15l-3,11l-2,1l0,13l-12,4l-49,13l-32,0l-4,1l-4,-12l-3,-20l1,-8l-7,-12l-13,-9l-22,6l-14,-2l-13,5l-18,-12l-6,2l-15,13l-15,10l-8,-4l9,-9l7,-21l-12,-24l-14,4l-10,-3l-2,-17l1,-13l13,1l4,-5l1,-9l-3,-3l-5,-1l1,-5l1,-7l8,-9l10,-2l15,5l4,4l21,8l7,1l16,-12l7,-7l17,-6l3,2l4,3l11,2l15,-5l8,2l11,-3l3,-8l11,-5l3,0l4,2l1,5l31,10l6,12l9,11l12,6l14,1l8,14"
+  					}]
+  				},{
+  					"name": "Salzburg",
+  					"code": "AUT-SLZ",
+  					"longname": "Salzburg",
+  					"altcode": "AT.SZ",
+  					"x": 269.0,
+  					"y": 154.0,
+  					"width": 196.0,
+  					"height": 171.0,
+  					"logicalcenterx": 106.0,
+  					"logicalcentery": 101.0,
+  					"polys": [{
+  						"path": "M15,150l-1,-3l-4,-1l-5,1l-4,-14l-1,-15l3,-4l5,1l34,-4l17,-17l4,-10l-4,-10l-5,-7l-2,-6l3,-4l7,-2l7,0l10,10l-3,1l-2,4l3,6l16,12l5,0l4,-3l5,-23l-2,-7l-5,-6l-4,2l-8,-2l2,-9l8,-11l-10,-16l-5,-6l8,-6l7,-1l3,1l11,10l16,-5l8,3l-2,7l-4,-4l-4,1l1,19l1,1l15,8l12,9l-5,19l-3,3l0,6l5,7l7,3l-1,13l2,17l10,3l14,-4l12,24l-7,21l-9,9l-3,-7l-14,-11l-26,-5l-13,1l-7,7l-12,4l-11,-3l-3,-6l-3,-1l-24,-7l-3,4l-10,-6l-9,-3l-12,1l-11,11l-4,0"
+  					}]
+  				},{
+  					"name": "Oberosterreich",
+  					"code": "AUT-OBR",
+  					"longname": "Oberösterreich",
+  					"altname": "Upper Austria|Oberosterreich",
+  					"altcode": "AT.OO",
+  					"x": 341.0,
+  					"y": 40.0,
+  					"width": 231.0,
+  					"height": 203.0,
+  					"logicalcenterx": 125.0,
+  					"logicalcentery": 97.0,
+  					"polys": [{
+  						"path": "M87,202l-7,-3l-5,-7l0,-6l3,-3l5,-19l-12,-9l-15,-8l-1,-1l-1,-19l4,-1l4,4l2,-7l-8,-3l-16,5l-11,-10l-3,-1l-7,1l-8,6l-1,-3l-9,-10l-1,-4l1,-4l11,-12l15,-8l14,-5l13,-2l12,-10l2,-3l3,-7l1,-13l-1,-8l9,-3l12,5l3,3l5,3l8,-10l2,-6l-1,-19l2,-5l5,1l13,9l4,6l14,11l10,2l11,-2l6,-4l6,-1l11,-1l9,8l11,2l10,4l2,3l8,38l-2,5l-4,2l-11,6l-15,4l-4,-2l-6,-7l-7,-2l-3,4l-4,23l7,9l12,7l8,2l4,11l-1,6l2,13l-3,-2l-17,6l-7,7l-16,12l-7,-1l-21,-8l-4,-4l-15,-5l-10,2l-8,9l-1,7l-1,5l5,1l3,3l-1,9l-4,5l-13,-1"
+  					}]
+  				},{
+  					"name": "Niederosterreich",
+  					"code": "AUT-NDR",
+  					"longname": "Niederösterreich",
+  					"altname": "Lower Austria|Niederosterreich",
+  					"altcode": "AT.NO",
+  					"x": 516.0,
+  					"y": 0.0,
+  					"width": 272.0,
+  					"height": 244.0,
+  					"logicalcenterx": 136.0,
+  					"logicalcentery": 113.0,
+  					"polys": [{
+  						"path": "M32,197l-2,-13l1,-6l-4,-11l-8,-2l-12,-7l-7,-9l4,-23l3,-4l7,2l6,7l4,2l15,-4l11,-6l4,-2l2,-5l-8,-38l-2,-3l-10,-4l-11,-2l2,-4l1,-14l8,-14l15,-2l2,-30l1,-3l3,-2l35,5l15,9l18,8l17,0l22,15l4,2l28,1l4,-3l4,-9l9,-1l12,4l6,6l7,3l6,1l5,-2l3,3l4,13l0,8l-1,6l-7,13l-1,13l9,13l3,0l3,14l6,6l4,2l-8,12l-6,-4l-5,0l-16,12l-13,17l-5,-8l-10,5l-5,15l-5,5l-5,0l1,12l2,5l4,0l2,8l-2,18l-6,10l-7,6l-5,1l-8,-14l-14,-1l-12,-6l-9,-11l-6,-12l-31,-10l-1,-5l-4,-2l-3,0l-11,5l-3,8l-11,3l-8,-2l-15,5l-11,-2l-4,-3M185,134l11,-3l26,-2l-4,-18l-12,-8l-5,-1l-16,12l-4,14l4,6"
+  					}]
+  				},{
+  					"name": "Karnten",
+  					"code": "AUT-KRN",
+  					"longname": "Kärnten",
+  					"altname": "Carinthia|Karnten",
+  					"altcode": "AT.KA",
+  					"x": 330.0,
+  					"y": 297.0,
+  					"width": 256.0,
+  					"height": 110.0,
+  					"logicalcenterx": 134.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M2,71l4,-11l21,-5l3,1l3,-4l0,-1l-13,-10l-13,-20l3,-5l-1,-3l-9,-9l3,-4l24,7l3,1l3,6l11,3l12,-4l7,-7l13,-1l26,5l14,11l3,7l8,4l15,-10l15,-13l6,-2l18,12l13,-5l14,2l22,-6l13,9l7,12l-1,8l3,20l4,12l-3,0l-18,6l-4,6l-2,10l-29,17l-41,-5l-4,-5l-4,-2l-16,-4l-17,-1l-23,-5l-33,-1l-45,-11l-7,-3l-4,1l-4,-3"
+  					}]
+  				},{
+  					"name": "Burgenland",
+  					"code": "AUT-BRG",
+  					"longname": "Burgenland",
+  					"altcode": "AT.BU",
+  					"x": 685.0,
+  					"y": 130.0,
+  					"width": 114.0,
+  					"height": 206.0,
+  					"logicalcenterx": 51.0,
+  					"logicalcentery": 92.0,
+  					"polys": [{
+  						"path": "M0,206l3,-11l11,-15l-4,-25l-8,-27l5,-11l7,-3l5,-1l7,-6l6,-10l2,-18l-2,-8l-4,0l-2,-5l-1,-12l5,0l5,-5l5,-15l10,-5l5,8l13,-17l16,-12l5,0l6,4l8,-12l2,7l4,8l5,4l-6,6l-4,15l0,12l2,11l-1,3l-30,5l-3,-2l-3,-5l-8,-4l-8,1l-11,10l-3,4l7,3l11,3l5,-1l8,13l-5,14l-7,5l-14,2l-1,1l5,20l-7,11l4,10l6,5l1,16l-3,2l-19,-1l-5,8l-11,13l-14,7"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Vienna, Austria",
+  					"x": 711.0,
+  					"y": 117.0
+  				}]}]}}

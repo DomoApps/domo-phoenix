@@ -1,0 +1,1269 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 325,
+  		"height": 600,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -8.621389,
+  			"xmax": 1.771111,
+  			"ymin": 49.89083,
+  			"ymax": 60.84444,
+  			"scale": 3139.5432,
+  			"xscalemin": -0.048197147,
+  			"yscalemin": 60.7485
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "West Glamorgan",
+  					"code": "GBR-WLS-WGL",
+  					"longname": "West Glamorgan",
+  					"x": 122.0,
+  					"y": 496.0,
+  					"width": 25.0,
+  					"height": 15.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M24,3l1,6l-4,0l0,3l1,3l-4,0l-3,-5l-5,1l1,2l-11,1l0,-3l2,-2l4,0l3,-6l5,-1l0,-2l3,1l1,2l4,-1l2,1"
+  					}]
+  				},{
+  					"name": "South Glamorgan",
+  					"code": "GBR-WLS-SGL",
+  					"longname": "South Glamorgan",
+  					"x": 146.0,
+  					"y": 510.0,
+  					"width": 17.0,
+  					"height": 9.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 5.0,
+  					"polys": [{
+  						"path": "M17,3l-3,3l0,2l-3,1l-7,0l-4,-2l3,-5l7,1l3,-3l3,0l1,3"
+  					}]
+  				},{
+  					"name": "Powys",
+  					"code": "GBR-WLS-PWY",
+  					"longname": "Powys",
+  					"x": 135.0,
+  					"y": 438.0,
+  					"width": 32.0,
+  					"height": 61.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M0,17l3,-2l1,-5l6,-1l1,-6l4,-3l3,0l4,5l4,-1l6,3l-6,9l1,3l3,-3l1,3l-8,4l5,6l4,0l-1,3l1,1l-3,2l-3,5l3,8l1,6l-2,3l-7,2l-6,-2l-4,4l-2,-1l-4,1l-1,-2l5,-13l-4,-5l2,-8l-1,-3l2,-1l-3,-6l1,-3l-3,1l0,-3l-3,-1"
+  					}]
+  				},{
+  					"name": "Mid Glamorgan",
+  					"code": "GBR-WLS-MGL",
+  					"longname": "Mid Glamorgan",
+  					"x": 140.0,
+  					"y": 495.0,
+  					"width": 23.0,
+  					"height": 22.0,
+  					"logicalcenterx": 11.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M22,15l-3,0l-3,3l-7,-1l-3,5l-5,-3l-1,-3l4,0l-1,-3l0,-3l4,0l-1,-6l4,-4l6,2l3,5l0,4l4,3l-1,1"
+  					}]
+  				},{
+  					"name": "Gwynedd",
+  					"code": "GBR-WLS-GWY",
+  					"longname": "Gwynedd",
+  					"x": 107.0,
+  					"y": 407.0,
+  					"width": 44.0,
+  					"height": 49.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 27.0,
+  					"polys": [{
+  						"path": "M14,17l-2,0l1,-3l-3,0l-3,-6l0,-6l5,-2l5,2l2,6l5,-1l-10,10M27,48l-4,1l-1,-3l0,-3l4,-4l-2,0l-4,-5l1,-3l2,-3l-11,2l-2,1l-2,5l-3,-3l-5,2l4,-5l10,-8l0,-4l1,0l4,-6l12,-4l-1,-2l4,1l0,3l1,1l0,10l1,3l3,-1l1,3l4,-1l-1,2l0,4l-4,3l-1,6l-6,1l-1,5l-3,2l-1,0M7,10l-4,-2l0,-2l3,0l1,4"
+  					}]
+  				},{
+  					"name": "Gwent",
+  					"code": "GBR-WLS-GWN",
+  					"longname": "Gwent",
+  					"x": 156.0,
+  					"y": 486.0,
+  					"width": 21.0,
+  					"height": 27.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 15.0,
+  					"polys": [{
+  						"path": "M0,11l7,-2l2,-3l-1,-6l4,5l1,-2l8,6l0,8l-1,5l-7,3l-3,-1l-3,3l-1,-3l1,-1l-4,-3l0,-4l-3,-5"
+  					}]
+  				},{
+  					"name": "Dyfed",
+  					"code": "GBR-WLS-DYF",
+  					"longname": "Dyfed",
+  					"x": 88.0,
+  					"y": 455.0,
+  					"width": 56.0,
+  					"height": 52.0,
+  					"logicalcenterx": 33.0,
+  					"logicalcentery": 30.0,
+  					"polys": [{
+  						"path": "M41,48l-2,1l-6,-1l-2,-2l2,0l-1,-3l-3,1l-8,1l-1,4l-3,1l-2,-1l-3,3l-4,-1l0,-2l-2,-1l9,-2l-1,-3l1,-1l-2,0l0,4l-9,-1l0,2l-3,-3l5,-2l0,-4l-2,-1l-4,0l0,-1l7,-4l0,-3l4,1l5,-1l3,-5l2,1l1,-2l5,-1l9,-5l5,-8l1,-7l5,-2l3,1l0,3l3,-1l-1,3l3,6l-2,1l1,3l-2,8l4,5l-5,13l-3,-1l0,2l-5,1l-2,4"
+  					}]
+  				},{
+  					"name": "Clwyd",
+  					"code": "GBR-WLS-CLW",
+  					"longname": "Clwyd",
+  					"x": 141.0,
+  					"y": 412.0,
+  					"width": 34.0,
+  					"height": 31.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M9,26l0,-4l1,-2l-4,1l-1,-3l-3,1l-1,-3l0,-10l-1,-1l0,-3l4,1l10,-3l7,6l0,-1l2,0l4,3l-1,4l4,7l3,1l1,3l-2,1l-3,-2l-4,-1l-5,4l0,5l-4,1l-4,-5l-3,0"
+  					}]
+  				},{
+  					"name": "Western Isles",
+  					"code": "GBR-SCT-WIS",
+  					"longname": "Western Isles",
+  					"x": 28.0,
+  					"y": 128.0,
+  					"width": 45.0,
+  					"height": 84.0,
+  					"logicalcenterx": 30.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M20,42l-4,-7l1,2l5,-3l-1,-2l3,0l-8,-5l6,-3l-4,0l1,-1l-2,0l0,-6l2,0l0,-4l4,2l-1,1l2,5l1,-5l3,1l-2,-6l4,-3l4,-1l8,-7l2,2l-1,6l1,1l-5,6l2,1l3,-3l1,3l-3,2l-4,-2l0,4l-7,3l6,-1l1,3l-1,0l1,1l-1,1l-4,0l2,2l-2,3l-3,-2l1,2l-1,-1l-2,-5l3,-1l-2,-1l-2,3l2,6l-3,0l1,4l-3,0l-4,5M10,59l-4,-3l2,-2l4,2l-2,3M10,76l-4,-1l-2,-7l2,-4l-1,-4l2,-2l4,4l-1,1l-3,-3l0,1l5,3l-2,5l-3,-1l2,1l1,3l-3,0l3,4M3,84l-3,-2l4,-5l2,5l-3,2M11,53l-2,0l0,-2l-6,-3l1,-3l3,-1l-1,2l2,0l1,-3l1,3l3,-3l0,2l4,1l-2,2l-3,-2l2,3l1,0l-6,2l5,0l0,2l-3,0"
+  					}]
+  				},{
+  					"name": "Tayside",
+  					"code": "GBR-SCT-TYS",
+  					"longname": "Tayside",
+  					"x": 113.0,
+  					"y": 213.0,
+  					"width": 68.0,
+  					"height": 47.0,
+  					"logicalcenterx": 34.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M14,33l4,0l-3,-1l0,-4l3,0l0,-4l3,-2l-9,5l-1,-3l-5,1l-4,2l-2,-4l4,-1l-2,-4l-2,0l5,-7l1,-1l2,1l0,2l2,-5l6,-4l6,0l1,-2l4,1l13,2l3,-2l5,2l1,-4l6,-1l5,3l1,5l2,3l5,2l-1,2l-1,-1l2,1l-3,7l-6,6l-2,-1l-7,2l-6,5l-3,0l2,1l0,2l-3,2l3,3l-1,3l-10,2l0,-2l2,-1l-1,-1l-7,0l-5,-4l-5,-2l-2,-4"
+  					}]
+  				},{
+  					"name": "Strathclyde",
+  					"code": "GBR-SCT-STT",
+  					"longname": "Strathclyde",
+  					"x": 44.0,
+  					"y": 227.0,
+  					"width": 107.0,
+  					"height": 94.0,
+  					"logicalcenterx": 69.0,
+  					"logicalcentery": 49.0,
+  					"polys": [{
+  						"path": "M9,7l0,-1l2,-3l5,-3l-1,3l-6,4M21,24l-2,-1l-1,-3l2,-1l1,2l8,-3l-5,0l-1,-1l7,-6l-4,1l-6,-4l1,-2l-1,-1l6,-3l2,1l3,7l5,1l4,4l-1,0l0,2l-1,-1l-2,2l2,1l-4,2l-1,0l1,-2l-13,5M3,13l-3,-4l7,-2l1,2l-5,2l0,2M29,50l-3,-2l0,-5l6,-3l-3,0l1,-3l8,-7l0,2l-9,18M23,36l-3,0l5,-5l-2,5M19,61l-1,-2l2,-2l0,-2l-2,-2l2,-2l-2,-1l-5,6l0,-7l1,-3l4,-2l0,4l6,-6l3,14l-6,2l-2,3M58,54l-5,-8l1,-3l4,7l0,4M53,70l-4,-2l-3,-7l1,-4l4,-3l3,3l0,5l2,1l0,7l-3,0M57,94l1,-8l4,-4l1,-6l7,-9l-2,-6l-7,-5l2,-2l0,-11l3,-2l9,3l-6,-3l-4,-6l1,5l-2,0l-1,-4l4,-7l-3,4l-1,-3l-1,10l-1,-1l-1,7l-2,-1l-2,-6l1,5l-3,-1l0,-2l-2,4l1,3l-3,-1l-1,-8l4,-6l9,-8l-5,3l-9,10l-2,-1l-1,4l4,10l-5,7l1,3l-5,9l2,5l-2,2l-6,-1l0,-4l2,-2l2,-13l7,-9l-5,4l-2,-3l3,-6l-3,2l0,-4l2,-5l2,-2l1,0l1,-5l-3,2l2,-5l1,-1l-3,0l1,-4l4,-2l-2,0l2,-5l6,1l6,-7l-4,6l-6,0l-1,-3l-1,2l1,-3l2,1l3,-2l-4,0l3,-5l7,2l5,-3l6,1l2,0l2,4l-4,1l2,4l-4,3l-2,3l1,3l4,0l-1,3l3,14l2,-4l3,2l-2,1l2,3l3,1l2,-1l-1,-2l8,-1l7,7l3,2l-2,0l1,5l4,-2l4,2l1,3l-3,6l1,11l-2,1l-2,5l-2,-1l-4,-7l-5,-1l-3,4l-2,6l-4,-2l-4,9l-1,0l0,-2l-3,1l-4,2l1,3l-13,4"
+  					}]
+  				},{
+  					"name": "Shetland Islands",
+  					"code": "GBR-SCT-SHT",
+  					"longname": "Shetland Islands",
+  					"x": 199.0,
+  					"y": 0.0,
+  					"width": 24.0,
+  					"height": 55.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 32.0,
+  					"polys": [{
+  						"path": "M22,9l-4,0l2,-9l0,4l2,-4l2,2l-2,7M15,20l-2,-6l1,-3l1,2l0,-7l3,1l0,5l-1,-2l-1,3l1,1l0,5l-2,-1l0,2M12,55l-3,-3l2,-11l-1,-5l1,-2l-2,2l-2,-3l2,2l-3,4l-2,-2l1,-3l-4,1l-1,-3l5,-3l1,3l0,-3l2,2l1,-3l2,-1l-4,-1l-1,-6l-1,2l-3,-2l2,-3l3,2l-2,-2l4,-4l0,7l1,0l-2,5l4,-2l-2,-1l2,-2l2,2l-2,2l2,0l0,2l2,-4l1,1l-2,2l1,0l0,2l-2,1l2,1l-1,2l1,1l-4,2l2,1l-1,2l1,-1l1,2l-2,2l1,4l-1,1l0,3l-1,-1l0,8M21,16l-2,-4l5,1l0,2l-2,-1l-1,2M19,29l-1,-2l3,-2l-2,4M17,41l-2,-4l3,0l-1,4"
+  					}]
+  				},{
+  					"name": "Orkney",
+  					"code": "GBR-SCT-ORK",
+  					"longname": "Orkney",
+  					"x": 151.0,
+  					"y": 83.0,
+  					"width": 29.0,
+  					"height": 34.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M16,7l0,-2l-3,-1l0,1l-3,-3l3,-2l1,0l-2,2l5,4l-1,1M21,9l2,-6l2,0l-1,2l1,0l4,-3l-3,5l0,-2l-3,1l-2,3M12,13l-3,-2l1,-3l4,2l-2,3M24,15l0,-1l-3,1l2,-2l-1,-2l1,0l2,2l0,2l-1,0M17,26l-2,-1l-2,-3l-6,2l-1,-6l-2,4l-1,-1l0,-9l3,-1l4,2l2,3l-3,3l2,1l3,-1l2,2l2,-1l-1,3l1,1l0,-2l2,-1l1,2l-4,3M6,32l-2,0l-4,-6l1,-2l2,-1l3,3l2,3l-2,1l3,0l-3,2M14,34l-2,-5l-1,0l4,-1l-1,6"
+  					}]
+  				},{
+  					"name": "Lothian",
+  					"code": "GBR-SCT-LTH",
+  					"longname": "Lothian",
+  					"x": 140.0,
+  					"y": 263.0,
+  					"width": 44.0,
+  					"height": 19.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 9.0,
+  					"polys": [{
+  						"path": "M0,9l9,-5l14,3l4,-2l3,-5l5,0l2,3l7,3l-2,3l1,1l-6,3l-6,-1l-3,3l-2,0l0,-1l-5,5l-2,-5l-3,2l-4,-3l-2,3l-4,-2l-4,2l-1,-5l2,0l-3,-2"
+  					}]
+  				},{
+  					"name": "Highland",
+  					"code": "GBR-SCT-HGH",
+  					"longname": "Highland",
+  					"x": 52.0,
+  					"y": 121.0,
+  					"width": 111.0,
+  					"height": 118.0,
+  					"logicalcenterx": 64.0,
+  					"logicalcentery": 58.0,
+  					"polys": [{
+  						"path": "M13,93l-4,-4l4,-3l2,3l-2,4M18,96l-2,-2l3,-1l-1,3M71,100l3,-4l-5,7l-2,-1l-1,1l-5,7l-6,-1l-5,3l-7,-2l0,-1l9,-3l-5,1l-2,-1l4,-5l-18,17l-2,-3l0,-1l-1,1l-3,-1l-3,-5l3,0l2,1l-1,-1l4,-3l5,1l-6,-1l-2,1l-11,0l-1,-2l3,-2l5,-1l3,2l0,-3l3,1l-2,-3l5,-2l-2,1l-1,-1l1,-1l-5,0l1,-1l2,-5l3,-1l2,2l4,-1l-4,0l-1,-2l-3,-1l0,-2l4,-2l4,2l3,-1l-3,0l-5,-2l2,-6l3,-1l1,2l3,0l-3,-2l2,-2l-4,2l-4,0l1,-4l4,-1l-3,0l1,-3l-4,4l-2,-1l0,-4l-2,-3l1,-5l6,4l4,-2l-5,-1l-4,-4l2,-4l3,0l-4,-2l0,-6l3,-1l3,6l1,-3l-2,-3l1,-3l4,5l1,-3l6,3l-5,-4l1,-1l3,1l5,4l-4,-4l1,-1l-7,-5l0,-4l4,2l0,-4l2,0l-5,-6l3,1l6,-2l4,2l-1,-1l2,0l-4,-1l-3,-5l1,-3l3,2l-2,-3l1,-1l2,1l-3,-4l3,-3l0,-3l5,1l1,4l1,-4l3,3l-3,5l5,-4l0,-3l2,1l3,2l-2,5l4,-5l3,1l2,-3l3,1l1,-2l7,1l7,-3l0,1l5,1l-1,-4l11,1l-3,7l2,3l-4,9l-5,1l-4,6l-14,13l-3,-2l3,3l-1,2l-3,1l-5,0l-2,-3l2,4l7,1l2,-1l1,2l3,-1l2,-2l-6,9l-3,-2l-3,3l-3,0l-4,5l6,-5l7,0l-4,5l-4,2l1,0l-1,3l2,0l4,-3l-1,-2l6,0l4,-2l2,6l-1,5l6,-2l3,2l1,2l-3,5l1,5l-9,7l-2,8l-4,-1l-1,2l-6,0l-6,4M22,88l0,-2l2,-4l3,-2l-3,0l-2,-3l-1,6l-3,-4l0,1l-4,0l1,-2l-2,1l-4,-7l2,-1l-1,-1l-1,-2l-3,0l1,2l-5,-1l-1,-4l-1,-1l2,0l1,-3l2,4l0,-3l2,0l-2,-6l6,5l-1,1l2,-1l2,3l-2,-10l2,-3l5,7l1,6l-2,4l2,0l-1,4l3,1l-1,2l2,-1l3,2l5,-1l2,1l0,2l-11,10"
+  					}]
+  				},{
+  					"name": "Grampian",
+  					"code": "GBR-SCT-GRM",
+  					"longname": "Grampian",
+  					"x": 140.0,
+  					"y": 172.0,
+  					"width": 60.0,
+  					"height": 54.0,
+  					"logicalcenterx": 30.0,
+  					"logicalcentery": 23.0,
+  					"polys": [{
+  						"path": "M0,44l2,-8l9,-7l-1,-5l3,-5l-1,-2l-3,-2l-6,2l1,-5l-2,-6l3,-2l0,1l1,0l0,-1l2,0l1,-3l6,-1l8,4l4,-3l21,2l3,-2l4,1l4,4l1,8l-6,8l-7,25l-6,7l-5,-2l-2,-3l-1,-5l-5,-3l-6,1l-1,4l-5,-2l-3,2l-13,-2"
+  					}]
+  				},{
+  					"name": "Fyfe",
+  					"code": "GBR-SCT-FYF",
+  					"longname": "Fyfe",
+  					"x": 142.0,
+  					"y": 242.0,
+  					"width": 35.0,
+  					"height": 24.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M14,6l12,-6l2,1l-1,4l8,4l-6,5l-6,0l-5,7l-8,3l-10,-3l3,-3l10,-2l1,-3l-3,-3l3,-2l0,-2"
+  					}]
+  				},{
+  					"name": "Dumfries and Galloway",
+  					"code": "GBR-SCT-DAG",
+  					"longname": "Dumfries and Galloway",
+  					"x": 96.0,
+  					"y": 296.0,
+  					"width": 73.0,
+  					"height": 45.0,
+  					"logicalcenterx": 38.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M67,26l-16,0l-1,6l-8,1l1,2l-4,3l-3,0l-1,-4l-2,4l-2,-2l0,-3l-2,1l-4,-4l-1,2l0,3l2,1l0,7l-5,-2l-11,-9l-3,4l3,9l-3,-1l-2,-7l-5,-7l0,-5l3,-2l1,5l2,1l-1,-4l13,-4l-1,-3l4,-2l3,-1l0,2l1,0l4,-9l4,2l2,-6l3,-4l5,1l4,7l2,1l2,-5l2,-1l8,-1l-2,2l1,3l2,-2l3,1l2,4l5,0l1,9l-3,4l-2,-1l-1,4"
+  					}]
+  				},{
+  					"name": "Central",
+  					"code": "GBR-SCT-CNT",
+  					"longname": "Central",
+  					"x": 109.0,
+  					"y": 237.0,
+  					"width": 40.0,
+  					"height": 35.0,
+  					"logicalcenterx": 18.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M9,25l-3,-3l-2,-7l1,-3l-4,0l-1,-3l2,-3l4,-3l4,-2l5,-1l1,3l5,-2l1,3l-3,0l0,4l-1,1l2,4l5,2l5,4l7,0l1,1l-2,1l0,2l-3,3l-2,-2l2,4l7,2l-9,5l-7,-7l-8,1l1,2l-2,1l-3,-1l-2,-3l2,-1l-3,-2"
+  					}]
+  				},{
+  					"name": "Borders",
+  					"code": "GBR-SCT-BRD",
+  					"longname": "Borders",
+  					"x": 148.0,
+  					"y": 269.0,
+  					"width": 46.0,
+  					"height": 46.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M46,8l-1,0l-5,8l-3,1l5,9l-6,7l-3,-1l-3,3l-2,3l0,2l-7,6l-1,-9l-5,0l-2,-4l-3,-1l-2,2l-1,-3l2,-2l-8,1l-1,-11l3,-6l-1,-3l2,-3l4,3l3,-2l2,5l5,-5l0,1l2,0l3,-3l6,1l6,-3l-1,-1l2,-3l7,2l3,6"
+  					}]
+  				},{
+  					"name": "Strabane",
+  					"code": "GBR-NIR-STR",
+  					"longname": "Strabane",
+  					"x": 10.0,
+  					"y": 321.0,
+  					"width": 31.0,
+  					"height": 18.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M6,18l0,-2l-5,0l-1,-3l2,-2l2,1l4,-2l3,1l0,-3l5,-8l5,2l-1,1l2,0l1,3l2,1l3,0l3,1l0,2l-12,2l-5,4l-8,2"
+  					}]
+  				},{
+  					"name": "Omagh",
+  					"code": "GBR-NIR-OMG",
+  					"longname": "Omagh",
+  					"x": 16.0,
+  					"y": 331.0,
+  					"width": 25.0,
+  					"height": 18.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M10,18l-5,0l-1,-5l1,-3l-5,-2l8,-2l5,-4l12,-2l-2,2l-1,3l1,6l0,2l-5,3l-8,2"
+  					}]
+  				},{
+  					"name": "North Down",
+  					"code": "GBR-NIR-NDO",
+  					"longname": "North Down",
+  					"x": 74.0,
+  					"y": 338.0,
+  					"width": 10.0,
+  					"height": 3.0,
+  					"logicalcenterx": 5.0,
+  					"logicalcentery": 2.0,
+  					"polys": [{
+  						"path": "M0,3l3,-3l7,0l-3,3l-7,0"
+  					}]
+  				},{
+  					"name": "Newtownabbey",
+  					"code": "GBR-NIR-NWT",
+  					"longname": "Newtownabbey",
+  					"x": 67.0,
+  					"y": 331.0,
+  					"width": 7.0,
+  					"height": 8.0,
+  					"logicalcenterx": 4.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M0,0l3,0l4,2l0,4l-1,2l-4,-1l-2,-7"
+  					}]
+  				},{
+  					"name": "Newry and Mourne",
+  					"code": "GBR-NIR-NAM",
+  					"longname": "Newry and Mourne",
+  					"x": 48.0,
+  					"y": 359.0,
+  					"width": 25.0,
+  					"height": 14.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 7.0,
+  					"polys": [{
+  						"path": "M20,2l-1,1l1,3l5,0l-1,4l-6,4l-4,-4l-4,-1l-1,2l-8,1l-1,-2l0,-5l2,-2l8,-3l10,2"
+  					}]
+  				},{
+  					"name": "Moyle",
+  					"code": "GBR-NIR-MOY",
+  					"longname": "Moyle",
+  					"x": 54.0,
+  					"y": 306.0,
+  					"width": 17.0,
+  					"height": 14.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 5.0,
+  					"polys": [{
+  						"path": "M11,12l-1,-5l-4,0l-5,-2l-1,-4l2,-1l12,2l2,3l-1,6l2,0l-4,3l-2,-2"
+  					}]
+  				},{
+  					"name": "Magherafelt",
+  					"code": "GBR-NIR-MGH",
+  					"longname": "Magherafelt",
+  					"x": 39.0,
+  					"y": 322.0,
+  					"width": 16.0,
+  					"height": 14.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 7.0,
+  					"polys": [{
+  						"path": "M16,11l-1,2l-6,1l-2,-3l-7,0l2,-2l0,-2l1,-2l4,-1l0,-2l8,-2l0,2l1,6l0,3"
+  					}]
+  				},{
+  					"name": "Londonderry",
+  					"code": "GBR-NIR-LND",
+  					"longname": "Londonderry",
+  					"x": 26.0,
+  					"y": 314.0,
+  					"width": 12.0,
+  					"height": 14.0,
+  					"logicalcenterx": 6.0,
+  					"logicalcentery": 7.0,
+  					"polys": [{
+  						"path": "M0,7l2,-6l4,-1l-1,1l4,1l3,12l-3,0l-2,-1l-1,-3l-2,0l1,-1l-5,-2"
+  					}]
+  				},{
+  					"name": "Lisburn",
+  					"code": "GBR-NIR-LSB",
+  					"longname": "Lisburn",
+  					"x": 60.0,
+  					"y": 340.0,
+  					"width": 14.0,
+  					"height": 14.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 7.0,
+  					"polys": [{
+  						"path": "M3,11l-3,-8l1,-1l7,-2l2,5l1,-1l3,4l-3,6l-4,-1l-3,-3l-1,1"
+  					}]
+  				},{
+  					"name": "Limavady",
+  					"code": "GBR-NIR-LMV",
+  					"longname": "Limavady",
+  					"x": 35.0,
+  					"y": 308.0,
+  					"width": 11.0,
+  					"height": 21.0,
+  					"logicalcenterx": 6.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M0,8l2,0l1,-1l3,-7l4,2l-1,2l1,3l1,9l0,2l-4,1l-1,2l-3,-1l-3,-12"
+  					}]
+  				},{
+  					"name": "Larne",
+  					"code": "GBR-NIR-LAR",
+  					"longname": "Larne",
+  					"x": 67.0,
+  					"y": 317.0,
+  					"width": 13.0,
+  					"height": 16.0,
+  					"logicalcenterx": 6.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M7,16l-4,-2l0,-1l2,-1l-3,-2l0,-4l-2,-3l4,-3l0,4l3,3l3,6l1,1l-1,-3l2,1l1,4l-6,0"
+  					}]
+  				},{
+  					"name": "Fermanagh",
+  					"code": "GBR-NIR-FRM",
+  					"longname": "Fermanagh",
+  					"x": 1.0,
+  					"y": 339.0,
+  					"width": 31.0,
+  					"height": 27.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M30,15l-1,2l2,5l-3,1l-1,4l0,-2l-2,0l1,2l-5,-2l-3,1l-4,-4l-5,-1l-1,-4l-5,-5l-3,-6l4,-1l1,-3l5,1l5,-3l5,2l-1,3l1,5l5,0l3,6l2,-1"
+  					}]
+  				},{
+  					"name": "Dungannon",
+  					"code": "GBR-NIR-DNG",
+  					"longname": "Dungannon",
+  					"x": 26.0,
+  					"y": 342.0,
+  					"width": 26.0,
+  					"height": 13.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M26,6l-3,0l-2,3l-3,0l-2,4l-5,-5l-6,4l-2,1l-3,-6l8,-2l5,-3l0,-2l12,1l-1,2l1,1l1,2"
+  					}]
+  				},{
+  					"name": "Down",
+  					"code": "GBR-NIR-DOW",
+  					"longname": "Down",
+  					"x": 67.0,
+  					"y": 348.0,
+  					"width": 17.0,
+  					"height": 17.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 9.0,
+  					"polys": [{
+  						"path": "M4,6l3,-6l1,0l3,2l3,0l-3,6l5,-2l1,4l-4,4l-5,0l-2,3l-5,0l-1,-3l1,-1l2,-1l1,-6"
+  					}]
+  				},{
+  					"name": "Craigavon",
+  					"code": "GBR-NIR-CRG",
+  					"longname": "Craigavon",
+  					"x": 51.0,
+  					"y": 343.0,
+  					"width": 12.0,
+  					"height": 10.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M5,9l-1,1l-3,-5l-1,-2l7,1l2,-4l3,8l-1,1l-6,0"
+  					}]
+  				},{
+  					"name": "Cookstown",
+  					"code": "GBR-NIR-CKS",
+  					"longname": "Cookstown",
+  					"x": 38.0,
+  					"y": 333.0,
+  					"width": 16.0,
+  					"height": 10.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 5.0,
+  					"polys": [{
+  						"path": "M1,0l7,0l2,3l6,-1l0,4l-3,4l-12,-1l-1,-6l1,-3"
+  					}]
+  				},{
+  					"name": "Coleraine",
+  					"code": "GBR-NIR-CLR",
+  					"longname": "Coleraine",
+  					"x": 44.0,
+  					"y": 307.0,
+  					"width": 11.0,
+  					"height": 17.0,
+  					"logicalcenterx": 5.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M2,17l-1,-9l-1,-3l1,-2l9,-3l1,4l-3,4l2,7l-8,2"
+  					}]
+  				},{
+  					"name": "Castlereagh",
+  					"code": "GBR-NIR-CST",
+  					"longname": "Castlereagh",
+  					"x": 71.0,
+  					"y": 341.0,
+  					"width": 6.0,
+  					"height": 7.0,
+  					"logicalcenterx": 3.0,
+  					"logicalcentery": 3.0,
+  					"polys": [{
+  						"path": "M4,7l-1,0l-3,-4l5,-3l1,0l-2,7"
+  					}]
+  				},{
+  					"name": "Carrickfergus",
+  					"code": "GBR-NIR-CRR",
+  					"longname": "Carrickfergus",
+  					"x": 74.0,
+  					"y": 333.0,
+  					"width": 6.0,
+  					"height": 4.0,
+  					"logicalcenterx": 2.0,
+  					"logicalcentery": 1.0,
+  					"polys": [{
+  						"path": "M6,0l-2,2l-4,2l0,-4l6,0"
+  					}]
+  				},{
+  					"name": "Belfast",
+  					"code": "GBR-NIR-BLF",
+  					"longname": "Belfast",
+  					"x": 68.0,
+  					"y": 338.0,
+  					"width": 8.0,
+  					"height": 7.0,
+  					"logicalcenterx": 3.0,
+  					"logicalcentery": 3.0,
+  					"polys": [{
+  						"path": "M3,6l-1,1l-2,-5l1,-2l4,1l0,3l3,-1l-5,3"
+  					}]
+  				},{
+  					"name": "Banbridge",
+  					"code": "GBR-NIR-BNB",
+  					"longname": "Banbridge",
+  					"x": 56.0,
+  					"y": 350.0,
+  					"width": 15.0,
+  					"height": 11.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M15,4l-1,6l-2,1l-10,-2l-2,-7l6,0l2,-2l3,3l4,1"
+  					}]
+  				},{
+  					"name": "Ballymoney",
+  					"code": "GBR-NIR-BLY",
+  					"longname": "Ballymoney",
+  					"x": 52.0,
+  					"y": 311.0,
+  					"width": 13.0,
+  					"height": 13.0,
+  					"logicalcenterx": 6.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M2,11l-2,-7l3,-4l5,2l4,0l1,5l-9,4l1,1l-3,1l0,-2"
+  					}]
+  				},{
+  					"name": "Ballymena",
+  					"code": "GBR-NIR-BLL",
+  					"longname": "Ballymena",
+  					"x": 54.0,
+  					"y": 318.0,
+  					"width": 18.0,
+  					"height": 13.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M16,13l-15,0l0,-1l-1,-6l3,-1l-1,-1l9,-4l2,2l2,3l0,4l3,2l-2,1l0,1"
+  					}]
+  				},{
+  					"name": "Armagh",
+  					"code": "GBR-NIR-ARM",
+  					"longname": "Armagh",
+  					"x": 41.0,
+  					"y": 348.0,
+  					"width": 17.0,
+  					"height": 16.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M11,0l3,5l1,-1l2,7l-8,3l-2,2l-4,-2l-3,-4l1,-3l2,-4l3,0l2,-3l3,0"
+  					}]
+  				},{
+  					"name": "Ards",
+  					"code": "GBR-NIR-ARD",
+  					"longname": "Ards",
+  					"x": 75.0,
+  					"y": 338.0,
+  					"width": 13.0,
+  					"height": 19.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M0,10l2,-7l4,0l3,-3l4,10l-4,9l-1,-3l1,-7l-4,-4l-1,3l2,1l-1,0l1,3l-3,0l-3,-2"
+  					}]
+  				},{
+  					"name": "Antrim",
+  					"code": "GBR-NIR-ANT",
+  					"longname": "Antrim",
+  					"x": 55.0,
+  					"y": 331.0,
+  					"width": 14.0,
+  					"height": 11.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M14,7l-1,2l-7,2l-1,-1l2,-6l-5,1l-2,-3l0,-2l12,0l2,7"
+  					}]
+  				},{
+  					"name": "Wiltshire",
+  					"code": "GBR-ENG-WLT",
+  					"longname": "Wiltshire",
+  					"x": 188.0,
+  					"y": 502.0,
+  					"width": 30.0,
+  					"height": 40.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M2,20l-1,-1l2,-3l-1,-4l-1,-1l3,-1l-1,-4l4,0l3,-5l4,2l0,-2l2,1l3,-2l1,2l2,-2l1,6l3,3l4,10l-2,0l0,5l-5,1l2,7l1,8l-8,-3l-4,1l-5,2l-5,-6l-3,-1l-1,-1l4,-9l-2,-3"
+  					}]
+  				},{
+  					"name": "West Yorkshire",
+  					"code": "GBR-ENG-WYR",
+  					"longname": "West Yorkshire",
+  					"x": 193.0,
+  					"y": 377.0,
+  					"width": 30.0,
+  					"height": 25.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 12.0,
+  					"polys": [{
+  						"path": "M8,24l-5,-8l-3,-1l0,-5l5,-5l1,-4l2,-1l6,4l4,0l1,-2l3,1l4,-2l1,2l-1,3l1,6l3,2l0,5l-3,2l-8,-1l-8,5l-3,-1"
+  					}]
+  				},{
+  					"name": "West Sussex",
+  					"code": "GBR-ENG-WSS",
+  					"longname": "West Sussex",
+  					"x": 237.0,
+  					"y": 529.0,
+  					"width": 33.0,
+  					"height": 24.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M26,18l-20,4l0,2l-4,-2l1,-2l-2,-1l-1,-3l2,-7l4,-4l8,0l12,-5l2,1l5,0l0,1l-1,1l1,2l-1,4l-3,1l-1,5l-3,2l1,1"
+  					}]
+  				},{
+  					"name": "West Midlands",
+  					"code": "GBR-ENG-WMD",
+  					"longname": "West Midlands",
+  					"x": 192.0,
+  					"y": 449.0,
+  					"width": 26.0,
+  					"height": 17.0,
+  					"logicalcenterx": 11.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M14,4l4,8l2,-1l6,1l0,3l-11,2l-3,-2l-4,0l-2,-3l-4,1l-1,-4l2,-3l-3,-2l2,-2l2,1l4,-3l2,0l1,4l3,0"
+  					}]
+  				},{
+  					"name": "Warwickshire",
+  					"code": "GBR-ENG-WRW",
+  					"longname": "Warwickshire",
+  					"x": 202.0,
+  					"y": 448.0,
+  					"width": 24.0,
+  					"height": 39.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M2,16l3,2l11,-2l0,-3l-6,-1l-2,1l-4,-8l5,0l2,-5l1,1l0,4l8,5l4,5l0,3l-2,1l2,1l0,3l-4,5l-1,3l-2,0l-3,2l-1,5l-2,1l-2,-1l1,-3l-2,0l-3,-4l-5,-3l2,-12"
+  					}]
+  				},{
+  					"name": "Tyne and Wear",
+  					"code": "GBR-ENG-TAW",
+  					"longname": "Tyne and Wear",
+  					"x": 201.0,
+  					"y": 317.0,
+  					"width": 16.0,
+  					"height": 15.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M12,0l3,5l1,5l-2,4l-2,1l-4,-6l-8,0l4,-9l6,1l2,-1"
+  					}]
+  				},{
+  					"name": "Surrey",
+  					"code": "GBR-ENG-SRR",
+  					"longname": "Surrey",
+  					"x": 240.0,
+  					"y": 512.0,
+  					"width": 31.0,
+  					"height": 22.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M30,18l-5,0l-2,-1l-12,5l-8,0l-3,-7l4,-2l-2,-5l5,-3l2,-3l1,1l1,-3l7,4l1,4l1,-3l3,4l2,1l3,-3l3,2l0,9l-1,0"
+  					}]
+  				},{
+  					"name": "Suffolk",
+  					"code": "GBR-ENG-SFF",
+  					"longname": "Suffolk",
+  					"x": 278.0,
+  					"y": 450.0,
+  					"width": 46.0,
+  					"height": 34.0,
+  					"logicalcenterx": 24.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M2,29l0,-3l4,-6l-2,-1l-3,1l-1,-2l5,-2l-3,-1l-1,-5l2,-2l7,-1l1,0l-1,2l1,1l17,1l4,-2l4,-4l7,-1l1,-1l-1,-3l3,0l0,3l-3,11l-1,11l-8,9l-6,-5l4,4l-7,0l-10,1l-3,-6l-10,1"
+  					}]
+  				},{
+  					"name": "Staffordshire",
+  					"code": "GBR-ENG-STF",
+  					"longname": "Staffordshire",
+  					"x": 184.0,
+  					"y": 419.0,
+  					"width": 29.0,
+  					"height": 43.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M2,12l0,-3l4,-2l4,-5l2,0l3,-2l6,3l2,8l-3,5l0,2l8,3l-4,5l4,2l1,1l-2,5l-8,0l-1,-4l-2,0l-4,3l-2,-1l-2,2l3,2l-2,3l1,4l-5,-1l1,-4l-2,-4l3,-1l0,-3l-2,-1l-4,-8l1,-3l-2,0l2,-6"
+  					}]
+  				},{
+  					"name": "South Yorkshire",
+  					"code": "GBR-ENG-SYR",
+  					"longname": "South Yorkshire",
+  					"x": 204.0,
+  					"y": 393.0,
+  					"width": 31.0,
+  					"height": 21.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M29,10l-5,4l-3,6l-7,-1l-5,2l-2,-1l-7,-11l8,-5l8,1l3,-2l5,-2l4,-1l3,2l-2,3l1,2l-2,1l1,2"
+  					}]
+  				},{
+  					"name": "Somersetshire",
+  					"code": "GBR-ENG-SMR",
+  					"longname": "Somerset",
+  					"altname": "Somersetshire",
+  					"x": 137.0,
+  					"y": 522.0,
+  					"width": 55.0,
+  					"height": 28.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M4,6l5,0l10,2l9,-2l0,2l1,-7l1,1l8,-2l4,3l3,-1l2,1l6,-3l2,3l-4,9l1,1l-1,4l1,2l-4,2l-3,-3l-2,1l0,5l-12,4l-1,-2l-2,0l0,-2l-4,0l0,-3l-4,0l-5,-4l-2,-1l-5,2l0,-3l-7,-4l-1,-2l4,-1l0,-2"
+  					}]
+  				},{
+  					"name": "Salop",
+  					"code": "GBR-ENG-SAL",
+  					"longname": "Shropshire",
+  					"altname": "Salop",
+  					"x": 158.0,
+  					"y": 431.0,
+  					"width": 33.0,
+  					"height": 38.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M2,9l1,-3l5,-4l7,3l2,-1l-1,-3l4,-1l3,2l5,-2l-2,6l2,0l-1,3l4,8l2,1l0,3l-3,1l2,4l-1,4l-2,1l1,2l-2,0l-6,4l-3,-1l-1,2l-5,-5l-4,3l-4,0l-5,-5l1,-2l6,-2l1,-2l-1,-2l-3,2l3,-10l1,0l-6,-6"
+  					}]
+  				},{
+  					"name": "Oxfordshire",
+  					"code": "GBR-ENG-OXF",
+  					"longname": "Oxfordshire",
+  					"x": 209.0,
+  					"y": 476.0,
+  					"width": 29.0,
+  					"height": 38.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M20,8l2,1l-1,2l2,0l0,6l-3,0l1,3l8,3l0,3l-2,0l0,3l2,4l0,2l-3,3l-6,-4l-5,-1l-8,0l-2,2l-3,-3l-1,-6l2,0l-3,-5l3,-9l-1,-2l2,1l2,-1l1,-5l3,-2l2,0l1,-3l3,3l-2,1l1,5l5,-1"
+  					}]
+  				},{
+  					"name": "Nottinghamshire",
+  					"code": "GBR-ENG-NTT",
+  					"longname": "Nottinghamshire",
+  					"x": 221.0,
+  					"y": 403.0,
+  					"width": 22.0,
+  					"height": 39.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M4,10l3,-6l5,-4l0,1l4,0l1,12l5,0l-3,3l1,7l-3,3l1,2l-7,9l-8,2l-1,-5l1,-1l-3,-7l0,-7l4,-2l0,-7"
+  					}]
+  				},{
+  					"name": "Northumberland",
+  					"code": "GBR-ENG-NRH",
+  					"longname": "Northumberland",
+  					"x": 174.0,
+  					"y": 277.0,
+  					"width": 39.0,
+  					"height": 56.0,
+  					"logicalcenterx": 20.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M0,34l6,-9l2,-1l2,1l5,-4l1,-2l-5,-10l3,-1l5,-8l1,0l7,9l1,-1l1,3l4,1l3,18l3,10l-2,1l-6,-1l-4,9l1,0l-3,4l-3,-2l-4,2l-2,3l-3,0l-3,-4l-4,3l-2,-1l0,-10l3,-2l0,-2l-2,0l-5,-6"
+  					}]
+  				},{
+  					"name": "Northamptonshire",
+  					"code": "GBR-ENG-NRT",
+  					"longname": "Northamptonshire",
+  					"x": 222.0,
+  					"y": 449.0,
+  					"width": 32.0,
+  					"height": 36.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M4,14l3,-2l2,1l2,-3l3,0l0,-3l4,0l9,-7l5,10l-4,5l1,2l-4,4l-2,-1l-1,4l-5,3l-2,2l2,2l-3,3l-1,-3l-6,2l0,2l-5,1l-1,-5l2,-1l-3,-3l4,-5l0,-3l-2,-1l2,-1l0,-3"
+  					}]
+  				},{
+  					"name": "North Yorkshire",
+  					"code": "GBR-ENG-NYR",
+  					"longname": "North Yorkshire",
+  					"x": 179.0,
+  					"y": 344.0,
+  					"width": 76.0,
+  					"height": 52.0,
+  					"logicalcenterx": 37.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M13,7l3,-2l3,2l4,-3l1,1l1,-3l3,0l6,5l1,-3l1,1l3,1l4,-3l11,1l2,-4l9,5l4,10l7,6l-3,1l-4,-1l-3,4l-4,2l-1,3l-7,0l-2,15l1,1l-3,1l-2,-1l1,4l-5,2l0,-5l-3,-2l-1,-6l1,-3l-1,-2l-4,2l-3,-1l-1,2l-4,0l-6,-4l-2,1l-1,4l-2,2l-5,-6l-3,-1l-2,-3l-4,-1l-2,-3l-1,-2l4,-5l4,-1l-1,-5l2,-2l-1,-2l5,-2"
+  					}]
+  				},{
+  					"name": "Norfolkshire",
+  					"code": "GBR-ENG-NRF",
+  					"longname": "Norfolk",
+  					"altname": "Norfolkshire",
+  					"x": 270.0,
+  					"y": 428.0,
+  					"width": 54.0,
+  					"height": 33.0,
+  					"logicalcenterx": 27.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M11,30l-5,-3l-2,1l-1,-3l0,-4l-3,-3l1,-3l3,-2l0,-3l3,2l4,-9l5,-3l9,1l2,-1l10,1l13,8l3,8l1,5l-3,0l1,3l-1,1l-7,1l-4,4l-4,2l-17,-1l-1,-1l1,-2l-1,0l-7,1"
+  					}]
+  				},{
+  					"name": "Merseyside",
+  					"code": "GBR-ENG-MRS",
+  					"longname": "Merseyside",
+  					"x": 159.0,
+  					"y": 392.0,
+  					"width": 20.0,
+  					"height": 23.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M12,21l-5,-2l-4,-10l5,-9l0,3l-3,6l2,1l1,-1l5,3l0,-2l1,1l6,4l-3,-1l1,3l-3,0l-3,4M3,23l-3,-5l4,-3l2,1l3,6l-5,0l-1,1"
+  					}]
+  				},{
+  					"name": "Lincolnshire",
+  					"code": "GBR-ENG-LNL",
+  					"longname": "Lincolnshire",
+  					"x": 237.0,
+  					"y": 395.0,
+  					"width": 38.0,
+  					"height": 54.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 28.0,
+  					"polys": [{
+  						"path": "M12,54l-1,-1l3,-2l-5,-3l-3,0l-3,-7l-1,-5l-1,-2l3,-3l-1,-7l3,-3l-5,0l-1,-12l2,-3l4,1l0,2l3,-1l4,-2l-3,-2l2,-1l3,0l1,-3l4,3l0,4l3,3l1,-5l2,-1l8,7l4,13l0,4l-11,12l3,-1l7,4l0,3l-3,2l-4,1l-1,3l-11,0l-6,2"
+  					}]
+  				},{
+  					"name": "Leicestershire",
+  					"code": "GBR-ENG-LCS",
+  					"longname": "Leicestershire",
+  					"x": 212.0,
+  					"y": 431.0,
+  					"width": 39.0,
+  					"height": 32.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M27,0l1,5l3,7l3,0l5,3l-3,2l1,1l-9,7l-4,0l0,3l-3,0l-2,3l-2,-1l-3,2l-4,-5l-8,-5l0,-4l-2,-2l2,-3l2,0l4,-6l3,-1l1,5l8,-2l7,-9"
+  					}]
+  				},{
+  					"name": "Lancashire",
+  					"code": "GBR-ENG-LNC",
+  					"longname": "Lancashire",
+  					"x": 163.0,
+  					"y": 363.0,
+  					"width": 33.0,
+  					"height": 41.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 22.0,
+  					"polys": [{
+  						"path": "M33,21l-3,3l0,5l-3,2l-1,2l-1,-2l-9,4l-3,0l-3,5l-1,-1l0,2l-5,-3l-1,1l-2,-1l3,-6l0,-3l1,-1l-5,-2l0,-8l7,-3l1,-2l-3,-1l3,-5l-1,-4l2,-1l2,2l9,-4l-4,5l1,2l2,3l4,1l2,3l3,1l5,6"
+  					}]
+  				},{
+  					"name": "Kent",
+  					"code": "GBR-ENG-KEN",
+  					"longname": "Kent",
+  					"x": 271.0,
+  					"y": 510.0,
+  					"width": 47.0,
+  					"height": 30.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M0,20l0,-9l1,0l2,-3l2,-7l5,1l5,-2l6,0l1,1l-1,1l-5,2l1,1l4,0l0,-1l3,2l5,1l10,-3l8,0l-2,3l1,6l-1,4l-11,6l-2,4l0,3l-3,0l-3,-3l-8,-1l-8,-5l-10,-1M28,6l-4,0l-2,-2l1,-2l5,1l2,2l-2,1"
+  					}]
+  				},{
+  					"name": "Isle of Wight",
+  					"code": "GBR-ENG-IOW",
+  					"longname": "Isle of Wight",
+  					"x": 216.0,
+  					"y": 552.0,
+  					"width": 17.0,
+  					"height": 10.0,
+  					"logicalcenterx": 10.0,
+  					"logicalcentery": 5.0,
+  					"polys": [{
+  						"path": "M10,10l-8,-4l-2,0l2,-2l4,-1l3,-3l7,2l1,2l-3,4l-4,2"
+  					}]
+  				},{
+  					"name": "Humberside",
+  					"code": "GBR-ENG-HMB",
+  					"longname": "Humberside",
+  					"x": 227.0,
+  					"y": 365.0,
+  					"width": 40.0,
+  					"height": 40.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M36,34l-2,1l-1,5l-3,-3l0,-4l-4,-3l-1,3l-3,0l-2,1l3,2l-4,2l-3,1l0,-2l-4,-1l-2,3l-4,0l0,-1l-1,-2l2,-1l-1,-2l2,-3l-3,-2l-4,1l-1,-4l2,1l3,-1l-1,-1l2,-15l7,0l1,-3l4,-2l3,-4l4,1l3,-1l4,2l-4,4l1,7l10,14l1,4l-1,1l1,-2l-3,-2l-5,1l-6,-6l-9,2l-2,-1l-3,2l3,-1l3,2l7,-3l11,10"
+  					}]
+  				},{
+  					"name": "Hertfordshire",
+  					"code": "GBR-ENG-HRT",
+  					"longname": "Hertfordshire",
+  					"x": 243.0,
+  					"y": 479.0,
+  					"width": 31.0,
+  					"height": 27.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M8,27l-1,-8l-4,-1l-3,-4l0,-1l2,2l4,-1l1,1l2,-2l3,0l-2,-6l7,-4l2,-3l1,3l4,-2l2,2l3,7l1,-1l1,4l-5,3l-2,5l-4,0l-12,6"
+  					}]
+  				},{
+  					"name": "Hereford and Worcester",
+  					"code": "GBR-ENG-HAW",
+  					"longname": "Hereford and Worcester",
+  					"x": 161.0,
+  					"y": 461.0,
+  					"width": 46.0,
+  					"height": 34.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M2,23l-2,-5l4,-7l2,-1l-1,-3l1,-1l4,-3l5,5l1,-2l3,1l6,-4l2,0l-1,-2l2,-1l5,1l4,-1l2,3l4,0l-2,12l5,3l-3,3l1,2l-5,0l-5,1l0,-2l-1,0l-1,3l-1,1l-3,0l-1,-3l-2,1l-2,0l-1,2l2,4l-3,2l-4,0l0,2l-3,-1l-5,-5l-2,2l-5,-7"
+  					}]
+  				},{
+  					"name": "Hampshire",
+  					"code": "GBR-ENG-HMP",
+  					"longname": "Hampshire",
+  					"x": 202.0,
+  					"y": 518.0,
+  					"width": 42.0,
+  					"height": 37.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 18.0,
+  					"polys": [{
+  						"path": "M41,16l-4,4l-2,7l1,3l-4,0l-1,3l0,-3l-3,0l1,3l-12,-7l5,4l0,3l-7,2l-1,2l-4,-1l-2,-2l-2,0l-2,-6l1,-2l-2,0l-3,-4l4,-1l8,3l-1,-8l-2,-7l5,-1l0,-5l2,0l3,-2l9,1l2,-2l10,2l2,5l-4,2l3,7"
+  					}]
+  				},{
+  					"name": "Greater Manchester",
+  					"code": "GBR-ENG-GMN",
+  					"longname": "Greater Manchester",
+  					"x": 173.0,
+  					"y": 392.0,
+  					"width": 28.0,
+  					"height": 20.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M6,15l-6,-4l3,-5l3,0l9,-4l1,2l1,-2l3,-2l3,1l5,8l-2,2l-2,7l-3,1l-1,1l-2,-1l-2,1l-6,-3l-1,-4l-3,2"
+  					}]
+  				},{
+  					"name": "Greater London",
+  					"code": "GBR-ENG-GLN",
+  					"longname": "Greater London",
+  					"x": 251.0,
+  					"y": 500.0,
+  					"width": 28.0,
+  					"height": 22.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M20,21l-3,-2l-3,3l-2,-1l-3,-4l-1,3l-1,-4l-7,-4l0,-6l12,-6l4,0l4,4l5,-1l3,3l0,1l-2,1l-1,3l-2,7l-2,3l-1,0"
+  					}]
+  				},{
+  					"name": "Gloucestershire",
+  					"code": "GBR-ENG-GLC",
+  					"longname": "Gloucestershire",
+  					"x": 176.0,
+  					"y": 479.0,
+  					"width": 36.0,
+  					"height": 29.0,
+  					"logicalcenterx": 20.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M15,29l-1,-2l-3,1l-5,-4l5,-5l-4,1l-5,7l-2,-2l2,-9l0,-2l4,0l3,-2l-2,-4l1,-2l2,0l2,-1l1,3l3,0l1,-1l1,-3l1,0l0,2l5,-1l5,0l-1,-2l3,-3l3,4l2,0l-1,3l1,2l-3,9l3,5l-2,0l-2,2l-1,-2l-3,2l-2,-1l0,2l-4,-2l-3,5l-4,0"
+  					}]
+  				},{
+  					"name": "Essex",
+  					"code": "GBR-ENG-ESX",
+  					"longname": "Essex",
+  					"x": 267.0,
+  					"y": 477.0,
+  					"width": 43.0,
+  					"height": 35.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M0,23l2,-5l5,-3l-1,-4l-1,1l-3,-7l1,-3l3,1l0,-2l3,-1l3,3l1,-1l10,-1l3,6l10,-1l7,0l-2,4l1,1l1,-1l0,1l-6,5l-1,0l-3,-3l-4,6l-5,1l9,-1l-1,6l1,0l-5,5l-5,0l-6,2l-3,3l-5,-1l1,-3l2,-1l0,-1l-3,-3l-5,1l-4,-4"
+  					}]
+  				},{
+  					"name": "East Sussex",
+  					"code": "GBR-ENG-ESS",
+  					"longname": "East Sussex",
+  					"x": 262.0,
+  					"y": 530.0,
+  					"width": 38.0,
+  					"height": 21.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 10.0,
+  					"polys": [{
+  						"path": "M1,17l-1,-1l3,-2l1,-5l3,-1l1,-4l-1,-2l1,-1l0,-1l1,0l10,1l8,5l8,1l3,3l-3,-1l-4,4l-10,4l-3,4l-17,-4"
+  					}]
+  				},{
+  					"name": "Durham",
+  					"code": "GBR-ENG-DRH",
+  					"longname": "Durham",
+  					"x": 185.0,
+  					"y": 326.0,
+  					"width": 35.0,
+  					"height": 25.0,
+  					"logicalcenterx": 18.0,
+  					"logicalcentery": 12.0,
+  					"polys": [{
+  						"path": "M2,7l3,0l2,-3l4,-2l3,2l3,-4l7,0l4,6l2,-1l2,-4l3,8l-5,7l0,7l-1,-1l-1,3l-6,-5l-3,0l-1,3l-1,-1l-4,3l-3,-2l-3,2l-1,-4l-4,-3l1,-4l-3,-2l2,-5"
+  					}]
+  				},{
+  					"name": "Dorsetshire",
+  					"code": "GBR-ENG-DRS",
+  					"longname": "Dorset",
+  					"altname": "Dorsetshire",
+  					"x": 168.0,
+  					"y": 535.0,
+  					"width": 44.0,
+  					"height": 31.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M0,15l12,-4l0,-5l2,-1l3,3l4,-2l-1,-2l1,-4l3,1l5,6l5,-2l3,4l2,0l-1,2l2,6l2,0l2,2l-9,3l-3,-3l-2,3l2,-1l3,2l-1,4l-3,1l-5,-3l-8,0l-1,6l-1,-4l-5,-3l-7,-3l-4,-1l2,-4l-2,-1"
+  					}]
+  				},{
+  					"name": "Devonshire",
+  					"code": "GBR-ENG-DEV",
+  					"longname": "Devon",
+  					"altname": "Devonshire",
+  					"x": 112.0,
+  					"y": 528.0,
+  					"width": 58.0,
+  					"height": 56.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 26.0,
+  					"polys": [{
+  						"path": "M0,16l1,-5l7,2l3,-3l1,-3l-1,-3l1,0l0,-2l17,-2l0,2l-4,1l1,2l7,4l0,3l5,-2l2,1l5,4l4,0l0,3l4,0l0,2l2,0l1,2l2,1l-2,4l-10,3l-5,3l-2,-2l0,3l-3,5l1,3l-2,2l2,2l-5,4l-1,5l-2,1l-3,-1l-5,-5l-4,1l-2,-4l-3,-2l2,-3l-2,0l-1,-1l2,-1l-3,-3l-4,-12l-3,-1l2,-4l-1,-4l-4,0"
+  					}]
+  				},{
+  					"name": "Derbyshire",
+  					"code": "GBR-ENG-DRB",
+  					"longname": "Derbyshire",
+  					"x": 197.0,
+  					"y": 401.0,
+  					"width": 28.0,
+  					"height": 46.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 22.0,
+  					"polys": [{
+  						"path": "M28,12l0,7l-4,2l0,7l3,7l-1,1l-3,1l-4,6l-2,0l-2,3l-4,-2l4,-5l-8,-3l0,-2l3,-5l-2,-8l-6,-3l-2,-9l2,-7l2,-2l3,1l7,11l2,1l5,-2l7,1"
+  					}]
+  				},{
+  					"name": "Cumbria",
+  					"code": "GBR-ENG-CMR",
+  					"longname": "Cumbria",
+  					"x": 145.0,
+  					"y": 311.0,
+  					"width": 47.0,
+  					"height": 61.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 33.0,
+  					"polys": [{
+  						"path": "M47,40l-5,2l1,2l-2,2l1,5l-4,1l-9,4l-2,-2l-2,1l1,-3l-5,5l-2,-4l-3,8l-1,0l-3,-5l1,-5l-1,3l-2,1l-3,-9l-7,-9l7,-20l4,-1l-1,-1l1,-1l8,-1l-2,0l2,-1l0,-5l1,1l9,-8l5,6l2,0l0,2l-3,2l0,10l2,1l4,-3l3,4l-2,5l3,2l-1,4l4,3l1,4"
+  					}]
+  				},{
+  					"name": "Cornwall",
+  					"code": "GBR-ENG-CRN",
+  					"longname": "Cornwall",
+  					"x": 71.0,
+  					"y": 544.0,
+  					"width": 54.0,
+  					"height": 53.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 28.0,
+  					"polys": [{
+  						"path": "M53,26l-1,3l-2,0l3,2l-1,0l1,2l-4,-2l-6,2l-9,0l-2,5l-5,2l-1,2l-3,-2l0,3l-2,2l2,2l-5,6l-5,-8l-5,-2l-2,1l-1,3l-4,1l-1,-1l0,-6l7,-3l3,2l10,-9l0,-2l4,-2l1,-6l2,-1l1,2l2,0l-2,-1l0,-3l4,0l2,-4l7,-6l0,-8l4,0l1,4l-2,4l3,1l4,12l3,3l-2,1l1,1"
+  					}]
+  				},{
+  					"name": "Cleveland",
+  					"code": "GBR-ENG-CLV",
+  					"longname": "Cleveland",
+  					"x": 215.0,
+  					"y": 335.0,
+  					"width": 20.0,
+  					"height": 15.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 9.0,
+  					"polys": [{
+  						"path": "M5,0l3,2l-1,4l1,1l1,-2l11,4l-2,4l-11,-1l-4,3l-3,-1l0,-7l5,-7"
+  					}]
+  				},{
+  					"name": "Cheshire",
+  					"code": "GBR-ENG-CHS",
+  					"longname": "Cheshire",
+  					"x": 162.0,
+  					"y": 405.0,
+  					"width": 37.0,
+  					"height": 28.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M24,26l-5,2l-3,-2l-4,1l-4,-3l-3,-6l1,-2l-1,-2l-5,-4l1,-1l5,0l4,1l3,-3l-4,1l3,-4l3,0l-1,-3l3,1l3,-2l1,4l6,3l2,-1l2,1l1,-1l3,-1l2,9l-3,2l-2,0l-4,5l-4,2l0,3"
+  					}]
+  				},{
+  					"name": "Cambridgeshire",
+  					"code": "GBR-ENG-CMB",
+  					"longname": "Cambridgeshire",
+  					"x": 249.0,
+  					"y": 443.0,
+  					"width": 35.0,
+  					"height": 39.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M32,15l-2,2l1,5l3,1l-5,2l1,2l3,-1l2,1l-4,6l0,3l-1,1l-3,-3l-3,1l0,2l-3,-1l-1,3l-2,-2l-4,2l-1,-3l0,-3l-3,0l-3,-5l-5,-5l-1,-2l4,-5l-5,-10l6,-2l11,0l1,-3l4,-1l-1,3l3,3l0,4l1,3l2,-1l5,3"
+  					}]
+  				},{
+  					"name": "Buckinghamshire",
+  					"code": "GBR-ENG-BCK",
+  					"longname": "Buckinghamshire",
+  					"x": 229.0,
+  					"y": 473.0,
+  					"width": 22.0,
+  					"height": 39.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M22,39l-4,-3l-1,1l1,2l-1,0l-2,-4l-6,1l-2,-4l0,-3l2,0l0,-3l-8,-3l-1,-3l3,0l0,-6l-2,0l1,-2l-2,-1l0,-2l6,-2l1,3l3,-3l-2,-2l2,-2l5,-3l3,5l-2,3l0,8l4,4l-4,1l-2,-2l0,1l3,4l4,1l1,8l0,6"
+  					}]
+  				},{
+  					"name": "Berkshire",
+  					"code": "GBR-ENG-BRK",
+  					"longname": "Berkshire",
+  					"x": 214.0,
+  					"y": 508.0,
+  					"width": 37.0,
+  					"height": 13.0,
+  					"logicalcenterx": 18.0,
+  					"logicalcentery": 6.0,
+  					"polys": [{
+  						"path": "M28,12l-10,-2l-2,2l-9,-1l-3,2l-4,-10l2,-2l8,0l5,1l6,4l3,-3l0,-2l6,-1l2,4l1,0l-1,-2l1,-1l4,3l-1,3l-1,-1l-2,3l-5,3"
+  					}]
+  				},{
+  					"name": "Bedfordshire",
+  					"code": "GBR-ENG-BDF",
+  					"longname": "Bedfordshire",
+  					"x": 244.0,
+  					"y": 466.0,
+  					"width": 18.0,
+  					"height": 28.0,
+  					"logicalcenterx": 8.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M0,7l1,-4l2,1l4,-4l5,5l3,5l3,0l0,3l-2,3l-7,4l2,6l-3,0l-2,2l-5,-5l0,-8l2,-3l-3,-5"
+  					}]
+  				},{
+  					"name": "Avon",
+  					"code": "GBR-ENG-AVO",
+  					"longname": "Avon",
+  					"x": 166.0,
+  					"y": 503.0,
+  					"width": 26.0,
+  					"height": 22.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M0,20l1,-4l8,-6l7,-10l5,4l3,-1l1,2l1,4l-3,1l1,1l1,4l-2,3l1,1l-6,3l-2,-1l-3,1l-4,-3l-8,2l-1,-1"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Plymouth, England",
+  					"x": 128.0,
+  					"y": 572.0
+  				},{
+  					"name": "Newcastle-on-Tyne, England",
+  					"x": 208.0,
+  					"y": 322.0
+  				},{
+  					"name": "Manchester, England",
+  					"x": 189.0,
+  					"y": 403.0
+  				},{
+  					"name": "London, England",
+  					"x": 265.0,
+  					"y": 508.0
+  				},{
+  					"name": "Leeds, England",
+  					"x": 213.0,
+  					"y": 388.0
+  				},{
+  					"name": "Glasgow, Scotland",
+  					"x": 125.0,
+  					"y": 275.0
+  				},{
+  					"name": "Edinburgh, Scotland",
+  					"x": 159.0,
+  					"y": 271.0
+  				},{
+  					"name": "Bristol, England",
+  					"x": 180.0,
+  					"y": 514.0
+  				},{
+  					"name": "Birmingham, England",
+  					"x": 201.0,
+  					"y": 462.0
+  				},{
+  					"name": "Belfast, Northern Ireland",
+  					"x": 71.0,
+  					"y": 340.0
+  				},{
+  					"name": "Aberdeen, Scotland",
+  					"x": 189.0,
+  					"y": 203.0
+  				}]}]}}

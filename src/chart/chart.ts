@@ -7,7 +7,7 @@ import {
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
 import * as Phoenix from '../lib/phoenix';
-import US_MAP from '../maps/us.json';
+import { _getMapDefinition, _isMap } from './map-utils';
 
 const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
@@ -162,34 +162,32 @@ export class PhoenixChart {
         }
       },
       components: {
-        graph:
-          type !== PHOENIX_CHART_TYPE.MAP
-            ? {
-                type: 'graph',
-                badgetype: type,
-                datasource: 'default',
-                columnFormats: {},
-                overrides: options.properties || {}
-              }
-            : null,
-        map:
-          type === PHOENIX_CHART_TYPE.MAP
-            ? {
-                type: 'map',
-                badgetype: type,
-                mapdef: 'map',
-                datasource: 'default',
-                columnFormats: {},
-                overrides: options.properties || {}
-              }
-            : null
+        graph: !_isMap(type)
+          ? {
+              type: 'graph',
+              badgetype: type,
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
+          : null,
+        map: _isMap(type)
+          ? {
+              type: 'map',
+              badgetype: type,
+              mapdef: 'map',
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
+          : null
       },
-      maps: type === PHOENIX_CHART_TYPE.MAP ? US_MAP : null,
+      maps: _isMap(type) ? _getMapDefinition(type) : null,
       conditionalFormats: [],
       locale: 'en-US',
       version: '6'
     };
-    if (type === PHOENIX_CHART_TYPE.MAP) {
+    if (_isMap(type)) {
       config.phoenixZoom = false;
       // Make sure there is nothing graphs related when it's not a graph
       delete config.components.graph;

@@ -1,0 +1,268 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 91,
+  		"height": 217,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -31.29,
+  			"xmax": -6.1872225,
+  			"ymin": 36.92916,
+  			"ymax": 42.15274,
+  			"scale": 2406.7532,
+  			"xoffset": -708.0,
+  			"xscalemin": -0.16861868,
+  			"yscalemin": 42.099182
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Viseu",
+  					"code": "PRT-VIS",
+  					"longname": "Viseu",
+  					"x": 29.0,
+  					"y": 36.0,
+  					"width": 30.0,
+  					"height": 39.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M16,32l-8,7l-8,0l0,-5l2,-2l-2,-9l2,-5l4,-1l-1,-3l-5,-5l11,-3l14,-6l5,3l-3,14l-4,-2l-2,3l4,4l-1,5l-8,5"
+  					}]
+  				},{
+  					"name": "Vila Real",
+  					"code": "PRT-VRE",
+  					"longname": "Vila Real",
+  					"x": 31.0,
+  					"y": 7.0,
+  					"width": 27.0,
+  					"height": 35.0,
+  					"logicalcenterx": 15.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M23,29l-14,6l0,-5l-4,-5l4,-10l-1,-1l-2,1l-3,0l-3,-5l1,-4l3,-2l2,0l5,-2l4,1l-1,1l6,0l7,-4l0,14l-3,5l-1,10"
+  					}]
+  				},{
+  					"name": "Viana do Castelo",
+  					"code": "PRT-VDC",
+  					"longname": "Viana do Castelo",
+  					"x": 6.0,
+  					"y": 0.0,
+  					"width": 24.0,
+  					"height": 25.0,
+  					"logicalcenterx": 11.0,
+  					"logicalcentery": 12.0,
+  					"polys": [{
+  						"path": "M22,14l-10,4l-1,5l-8,2l-3,-9l7,-11l12,-5l5,5l-4,5l2,4"
+  					}]
+  				},{
+  					"name": "Setubal",
+  					"code": "PRT-STB",
+  					"longname": "Setúbal",
+  					"altname": "Setubal",
+  					"x": 8.0,
+  					"y": 140.0,
+  					"width": 39.0,
+  					"height": 45.0,
+  					"logicalcenterx": 22.0,
+  					"logicalcentery": 22.0,
+  					"polys": [{
+  						"path": "M19,43l-2,-8l1,-7l-2,-8l4,-2l-3,-4l-4,0l-9,5l-2,-7l-2,-3l3,-1l3,2l2,-4l3,-2l0,1l4,0l2,-5l6,3l2,2l-5,5l1,2l4,1l5,-2l3,5l0,2l5,2l1,4l-5,2l-3,5l3,2l0,7l-6,1l-3,4l-6,-2"
+  					}]
+  				},{
+  					"name": "Santarem",
+  					"code": "PRT-SNT",
+  					"longname": "Santarém",
+  					"altname": "Santarem",
+  					"x": 13.0,
+  					"y": 98.0,
+  					"width": 37.0,
+  					"height": 47.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 22.0,
+  					"polys": [{
+  						"path": "M18,45l-6,-3l-2,5l-4,0l0,-1l-2,-3l4,-9l-1,-3l-6,-7l-1,-2l3,-6l5,-1l2,-3l-1,-9l6,-3l3,2l3,-1l2,1l1,4l3,2l3,-1l-1,-4l3,-2l5,9l-4,0l-1,3l2,2l0,1l-11,13l5,4l-2,4l5,5l-6,-2l-7,5"
+  					}]
+  				},{
+  					"name": "Porto",
+  					"code": "PRT-POR",
+  					"longname": "Porto",
+  					"x": 11.0,
+  					"y": 31.0,
+  					"width": 29.0,
+  					"height": 18.0,
+  					"logicalcenterx": 14.0,
+  					"logicalcentery": 8.0,
+  					"polys": [{
+  						"path": "M6,18l-6,-18l11,3l5,-1l8,1l1,-2l4,5l0,5l-11,3l-12,4"
+  					}]
+  				},{
+  					"name": "Portalegre",
+  					"code": "PRT-PRT",
+  					"longname": "Portalegre",
+  					"x": 36.0,
+  					"y": 101.0,
+  					"width": 45.0,
+  					"height": 37.0,
+  					"logicalcenterx": 23.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M23,0l6,7l6,11l3,3l4,0l3,2l-2,9l-5,5l-1,-4l-5,2l-4,-7l-2,0l-3,4l-4,1l-11,-4l-3,1l-5,-4l11,-13l0,-1l-2,-2l1,-3l4,0l9,-7"
+  					}]
+  				},{
+  					"name": "Lisboa",
+  					"code": "PRT-LIS",
+  					"longname": "Lisboa",
+  					"altname": "Lisbon",
+  					"x": 0.0,
+  					"y": 122.0,
+  					"width": 21.0,
+  					"height": 27.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M17,19l-1,-4l-3,10l-7,2l-5,0l-1,-4l2,-6l-1,-6l2,-10l11,-1l6,7l1,3l-4,9"
+  					}]
+  				},{
+  					"name": "Leiria",
+  					"code": "PRT-LEI",
+  					"longname": "Leiria",
+  					"x": 2.0,
+  					"y": 86.0,
+  					"width": 37.0,
+  					"height": 37.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M12,36l-11,1l-1,-2l4,-4l3,-8l5,-19l15,0l2,2l6,-6l2,7l-5,6l-3,1l-3,-2l-6,3l1,9l-2,3l-5,1l-3,6l1,2"
+  					}]
+  				},{
+  					"name": "Guarda",
+  					"code": "PRT-GUA",
+  					"longname": "Guarda",
+  					"x": 45.0,
+  					"y": 39.0,
+  					"width": 33.0,
+  					"height": 40.0,
+  					"logicalcenterx": 19.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M32,34l-2,1l-3,-1l-8,2l-2,-1l1,-5l-5,1l-10,9l-1,-2l-2,-9l8,-5l1,-5l-4,-4l2,-3l4,2l3,-14l12,3l5,6l2,14l0,9l-1,2"
+  					}]
+  				},{
+  					"name": "Faro",
+  					"code": "PRT-FAR",
+  					"longname": "Faro",
+  					"x": 24.0,
+  					"y": 190.0,
+  					"width": 52.0,
+  					"height": 27.0,
+  					"logicalcenterx": 28.0,
+  					"logicalcentery": 14.0,
+  					"polys": [{
+  						"path": "M52,14l-15,9l-10,-2l-16,1l-11,5l5,-18l2,1l9,0l2,-2l4,-1l4,4l3,0l9,-7l9,-4l3,4l2,10"
+  					}]
+  				},{
+  					"name": "Evora",
+  					"code": "PRT-EVO",
+  					"longname": "Évora",
+  					"altname": "Evora",
+  					"x": 28.0,
+  					"y": 129.0,
+  					"width": 53.0,
+  					"height": 33.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M46,9l-1,2l-1,11l9,10l-2,1l-5,-6l-7,6l-10,-1l-6,-2l-5,1l-5,-2l0,-2l-3,-5l-5,2l-4,-1l-1,-2l5,-5l-2,-2l7,-5l6,2l-5,-5l2,-4l3,-1l11,4l4,-1l3,-4l2,0l4,7l5,-2l1,4"
+  					}]
+  				},{
+  					"name": "Coimbra",
+  					"code": "PRT-CMB",
+  					"longname": "Coimbra",
+  					"x": 14.0,
+  					"y": 68.0,
+  					"width": 36.0,
+  					"height": 25.0,
+  					"logicalcenterx": 17.0,
+  					"logicalcentery": 13.0,
+  					"polys": [{
+  						"path": "M0,22l1,-20l3,3l3,-2l6,6l2,-2l8,0l8,-7l2,9l1,2l0,2l2,3l-11,9l-2,-7l-6,6l-2,-2l-15,0"
+  					}]
+  				},{
+  					"name": "Castelo Branco",
+  					"code": "PRT-CBR",
+  					"longname": "Castelo Branco",
+  					"x": 34.0,
+  					"y": 69.0,
+  					"width": 44.0,
+  					"height": 39.0,
+  					"logicalcenterx": 25.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M41,5l-2,1l0,4l5,5l-2,15l-11,2l-6,0l-9,7l-5,-9l-3,2l1,4l-3,1l-3,-2l-1,-4l-2,-1l5,-6l11,-9l-2,-3l0,-2l10,-9l5,-1l-1,5l2,1l8,-2l3,1"
+  					}]
+  				},{
+  					"name": "Braganca",
+  					"code": "PRT-BRG",
+  					"longname": "Bragança",
+  					"altname": "Braganca",
+  					"x": 54.0,
+  					"y": 3.0,
+  					"width": 37.0,
+  					"height": 39.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M17,39l-12,-3l-5,-3l1,-10l3,-5l0,-17l1,-1l3,1l2,-1l14,0l1,9l2,2l6,-1l4,2l-3,7l-3,6l-4,3l-2,1l-4,9l-4,1"
+  					}]
+  				},{
+  					"name": "Braga",
+  					"code": "PRT-BRA",
+  					"longname": "Braga",
+  					"x": 9.0,
+  					"y": 13.0,
+  					"width": 31.0,
+  					"height": 21.0,
+  					"logicalcenterx": 16.0,
+  					"logicalcentery": 12.0,
+  					"polys": [{
+  						"path": "M27,19l-1,2l-8,-1l-5,1l-11,-3l-2,-6l8,-2l1,-5l10,-4l4,-1l-1,4l3,5l3,0l2,-1l1,1l-4,10"
+  					}]
+  				},{
+  					"name": "Beja",
+  					"code": "PRT-BEJ",
+  					"longname": "Beja",
+  					"x": 27.0,
+  					"y": 156.0,
+  					"width": 58.0,
+  					"height": 45.0,
+  					"logicalcenterx": 28.0,
+  					"logicalcentery": 23.0,
+  					"polys": [{
+  						"path": "M58,11l-8,3l0,5l-4,6l-2,9l-9,4l-9,7l-3,0l-4,-4l-4,1l-2,2l-9,0l-2,-1l-2,-16l6,2l3,-4l6,-1l0,-7l-3,-2l3,-5l5,-2l-1,-4l5,-1l6,2l10,1l7,-6l5,6l6,-3l0,8"
+  					}]
+  				},{
+  					"name": "Aveiro",
+  					"code": "PRT-AVE",
+  					"longname": "Aveiro",
+  					"x": 15.0,
+  					"y": 45.0,
+  					"width": 20.0,
+  					"height": 32.0,
+  					"logicalcenterx": 9.0,
+  					"logicalcentery": 15.0,
+  					"polys": [{
+  						"path": "M14,0l5,5l1,3l-4,1l-2,5l2,9l-2,2l0,5l-2,2l-6,-6l-3,2l-3,-3l1,-4l2,-3l-1,-4l-1,4l0,-2l1,-12l12,-4"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Lisbon, Portugal",
+  					"x": 11.0,
+  					"y": 146.0
+  				}]}]}}

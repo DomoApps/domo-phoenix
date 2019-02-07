@@ -1,0 +1,432 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 647,
+  		"height": 600,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -74.01056,
+  			"xmax": -29.84,
+  			"ymin": -33.743896,
+  			"ymax": 5.2738886,
+  			"scale": 888.54895,
+  			"xscalemin": -0.37437674,
+  			"yscalemin": 4.938209
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "TO",
+  					"code": "BRA-TCN",
+  					"longname": "Tocantins",
+  					"altname": "Tocantins",
+  					"x": 350.0,
+  					"y": 161.0,
+  					"width": 75.0,
+  					"height": 124.0,
+  					"logicalcenterx": 36.0,
+  					"logicalcentery": 75.0,
+  					"polys": [{
+  						"path": "M66,116l-14,5l-5,2l-1,-2l-1,3l-7,-2l-1,-2l-5,0l-3,2l-4,-10l-4,9l-15,-5l1,-5l-3,5l-3,-3l0,-15l-1,-3l3,-11l5,-13l3,-9l11,-13l2,-9l-3,-4l3,-4l0,-5l8,-5l1,-3l3,-1l0,-3l2,-1l0,-5l2,-2l-3,-3l-6,-1l6,-3l7,2l6,5l2,10l-3,11l-3,4l4,1l0,3l7,8l6,-2l2,2l-1,6l-5,1l-4,9l3,1l1,3l4,2l-1,5l4,6l6,2l3,0l-9,7l1,2l-5,6l2,3l5,2l-3,3l3,1l-4,3l0,5l3,2l-2,3"
+  					}]
+  				},{
+  					"name": "SP",
+  					"code": "BRA-SPA",
+  					"longname": "São Paulo",
+  					"altname": "Sao Paulo",
+  					"x": 315.0,
+  					"y": 382.0,
+  					"width": 127.0,
+  					"height": 85.0,
+  					"logicalcenterx": 63.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M71,85l-2,-7l-5,3l2,-4l-2,-2l-9,0l0,-5l-5,-8l0,-9l-5,-5l-11,0l-7,-4l-5,0l-7,-2l-2,1l-9,0l-4,2l3,-4l8,-5l5,-6l7,-17l7,-6l1,-2l8,-5l2,2l11,0l5,6l2,-2l1,1l0,3l2,-4l8,-2l3,2l3,-2l6,0l2,3l0,4l2,2l-2,5l4,8l3,-1l3,2l-2,5l-1,8l4,3l-1,2l3,3l7,0l1,-4l5,1l8,-3l2,3l7,1l-1,2l-8,3l-1,3l2,2l-3,0l-7,4l0,3l-1,0l-6,-1l-5,4l-2,-3l0,3l-23,15l2,0l-3,4M111,65l-3,-1l3,-2l0,3"
+  					}]
+  				},{
+  					"name": "SE",
+  					"code": "BRA-SRG",
+  					"longname": "Sergipe",
+  					"altname": "Sergipe",
+  					"x": 536.0,
+  					"y": 233.0,
+  					"width": 28.0,
+  					"height": 32.0,
+  					"logicalcenterx": 12.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M11,31l-3,1l-4,-3l-1,-3l-3,-5l1,-3l3,1l3,-2l1,-8l-4,-6l1,-3l14,8l9,9l-10,5l-2,-2l1,3l-1,2l-2,-1l1,3l-3,3l2,-4l-3,5"
+  					}]
+  				},{
+  					"name": "SC",
+  					"code": "BRA-SCT",
+  					"longname": "Santa Catarina",
+  					"altname": "Santa Catarina",
+  					"x": 306.0,
+  					"y": 477.0,
+  					"width": 74.0,
+  					"height": 53.0,
+  					"logicalcenterx": 46.0,
+  					"logicalcentery": 20.0,
+  					"polys": [{
+  						"path": "M61,47l-4,5l-3,-2l-2,3l-1,-2l2,-2l1,-7l3,-1l-1,-2l-11,-2l-7,-8l-8,-6l-3,1l-4,-4l-11,-1l-4,-2l-8,2l2,-5l1,-10l12,2l19,5l2,-1l1,-5l5,-1l4,-3l8,0l5,3l5,-3l9,-1l-1,4l-2,-2l3,5l-2,4l1,7l2,1l-2,1l0,15l-2,4l-1,-2l0,4l-8,6M73,7l-2,-2l2,-2l1,1l-1,3"
+  					}]
+  				},{
+  					"name": "RS",
+  					"code": "BRA-RGS",
+  					"longname": "Rio Grande do Sul",
+  					"altname": "Rio Grande do Sul",
+  					"x": 255.0,
+  					"y": 494.0,
+  					"width": 108.0,
+  					"height": 104.0,
+  					"logicalcenterx": 59.0,
+  					"logicalcentery": 42.0,
+  					"polys": [{
+  						"path": "M62,89l-6,-4l-5,-9l-5,-2l-4,-5l-9,-3l-5,-7l-3,4l-2,0l0,-4l-11,-11l-4,0l-3,3l-5,-2l16,-17l7,-11l3,-1l-1,-2l12,-8l1,-3l6,-1l7,-4l8,-2l4,2l11,1l4,4l3,-1l8,6l7,8l11,2l1,2l-3,1l-1,7l-2,2l1,2l2,-3l3,2l-14,27l-18,18l-1,-5l6,-1l6,-5l1,-6l2,0l6,-12l0,-2l-6,3l-3,-6l0,11l-1,-1l-3,7l-5,3l-2,5l-2,2l-1,5l2,1l-7,16l-9,9l-3,0l1,-9l5,-6"
+  					}]
+  				},{
+  					"name": "RR",
+  					"code": "BRA-ROR",
+  					"longname": "Roraima",
+  					"altname": "Roraima",
+  					"x": 128.0,
+  					"y": 0.0,
+  					"width": 96.0,
+  					"height": 106.0,
+  					"logicalcenterx": 56.0,
+  					"logicalcentery": 52.0,
+  					"polys": [{
+  						"path": "M94,62l2,17l-18,1l-5,10l1,4l-5,3l-2,-1l-2,-4l-5,0l-5,4l0,10l-4,0l-11,-10l3,-2l-4,-8l0,-11l1,-3l-6,-12l2,-5l-12,-5l1,-2l-11,-1l1,-4l-5,-9l1,-4l-11,-10l2,-1l3,2l6,0l2,4l3,-2l6,2l2,-2l7,6l3,-2l-1,-5l5,-3l5,1l4,-1l5,-2l3,-4l6,0l6,-7l-2,-5l8,-1l3,4l-2,8l7,1l0,3l2,4l-3,8l-2,10l1,8l3,1l0,6l8,8l4,1"
+  					}]
+  				},{
+  					"name": "RO",
+  					"code": "BRA-RND",
+  					"longname": "Rondônia",
+  					"altname": "Rondonia",
+  					"x": 110.0,
+  					"y": 208.0,
+  					"width": 105.0,
+  					"height": 84.0,
+  					"logicalcenterx": 60.0,
+  					"logicalcentery": 44.0,
+  					"polys": [{
+  						"path": "M73,78l-10,-3l-6,-5l-2,1l-6,-3l-3,1l-7,0l-2,-4l-7,-3l-6,-9l-1,-3l1,-5l-3,-6l3,-4l-2,-8l-3,3l-8,-1l-8,3l-3,-1l5,-3l2,-4l5,0l4,2l6,-4l2,-1l2,2l4,-7l10,-1l0,-3l3,-3l-1,-2l6,-7l10,0l11,8l1,3l3,1l3,-3l1,2l2,2l-1,5l2,6l-1,7l2,5l-1,8l15,0l7,1l2,5l-3,4l4,6l0,8l-5,7l-2,5l-5,4l-4,-2l-12,1l-4,-5"
+  					}]
+  				},{
+  					"name": "RN",
+  					"code": "BRA-RGN",
+  					"longname": "Rio Grande do Norte",
+  					"altname": "Rio Grande do Norte",
+  					"x": 534.0,
+  					"y": 163.0,
+  					"width": 55.0,
+  					"height": 33.0,
+  					"logicalcenterx": 30.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M2,22l-2,0l1,-2l7,-5l7,-12l8,-3l8,4l11,0l8,3l5,21l-14,-2l-7,-3l-2,2l1,2l-2,4l-3,2l0,-3l-7,0l-2,-2l-2,0l5,-8l-1,-2l-7,2l-1,2l-5,3l-6,-3"
+  					}]
+  				},{
+  					"name": "RJ",
+  					"code": "BRA-RDJ",
+  					"longname": "Rio de Janeiro",
+  					"altname": "Rio de Janeiro",
+  					"x": 432.0,
+  					"y": 400.0,
+  					"width": 56.0,
+  					"height": 38.0,
+  					"logicalcenterx": 32.0,
+  					"logicalcentery": 21.0,
+  					"polys": [{
+  						"path": "M2,38l-2,-2l1,-3l8,-3l1,-2l-7,-1l-2,-3l14,-5l11,0l10,-4l4,-12l4,-3l1,1l1,5l10,3l-1,11l-11,4l-3,3l-1,6l-15,0l1,-4l-3,0l1,4l-2,1l-10,1l6,-1l-4,-2l-5,2l-3,-2l-3,2l-1,2l3,1l-3,1"
+  					}]
+  				},{
+  					"name": "PR",
+  					"code": "BRA-PAN",
+  					"longname": "Paraná",
+  					"altname": "Parana",
+  					"x": 295.0,
+  					"y": 424.0,
+  					"width": 91.0,
+  					"height": 64.0,
+  					"logicalcenterx": 42.0,
+  					"logicalcentery": 32.0,
+  					"polys": [{
+  						"path": "M84,53l-9,1l-5,3l-5,-3l-8,0l-4,3l-5,1l-1,5l-2,1l-19,-5l-12,-2l-3,-8l-4,-3l-4,2l-3,-3l3,-5l2,-12l-1,-3l3,-3l2,-8l3,-2l2,-6l10,-5l9,0l2,-1l7,2l5,0l7,4l11,0l5,5l0,9l5,8l0,5l9,0l2,2l-2,4l5,-3l2,7l-2,2l1,-2l-4,0l0,3l-4,-1l1,1l4,1l-2,3l-3,1l2,2"
+  					}]
+  				},{
+  					"name": "PI",
+  					"code": "BRA-PIA",
+  					"longname": "Piauí",
+  					"altname": "Piaui",
+  					"x": 422.0,
+  					"y": 127.0,
+  					"width": 85.0,
+  					"height": 122.0,
+  					"logicalcenterx": 46.0,
+  					"logicalcentery": 70.0,
+  					"polys": [{
+  						"path": "M82,72l-2,0l0,5l2,2l0,3l-13,9l-2,4l-4,0l0,3l-2,1l-3,-1l-6,4l-5,1l-3,-2l-5,0l-2,-2l-5,2l2,6l-5,9l-3,2l-6,1l-3,3l-4,0l-4,-2l-3,-5l-3,-2l-3,0l2,-13l-2,-8l6,-11l2,-8l12,-5l10,-8l5,-1l3,2l9,-2l1,-6l-3,-3l0,-7l4,-5l-1,-8l1,-4l-1,-4l6,-10l6,-2l4,-3l2,-4l0,-3l9,5l-3,4l0,4l4,9l1,3l-3,4l3,12l3,19l5,3l-3,6l0,3"
+  					}]
+  				},{
+  					"name": "PE",
+  					"code": "BRA-PRN",
+  					"longname": "Pernambuco",
+  					"altname": "Pernambuco",
+  					"x": 491.0,
+  					"y": 199.0,
+  					"width": 99.0,
+  					"height": 32.0,
+  					"logicalcenterx": 51.0,
+  					"logicalcentery": 16.0,
+  					"polys": [{
+  						"path": "M93,28l-5,-2l-8,1l-5,4l-10,1l-11,-8l-8,7l-3,-8l-3,2l-2,-3l-9,-4l-7,4l-1,3l-4,1l-2,4l-5,1l-3,-10l-7,-2l13,-9l0,-3l-2,-2l0,-5l16,0l10,8l4,-3l3,2l3,0l1,2l15,-8l4,2l0,2l-3,0l0,4l-3,3l3,0l0,3l2,1l3,0l4,-5l14,-2l3,-4l6,0l2,2l1,6l-6,15"
+  					}]
+  				},{
+  					"name": "PB",
+  					"code": "BRA-PAA",
+  					"longname": "Paraíba",
+  					"altname": "Paraiba",
+  					"x": 532.0,
+  					"y": 181.0,
+  					"width": 59.0,
+  					"height": 34.0,
+  					"logicalcenterx": 29.0,
+  					"logicalcentery": 17.0,
+  					"polys": [{
+  						"path": "M0,23l3,-6l-2,-1l-1,-4l4,-8l6,3l5,-3l1,-2l7,-2l1,2l-5,8l2,0l2,2l7,0l0,3l3,-2l2,-4l-1,-2l2,-2l7,3l14,2l1,9l1,-2l0,8l-2,0l-2,-2l-6,0l-3,4l-14,2l-4,5l-3,0l-2,-1l0,-3l-3,0l3,-3l0,-4l3,0l0,-2l-4,-2l-15,8l-1,-2l-3,0l-3,-2"
+  					}]
+  				},{
+  					"name": "PA",
+  					"code": "BRA-PAR",
+  					"longname": "Pará",
+  					"altname": "Para",
+  					"x": 222.0,
+  					"y": 41.0,
+  					"width": 201.0,
+  					"height": 191.0,
+  					"logicalcenterx": 90.0,
+  					"logicalcentery": 104.0,
+  					"polys": [{
+  						"path": "M136,191l-97,-6l-13,-10l-2,-7l-7,-14l-5,-9l30,-68l-2,-3l-2,1l-7,-6l-9,-3l-12,-9l-1,-3l-4,-2l0,-4l-2,-1l-1,-9l-2,-17l3,2l5,-2l0,-2l3,-2l4,1l4,-4l4,0l3,-4l3,-1l5,2l5,-1l8,2l1,-3l-3,-4l2,-4l4,2l12,-3l3,2l0,10l7,1l7,5l3,0l4,3l0,4l5,3l0,6l3,9l5,3l1,7l4,4l6,1l-2,4l-3,-1l-7,3l10,1l18,-11l1,8l2,5l-2,2l-5,-1l-3,-3l-3,6l1,4l1,1l-1,-4l2,-5l5,4l-1,5l3,3l-2,-3l0,-4l2,0l2,2l-1,-4l2,-2l5,2l5,-2l6,1l5,-2l1,1l-4,7l0,5l5,-10l3,-1l4,-5l5,2l0,-2l4,-1l-5,0l0,-2l2,0l1,-6l4,-4l4,0l2,1l1,-2l3,3l-1,-3l3,0l3,2l2,0l0,3l2,-3l0,1l3,1l0,3l7,-1l-1,3l2,1l-2,7l-1,1l1,3l-1,3l-3,6l-3,3l0,6l-5,4l-2,8l-9,11l-2,-1l-15,12l6,1l3,3l-2,2l0,5l-2,1l0,3l-3,1l-1,3l-8,5l0,5l-3,4l3,4l-2,9l-11,13l-3,9M137,35l-1,-2l3,-3l1,1l-3,4M134,37l-1,-1l2,-6l1,5l-2,2M139,40l-4,0l0,-3l10,-2l1,1l-4,4l-3,0M145,43l-2,-1l2,-3l5,1l-1,2l-4,1M127,44l-2,0l0,-2l7,-1l-5,3M158,63l-10,2l-3,3l-1,-2l-1,2l-3,-1l-5,1l-4,-1l-3,-6l0,-3l4,-1l-4,-2l0,-5l1,-1l2,2l-2,-3l1,-4l5,-2l11,2l7,-2l12,2l-2,10l-5,9M119,47l4,-5l0,2l-4,3M123,48l1,-4l2,1l-3,3M125,49l2,-3l2,0l-4,3M111,63l0,-5l4,-1l1,-6l3,-3l3,0l-1,7l-3,4l-7,4M123,55l1,-4l4,-2l0,2l-5,4M119,59l3,-6l-1,5l-2,1M103,64l3,-3l1,1l-4,2M106,65l1,-2l2,-1l2,1l-5,2"
+  					}]
+  				},{
+  					"name": "MT",
+  					"code": "BRA-MGR",
+  					"longname": "Mato Grosso",
+  					"altname": "Mato Grosso",
+  					"x": 187.0,
+  					"y": 195.0,
+  					"width": 171.0,
+  					"height": 161.0,
+  					"logicalcenterx": 87.0,
+  					"logicalcentery": 84.0,
+  					"polys": [{
+  						"path": "M16,97l5,-4l2,-5l5,-7l0,-8l-4,-6l3,-4l-2,-5l-7,-1l-15,0l1,-8l-2,-5l1,-7l-2,-6l1,-5l-2,-2l46,-2l4,-10l-2,-4l4,-8l7,14l2,7l13,10l97,6l-5,13l-3,11l1,3l0,15l3,3l-2,7l-4,6l-3,18l-8,4l-4,10l-4,1l-3,3l-5,9l-4,2l-3,10l2,8l-10,1l-2,-2l3,-10l-6,5l-3,2l-3,-3l-2,0l-7,3l-14,-8l-10,3l-4,7l-5,2l-4,-3l-2,-4l-8,-3l-1,-8l2,-6l-26,0l-2,-12l-5,-5l4,-1l0,-7l-4,-6l2,-3l-2,-3l-4,-2"
+  					}]
+  				},{
+  					"name": "MS",
+  					"code": "BRA-MGD",
+  					"longname": "Mato Grosso do Sul",
+  					"altname": "Mato Grosso do Sul",
+  					"x": 244.0,
+  					"y": 343.0,
+  					"width": 103.0,
+  					"height": 105.0,
+  					"logicalcenterx": 47.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M102,44l-1,2l-7,6l-7,17l-5,6l-8,5l-3,4l-6,3l-2,6l-3,2l-2,8l-2,2l-5,-4l-6,3l-5,-1l-3,-20l-4,-5l-4,0l-3,-3l-4,2l-3,1l-16,-3l2,-16l-5,-13l4,-3l-4,-3l6,-11l2,-13l-3,-7l4,3l5,-2l4,-7l10,-3l14,8l7,-3l2,0l3,3l3,-2l6,-5l-3,10l2,2l10,-1l0,5l4,2l-1,4l5,0l20,9l3,2l-1,10"
+  					}]
+  				},{
+  					"name": "MG",
+  					"code": "BRA-MGE",
+  					"longname": "Minas Gerais",
+  					"altname": "Minas Gerais",
+  					"x": 346.0,
+  					"y": 300.0,
+  					"width": 162.0,
+  					"height": 130.0,
+  					"logicalcenterx": 91.0,
+  					"logicalcentery": 64.0,
+  					"polys": [{
+  						"path": "M155,59l-3,-1l-6,1l1,3l-2,-1l-3,2l3,7l-5,1l4,5l-1,5l-2,3l-4,8l-5,0l-2,2l0,6l-4,3l-4,12l-10,4l-11,0l-14,5l-8,3l-5,-1l-1,4l-7,0l-3,-3l1,-2l-4,-3l1,-8l2,-5l-3,-2l-3,1l-4,-8l2,-5l-2,-2l0,-4l-2,-3l-6,0l-3,2l-3,-2l-8,2l-2,4l0,-3l-1,-1l-2,2l-5,-6l-11,0l-2,-2l-8,5l1,-10l3,-4l3,-1l3,-6l10,-3l3,2l7,-5l9,1l5,2l9,-7l1,-7l-4,-2l6,-7l-2,-4l-2,-3l2,-7l7,-3l-2,-6l2,-6l4,0l1,-5l3,4l4,-1l-1,6l6,-2l2,-3l14,-8l4,-2l5,1l3,1l-1,5l4,2l6,-2l12,7l7,1l7,6l0,4l6,-1l9,2l6,5l-6,7l-1,4l-3,1l-1,3l-1,4l1,0l1,2l3,4l0,3"
+  					}]
+  				},{
+  					"name": "MA",
+  					"code": "BRA-MRN",
+  					"longname": "Maranhão",
+  					"altname": "Maranhao",
+  					"x": 381.0,
+  					"y": 99.0,
+  					"width": 107.0,
+  					"height": 141.0,
+  					"logicalcenterx": 53.0,
+  					"logicalcentery": 62.0,
+  					"polys": [{
+  						"path": "M75,24l7,0l0,-3l2,0l10,3l3,3l8,2l2,-1l0,3l-2,4l-4,3l-6,2l-6,10l1,4l-1,4l1,8l-4,5l0,7l3,3l-1,6l-9,2l-3,-2l-5,1l-10,8l-12,5l-2,8l-6,11l2,8l-2,13l-6,-2l-4,-6l1,-5l-4,-2l-1,-3l-3,-1l4,-9l5,-1l1,-6l-2,-2l-6,2l-7,-8l0,-3l-4,-1l3,-4l3,-11l-2,-10l-6,-5l-7,-2l-6,3l15,-12l2,1l9,-11l2,-8l5,-4l0,-6l3,-3l3,-6l1,-3l-1,-3l1,-1l2,-7l1,-2l4,3l1,-1l0,2l4,0l0,3l2,-3l-1,6l1,0l2,-3l5,-1l-1,2l1,0l2,3l3,2l-2,7l3,-3l1,4l-3,2l-2,7l1,1l-3,4l6,-5l1,-7l5,-2l0,2l-4,4l0,1l6,-4"
+  					}]
+  				},{
+  					"name": "LZ",
+  					"code": "BRA-LT1",
+  					"longname": "Litigated Zone",
+  					"altname": "Litigated Zone",
+  					"x": 254.0,
+  					"y": 115.0,
+  					"width": 246.0,
+  					"height": 53.0,
+  					"logicalcenterx": 6.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M6,1l2,-1l2,3l-4,4l-6,-1l6,-5M245,53l-3,-12l3,-4l1,14l-1,2M244,34l-4,-9l4,5l0,4"
+  					}]
+  				},{
+  					"name": "GO",
+  					"code": "BRA-GOI",
+  					"longname": "Goiás",
+  					"altname": "Goias",
+  					"x": 314.0,
+  					"y": 272.0,
+  					"width": 106.0,
+  					"height": 105.0,
+  					"logicalcenterx": 53.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M86,54l-2,7l2,3l2,4l-6,7l4,2l-1,7l-9,7l-5,-2l-9,-1l-7,5l-3,-2l-10,3l-3,6l-3,1l-3,4l-3,-2l-20,-9l-5,0l1,-4l-4,-2l0,-5l-2,-8l3,-10l4,-2l5,-9l3,-3l4,-1l4,-10l8,-4l3,-18l4,-6l2,-7l3,-5l-1,5l15,5l4,-9l4,10l3,-2l5,0l1,2l7,2l1,-3l1,2l5,-2l14,-5l3,3l-2,2l2,4l-3,5l0,5l4,6l0,5l-1,2l-4,1l-3,-4l-1,5l-4,0l-2,6l2,6l-7,3M86,48l-2,-2l-11,0l-1,8l14,0l0,-6"
+  					}]
+  				},{
+  					"name": "ES",
+  					"code": "BRA-ESA",
+  					"longname": "Espírito Santo",
+  					"altname": "Espirito Santo",
+  					"x": 476.0,
+  					"y": 358.0,
+  					"width": 33.0,
+  					"height": 51.0,
+  					"logicalcenterx": 18.0,
+  					"logicalcentery": 25.0,
+  					"polys": [{
+  						"path": "M12,51l-10,-3l-1,-5l-1,-1l0,-6l2,-2l5,0l4,-8l2,-3l1,-5l-4,-5l5,-1l-3,-7l3,-2l2,1l-1,-3l6,-1l3,1l8,6l-3,19l-3,2l-4,8l-2,0l1,1l-2,4l-6,4l-2,6"
+  					}]
+  				},{
+  					"name": "DF",
+  					"code": "BRA-DFD",
+  					"longname": "Distrito Federal",
+  					"altname": "Distrito Federal",
+  					"x": 386.0,
+  					"y": 318.0,
+  					"width": 14.0,
+  					"height": 8.0,
+  					"logicalcenterx": 7.0,
+  					"logicalcentery": 4.0,
+  					"polys": [{
+  						"path": "M14,8l-14,0l1,-8l11,0l2,2l0,6"
+  					}]
+  				},{
+  					"name": "CE",
+  					"code": "BRA-CEA",
+  					"longname": "Ceará",
+  					"altname": "Ceara",
+  					"x": 494.0,
+  					"y": 129.0,
+  					"width": 63.0,
+  					"height": 78.0,
+  					"logicalcenterx": 27.0,
+  					"logicalcentery": 36.0,
+  					"polys": [{
+  						"path": "M42,56l-4,8l1,4l2,1l-3,6l-4,3l-10,-8l-14,0l0,-3l3,-6l-5,-3l-3,-19l1,-2l-1,-14l-1,-3l0,-4l-4,-5l0,-1l2,-1l-2,-2l3,-4l0,-3l19,1l22,14l13,14l4,2l2,3l-8,3l-7,12l-7,5l-1,2l2,0"
+  					}]
+  				},{
+  					"name": "BA",
+  					"code": "BRA-BAH",
+  					"longname": "Bahia",
+  					"altname": "Bahia",
+  					"x": 412.0,
+  					"y": 217.0,
+  					"width": 135.0,
+  					"height": 148.0,
+  					"logicalcenterx": 72.0,
+  					"logicalcentery": 58.0,
+  					"polys": [{
+  						"path": "M7,92l1,-2l0,-5l-4,-6l0,-5l3,-5l-2,-4l2,-2l-3,-3l2,-3l-3,-2l0,-5l4,-3l-3,-1l3,-3l-5,-2l-2,-3l5,-6l-1,-2l9,-7l3,2l3,5l4,2l4,0l3,-3l6,-1l3,-2l5,-9l-2,-6l5,-2l2,2l5,0l3,2l5,-1l6,-4l3,1l2,-1l0,-3l4,0l2,-4l7,2l3,10l5,-1l2,-4l4,-1l1,-3l7,-4l9,4l2,3l3,-2l3,8l4,3l-1,3l4,6l-1,8l-3,2l-3,-1l-1,3l3,5l1,3l4,3l3,-1l-4,9l-10,12l-3,1l0,-5l-2,-1l-2,2l-1,-2l-1,1l3,2l-6,10l1,0l1,2l-2,7l2,-3l-2,12l1,17l-6,21l1,6l-5,4l-3,6l-8,-6l0,-3l-3,-4l-1,-2l-1,0l1,-4l1,-3l3,-1l1,-4l6,-7l-6,-5l-9,-2l-6,1l0,-4l-7,-6l-7,-1l-12,-7l-6,2l-4,-2l1,-5l-3,-1l-5,-1l-4,2l-14,8l-2,3l-6,2l1,-6M114,70l1,-4l2,1l-3,3"
+  					}]
+  				},{
+  					"name": "AP",
+  					"code": "BRA-AMA",
+  					"longname": "Amapá",
+  					"altname": "Amapa",
+  					"x": 288.0,
+  					"y": 12.0,
+  					"width": 77.0,
+  					"height": 87.0,
+  					"logicalcenterx": 44.0,
+  					"logicalcentery": 46.0,
+  					"polys": [{
+  						"path": "M45,87l-6,-1l-4,-4l-1,-7l-5,-3l-3,-9l0,-6l-5,-3l0,-4l-4,-3l-3,0l-7,-5l-7,-1l0,-10l1,0l0,2l9,3l6,-4l3,2l3,-1l7,2l5,-5l4,-10l9,-13l4,-3l1,2l-1,-6l7,7l1,13l5,15l4,5l6,1l3,3l0,4l-4,2l3,0l0,2l-18,18l-2,1l-8,10l0,4l-3,2M69,40l-2,-3l2,-1l1,2l-1,2"
+  					}]
+  				},{
+  					"name": "AM",
+  					"code": "BRA-AMZ",
+  					"longname": "Amazonas",
+  					"altname": "Amazonas",
+  					"x": 3.0,
+  					"y": 50.0,
+  					"width": 261.0,
+  					"height": 189.0,
+  					"logicalcenterx": 134.0,
+  					"logicalcentery": 101.0,
+  					"polys": [{
+  						"path": "M236,145l-4,8l2,4l-4,10l-46,2l-1,-2l-3,3l-3,-1l-1,-3l-11,-8l-10,0l-6,7l1,2l-3,3l0,3l-10,1l-4,7l-2,-2l-2,1l-6,4l-4,-2l-5,0l-2,4l-5,3l-28,-10l-26,-12l-35,-5l-18,-6l1,-5l8,-6l-2,-6l3,-7l1,-8l14,-10l14,-3l2,-4l7,-1l2,3l4,-1l5,-46l-4,-9l0,-3l-7,-5l-1,-12l8,-3l6,1l0,-3l-4,-4l-8,1l0,-10l4,-1l22,-1l-2,-2l1,-2l5,3l7,-6l6,7l0,7l3,-1l9,7l4,0l8,-4l1,2l0,3l1,0l2,-4l2,-1l1,-3l7,-2l4,-4l2,0l3,-3l1,-5l9,-3l0,-2l12,5l-2,5l6,12l-1,3l0,11l4,8l-3,2l11,10l4,0l0,-10l5,-4l5,0l2,4l2,1l5,-3l-1,-4l5,-10l18,-1l1,9l2,1l0,4l4,2l1,3l12,9l9,3l7,6l-6,5l6,1l4,-4l-30,68l5,9"
+  					}]
+  				},{
+  					"name": "AL",
+  					"code": "BRA-ALG",
+  					"longname": "Alagoas",
+  					"altname": "Alagoas",
+  					"x": 537.0,
+  					"y": 223.0,
+  					"width": 47.0,
+  					"height": 27.0,
+  					"logicalcenterx": 24.0,
+  					"logicalcentery": 11.0,
+  					"polys": [{
+  						"path": "M27,27l-9,-9l-14,-8l-4,-3l8,-7l11,8l10,-1l5,-4l8,-1l5,2l-20,23"
+  					}]
+  				},{
+  					"name": "AC",
+  					"code": "BRA-ACR",
+  					"longname": "Acre",
+  					"altname": "Acre",
+  					"x": 0.0,
+  					"y": 206.0,
+  					"width": 113.0,
+  					"height": 55.0,
+  					"logicalcenterx": 55.0,
+  					"logicalcentery": 29.0,
+  					"polys": [{
+  						"path": "M31,41l-4,-7l-12,0l3,-4l0,-3l-10,-9l-2,-4l-2,-1l1,-3l-5,-3l1,-3l3,-1l-1,-3l18,6l35,5l26,12l28,10l3,1l-13,10l-2,3l-6,0l-2,5l-4,2l-21,-2l-7,3l-3,-2l-1,-20l1,-2l-11,9l-13,1"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Sao Paulo, Brazil",
+  					"x": 408.0,
+  					"y": 440.0
+  				},{
+  					"name": "Salvador, Brazil",
+  					"x": 531.0,
+  					"y": 284.0
+  				},{
+  					"name": "Rio de Janeiro, Brazil",
+  					"x": 455.0,
+  					"y": 432.0
+  				},{
+  					"name": "Belem, Brazil",
+  					"x": 385.0,
+  					"y": 104.0
+  				}]}]}}

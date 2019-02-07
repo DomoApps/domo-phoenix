@@ -1,0 +1,752 @@
+{
+  	"map": {
+  		"x": 1,
+  		"y": 1,
+  		"width": 766,
+  		"height": 600,
+  		"type": "LatLong",
+  		"projections": [{
+  			"type": "Lambert",
+  			"xmin": -9.293335,
+  			"xmax": 4.336666,
+  			"ymin": 35.907776,
+  			"ymax": 43.79277,
+  			"scale": 4294.857,
+  			"xscalemin": -0.08704967,
+  			"yscalemin": 43.72207
+  		}],
+  		"layers": [{
+  			"name": "Background",
+  			"type": "area",
+  			"areas": [{
+  					"name": "Zarogoza",
+  					"code": "ESP-ARG-ZRG",
+  					"longname": "Zaragoza",
+  					"altname": "Zaragoza",
+  					"altcode": "ES-Z",
+  					"x": 391.0,
+  					"y": 86.0,
+  					"width": 144.0,
+  					"height": 135.0,
+  					"logicalcenterx": 62.0,
+  					"logicalcentery": 84.0,
+  					"polys": [{
+  						"path": "M128,103l-3,4l-3,-1l-1,1l0,3l-9,-2l3,3l0,-1l4,2l3,-2l0,1l0,-4l2,3l2,-1l1,-5l1,3l1,0l0,-5l2,-2l3,-1l4,3l-3,-3l1,-2l5,2l-1,1l3,2l-1,2l2,4l-1,3l-3,2l0,4l-6,3l1,4l-8,-1l-1,3l-4,-5l-13,-6l-5,-4l-1,1l-3,-2l-2,-3l-4,-3l-3,0l-2,1l1,2l4,4l-1,2l-5,-6l-1,1l0,4l-2,1l3,3l-4,6l-4,-4l-2,4l-2,1l-3,-3l-3,5l-3,-1l1,-4l-3,1l-4,-2l-2,2l-4,-1l-3,2l0,4l-1,1l-4,0l-1,-2l-5,5l0,2l-1,3l-9,0l-10,-11l-7,-3l-2,-3l-5,2l-6,-3l-1,-10l3,-3l1,-6l3,1l1,4l5,-2l-2,-6l0,-5l-1,-3l2,-1l1,1l4,-5l3,0l1,-3l1,-2l-4,-5l2,-4l-2,-4l-1,-4l1,-4l4,1l5,3l2,-1l5,4l8,0l2,-2l4,-9l-5,-5l-1,-7l4,-10l-1,-4l2,-3l3,-2l-1,-4l1,-2l3,0l1,-2l2,-2l9,-1l-9,0l0,-2l6,-1l0,-3l8,-4l-1,3l2,1l-2,3l1,4l-2,1l2,2l-2,4l2,-1l0,7l5,2l-6,11l2,1l1,-3l3,1l3,-9l2,6l-2,3l1,15l-2,1l-1,-2l-1,0l-3,5l6,4l6,0l4,5l4,3l1,9l7,3l1,3l7,5l4,-1l6,16l4,2l-2,-3l3,2l5,0M61,23l1,0l-4,-3l0,3l3,0"
+  					}]
+  				},{
+  					"name": "Zamora",
+  					"code": "ESP-CYL-ZAM",
+  					"longname": "Zamora",
+  					"altname": "Zamora",
+  					"altcode": "ES-ZA",
+  					"x": 121.0,
+  					"y": 118.0,
+  					"width": 99.0,
+  					"height": 88.0,
+  					"logicalcenterx": 57.0,
+  					"logicalcentery": 41.0,
+  					"polys": [{
+  						"path": "M48,79l-1,1l-4,-3l1,-3l-2,3l-1,-2l-1,1l1,-2l-2,0l2,-1l-1,-3l-3,4l-9,-2l5,-4l1,-3l3,1l8,-15l-6,-6l-7,-1l-4,1l-2,-2l-1,-4l3,-10l-3,-1l1,-4l-1,-2l-3,2l-5,0l-4,-5l-3,4l-5,-1l-3,-2l1,-4l-3,-3l4,-4l1,-3l5,-4l3,1l1,-3l4,3l4,0l8,3l11,-1l4,4l10,0l5,3l3,-2l3,3l11,-2l3,7l4,-3l2,6l-1,2l3,0l1,-3l3,-1l5,5l-3,3l2,1l-2,7l2,1l-6,4l4,6l0,5l2,0l0,4l3,2l-7,4l2,5l-2,3l2,7l0,4l-2,2l0,2l2,-1l0,3l-2,2l-3,-1l-1,-4l-4,0l0,3l-1,-2l-4,-4l-4,0l-1,-2l-7,2l-7,-2l-3,7l-1,-2l-2,1l-1,-2l1,-1l-6,-2"
+  					}]
+  				},{
+  					"name": "Vizcaya",
+  					"code": "ESP-PSV-VZC",
+  					"longname": "Vizcaya",
+  					"altname": "Biscay",
+  					"altcode": "ES-BI",
+  					"x": 321.0,
+  					"y": 34.0,
+  					"width": 56.0,
+  					"height": 35.0,
+  					"logicalcenterx": 33.0,
+  					"logicalcentery": 15.0,
+  					"polys": [{
+  						"path": "M1,23l-1,-7l6,-5l4,0l2,-1l1,2l3,-2l0,-3l3,-1l4,3l0,-4l4,-2l0,-1l10,-2l4,3l0,2l0,-1l3,-1l1,1l6,1l5,4l-1,3l1,1l-2,3l-2,1l0,9l-3,1l-4,0l-2,2l1,3l-10,-1l-8,-5l2,-4l-2,-4l-3,0l-1,4l-5,-1l-1,-1l-4,0l-3,-2l-8,5M22,35l-2,-2l2,-3l3,2l0,2l-3,1"
+  					}]
+  				},{
+  					"name": "Valladolid",
+  					"code": "ESP-CYL-VLD",
+  					"longname": "Valladolid",
+  					"altname": "Valladolid",
+  					"altcode": "ES-VA",
+  					"x": 205.0,
+  					"y": 117.0,
+  					"width": 85.0,
+  					"height": 91.0,
+  					"logicalcenterx": 37.0,
+  					"logicalcentery": 52.0,
+  					"polys": [{
+  						"path": "M29,2l-2,10l6,1l1,5l-6,9l1,3l7,-1l5,9l6,-6l6,6l4,-2l-1,5l2,1l4,-2l5,1l4,-2l6,1l4,2l-1,2l3,4l-1,6l1,-1l2,3l-2,5l-7,3l-13,2l-8,3l2,8l-7,-2l1,4l-4,3l1,4l-4,-1l-2,3l-8,3l-8,-4l-2,1l-5,0l-5,-2l-1,-3l-3,1l-2,1l0,-2l2,-2l0,-4l-2,-7l2,-3l-2,-5l7,-4l-3,-2l0,-4l-2,0l0,-5l-4,-6l6,-4l-2,-1l2,-7l-2,-1l3,-3l-5,-5l-1,-13l3,-1l2,2l1,-2l3,1l0,-4l2,1l5,-4l3,4l1,-3l2,1M0,16l5,5l-1,3l-3,0l1,-2l-2,-6"
+  					}]
+  				},{
+  					"name": "Valencia",
+  					"code": "ESP-VLN-VLC",
+  					"longname": "Valencia",
+  					"altname": "Valencia",
+  					"altcode": "ES-V",
+  					"x": 430.0,
+  					"y": 276.0,
+  					"width": 86.0,
+  					"height": 114.0,
+  					"logicalcenterx": 42.0,
+  					"logicalcentery": 65.0,
+  					"polys": [{
+  						"path": "M3,5l5,1l2,-1l0,-3l2,-2l2,7l6,0l4,4l0,2l-5,2l-4,1l-8,-1l-4,-10M76,36l-1,5l-6,11l-1,7l7,17l-1,3l3,8l9,11l0,2l-2,-2l-9,3l-5,-2l-8,6l-8,0l1,3l4,1l-7,5l-1,-4l-5,-2l-6,2l-1,-2l-4,0l0,-9l-2,-4l-11,1l-8,-9l5,-12l1,-8l-10,-1l-4,-3l-3,1l0,-3l-3,-2l0,-8l3,-2l-2,-1l6,-8l6,0l0,-5l4,-6l1,-7l-1,-2l3,-2l9,-1l4,2l1,7l2,1l5,-2l3,4l3,-2l2,1l1,6l6,0l2,1l0,2l5,-3l1,-4l4,0l3,4l5,2"
+  					}]
+  				},{
+  					"name": "Toledo",
+  					"code": "ESP-CLM-TLD",
+  					"longname": "Toledo",
+  					"altname": "Toledo",
+  					"altcode": "ES-TO",
+  					"x": 206.0,
+  					"y": 268.0,
+  					"width": 143.0,
+  					"height": 79.0,
+  					"logicalcenterx": 72.0,
+  					"logicalcentery": 39.0,
+  					"polys": [{
+  						"path": "M25,67l-14,-15l4,-8l-2,-3l0,-4l-2,0l-3,4l-3,-1l1,-8l-2,-2l-4,1l3,-18l2,0l3,3l-1,-2l4,0l4,1l8,-5l1,4l2,0l8,-8l1,-3l6,-1l1,5l2,1l4,-1l3,2l5,-3l4,-6l4,7l7,-5l2,3l3,1l1,-2l4,4l11,3l3,3l5,0l3,3l-2,5l-4,2l-1,3l-2,-1l-6,3l3,4l18,-12l6,1l1,-3l3,-1l2,2l5,0l1,-2l2,1l0,6l3,1l-2,8l4,2l4,10l5,5l-1,13l-5,2l-8,-4l-8,2l-1,5l-8,1l-6,6l-6,1l-4,2l-4,-2l-4,2l-6,-3l-1,-4l-5,-1l-2,2l-3,-2l2,-7l3,0l0,-4l2,-1l-1,-4l-6,0l-3,6l-2,1l-11,-3l-2,3l-2,-6l-7,5l0,3l-4,0l-4,2l0,-6l-5,-4l-6,11"
+  					}]
+  				},{
+  					"name": "Teruel",
+  					"code": "ESP-ARG-TRV",
+  					"longname": "Teruel",
+  					"altname": "Teruel",
+  					"altcode": "ES-TE",
+  					"x": 412.0,
+  					"y": 190.0,
+  					"width": 118.0,
+  					"height": 113.0,
+  					"logicalcenterx": 56.0,
+  					"logicalcentery": 52.0,
+  					"polys": [{
+  						"path": "M37,101l5,-2l0,-2l-4,-4l-6,0l-2,-7l-2,2l0,3l-2,1l-5,-1l0,-3l-5,0l-8,-8l-3,1l0,-1l1,-2l-6,-6l6,-6l0,-4l2,-4l4,2l3,-2l0,-17l-4,-5l-1,-5l9,0l1,-3l0,-2l5,-5l1,2l4,0l1,-1l0,-4l3,-2l4,1l2,-2l4,2l3,-1l-1,4l3,1l3,-5l3,3l2,-1l2,-4l4,4l4,-6l-3,-3l2,-1l0,-4l1,-1l5,6l1,-2l-4,-4l-1,-2l2,-1l3,0l4,3l2,3l3,2l1,-1l5,4l13,6l4,5l1,-3l8,1l0,2l4,2l0,4l-2,6l2,5l-3,3l-3,2l0,1l-4,1l-3,3l-1,-3l-5,0l-5,-4l-2,0l-2,6l-5,4l-2,-2l-2,2l0,3l5,0l0,8l2,2l-4,3l3,5l-6,6l-1,3l-5,2l-2,-1l-2,8l-3,2l1,3l-4,2l-4,0l-1,3l-3,2l-1,5l3,3l-5,2l-2,-1l-1,-7l-4,-2l-9,1l-1,-3"
+  					}]
+  				},{
+  					"name": "Tarrogona",
+  					"code": "ESP-CTL-TRG",
+  					"longname": "Tarragona",
+  					"altname": "Tarragona",
+  					"altcode": "ES-T",
+  					"x": 524.0,
+  					"y": 169.0,
+  					"width": 82.0,
+  					"height": 81.0,
+  					"logicalcenterx": 36.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M2,41l-1,-4l6,-3l0,-4l3,-2l1,-3l3,0l0,-3l1,-1l3,3l3,-3l2,3l13,-4l0,-2l2,1l6,-1l5,-8l-1,-1l0,-2l4,2l3,-2l0,-3l2,-2l10,0l0,-2l3,1l-2,5l5,3l0,6l2,-1l3,3l-1,0l1,4l3,0l-1,3l-2,0l3,2l1,-1l0,4l-23,7l-3,4l-3,-1l-9,3l-14,17l2,4l3,-1l-2,-1l2,0l3,4l3,0l0,2l-7,5l-5,6l-3,0l0,-2l5,0l2,-4l-8,2l-5,7l-4,-2l-3,-4l-6,-1l-1,-2l1,-2l-3,-1l-1,-3l-3,0l0,-1l3,-2l3,-3l-2,-5l2,-6l0,-4l-4,-2l0,-2"
+  					}]
+  				},{
+  					"name": "Soria",
+  					"code": "ESP-CYL-SOR",
+  					"longname": "Soria",
+  					"altname": "Soria",
+  					"altcode": "ES-SO",
+  					"x": 314.0,
+  					"y": 132.0,
+  					"width": 99.0,
+  					"height": 81.0,
+  					"logicalcenterx": 54.0,
+  					"logicalcentery": 39.0,
+  					"polys": [{
+  						"path": "M94,14l1,4l2,4l-2,4l4,5l-1,2l-1,3l-3,0l-4,5l-1,-1l-2,1l1,3l0,5l2,6l-5,2l-1,-4l-3,-1l-1,6l-3,3l1,10l6,3l0,6l-5,-4l-2,3l-4,0l-4,2l-3,-2l-3,2l-2,-1l-4,-7l-2,2l-2,-1l1,-2l-2,-1l2,-2l-7,-2l0,-2l-6,1l-3,-1l0,-3l-2,-1l-3,3l-5,1l-9,-2l-8,-7l1,-5l-5,-2l-2,-4l-1,1l-3,-1l-1,-3l1,-3l4,2l4,-7l2,-1l0,-3l4,-2l0,-9l7,7l4,-6l3,-1l2,-3l2,0l0,-5l3,-2l2,1l4,-2l1,-5l1,-1l3,0l-2,8l9,1l4,-5l0,-4l11,-2l1,0l2,4l4,-1l4,1l-2,2l3,4l-1,4l5,1l3,2l6,-3"
+  					}]
+  				},{
+  					"name": "Sevilla",
+  					"code": "ESP-AND-SVL",
+  					"longname": "Sevilla",
+  					"altname": "Sevilla",
+  					"altcode": "ES-SE",
+  					"x": 133.0,
+  					"y": 424.0,
+  					"width": 112.0,
+  					"height": 101.0,
+  					"logicalcenterx": 51.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M112,73l-5,0l1,3l-5,4l-2,-4l-3,3l-4,-1l3,3l-2,3l-13,7l-6,4l-4,-7l-8,7l-2,-3l3,-2l-1,-3l-4,0l2,4l-4,5l0,2l-7,-6l-3,3l-9,1l-2,5l-14,-1l-3,-3l-5,-1l-2,-1l-3,0l-3,-2l2,-5l-1,-7l2,-2l0,-9l1,-4l-2,-4l2,-1l-1,-4l4,-2l-5,-9l0,-3l-6,-2l-2,-1l-1,-1l4,-5l5,-1l2,-1l7,-1l1,2l1,0l1,-4l4,-2l-2,-2l2,-4l-2,-1l-1,-2l4,-3l8,-1l5,2l-3,-2l2,-2l-1,0l2,-7l6,-4l4,-1l2,1l1,2l-3,2l1,3l5,-4l3,1l6,7l-1,4l4,3l0,6l4,2l0,4l2,2l0,5l-7,2l4,7l11,-7l4,1l0,-2l2,3l0,-4l4,0l3,5l-1,3l2,-1l1,9l5,5l0,5l3,3l3,0l1,-2l1,1l3,7M90,47l0,-4l-3,0l3,4"
+  					}]
+  				},{
+  					"name": "Segovia",
+  					"code": "ESP-CYL-SEG",
+  					"longname": "Segovia",
+  					"altname": "Segovia",
+  					"altcode": "ES-SG",
+  					"x": 247.0,
+  					"y": 173.0,
+  					"width": 86.0,
+  					"height": 71.0,
+  					"logicalcenterx": 38.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M67,32l-5,2l-7,6l-2,4l-6,2l-3,4l-2,9l-6,2l-5,6l-6,1l-3,2l-5,1l-1,-8l-3,-8l-3,1l1,-3l-2,-1l0,-6l-4,-5l-5,-3l0,-6l2,-3l4,1l-1,-4l4,-3l-1,-4l7,2l-2,-8l8,-3l13,-2l7,-3l2,-5l4,2l5,6l1,0l0,-3l2,-1l0,5l2,1l0,-5l3,-3l7,-1l1,3l3,1l1,-1l2,4l5,2l-1,5l8,7l-3,3l-9,-1l1,4l-8,4"
+  					}]
+  				},{
+  					"name": "Salamanca",
+  					"code": "ESP-CYL-SLM",
+  					"longname": "Salamanca",
+  					"altname": "Salamanca",
+  					"altcode": "ES-SA",
+  					"x": 122.0,
+  					"y": 190.0,
+  					"width": 104.0,
+  					"height": 79.0,
+  					"logicalcenterx": 48.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M66,77l-2,1l-2,-1l1,-4l-8,5l-5,-5l-5,-1l2,-3l-3,-2l1,-2l-7,-3l-18,10l-2,5l-6,1l-2,-1l-3,2l-6,-3l6,-7l-4,-6l3,-5l0,-3l-2,-1l3,-7l-2,-7l1,-7l1,0l-7,-13l2,-2l3,1l4,-2l1,-4l7,-9l5,0l5,-4l9,2l0,6l2,-2l2,0l0,2l5,0l1,5l1,-3l2,0l1,6l3,0l-3,-7l-3,1l0,-3l6,2l-1,1l1,2l2,-1l1,2l3,-7l7,2l7,-2l1,2l4,0l4,4l1,2l0,-3l4,0l1,4l3,1l2,-2l0,-3l3,-1l1,3l5,2l-1,7l2,1l1,3l-2,3l1,3l-3,4l0,3l-4,4l-9,6l0,4l-4,3l-4,-1l0,3l5,-1l-2,8l-3,0l0,3l-3,-2l0,-2l-3,1l-4,3l1,6l-4,3"
+  					}]
+  				},{
+  					"name": "Pontevedra",
+  					"code": "ESP-GLC-PNT",
+  					"longname": "Pontevedra",
+  					"altname": "Pontevedra",
+  					"altcode": "ES-PO",
+  					"x": 17.0,
+  					"y": 68.0,
+  					"width": 61.0,
+  					"height": 71.0,
+  					"logicalcenterx": 26.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M39,53l-7,5l-11,-1l-1,2l-4,0l-10,9l-6,3l0,-17l3,-2l1,1l1,-1l-2,-1l3,-3l11,-7l1,-4l1,0l-2,0l-4,5l-10,1l1,-4l1,2l0,-5l3,1l7,-6l-1,-1l-5,3l-4,0l-2,-5l-3,0l0,-2l4,-2l0,3l3,1l-1,-2l2,-1l-1,0l-1,-4l3,-3l4,-8l10,-4l7,1l2,-3l3,1l0,-4l3,2l2,-1l2,0l-1,-1l3,-1l2,3l3,-2l2,1l3,-1l2,1l-2,5l7,5l-4,10l-6,3l-8,-2l-11,5l2,6l-1,4l3,3l0,5l2,1l3,0l-1,2l2,2l-3,2"
+  					}]
+  				},{
+  					"name": "Palencia",
+  					"code": "ESP-CYL-PLN",
+  					"longname": "Palencia",
+  					"altname": "Palencia",
+  					"altcode": "ES-P",
+  					"x": 232.0,
+  					"y": 63.0,
+  					"width": 63.0,
+  					"height": 96.0,
+  					"logicalcenterx": 28.0,
+  					"logicalcentery": 51.0,
+  					"polys": [{
+  						"path": "M2,56l3,-1l1,-2l-1,-1l-1,0l0,-2l4,-2l-1,-3l2,-7l-2,-1l3,-12l-3,-3l2,-3l0,-6l2,0l4,-8l4,-3l9,0l6,-2l6,6l5,1l1,9l4,-2l1,2l-3,2l5,4l-1,2l-1,-2l-2,1l-7,4l1,8l-2,2l4,7l-5,0l-1,3l1,3l2,0l3,13l2,3l-1,3l5,1l3,2l-2,1l0,3l5,-1l2,1l-4,6l8,-2l0,2l-5,3l0,2l-6,2l0,3l2,2l0,2l-4,-2l-6,-1l-4,2l-5,-1l-4,2l-2,-1l1,-5l-4,2l-6,-6l-6,6l-5,-9l-7,1l-1,-3l6,-9l-1,-5l-6,-1l2,-10"
+  					}]
+  				},{
+  					"name": "Orense",
+  					"code": "ESP-GLC-ORN",
+  					"longname": "Orense",
+  					"altname": "Ourense",
+  					"altcode": "ES-OR",
+  					"x": 49.0,
+  					"y": 90.0,
+  					"width": 89.0,
+  					"height": 59.0,
+  					"logicalcenterx": 41.0,
+  					"logicalcentery": 30.0,
+  					"polys": [{
+  						"path": "M86,28l-1,3l-3,-1l-5,4l-1,3l-4,4l3,3l-1,4l-2,2l-3,-1l-3,-3l-3,1l0,5l-1,2l-7,3l-3,-1l-3,3l-4,-5l-2,3l-4,0l1,-3l-6,-3l-8,1l-2,3l0,-6l-2,0l0,3l-6,4l-7,1l-4,-8l4,-5l4,-3l0,-2l-2,-2l-3,1l-1,-7l3,-2l-2,-2l1,-2l-3,0l-2,-1l0,-5l-3,-3l1,-4l-2,-6l11,-5l8,2l6,-3l1,3l-1,3l7,1l1,3l8,5l2,-1l4,2l6,-3l4,0l5,4l1,4l8,-13l5,2l3,-2l7,4l-2,5l5,3l0,5l-3,3"
+  					}]
+  				},{
+  					"name": "Navarra",
+  					"code": "ESP-NVR-NVR",
+  					"longname": "Navarra",
+  					"altname": "Navarre",
+  					"altcode": "ES-NA",
+  					"x": 373.0,
+  					"y": 45.0,
+  					"width": 97.0,
+  					"height": 104.0,
+  					"logicalcenterx": 47.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M79,64l-3,0l0,-3l4,3l-1,0M1,61l3,0l2,-5l-1,-3l-3,2l-2,-3l5,-4l2,2l4,-2l-2,-5l3,-3l0,-4l2,-2l-1,-4l3,-4l4,1l2,-3l3,-1l1,-5l6,-5l0,-7l2,1l0,-2l1,1l2,-1l2,-4l3,-1l5,0l2,3l3,-2l8,2l1,5l-2,5l-3,3l1,2l5,2l1,-5l3,-2l-1,4l3,2l2,-1l16,8l6,0l4,-2l1,4l-5,1l-2,4l1,5l-3,3l-8,4l0,3l-6,1l0,2l-2,0l2,1l-2,2l-1,2l-3,0l-1,2l1,4l-3,2l-2,3l1,4l-4,10l1,7l5,5l-4,9l-2,2l-8,0l-5,-4l-2,1l-5,-3l-4,-1l-3,-1l0,-4l4,-5l8,0l-1,-5l-10,-3l1,-3l-7,-6l-5,2l-2,-5l-3,0l-7,-4l-2,-1l0,2l-8,-3"
+  					}]
+  				},{
+  					"name": "Málaga",
+  					"code": "ESP-AND-MAL",
+  					"longname": "Málaga",
+  					"altname": "Malaga",
+  					"altcode": "ES-MA",
+  					"x": 185.0,
+  					"y": 495.0,
+  					"width": 111.0,
+  					"height": 71.0,
+  					"logicalcenterx": 54.0,
+  					"logicalcentery": 35.0,
+  					"polys": [{
+  						"path": "M111,41l-3,-1l-8,2l-8,-2l-1,2l-9,1l-8,-1l-3,1l-4,7l-7,4l-1,3l-5,2l-12,-1l-4,1l-12,5l-4,7l-2,-2l-3,1l0,-5l-5,-10l-5,-1l-2,3l-5,-2l0,-2l6,1l4,-6l4,-1l3,-3l3,-7l-3,-4l2,-3l3,-1l6,4l2,-1l3,-5l-1,-4l-2,-3l13,-7l2,-3l-3,-3l4,1l3,-3l2,4l5,-4l-1,-3l7,0l1,3l6,0l2,-4l4,-1l1,4l3,3l2,4l1,9l3,0l1,3l6,2l3,3l14,5l2,3l0,5"
+  					}]
+  				},{
+  					"name": "Murcia",
+  					"code": "ESP-MUR-MUR",
+  					"longname": "Murcia",
+  					"altname": "Murcia",
+  					"altcode": "ES-MU",
+  					"x": 382.0,
+  					"y": 385.0,
+  					"width": 98.0,
+  					"height": 104.0,
+  					"logicalcenterx": 51.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M77,8l1,11l-4,5l0,7l5,1l2,4l-1,6l-3,5l1,5l7,11l4,4l4,1l1,4l-2,-2l-4,8l3,4l4,2l1,-1l-2,-10l2,2l0,6l2,3l-2,2l-12,4l-2,0l-1,-3l-6,1l-3,2l1,2l-8,-3l-5,1l-8,6l-1,4l-9,4l-6,-5l-4,-1l0,2l-2,-2l-10,-15l0,-10l2,-6l-7,-1l-2,-1l-3,0l-2,-1l-8,-9l7,-12l7,-4l3,-5l3,2l5,-1l7,-4l0,-1l1,0l5,-1l1,4l5,1l6,-5l-1,-12l3,-4l0,-5l3,-4l2,0l1,2l10,-6l3,1l1,3l5,4"
+  					}]
+  				},{
+  					"name": "Madrid",
+  					"code": "ESP-MDR-MDR",
+  					"longname": "Madrid",
+  					"altname": "Madrid",
+  					"altcode": "ES-M",
+  					"x": 254.0,
+  					"y": 205.0,
+  					"width": 86.0,
+  					"height": 96.0,
+  					"logicalcenterx": 49.0,
+  					"logicalcentery": 50.0,
+  					"polys": [{
+  						"path": "M60,0l3,5l3,1l0,3l2,4l-6,14l3,3l-1,5l2,2l2,-2l2,4l3,0l-2,3l3,3l-1,2l2,-1l4,3l0,5l4,3l-4,11l1,2l4,-4l2,10l-2,1l2,3l-5,2l-2,-1l-1,2l-5,0l-2,-2l-3,1l-1,3l-6,-1l-18,12l-3,-4l6,-3l2,1l1,-3l4,-2l2,-5l-3,-3l-5,0l-3,-3l-11,-3l-4,-4l-1,2l-3,-1l-2,-3l-7,5l-4,-7l-4,6l-5,3l-3,-2l3,-5l-1,-4l1,-1l2,3l2,-1l2,-5l1,-1l6,3l-1,-2l-3,-1l3,0l0,-10l2,-3l0,-3l3,1l3,-1l1,-5l5,-6l6,-2l2,-9l3,-4l6,-2l2,-4l7,-6l5,-2"
+  					}]
+  				},{
+  					"name": "Lérida",
+  					"code": "ESP-CTL-LRD",
+  					"longname": "Lérida",
+  					"altname": "Lleida",
+  					"altcode": "ES-L",
+  					"x": 531.0,
+  					"y": 75.0,
+  					"width": 83.0,
+  					"height": 119.0,
+  					"logicalcenterx": 39.0,
+  					"logicalcentery": 61.0,
+  					"polys": [{
+  						"path": "M14,74l2,-4l-2,-2l0,3l-2,-1l3,-3l3,-1l2,-9l-1,-5l2,-10l1,-7l-4,-7l3,-1l1,-9l-3,0l-2,-5l-2,-7l1,-4l3,-2l12,5l1,-1l7,1l5,5l10,-1l5,9l-1,5l3,1l-3,2l2,3l5,1l3,-2l3,-1l1,-2l3,-1l1,1l0,4l4,2l0,3l3,0l-1,4l-9,3l2,3l-1,3l2,0l1,3l-2,2l2,3l-3,3l1,2l-2,1l0,1l3,1l-2,2l-1,-1l0,4l-4,3l3,2l-2,6l-3,2l-2,-2l-1,1l0,-2l-4,0l1,5l-2,2l4,5l-5,2l3,1l-1,1l0,2l-10,0l-2,2l0,3l-3,2l-4,-2l0,2l1,1l-5,8l-6,1l-2,-1l0,2l-13,4l-2,-3l-3,3l-3,-3l-1,1l0,3l-3,0l-2,-4l1,-2l-3,-2l1,-1l0,-6l3,-1l3,-4l-1,-3l-4,-1l-2,-6l14,-15"
+  					}]
+  				},{
+  					"name": "Lugo",
+  					"code": "ESP-GLC-LGO",
+  					"longname": "Lugo",
+  					"altname": "Lugo",
+  					"altcode": "ES-LU",
+  					"x": 71.0,
+  					"y": 4.0,
+  					"width": 65.0,
+  					"height": 107.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 55.0,
+  					"polys": [{
+  						"path": "M0,65l5,-8l-1,-7l1,-2l-1,-5l2,-8l-1,-2l3,-3l1,-6l3,1l3,-6l3,-10l2,-3l0,-5l4,-1l1,6l3,-5l5,1l-1,1l6,3l3,6l3,1l-1,3l1,-2l11,1l-1,6l-3,4l-4,0l0,3l3,1l1,5l2,0l-1,4l6,5l0,4l3,0l2,-3l2,3l0,2l-7,3l-3,4l2,2l1,-3l2,3l2,0l2,3l0,3l-2,3l0,6l-3,3l-3,0l-5,4l2,5l-2,1l0,3l-2,5l-8,13l-1,-4l-5,-4l-4,0l-6,3l-4,-2l-2,1l-8,-5l-1,-3l-7,-1l1,-3l-1,-3l4,-10l-7,-5l2,-5l-2,-1"
+  					}]
+  				},{
+  					"name": "León",
+  					"code": "ESP-CYL-LEN",
+  					"longname": "León",
+  					"altname": "Leon",
+  					"altcode": "ES-LE",
+  					"x": 120.0,
+  					"y": 48.0,
+  					"width": 131.0,
+  					"height": 90.0,
+  					"logicalcenterx": 68.0,
+  					"logicalcentery": 45.0,
+  					"polys": [{
+  						"path": "M85,85l-4,3l-3,-7l-11,2l-3,-3l-3,2l-5,-3l-10,0l-4,-4l-11,1l-8,-3l-4,0l-4,-3l3,-3l0,-5l-5,-3l2,-5l-7,-4l-3,2l-5,-2l2,-5l0,-3l2,-1l-2,-5l5,-4l3,0l3,-3l0,-6l2,-3l3,2l5,-2l7,1l6,-2l0,-2l-2,-2l4,0l3,-4l8,3l0,-2l5,2l2,-1l0,-2l4,1l2,-1l1,4l3,2l7,2l4,-6l9,2l3,0l0,-2l5,0l2,-3l8,1l4,-2l1,1l2,-1l1,-5l4,0l5,-4l3,1l1,3l0,6l4,2l2,5l-4,3l-4,8l-2,0l0,6l-2,3l3,3l-3,12l2,1l-2,7l1,3l-4,2l0,2l1,0l1,1l-1,2l-3,1l-2,-1l-1,3l-3,-4l-5,4l-2,-1l0,4l-3,-1l-1,2l-2,-2l-3,1l1,13l-3,1l-5,-5"
+  					}]
+  				},{
+  					"name": "La Rioja",
+  					"code": "ESP-LRJ-LJR",
+  					"longname": "La Rioja",
+  					"altname": "La Rioja",
+  					"altcode": "ES-LO",
+  					"x": 338.0,
+  					"y": 95.0,
+  					"width": 80.0,
+  					"height": 54.0,
+  					"logicalcenterx": 34.0,
+  					"logicalcentery": 27.0,
+  					"polys": [{
+  						"path": "M36,11l8,3l0,-2l2,1l7,4l3,0l2,5l5,-2l7,6l-1,3l10,3l1,5l-8,0l-4,5l0,4l3,1l-1,4l-6,3l-3,-2l-5,-1l1,-4l-3,-4l2,-2l-4,-1l-4,1l-2,-4l-1,0l-11,2l0,4l-4,5l-9,-1l2,-8l-3,0l-1,1l-1,5l-4,2l-2,-1l-1,-5l-6,0l-5,-9l2,-4l-1,-6l3,-2l-3,-3l1,-1l2,3l1,-5l-3,-3l1,-4l-3,0l4,-4l-1,-3l7,0l2,1l3,-1l0,4l2,-1l-1,1l1,2l4,-5l4,2l-2,6l2,0l2,2l2,-1l0,2l4,0l1,-3l2,2"
+  					}]
+  				},{
+  					"name": "La Coruña",
+  					"code": "ESP-GLC-LCR",
+  					"longname": "La Coruña",
+  					"altname": "La Coruna",
+  					"altcode": "ES-C",
+  					"x": 0.0,
+  					"y": 0.0,
+  					"width": 93.0,
+  					"height": 90.0,
+  					"logicalcenterx": 47.0,
+  					"logicalcentery": 47.0,
+  					"polys": [{
+  						"path": "M30,78l-3,4l-3,0l0,-3l-2,6l-1,-2l-2,0l0,3l-7,4l0,-3l-3,-1l5,-9l9,-8l-2,-1l-1,2l-1,0l-2,2l-2,-1l0,-1l-3,0l-1,4l-3,-5l2,-2l-2,-2l1,-4l-2,0l0,-3l-1,0l0,2l-2,-1l-2,1l-1,2l-1,-3l3,-5l-2,-4l2,0l2,-4l3,0l1,-1l-3,-1l0,-2l2,-2l7,0l1,-1l7,-2l-2,1l-2,-4l3,0l1,-3l4,0l0,-1l7,4l6,-2l3,1l3,-3l5,-1l0,-1l2,4l2,-5l4,2l2,4l0,-6l5,-1l-6,0l-4,-2l6,-1l2,-3l-1,2l-3,0l0,-1l-2,2l-3,0l1,-4l2,-1l-2,-3l3,1l5,-5l1,1l4,-4l2,3l0,-6l4,1l5,-5l2,0l1,4l-1,0l-2,3l2,1l0,-3l2,1l1,-2l5,-2l2,-3l1,1l-2,4l0,5l-2,3l-3,10l-3,6l-3,-1l-1,6l-3,3l1,2l-2,8l1,5l-1,2l1,7l-5,8l-3,1l-2,-1l-4,0l2,-2l-2,-1l-1,2l-3,1l1,1l-2,0l-2,1l-3,-2l0,4l-3,-1l-2,3l-7,-1l-10,4"
+  					}]
+  				},{
+  					"name": "Jaén",
+  					"code": "ESP-AND-JAE",
+  					"longname": "Jaén",
+  					"altname": "Jaen",
+  					"altcode": "ES-J",
+  					"x": 267.0,
+  					"y": 402.0,
+  					"width": 110.0,
+  					"height": 86.0,
+  					"logicalcenterx": 50.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M103,34l-3,2l0,4l-4,3l-3,-1l-5,5l-6,12l1,5l-5,3l-1,3l-4,-1l-2,1l-7,-3l-3,0l-3,4l-4,2l-9,-5l-6,7l-8,4l-3,-1l-2,7l-6,1l-4,-2l-4,-6l0,-2l-5,-7l-3,-1l3,-6l-5,-3l2,-3l-4,-2l2,-11l-1,-6l7,-8l-3,-9l0,-3l-4,-4l1,-4l19,3l5,-1l3,-3l12,2l2,-4l2,0l0,3l4,1l4,-2l3,-4l12,2l5,-2l3,4l2,-3l5,1l-1,4l-1,-2l-2,2l2,0l0,3l5,-4l-3,2l1,-6l7,-5l4,3l4,-2l2,1l0,7l6,1l0,8l3,2l-1,6l-6,8"
+  					}]
+  				},{
+  					"name": "Isles Baleares",
+  					"code": "ESP-BLR-BLR",
+  					"longname": "Islas Baleares",
+  					"altname": "Balearic Islands",
+  					"altcode": "ES-PM",
+  					"x": 589.0,
+  					"y": 272.0,
+  					"width": 176.0,
+  					"height": 117.0,
+  					"logicalcenterx": 99.0,
+  					"logicalcentery": 40.0,
+  					"polys": [{
+  						"path": "M173,20l-15,-7l-11,0l0,-5l-3,-1l2,-4l13,0l2,-3l3,4l2,-2l2,4l4,0l-1,2l5,7l-3,-1l2,3l-2,3M106,66l-6,-7l-11,0l-3,-8l1,-2l-4,-4l-2,0l-6,3l-1,5l-2,-1l-2,-4l-5,0l-1,-5l12,-9l11,-11l4,-1l5,-5l14,-4l1,0l-6,4l0,2l1,2l6,-3l-2,4l-2,0l-1,2l1,2l7,4l5,-5l7,3l1,2l-2,6l-2,1l1,3l-6,7l-3,10l-10,9M9,103l-1,-2l-4,-1l-2,1l-2,-2l0,-5l5,-2l-1,-4l4,-3l7,-3l7,1l-1,2l2,3l-4,3l-2,4l-5,4l-1,4l-2,0M11,117l-1,-6l3,-3l3,5l3,1l2,-1l2,2l-4,1l-4,-2l-4,3"
+  					}]
+  				},{
+  					"name": "Huesca",
+  					"code": "ESP-ARG-HSC",
+  					"longname": "Huesca",
+  					"altname": "Huesca",
+  					"altcode": "ES-HU",
+  					"x": 459.0,
+  					"y": 73.0,
+  					"width": 94.0,
+  					"height": 117.0,
+  					"logicalcenterx": 48.0,
+  					"logicalcentery": 53.0,
+  					"polys": [{
+  						"path": "M86,76l-14,15l2,6l4,1l1,3l-3,4l-3,1l0,6l-5,-2l-1,2l-2,0l-1,-2l-1,2l-2,0l-1,4l-5,0l-3,-2l2,3l-4,-2l-6,-16l-4,1l-7,-5l-1,-3l-7,-3l-1,-9l-4,-3l-4,-5l-6,0l-6,-4l3,-5l1,0l1,2l2,-1l-1,-15l2,-3l-2,-6l-3,9l-3,-1l-1,3l-2,-1l6,-11l-5,-2l0,-7l-2,1l2,-4l-2,-2l2,-1l-1,-4l2,-3l-2,-1l1,-3l3,-3l-1,-5l2,-4l5,-1l1,2l5,3l3,5l3,-1l1,-2l3,2l7,-4l7,4l2,-1l0,2l2,4l6,2l10,-4l5,2l1,3l5,-4l3,3l10,-2l4,1l2,5l3,0l-1,9l-3,1l4,7l-1,7l-1,14l-3,5l0,4l-4,-3l0,3l2,2l-3,3l2,1l-1,1l1,2"
+  					}]
+  				},{
+  					"name": "Huelva",
+  					"code": "ESP-AND-HLV",
+  					"longname": "Huelva",
+  					"altname": "Huelva",
+  					"altcode": "ES-H",
+  					"x": 74.0,
+  					"y": 420.0,
+  					"width": 84.0,
+  					"height": 108.0,
+  					"logicalcenterx": 42.0,
+  					"logicalcentery": 48.0,
+  					"polys": [{
+  						"path": "M69,99l-2,9l-3,-2l-3,-8l-7,-8l-20,-14l4,-5l-5,4l0,-5l-1,1l1,7l-6,-4l-7,-1l0,1l-9,1l-1,-2l-3,3l-1,-2l-3,-22l-3,-5l5,-7l3,-8l5,-4l3,-4l2,-8l8,-1l1,-3l6,1l5,-13l8,3l-1,5l12,2l1,5l6,1l0,-1l1,-2l3,0l3,4l10,5l1,2l2,1l-2,4l2,2l-4,2l-1,4l-1,0l-1,-2l-7,1l-2,1l-5,1l-4,5l1,1l2,1l6,2l0,3l5,9l-4,2l1,4l-2,1l2,4l-1,4l0,9l-2,2l1,7l-2,5l3,2"
+  					}]
+  				},{
+  					"name": "Guipúzcoa",
+  					"code": "ESP-PSV-GPZ",
+  					"longname": "Guipúzcoa",
+  					"altname": "Gipuzkoa",
+  					"altcode": "ES-SS",
+  					"x": 368.0,
+  					"y": 38.0,
+  					"width": 47.0,
+  					"height": 37.0,
+  					"logicalcenterx": 21.0,
+  					"logicalcentery": 19.0,
+  					"polys": [{
+  						"path": "M18,37l-8,-5l-10,-1l0,-2l2,-1l1,-3l-1,-2l3,-1l0,-9l2,-1l2,-3l-1,-1l1,-3l6,2l6,-1l4,2l14,-4l4,-4l4,7l-3,1l-2,4l-2,1l-1,-1l0,2l-2,-1l0,7l-6,5l-1,5l-3,1l-2,3l-4,-1l-3,4"
+  					}]
+  				},{
+  					"name": "Guadalajara",
+  					"code": "ESP-CLM-GDL",
+  					"longname": "Guadalajara",
+  					"altname": "Guadalajara",
+  					"altcode": "ES-GU",
+  					"x": 314.0,
+  					"y": 193.0,
+  					"width": 113.0,
+  					"height": 88.0,
+  					"logicalcenterx": 52.0,
+  					"logicalcentery": 38.0,
+  					"polys": [{
+  						"path": "M108,28l1,5l4,5l0,17l-3,2l-4,-2l-2,4l0,4l-6,6l-3,-2l-4,-13l-6,0l-3,-3l-4,-1l0,2l-3,1l-4,-1l-1,4l-2,1l-3,-4l-2,3l3,2l-2,2l-1,-1l-4,2l-2,-1l-1,4l2,2l0,2l-2,-4l-6,2l-1,-1l-3,3l-1,-2l-1,2l-1,-2l-2,5l1,8l-2,5l-4,3l-5,-3l-2,1l0,3l-3,0l-2,-10l-4,4l-1,-2l4,-11l-4,-3l0,-5l-4,-3l-2,1l1,-2l-3,-3l2,-3l-3,0l-2,-4l-2,2l-2,-2l1,-5l-3,-3l6,-14l-2,-4l0,-3l-3,-1l-3,-5l8,-4l-1,-4l9,1l3,-3l9,2l5,-1l3,-3l2,1l0,3l3,1l6,-1l0,2l7,2l-2,2l2,1l-1,2l2,1l2,-2l4,7l2,1l3,-2l3,2l4,-2l4,0l2,-3l5,4l0,-6l5,-2l2,3l7,3l10,11"
+  					}]
+  				},{
+  					"name": "Granada",
+  					"code": "ESP-AND-GRN",
+  					"longname": "Granada",
+  					"altname": "Granada",
+  					"altcode": "ES-GR",
+  					"x": 264.0,
+  					"y": 436.0,
+  					"width": 126.0,
+  					"height": 104.0,
+  					"logicalcenterx": 63.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M126,13l-5,3l-1,5l2,3l-3,5l1,5l-5,0l3,6l-1,2l-6,1l-10,8l-2,13l-6,-1l-4,-3l-7,13l-5,0l3,10l-5,5l2,5l-7,4l1,3l-12,0l-8,4l-8,-4l-9,1l-2,-1l0,-5l-2,-3l-14,-5l-3,-3l-6,-2l-1,-3l-3,0l-1,-9l-2,-4l4,-3l0,-2l4,4l-1,-3l-3,-1l1,-6l5,-1l4,-4l5,0l4,2l6,-1l2,-7l3,1l8,-4l6,-7l9,5l4,-2l3,-4l3,0l7,3l2,-1l4,1l1,-3l5,-3l-1,-5l6,-12l5,-5l3,1l4,-3l0,-4l3,-2l12,4l8,9"
+  					}]
+  				},{
+  					"name": "Gerona",
+  					"code": "ESP-CTL-GRA",
+  					"longname": "Gerona",
+  					"altname": "Girona",
+  					"altcode": "ES-GI",
+  					"x": 607.0,
+  					"y": 98.0,
+  					"width": 88.0,
+  					"height": 62.0,
+  					"logicalcenterx": 53.0,
+  					"logicalcentery": 27.0,
+  					"polys": [{
+  						"path": "M80,2l0,6l8,2l-3,6l-2,0l0,1l-4,-2l-2,3l1,7l5,4l-1,4l3,5l-2,5l-5,3l-9,11l-5,2l-3,3l-1,-6l-6,-1l-6,3l-4,-5l-7,-1l-2,-6l3,1l5,-3l0,-2l-3,-2l3,-2l1,-3l-1,-3l-3,0l-4,-4l-4,1l-1,-2l-8,2l-7,-2l-2,-4l2,3l3,-1l-1,-3l-1,-1l2,-5l-8,-2l-5,1l1,-4l-3,0l0,-3l-4,-2l0,-4l11,3l2,5l3,2l5,-3l1,-2l7,-2l10,3l5,4l3,-2l6,1l-2,-3l1,-2l3,-1l3,0l5,-4l3,1l1,-2l1,1l4,-1l3,3l5,-1"
+  					}]
+  				},{
+  					"name": "Córdoba",
+  					"code": "ESP-AND-CRD",
+  					"longname": "Córdoba",
+  					"altname": "Cordoba",
+  					"altcode": "ES-CO",
+  					"x": 191.0,
+  					"y": 386.0,
+  					"width": 92.0,
+  					"height": 114.0,
+  					"logicalcenterx": 45.0,
+  					"logicalcentery": 55.0,
+  					"polys": [{
+  						"path": "M32,85l-3,-4l3,0l0,4M54,111l-3,-7l1,-1l-3,-1l1,1l-1,2l-3,0l-3,-3l0,-5l-5,-5l-1,-9l-2,1l1,-3l-3,-5l-4,0l0,4l-2,-3l0,2l-4,-1l-11,7l-4,-7l7,-2l0,-5l-2,-2l0,-4l-4,-2l0,-6l-4,-3l1,-4l-6,-7l3,-2l1,-3l-3,-10l1,-7l9,-7l3,-5l3,1l9,-7l-1,-3l8,0l4,3l6,0l1,5l8,3l6,7l4,1l4,6l11,4l4,4l0,3l3,9l-7,8l1,6l-2,11l4,2l-2,3l5,3l-3,6l3,1l5,7l0,2l4,6l-5,0l-4,4l-5,1l-1,6l-3,0l-2,-4l-3,2l-4,1l-2,4l-6,0l-1,-3l-2,0"
+  					}]
+  				},{
+  					"name": "Cádiz",
+  					"code": "ESP-AND-CDZ",
+  					"longname": "Cádiz",
+  					"altname": "Cadiz",
+  					"altcode": "ES-CA",
+  					"x": 136.0,
+  					"y": 511.0,
+  					"width": 82.0,
+  					"height": 78.0,
+  					"logicalcenterx": 40.0,
+  					"logicalcentery": 36.0,
+  					"polys": [{
+  						"path": "M71,55l-6,11l-6,-1l-1,7l1,1l-11,5l-5,-5l-6,-1l-7,-8l-8,-1l-3,-6l-3,-3l-10,-18l2,0l3,6l4,-4l-4,1l1,-6l-2,0l-2,-3l-6,-2l-2,-6l0,-2l6,-4l0,-7l6,0l5,1l3,3l14,1l2,-5l9,-1l3,-3l7,6l0,-2l4,-5l-2,-4l4,0l1,3l-3,2l2,3l8,-7l4,7l6,-4l2,3l1,4l-3,5l-2,1l-6,-4l-3,1l-2,3l3,4l-3,7l-3,3l-4,1l-4,6l-6,-1l0,2l5,2l2,-3l5,1l5,10l0,5l3,-1l2,2"
+  					}]
+  				},{
+  					"name": "Cáceres",
+  					"code": "ESP-EXT-CCR",
+  					"longname": "Cáceres",
+  					"altname": "Caceres",
+  					"altcode": "ES-CC",
+  					"x": 83.0,
+  					"y": 252.0,
+  					"width": 148.0,
+  					"height": 108.0,
+  					"logicalcenterx": 79.0,
+  					"logicalcentery": 58.0,
+  					"polys": [{
+  						"path": "M148,83l-4,3l-2,0l-2,-2l-4,5l-6,1l-5,-2l0,7l-2,4l-2,2l-3,-1l-3,-3l-4,0l-1,1l1,3l-1,3l-4,2l-2,0l-6,-5l-1,2l-6,2l-1,-2l-4,3l0,-5l-8,7l-5,-4l-4,-1l-1,-6l-3,1l-10,-1l0,1l-5,-3l-3,1l-5,-1l-2,-4l4,-6l-3,-1l0,-4l-5,0l-10,-4l0,2l3,2l-3,4l-2,1l-1,-3l2,-1l0,-1l-2,-1l-3,2l0,4l-3,3l-2,-1l-4,-5l2,-9l-5,-3l-1,-2l-6,-6l-1,-5l11,3l4,-2l7,1l7,-1l3,-10l4,-3l3,-12l-3,-7l-4,-2l-1,-4l5,-5l4,-1l6,3l3,-2l2,1l6,-1l2,-5l18,-10l7,3l-1,2l3,2l-2,3l-2,-1l1,2l-4,0l-3,2l6,-1l-1,4l2,1l-3,1l2,2l4,-1l-2,-1l2,-1l-2,-1l-1,-4l1,-2l5,1l5,5l8,-5l-1,4l2,1l2,-1l11,8l3,-1l3,-3l5,-1l-1,7l2,4l-2,0l-3,18l4,-1l2,2l-1,8l3,1l3,-4l2,0l0,4l2,3l-4,8l14,15"
+  					}]
+  				},{
+  					"name": "Cuenca",
+  					"code": "ESP-CLM-CNC",
+  					"longname": "Cuenca",
+  					"altname": "Cuenca",
+  					"altcode": "ES-CU",
+  					"x": 335.0,
+  					"y": 243.0,
+  					"width": 115.0,
+  					"height": 107.0,
+  					"logicalcenterx": 55.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M114,48l1,3l-3,2l1,2l-1,7l-4,6l0,5l-6,0l-6,8l-4,-6l0,4l3,3l-3,1l3,1l0,8l-13,8l-3,3l-7,-2l-5,1l-2,-4l-4,-1l3,7l-8,-1l-6,4l-2,-4l-3,4l-8,-8l-2,1l-3,-1l-9,1l-1,-5l-2,0l-2,3l-3,0l1,-2l-3,-7l1,-13l-5,-5l-4,-10l-4,-2l2,-8l-3,-1l0,-6l5,-2l-2,-3l2,-1l3,0l0,-3l2,-1l5,3l4,-3l2,-5l-1,-8l2,-5l1,2l-1,2l0,1l2,-2l1,8l2,-1l-1,-3l2,2l-3,-6l2,0l-1,-1l5,-2l8,2l-2,0l0,-2l-2,-2l1,-4l2,1l4,-2l1,1l2,-2l-3,-2l2,-3l3,4l2,-1l1,-4l4,1l3,-1l0,-2l4,1l3,3l6,0l4,13l3,2l6,6l-1,2l0,1l3,-1l8,8l5,0l0,3l4,10l8,1l4,-1"
+  					}]
+  				},{
+  					"name": "Ciudad Real",
+  					"code": "ESP-CLM-CDR",
+  					"longname": "Ciudad Real",
+  					"altname": "Ciudad Real",
+  					"altcode": "ES-CR",
+  					"x": 224.0,
+  					"y": 323.0,
+  					"width": 140.0,
+  					"height": 92.0,
+  					"logicalcenterx": 72.0,
+  					"logicalcentery": 50.0,
+  					"polys": [{
+  						"path": "M13,14l-6,-2l6,-11l5,4l0,6l-5,3M127,84l-1,1l-5,-1l-2,3l-3,-4l-5,2l-12,-2l-3,4l-4,2l-4,-1l0,-3l-2,0l-2,4l-12,-2l-3,3l-5,1l-19,-3l-1,4l-11,-4l-4,-6l-4,-1l-6,-7l-8,-3l-1,-5l-6,0l-4,-3l4,-1l3,-10l5,-2l1,-3l-5,-2l-2,-7l4,2l3,-1l-2,-4l1,-5l3,-3l8,3l-3,-3l-2,-8l3,-1l2,-6l-1,-3l4,0l0,-3l7,-5l2,6l2,-3l11,3l2,-1l3,-6l6,0l1,4l-2,1l0,4l-3,0l-2,7l3,2l2,-2l5,1l1,4l6,3l4,-2l4,2l4,-2l6,-1l6,-6l8,-1l1,-5l8,-2l8,4l5,-2l3,7l-1,2l3,0l2,-3l2,0l1,5l2,4l-7,10l2,7l-5,8l7,4l2,7l5,3l-1,7l-4,3l-1,-1l0,7l-7,5"
+  					}]
+  				},{
+  					"name": "Castellón",
+  					"code": "ESP-VLN-CST",
+  					"longname": "Castellón",
+  					"altname": "Castellon",
+  					"altcode": "ES-CS",
+  					"x": 468.0,
+  					"y": 232.0,
+  					"width": 76.0,
+  					"height": 81.0,
+  					"logicalcenterx": 39.0,
+  					"logicalcentery": 41.0,
+  					"polys": [{
+  						"path": "M76,18l-8,18l-10,10l-2,6l-5,4l-3,9l-6,6l-4,9l-5,-2l-3,-4l-4,0l-1,4l-5,3l0,-2l-2,-1l-6,0l-1,-6l-2,-1l-3,2l-3,-4l-3,-3l1,-5l3,-2l1,-3l4,0l4,-2l-1,-3l3,-2l2,-8l2,1l5,-2l1,-3l6,-6l-3,-5l4,-3l-2,-2l0,-8l-5,0l0,-3l2,-2l2,2l5,-4l2,-6l2,0l5,4l5,0l1,3l3,-3l4,-1l3,0l1,3l3,1l-1,2l1,2l6,1l3,4l4,2"
+  					}]
+  				},{
+  					"name": "Cantabria",
+  					"code": "ESP-CNT-CNT",
+  					"longname": "Cantabria",
+  					"altname": "Cantabria",
+  					"altcode": "ES-S",
+  					"x": 245.0,
+  					"y": 29.0,
+  					"width": 92.0,
+  					"height": 56.0,
+  					"logicalcenterx": 43.0,
+  					"logicalcentery": 23.0,
+  					"polys": [{
+  						"path": "M43,55l-3,1l-5,-4l3,-2l-1,-2l-4,2l-1,-9l-5,-1l-6,-6l-6,2l-9,0l-2,-5l-4,-2l0,-6l5,0l1,-6l5,0l2,-2l3,2l2,-3l-2,-3l2,-3l6,-1l2,3l1,-3l7,1l9,-3l2,3l0,-4l2,2l2,-3l8,-2l1,2l-3,2l1,3l2,-3l2,1l1,-3l9,-3l3,3l4,1l0,1l-3,1l1,0l0,3l1,-3l1,2l6,-1l0,1l5,1l4,3l0,3l-3,2l-1,-2l-2,1l-4,0l-6,5l1,7l-4,0l-9,-3l-2,4l-4,2l-4,1l0,2l-3,2l-4,-1l1,1l-3,3l-6,-1l1,2l8,-1l-2,5l2,1l5,-3l1,3l-3,0l-1,2l0,2l2,0l1,-2l2,1l0,4l-4,1l-3,3l-3,-1l0,-4l-2,4"
+  					}]
+  				},{
+  					"name": "Burgos",
+  					"code": "ESP-CYL-BRG",
+  					"longname": "Burgos",
+  					"altname": "Burgos",
+  					"altcode": "ES-BU",
+  					"x": 271.0,
+  					"y": 52.0,
+  					"width": 101.0,
+  					"height": 131.0,
+  					"logicalcenterx": 41.0,
+  					"logicalcentery": 63.0,
+  					"polys": [{
+  						"path": "M99,43l-5,-3l-7,1l-5,-6l0,-2l2,-2l4,0l11,2l-3,4l2,3l2,-1l1,3l-2,1M79,89l-3,2l0,5l-2,0l-2,3l-3,1l-4,6l-7,-7l0,9l-4,2l0,3l-2,1l-4,7l-4,-2l-1,3l-7,1l-3,3l0,5l-2,-1l0,-5l-2,1l0,3l-1,0l-5,-6l-4,-2l-2,-3l-1,1l1,-6l-3,-4l1,-2l0,-2l-2,-2l0,-3l6,-2l0,-2l5,-3l0,-2l-8,2l4,-6l-2,-1l-5,1l0,-3l2,-1l-3,-2l-5,-1l1,-3l-2,-3l-3,-13l-2,0l-1,-3l1,-3l5,0l-4,-7l2,-2l-1,-8l7,-4l2,-1l1,2l1,-2l3,-1l2,0l3,1l3,-3l4,-1l0,-4l-2,-1l-1,2l-2,0l0,-2l1,-2l3,0l-1,-3l-5,3l-2,-1l2,-5l1,2l-1,-3l5,1l0,-3l-2,0l3,-2l0,-2l4,-1l4,-2l2,-4l9,3l4,0l8,-5l3,2l4,0l1,1l-2,3l2,2l-1,5l-1,1l5,1l2,2l3,2l0,2l-5,2l-4,-1l0,-2l-5,0l-2,5l4,3l0,-2l2,0l2,-2l1,0l-2,6l1,2l-1,1l6,1l3,4l1,-1l3,1l3,5l-3,1l-2,-1l-7,0l1,3l-4,4l3,0l-1,4l3,3l-1,5l-2,-3l-1,1l3,3l-3,2l1,6l-2,4l5,9l6,0l1,5"
+  					}]
+  				},{
+  					"name": "Barcelona",
+  					"code": "ESP-CTL-BRC",
+  					"longname": "Barcelona",
+  					"altname": "Barcelona",
+  					"altcode": "ES-B",
+  					"x": 589.0,
+  					"y": 112.0,
+  					"width": 79.0,
+  					"height": 86.0,
+  					"logicalcenterx": 34.0,
+  					"logicalcentery": 45.0,
+  					"polys": [{
+  						"path": "M79,48l-28,16l-8,14l-26,8l0,-4l-1,1l-3,-2l2,0l1,-3l-3,0l-1,-4l1,0l-3,-3l-2,1l0,-6l-5,-3l2,-5l-3,-1l1,-1l-3,-1l5,-2l-4,-5l2,-2l-1,-5l4,0l0,2l1,-1l2,2l3,-2l2,-6l-3,-2l4,-3l0,-4l1,1l2,-2l-3,-1l0,-1l2,-1l-1,-2l3,-3l-2,-3l2,-2l-1,-3l-2,0l1,-3l-2,-3l9,-3l5,-1l8,2l-2,5l1,1l1,3l-3,1l-2,-3l2,4l7,2l8,-2l1,2l4,-1l4,4l3,0l1,3l-1,3l-3,2l3,2l0,2l-5,3l-3,-1l2,6l7,1l4,5l6,-3l6,1l1,6"
+  					}]
+  				},{
+  					"name": "Badajoz",
+  					"code": "ESP-EXT-BDJ",
+  					"longname": "Badajoz",
+  					"altname": "Badajoz",
+  					"altcode": "ES-BA",
+  					"x": 90.0,
+  					"y": 328.0,
+  					"width": 157.0,
+  					"height": 114.0,
+  					"logicalcenterx": 70.0,
+  					"logicalcentery": 57.0,
+  					"polys": [{
+  						"path": "M80,108l-2,2l0,-2l-2,-1l1,3l-8,1l-4,3l-10,-5l-3,-4l-3,0l-1,2l0,1l-6,-1l-1,-5l-12,-2l1,-5l-8,-3l-10,1l-2,-6l-10,-14l4,-1l-3,-2l5,-10l-1,0l0,-8l13,-10l0,-3l6,-8l-2,-5l-2,-2l-7,-1l0,-4l-5,-3l0,-5l2,1l3,-3l0,-4l3,-2l2,1l0,1l-2,1l1,3l2,-1l3,-4l-3,-2l0,-2l10,4l5,0l0,4l3,1l-4,6l2,4l5,1l3,-1l5,3l0,-1l10,1l3,-1l1,6l4,1l5,4l8,-7l0,5l4,-3l1,2l6,-2l1,-2l6,5l2,0l4,-2l1,-3l-1,-3l1,-1l4,0l3,3l3,1l2,-2l2,-4l0,-7l5,2l6,-1l4,-5l2,2l2,0l-3,8l-3,0l-2,3l0,-5l-2,10l2,0l-1,-3l3,0l-1,-1l2,-3l1,1l5,-8l0,-3l6,4l3,5l2,0l-2,-1l-2,-6l-5,-3l7,3l0,-2l5,-3l4,-2l1,3l-2,6l-3,1l2,8l3,3l-8,-3l-3,3l-1,5l2,4l-3,1l-4,-2l2,7l5,2l-1,3l-5,2l-3,10l-4,1l-8,0l1,3l-9,7l-3,-1l-3,5l-9,7l-1,7l3,10l-1,3l-3,2l-3,-1l-5,4l-1,-3l3,-2l-1,-2l-2,-1l-4,1l-6,4l-2,7"
+  					}]
+  				},{
+  					"name": "Avila",
+  					"code": "ESP-CYL-AVL",
+  					"longname": "Ávila",
+  					"altname": "Avila",
+  					"altcode": "ES-AV",
+  					"x": 188.0,
+  					"y": 204.0,
+  					"width": 90.0,
+  					"height": 79.0,
+  					"logicalcenterx": 46.0,
+  					"logicalcentery": 44.0,
+  					"polys": [{
+  						"path": "M75,58l-2,5l-2,1l-2,-3l-1,1l1,4l-3,5l-4,1l-2,-1l-1,-5l-6,1l-1,3l-8,8l-2,0l-1,-4l-8,5l-4,-1l-6,-1l-2,-4l1,-7l-5,1l-3,3l-3,1l-11,-8l4,-3l-1,-6l4,-3l3,-1l0,2l3,2l0,-3l3,0l2,-8l-5,1l0,-3l4,1l4,-3l0,-4l9,-6l4,-4l0,-3l3,-4l-1,-3l2,-3l-1,-3l-2,-1l1,-7l5,0l2,-1l8,4l8,-3l0,6l5,3l4,5l0,6l2,1l-1,3l3,-1l3,8l1,8l5,-1l4,-1l-1,-1l6,-1l-1,5l-3,1l-3,-1l0,3l-2,3l0,10l-3,0l-4,-1l1,2"
+  					}]
+  				},{
+  					"name": "Asturias",
+  					"code": "ESP-AST-AST",
+  					"longname": "Asturias",
+  					"altname": "Asturias",
+  					"altcode": "ES-O",
+  					"x": 118.0,
+  					"y": 15.0,
+  					"width": 145.0,
+  					"height": 55.0,
+  					"logicalcenterx": 64.0,
+  					"logicalcentery": 27.0,
+  					"polys": [{
+  						"path": "M7,10l3,-3l-1,-3l14,0l2,2l5,-1l16,1l6,-2l3,2l4,1l4,-2l4,0l6,-5l3,2l6,7l15,0l1,2l-2,1l2,0l1,-2l4,0l4,5l5,-1l33,8l-2,3l2,3l-2,3l-3,-2l-2,2l-5,0l-1,6l-5,0l-1,-3l-3,-1l-5,4l-4,0l-1,5l-2,1l-1,-1l-4,2l-8,-1l-2,3l-5,0l0,2l-3,0l-9,-2l-4,6l-7,-2l-3,-2l-1,-4l-2,1l-4,-1l0,2l-2,1l-5,-2l0,2l-8,-3l-3,4l-4,0l2,2l0,2l-6,2l-7,-1l-5,2l-3,-2l0,-3l-2,-3l-2,0l-2,-3l-1,3l-2,-2l3,-4l7,-3l0,-2l-2,-3l-2,3l-3,0l0,-4l-6,-5l1,-4l-2,0l-1,-5l-3,-1l0,-3l4,0l3,-4"
+  					}]
+  				},{
+  					"name": "Almería",
+  					"code": "ESP-AND-ALM",
+  					"longname": "Almería",
+  					"altname": "Almeria",
+  					"altcode": "ES-AL",
+  					"x": 334.0,
+  					"y": 449.0,
+  					"width": 90.0,
+  					"height": 92.0,
+  					"logicalcenterx": 48.0,
+  					"logicalcentery": 54.0,
+  					"polys": [{
+  						"path": "M90,40l-8,10l-3,-2l2,1l1,1l-7,19l0,3l-6,5l0,3l-7,7l-5,2l-5,-7l-4,-2l-5,2l-3,-1l-5,1l-5,9l-4,1l-4,0l-2,-2l-2,1l-5,-4l-12,0l-1,-3l7,-4l-2,-5l5,-5l-3,-10l5,0l7,-13l4,3l6,1l2,-13l10,-8l6,-1l1,-2l-3,-6l5,0l-1,-5l3,-5l-2,-3l1,-5l5,-3l2,1l3,0l2,1l7,1l-2,6l0,10l10,15l2,2l0,-2l4,1l6,5"
+  					}]
+  				},{
+  					"name": "Alicante",
+  					"code": "ESP-VLN-ALC",
+  					"longname": "Alicante",
+  					"altname": "Alicante",
+  					"altcode": "ES-A",
+  					"x": 456.0,
+  					"y": 374.0,
+  					"width": 76.0,
+  					"height": 79.0,
+  					"logicalcenterx": 30.0,
+  					"logicalcentery": 31.0,
+  					"polys": [{
+  						"path": "M60,0l14,6l2,4l-8,7l0,2l-6,1l-5,7l-3,-1l-8,5l-5,4l-2,6l-6,2l1,8l-1,2l-5,0l-2,3l0,12l-3,2l-4,9l-4,-1l-4,-4l-7,-11l-1,-5l3,-5l1,-6l-2,-4l-5,-1l0,-7l4,-5l-1,-11l7,-3l-3,-5l0,-2l2,-1l0,2l4,0l1,2l6,-2l5,2l1,4l7,-5l-4,-1l-1,-3l8,0l8,-6l5,2l9,-3l2,2l0,-2"
+  					}]
+  				},{
+  					"name": "Albacete",
+  					"code": "ESP-CLM-ALB",
+  					"longname": "Albacete",
+  					"altname": "Albacete",
+  					"altcode": "ES-AB",
+  					"x": 350.0,
+  					"y": 335.0,
+  					"width": 116.0,
+  					"height": 105.0,
+  					"logicalcenterx": 53.0,
+  					"logicalcentery": 45.0,
+  					"polys": [{
+  						"path": "M20,101l6,-8l1,-6l-3,-2l0,-8l-6,-1l0,-7l-2,-1l-4,2l-4,-3l0,-7l1,1l4,-3l1,-7l-5,-3l-2,-7l-7,-4l5,-8l-2,-7l7,-10l-2,-4l9,-1l3,1l2,-1l8,8l3,-4l2,4l6,-4l8,1l-3,-7l4,1l2,4l5,-1l7,2l3,-3l13,-8l3,2l0,3l3,-1l4,3l10,1l-1,8l-5,12l8,9l11,-1l2,4l0,7l-2,1l0,2l3,5l-7,3l-5,-4l-1,-3l-3,-1l-10,6l-1,-2l-2,0l-3,4l0,5l-3,4l1,12l-6,5l-5,-1l-1,-4l-5,1l-7,-4l0,1l1,3l5,0l0,1l-7,4l-5,1l-3,-2l-3,5l-7,4l-7,12l-12,-4"
+  					}]
+  				},{
+  					"name": "Alava",
+  					"code": "ESP-PSV-ALV",
+  					"longname": "Álava",
+  					"altname": "Alava",
+  					"altcode": "ES-VI",
+  					"x": 330.0,
+  					"y": 52.0,
+  					"width": 57.0,
+  					"height": 55.0,
+  					"logicalcenterx": 31.0,
+  					"logicalcentery": 29.0,
+  					"polys": [{
+  						"path": "M13,17l3,-1l0,-2l-3,-2l-2,3l-5,-1l1,-1l1,-5l-2,-2l2,-3l5,1l1,-4l3,0l2,4l-2,4l8,5l10,1l-1,-3l2,-2l4,0l1,2l-1,3l-2,1l0,2l10,1l8,5l1,4l-2,2l0,4l-3,3l2,5l-4,2l-2,-2l-5,4l2,3l3,-2l1,3l-2,5l-3,0l-2,-2l-1,3l-4,0l0,-2l-2,1l-2,-2l-2,0l2,-6l-4,-2l-4,5l-1,-2l1,-1l-2,1l0,-4l-3,-5l-3,-1l-1,1l-3,-4l-6,-1l1,-1l-1,-2l2,-6l-1,0l-2,2l-2,0l0,2l-4,-3l2,-5l5,0l0,2l4,1l5,-2l0,-2l-3,-2M40,43l2,-1l-1,-3l-2,1l-2,-3l3,-4l-11,-2l-4,0l-2,2l0,2l5,6l7,-1l5,3"
+  					}]
+  				}]},{
+  			"name": "City",
+  			"type": "point",
+  			"points": [{
+  					"name": "Madrid, Spain",
+  					"x": 304.0,
+  					"y": 259.0
+  				},{
+  					"name": "Barcelona, Spain",
+  					"x": 633.0,
+  					"y": 182.0
+  				}]}]}}

@@ -188,7 +188,6 @@ export class PhoenixChart {
       version: '6'
     };
     if (_isMap(type)) {
-      config.phoenixZoom = false;
       // Make sure there is nothing graphs related when it's not a graph
       delete config.components.graph;
     } else {

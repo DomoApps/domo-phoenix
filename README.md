@@ -75,7 +75,7 @@ const options = {
 };
 
 // Create the Phoenix Chart
-const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+const chart = new PhoenixChart(PHOENIX_CHART_TYPE.BAR, data, options);
 
 // Append the canvas element to your app
 document.getElementById('myDiv').appendChild(chart.canvas);
@@ -101,12 +101,12 @@ The following are customizable options along with their defaults.
 
 We have provided an enum, `PHOENIX_CHART_TYPE`, for you with all the supported chart types. Here are a few examples of common chart types:
 
-- `VERT_BAR`
-- `VERT_STACKEDBAR`
+- `BAR`
+- `STACKEDBAR`
 - `HORIZ_BAR`
-- `TRENDLINE`
+- `LINE`
 - `CURVED_LINE`
-- `STACKEDTREND`
+- `STACKED_AREA`
 - `NAUTILUS`
 - `PIE`
 - `FUNNEL`

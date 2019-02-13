@@ -21,6 +21,7 @@ export class PhoenixChart {
   private _data: PhoenixChartData;
   private _options: PhoenixChartOptions;
   private _instance: any;
+  private _packet: string;
   public canvas: HTMLCanvasElement;
 
   constructor(
@@ -80,6 +81,7 @@ export class PhoenixChart {
       data,
       this._options
     );
+    this._packet = configString;
     this._instance.updateChartJson(configString, !this._options.animate);
   }
 
@@ -97,6 +99,13 @@ export class PhoenixChart {
   resetColorPalette() {
     this._options.colors = null;
     this.update(this._data);
+  }
+
+  /**
+   * Get the chart packet for debugging
+   */
+  getPacket(): string {
+    return this._packet;
   }
 
   private transformData(rows) {
@@ -127,6 +136,7 @@ export class PhoenixChart {
       true,
       0
     );
+    this._packet = configString;
 
     return chart;
   }
@@ -164,22 +174,22 @@ export class PhoenixChart {
       components: {
         graph: !_isMap(type)
           ? {
-              type: 'graph',
-              badgetype: type,
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'graph',
+            badgetype: type,
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null,
         map: _isMap(type)
           ? {
-              type: 'map',
-              badgetype: type,
-              mapdef: 'map',
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'map',
+            badgetype: type,
+            mapdef: 'map',
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null
       },
       maps: _isMap(type) ? _getMapDefinition(type) : null,

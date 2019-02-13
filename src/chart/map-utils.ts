@@ -37,9 +37,9 @@ import WORLD_MAP from '../maps/world.json';
 
 export function _getMapDefinition(type: string): any {
   switch (type) {
-    case PHOENIX_CHART_TYPE.MAP:
+    case PHOENIX_CHART_TYPE.MAP_UNITED_STATES:
       return US_MAP;
-    case PHOENIX_CHART_TYPE.WORLD_MAP:
+    case PHOENIX_CHART_TYPE.MAP_WORLD:
       return WORLD_MAP;
     case PHOENIX_CHART_TYPE.MAP_CANADA:
       return CANADA_MAP;
@@ -63,7 +63,7 @@ export function _getMapDefinition(type: string): any {
       return EUROPE_MAP;
     case PHOENIX_CHART_TYPE.MAP_FRANCE:
       return FRANCE_MAP;
-    case PHOENIX_CHART_TYPE.MAP_FRANCE_DEPT:
+    case PHOENIX_CHART_TYPE.MAP_FRANCE_DEPARTMENTS:
       return FRANCE_DEPT_MAP;
     case PHOENIX_CHART_TYPE.MAP_GERMANY:
       return GERMANY_MAP;
@@ -107,10 +107,10 @@ export function _getMapDefinition(type: string): any {
       return UAE_MAP;
     case PHOENIX_CHART_TYPE.MAP_UNITED_KINGDOM:
       return UNITED_KINGDOM_MAP;
-    case PHOENIX_CHART_TYPE.MAP_US_COUNTY:
+    case PHOENIX_CHART_TYPE.MAP_US_COUNTIES:
     case PHOENIX_CHART_TYPE.MAP_US_STATE:
-    case PHOENIX_CHART_TYPE.MAP_FRANCE2016:
-    case PHOENIX_CHART_TYPE.MAP_UK_AREA:
+    case PHOENIX_CHART_TYPE.MAP_FRANCE:
+    case PHOENIX_CHART_TYPE.MAP_UK_COUNTRY:
     case PHOENIX_CHART_TYPE.MAP_UK_POSTAL:
     case PHOENIX_CHART_TYPE.MAP_LATLONG:
     case PHOENIX_CHART_TYPE.MAP_LATLONG_ROUTE:
@@ -123,8 +123,8 @@ export function _getMapDefinition(type: string): any {
 
 export function _isMap(type: string): boolean {
   switch (type) {
-    case PHOENIX_CHART_TYPE.WORLD_MAP:
-    case PHOENIX_CHART_TYPE.MAP:
+    case PHOENIX_CHART_TYPE.MAP_WORLD:
+    case PHOENIX_CHART_TYPE.MAP_UNITED_STATES:
     case PHOENIX_CHART_TYPE.MAP_AFRICA:
     case PHOENIX_CHART_TYPE.MAP_ASIA:
     case PHOENIX_CHART_TYPE.MAP_AUSTRALIA:
@@ -136,8 +136,8 @@ export function _isMap(type: string): boolean {
     case PHOENIX_CHART_TYPE.MAP_CUSTOM:
     case PHOENIX_CHART_TYPE.MAP_EUROPE:
     case PHOENIX_CHART_TYPE.MAP_FRANCE:
-    case PHOENIX_CHART_TYPE.MAP_FRANCE2016:
-    case PHOENIX_CHART_TYPE.MAP_FRANCE_DEPT:
+    case PHOENIX_CHART_TYPE.MAP_FRANCE:
+    case PHOENIX_CHART_TYPE.MAP_FRANCE_DEPARTMENTS:
     case PHOENIX_CHART_TYPE.MAP_GERMANY:
     case PHOENIX_CHART_TYPE.MAP_GHANA:
     case PHOENIX_CHART_TYPE.MAP_INDIA:
@@ -161,10 +161,10 @@ export function _isMap(type: string): boolean {
     case PHOENIX_CHART_TYPE.MAP_SPAIN:
     case PHOENIX_CHART_TYPE.MAP_SWITZERLAND:
     case PHOENIX_CHART_TYPE.MAP_UAE:
-    case PHOENIX_CHART_TYPE.MAP_UK_AREA:
+    case PHOENIX_CHART_TYPE.MAP_UK_COUNTRY:
     case PHOENIX_CHART_TYPE.MAP_UK_POSTAL:
     case PHOENIX_CHART_TYPE.MAP_UNITED_KINGDOM:
-    case PHOENIX_CHART_TYPE.MAP_US_COUNTY:
+    case PHOENIX_CHART_TYPE.MAP_US_COUNTIES:
     case PHOENIX_CHART_TYPE.MAP_US_STATE:
       return true;
     default:

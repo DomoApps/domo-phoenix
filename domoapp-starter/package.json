@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.dev.js --mode development",
     "build": "webpack --config webpack.prod.js --mode production && cp manifest.json dist/. && cp thumbnail.png dist/.",
-    "deploy": "cd dist ; domo publish ; cd ..",
+    "deploy": "cd dist && domo publish && cd ..",
     "preview": "npm run build && http-server dist"
   },
   "dependencies": {

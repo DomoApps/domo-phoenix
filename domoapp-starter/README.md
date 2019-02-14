@@ -1,9 +1,24 @@
 # Create your Custom App
+
+### Before you begin
 This guide assumes you have already completed the **Dev Studio** [Overview](https://developer.domo.com/docs/dev-studio/dev-studio-overview) and [Quickstart](https://developer.domo.com/docs/dev-studio/dev-studio-quickstart) on [developer.domo.com](https://developer.domo.com). *Please complete those before continuing this tutorial*.
 
+### Requirements
+Please ensure you have the following installed:
+- A Git client - An installed [command line](https://git-scm.com/downloads) or [desktop client](https://desktop.github.com/) should work.
+- NPM - NPM is included with the [Node.js](https://nodejs.org/en/download/) install.
 
-### Install the required packages
+### Download and install domoapp-starter
+Use git to *clone* (download) this project from [https://github.com/th3uiguy/domo-phoenix.git](https://github.com/th3uiguy/domo-phoenix.git). If you are using a command line client, you can run the following command in your terminal:
 ```bash
+git clone https://github.com/th3uiguy/domo-phoenix.git
+```
+
+
+In a terminal, change to the `domoapp-starter` folder and install the project:
+```bash
+cd /Path/to/domo-phoenix
+cd domoapp-starter
 npm install
 ```
 
@@ -12,13 +27,17 @@ npm install
 ```bash
 npm start
 ```
-Check that the server is running by going to [localhost:8080](http://localhost:8080) in your browser.
+Check that the server is running by going to [localhost:8080](http://localhost:8080) in your browser. You should see "DomoApp Starter" if it is running correctly.
 
 
 ### Edit index.html
-Open `index.html` in your prefered IDE or text editor
-Change the html in the `body` to 'Hello Word'
-Go to back to [localhost:8080](http://localhost:8080) to see that the App changed
+- Open `index.html` in the `domoapp-starter` folder in your prefered IDE or text editor
+- Change the HTML in the `body` to 'Hello Word'
+- Go to back to [localhost:8080](http://localhost:8080) to see that the App changed (`npm start` should still be running)
+
+
+### Find your dataset id
+*Instructions on how to get the id go here. You can find it in Domo datacenter*
 
 
 ### Create your App's manifest
@@ -27,6 +46,7 @@ domo init
 ```
 - Give your App a name
 - Choose **manifest only**
+- Connect to your dataset using the dataset id
 
 
 ### Modify your App's manifest
@@ -133,8 +153,8 @@ chart.render();
 ```
 
 ### Test
-Run `npm start` to test your app in your browser
-Go to back to [localhost:8080](http://localhost:8080), you should now see a Phoenix chart
+- Run `npm start` to test your app in your browser
+- Go to back to [localhost:8080](http://localhost:8080), you should now see a Phoenix chart
 
 
 
@@ -160,3 +180,17 @@ const {
     PHOENIX_MAPPING
 } = require('@domoinc/domo-phoenix');
 ```
+
+### Get the data
+Use domo.js to get your data by adding the following to your `src/index.js` file:
+```js
+domo.get('/data/v1/DATASET_ALIAS').then(function(data){
+  console.log(data);
+})
+```
+*More instructions to come...*
+
+Data API documentation: https://developer.domo.com/docs/dev-studio-references/data-api
+
+
+### Chart your data

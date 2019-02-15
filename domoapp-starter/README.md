@@ -25,6 +25,7 @@ npm install
 
 
 ### Start the server
+In your terminal run:
 ```bash
 npm start
 ```
@@ -50,17 +51,31 @@ https://mycompany.domo.com/datasources/f3312abc-469b-476e-8283-ef77367c9fec/deta
 - Copy the dataset id portion in your browser's URL. You will need to paste this in your terminal in the next section.
 
 
+### Make sure you are up-to-date
+Before you can publish your App you will want to make sure that your `domo` client is up to date and linked to the correct account. To do this run:
+```bash
+domo login
+```
+- Select the correct "Domo instance" from the list or select "new instance" to add a new one.
+- If you choose "new instance" you will be prompted to enter the instance domain. Generally this is your "companyname" followed by `.domo.com`.
+- If your `domo` client needs to be updated you will be prompted here. Do it, it doesn't take that long.
+- If you are not already logged in to that instance, you will be prompted to do so via your web browser.
+- Once your instance is set and you are logged in, you are ready to publish to that instance.
+
+
 ### Create your App's manifest
 - Go back to your terminal windown and quit the `npm start` command (if it is still running, press `Ctrl + C` on Windows or `Cmd + C` on Mac).
 - Run the command `domo init` to start the process of initializing your Domo App.
 - Give your App a name.
-- Choose **manifest only**.
-- Connect to your dataset using the dataset id.
+- Choose **manifest only** (down arrow to select it the option).
+- Connect to your dataset using the dataset id (Type `Y` when prompted).
+- Paste your dataset id when prompted.
 - Give your dataset an alias, any name (whithout spaces) will do. You will use this alias later, so don't forget it.
+- You do not need to add anymore datasets (Type `n` when prompted).
 
 
 ### Modify your App's manifest
-The default size in the DomoApp is too small for a Phoenix chart. Open the `manifest.json` now in your `domoapp-starter` folder and change the following:
+The default size in the DomoApp is too small for a Phoenix chart. Open the `manifest.json` (now in your `domoapp-starter` folder) and change the following:
 - Change the `width` from `1` to `3`.
 - Change the `height` from `1` to `2`.
 - Save and close the file.
@@ -72,7 +87,7 @@ Return to your terminal window and type:
 npm run build
 npm run deploy
 ```
-You can now build your App as Card to any page in Domo!
+You can now add your Custom App as Card to any page in Domo!
 
 
 
@@ -90,7 +105,7 @@ npm install --save ryuu.js
 ```
 
 
-### Add domo.js to your app
+### Add domo.js to your App
 Add `const domo = require('ryuu.js');` to the top of `src/index.js`. The top of `index.js` should now look like this:
 
 ```js
@@ -107,21 +122,21 @@ domo.get('/data/v1/DATASET_ALIAS?limit=100').then(function(data){
 ```
 
 # Publish and test your App
-Now that domo.js is added, you can test that it is querying your dataset corectly. Before we can test it you will need to build and publish your App again. If you don't remember how to do this, run the following commands in your terminal:
+Now that domo.js is added, you can test that it is querying your dataset corectly. Before you can test it you will need to build and publish your App again. If you don't remember how to do this, it is as simple as runing `npm run build` to build and then `npm run deploy`. If you want to get really fancy you can run both commands on one line like this:
 ```bash
-npm run build
-npm run deploy
+npm run build && npm run deploy
 ```
 
+
 ### Using your Custom App
-You will need to add your Custom App as a Card to one of your pages in Domo. To do this:
+To use your Custom App, add it as a Card to one of your pages in Domo. To do this:
 - Login to Domo.
-- Find or create a Page you want to add the Custom App Card to.
+- Find or create a Page you want to add the Custom App's Card to.
 - Select "Design" from the Page's "Add Card" dropdown.
 - In the popup modal select "Custom App"
 - You should be taken to a screen of your published Apps. Select the Custom App you just published.
-- Click the "New Card" button
-- You should be taken to a preview of your App, from here you will select the dataset to power up the App.
+- Click the "New Card" button in the popup modal.
+- You should be taken to a preview of your App, from here you will select a dataset to power up the App.
 - Below the grey preview area there is a black bar with the dataset alias you setup for you App, select it.
 - Open the "Select Dataset" dropdown.
 - Search for the dataset you would like to use and select it.
@@ -146,10 +161,11 @@ npm install --save @domoinc/domo-phoenix
 
 
 ### Import Phoenix into your App
-Open `index.html` and add replace the code inside `<body></body>` with the following:
+Open `index.html` and replace the code inside `<body></body>` with the following:
 ```html
 <div id="phoenix-chart"></div>
 ```
+Note: This `div` is where the Phoenix chart will get placed inside of, as a `canvas` element.
 
 
 Open `src/index.js` and add the following lines:
@@ -229,8 +245,8 @@ chart.render();
 
 
 
-# Using PhoenixChart
-`PhoenixChart` requires the following parameters:
+# How to use PhoenixChart
+Before you can use `PhoenixChart` to graph your data, let's go over how it works. `PhoenixChart` requires the following parameters:
 1. Chart Type - [Choose a chart type](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) that will best visualize your data
 2. Data - A two dimentional Array of the data
 3. Options - Set the "Chart Options" [](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api)
@@ -238,7 +254,7 @@ chart.render();
 
 ### Choose your Chart Type
 - The Chart Type is set using an `enum`. You can find the `enum` for your Chart Type by selecting the Chart Type on the [Chart Properties](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
-- Examples of some of these Chart Types are
+- Examples of using these charts are found on the [Charts](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) page of the documentation.
 
 
 ### Formating your data for Phoenix
@@ -283,21 +299,24 @@ Where:
 
 
 ### Set the chart options
+Chart options are used to customize how your chart is displayed. More on using this can be found in the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) documentation. For now you can just set the `height` and `width` and ignore the rest. These values are pixel dimensions for the chart.
 ```js
 const options = {
     width: 600,
-    height: 500,
+    height: 500
 };
 ```
 
 
 ### Create the chart
+Once you have the `data` and have set the `options` you are ready to create a `PhoenixChart`.
 ```js
 const chart = new PhoenixChart(PHOENIX_CHART_TYPE.BAR, data, options);
 ```
 
 
 ### Place the canvas on your page
+Now just place the `canvas` element on your page and call the `.render()` method to tell Phoenix you are ready for it to draw your chart. 
 ```js
 // Append the canvas element to your app
 document.getElementById('phoenix-chart').appendChild(chart.canvas);
@@ -305,3 +324,6 @@ document.getElementById('phoenix-chart').appendChild(chart.canvas);
 // Render the chart when you're ready for the user to see it
 chart.render();
 ```
+More about `render()` and other methods supported by `PhoenixChart` can be found on the "Chart Methods" section of the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) documentation.
+
+### Have fun charting!

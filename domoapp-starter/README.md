@@ -5,8 +5,9 @@ This guide assumes you have already completed the **Dev Studio** [Overview](http
 
 ### Requirements
 Please ensure you have the following installed:
-- A Git client - An installed [command line](https://git-scm.com/downloads) or [desktop client](https://desktop.github.com/) should work.
-- NPM - NPM is included with the [Node.js](https://nodejs.org/en/download/) install.
+- A Git client - Have an installed [command line](https://git-scm.com/downloads) or [desktop](https://desktop.github.com/) Git client.
+- NPM - NPM is included with the [Node.js](https://nodejs.org/en/download/) install. Run `npm -v` in our terminal to ensure this is installed.
+- ryuu - This is intalled when doing the Dev Studio [Overview](https://developer.domo.com/docs/dev-studio/dev-studio-overview). Run `domo -v` in our terminal to ensure this is installed.
 
 ### Download and install domoapp-starter
 Use git to *clone* (download) this project from [https://github.com/th3uiguy/domo-phoenix.git](https://github.com/th3uiguy/domo-phoenix.git). If you are using a command line client, you can run the following command in your terminal:
@@ -15,7 +16,7 @@ git clone https://github.com/th3uiguy/domo-phoenix.git
 ```
 
 
-In a terminal, change to the `domoapp-starter` folder and install the project:
+In a terminal window, change to the `domoapp-starter` folder and install the project:
 ```bash
 cd /Path/to/domo-phoenix
 cd domoapp-starter
@@ -31,31 +32,42 @@ Check that the server is running by going to [localhost:8080](http://localhost:8
 
 
 ### Edit index.html
-- Open `index.html` in the `domoapp-starter` folder in your prefered IDE or text editor
-- Change the HTML in the `body` to 'Hello Word'
-- Go to back to [localhost:8080](http://localhost:8080) to see that the App changed (`npm start` should still be running)
+- Open `index.html` in the `domoapp-starter` folder in your prefered IDE or text editor.
+- Change the HTML in the `body` to "Hello Word".
+- Go to back to [localhost:8080](http://localhost:8080) to see that the App changed (`npm start` should still be running).
 
 
 ### Find your dataset id
-*Instructions on how to get the id go here. You can find it in Domo datacenter*
+Login to Domo and find the dataset you plan to hook your App up to. To do this:
+- Login to Domo.
+- Go to the Data Center (located in the top grey bar of Domo).
+- Search for the dataset you want to use, then go to the "Details" view by selecting it.
+- When viewing the detail of the dataset in Data Center you should see the browser url look something like this:
+```
+https://mycompany.domo.com/datasources/f3312abc-469b-476e-8283-ef77367c9fec/details/overview
+```
+- The dataset id is the 36 character hash between the `datasources/` and before `/details`. In the URL above my dataset id is `f3312abc-469b-476e-8283-ef77367c9fec`.
+- Copy the dataset id portion in your browser's URL. You will need to paste this in your terminal in the next section.
 
 
 ### Create your App's manifest
-```bash
-domo init
-```
-- Give your App a name
-- Choose **manifest only**
-- Connect to your dataset using the dataset id
+- Go back to your terminal windown and quit the `npm start` command (if it is still running, press `Ctrl + C` on Windows or `Cmd + C` on Mac).
+- Run the command `domo init` to start the process of initializing your Domo App.
+- Give your App a name.
+- Choose **manifest only**.
+- Connect to your dataset using the dataset id.
+- Give your dataset an alias, any name (whithout spaces) will do. You will use this alias later, so don't forget it.
 
 
 ### Modify your App's manifest
-The default size in the DomoApp `manifest.json` is too small for a Phoenix chart, this will need to be change to the following:
-- Set the `width` to `3`
-- Set the `height` to `2`
+The default size in the DomoApp is too small for a Phoenix chart. Open the `manifest.json` now in your `domoapp-starter` folder and change the following:
+- Change the `width` from `1` to `3`.
+- Change the `height` from `1` to `2`.
+- Save and close the file.
 
 
 ### Build and Publish your App
+Return to your terminal window and type:
 ```bash
 npm run build
 npm run deploy
@@ -65,11 +77,69 @@ You can now build your App as Card to any page in Domo!
 
 
 
+# Query your dataset
+This section is a simple demo of how to query data from Domo. Please see the [Data API](https://developer.domo.com/docs/dev-studio-references/data-api) documentation for more detail on how to query data in Domo.
 
 
-# Adding Phoenix
+### Install domo.js (part of ryuu.js)
+Install domo.js so you can query data from Domo, to do this:
+- Return to your terminal window.
+- Ensure you are in the `domoapp-starter` folder, then type:
+```bash
+npm install --save ryuu.js
+```
 
-### Install Phoenix
+
+### Add domo.js to your app
+Add `const domo = require('ryuu.js');` to the top of `src/index.js`. The top of `index.js` should now look like this:
+
+```js
+require('normalize.css/normalize.css');
+const domo = require('ryuu.js');
+```
+
+### Get the data
+Use domo.js to get your data by adding the following to your `src/index.js` file, replace `DATASET_ALIAS` with the alias you gave your dataset while creating the App's manifest. You will want to set `limit=100` on the query so you don't crash your browser by getting too many rows:
+```js
+domo.get('/data/v1/DATASET_ALIAS?limit=100').then(function(data){
+  console.log(data);
+});
+```
+
+# Publish and test your App
+Now that domo.js is added, you can test that it is querying your dataset corectly. Before we can test it you will need to build and publish your App again. If you don't remember how to do this, run the following commands in your terminal:
+```bash
+npm run build
+npm run deploy
+```
+
+### Using your Custom App
+You will need to add your Custom App as a Card to one of your pages in Domo. To do this:
+- Login to Domo.
+- Find or create a Page you want to add the Custom App Card to.
+- Select "Design" from the Page's "Add Card" dropdown.
+- In the popup modal select "Custom App"
+- You should be taken to a screen of your published Apps. Select the Custom App you just published.
+- Click the "New Card" button
+- You should be taken to a preview of your App, from here you will select the dataset to power up the App.
+- Below the grey preview area there is a black bar with the dataset alias you setup for you App, select it.
+- Open the "Select Dataset" dropdown.
+- Search for the dataset you would like to use and select it.
+- You should now see a preview of the dataset to the right under "Data Preview"
+- If this looks correct, click the "Save & Finish" button in the top right above the App's grey preview area.
+- You should be redirected to your Page with the Custom App added as a Card to the Page.
+- Open the JavaScript console of your browser (in Chrome this is: `Ctrl + Alt + I` on Windows or `Cmd + Alt + I` on Mac).
+- Click the "Expand Details" button at the top right of your Custom App's Card.
+- Watch the console as the detail view is loaded, you should see a JavaScript object logged with the first 100 rows of your dataset.
+
+
+
+
+
+# Installing Phoenix
+Now that you have created your Domo App and are getting data, lets add Phoenix to it so you can chart data. 
+- Return to your terminal window.
+- Ensure you are still in the `domoapp-starter` folder, then type:
 ```bash
 npm install --save @domoinc/domo-phoenix
 ```
@@ -80,7 +150,6 @@ Open `index.html` and add replace the code inside `<body></body>` with the follo
 ```html
 <div id="phoenix-chart"></div>
 ```
-
 
 
 Open `src/index.js` and add the following lines:
@@ -143,7 +212,7 @@ const options = {
 };
  
 // Create the Phoenix Chart
-const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+const chart = new PhoenixChart(PHOENIX_CHART_TYPE.BAR, data, options);
  
 // Append the canvas element to your app
 document.getElementById('phoenix-chart').appendChild(chart.canvas);
@@ -152,45 +221,87 @@ document.getElementById('phoenix-chart').appendChild(chart.canvas);
 chart.render();
 ```
 
+
 ### Test
-- Run `npm start` to test your app in your browser
+- Run `npm start` to test the App in your browser
 - Go to back to [localhost:8080](http://localhost:8080), you should now see a Phoenix chart
 
 
 
 
-# Hook it up!
+# Using PhoenixChart
+`PhoenixChart` requires the following parameters:
+1. Chart Type - [Choose a chart type](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) that will best visualize your data
+2. Data - A two dimentional Array of the data
+3. Options - Set the "Chart Options" [](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api)
 
-### Install domo.js (part of ryuu.js)
-Install domo.js so you can query data from domo:
-```bash
-npm install --save ryuu.js
-```
 
-### Add domo.js to your app
-Add `const domo = require('ryuu.js');` to the top of `src/index.js`. The top of `index.js` should now look like this:
+### Choose your Chart Type
+- The Chart Type is set using an `enum`. You can find the `enum` for your Chart Type by selecting the Chart Type on the [Chart Properties](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
+- Examples of some of these Chart Types are
 
+
+### Formating your data for Phoenix
+Phoenix expects data in the following format:
 ```js
-require('normalize.css/normalize.css');
-const domo = require('ryuu.js');
-const {
-    PhoenixChart,
-    PHOENIX_CHART_TYPE,
-    PHOENIX_DATA_TYPE,
-    PHOENIX_MAPPING
-} = require('@domoinc/domo-phoenix');
+const data = {
+    rows: [
+        ['Corporate', 8582.8875, 'Low'],
+        ['Home Office', 14415.941, 'High'],
+        ['Corporate', 7965.238, 'Medium']
+    ],
+    columns: [
+        {
+            type: PHOENIX_DATA_TYPE.STRING,
+            name: 'Customer Segment',
+            mapping: PHOENIX_MAPPING.ITEM
+        },
+        {
+            type: PHOENIX_DATA_TYPE.DOUBLE,
+            name: 'Sales',
+            mapping: PHOENIX_MAPPING.VALUE
+        },
+        {
+            type: PHOENIX_DATA_TYPE.STRING,
+            name: 'Order Priority',
+            mapping: PHOENIX_MAPPING.SERIES
+        }
+    ]
+};
 ```
 
-### Get the data
-Use domo.js to get your data by adding the following to your `src/index.js` file:
+Where:
+- `rows` is a 2 dimentional Array of the data
+- `columns` is an `Array` of `Objects` discribing how to chart each column (or Array index) in the `rows` Array. For instance, in the example above the value of the first index/column of my row data is "Corporate", so my `Object` for that column is:
+    - `type` - the value is a `string` so I use `PHOENIX_DATA_TYPE.STRING` here (see the Data Types section of [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) for the full list of types)
+    - `name` - the value came from the "Customer Segment" column of my dataset, so that is how I want Phoenix to label it
+    - `mapping` - Mappings vary by Chart Type (see the [domo-phoenix Documentaion](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) to view the mappings available for your Chart Type). I am using a [bar chart](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/chart/bar) so the supported mappings for my chart are `ITEM`,`VALUE` and `SERIES`. For a bar chart: 
+        - `ITEM` is graphed on the x axis
+        - `VALUE` is graphed on the y axis
+        - `SERIES` defines the segments of the bar chart making this a stacked bar chart
+        - See the "Mappings" section of the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) for a complete list of mappings
+
+
+### Set the chart options
 ```js
-domo.get('/data/v1/DATASET_ALIAS').then(function(data){
-  console.log(data);
-})
+const options = {
+    width: 600,
+    height: 500,
+};
 ```
-*More instructions to come...*
-
-Data API documentation: https://developer.domo.com/docs/dev-studio-references/data-api
 
 
-### Chart your data
+### Create the chart
+```js
+const chart = new PhoenixChart(PHOENIX_CHART_TYPE.BAR, data, options);
+```
+
+
+### Place the canvas on your page
+```js
+// Append the canvas element to your app
+document.getElementById('phoenix-chart').appendChild(chart.canvas);
+ 
+// Render the chart when you're ready for the user to see it
+chart.render();
+```

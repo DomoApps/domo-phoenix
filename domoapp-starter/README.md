@@ -253,7 +253,7 @@ Before you can use `PhoenixChart` to graph your data, let's go over how it works
 
 
 ### Choose your Chart Type
-- The Chart Type is set using an `enum`. You can find the `enum` for your Chart Type by selecting the Chart Type on the [Chart Properties](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
+- The Chart Type is set using an `enum`. You can find the `enum` for your Chart Type by selecting the Chart Type on the [Chart Specific Information](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
 - Examples of using these charts are found on the [Charts](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) page of the documentation.
 
 
@@ -291,11 +291,11 @@ Where:
 - `columns` is an `Array` of `Objects` discribing how to chart each column (or Array index) in the `rows` Array. For instance, in the example above the value of the first index/column of my row data is "Corporate", so my `Object` for that column is:
     - `type` - the value is a `string` so I use `PHOENIX_DATA_TYPE.STRING` here (see the Data Types section of [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) for the full list of types)
     - `name` - the value came from the "Customer Segment" column of my dataset, so that is how I want Phoenix to label it
-    - `mapping` - Mappings vary by Chart Type (see the [domo-phoenix Documentaion](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) to view the mappings available for your Chart Type). I am using a [bar chart](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/chart/bar) so the supported mappings for my chart are `ITEM`,`VALUE` and `SERIES`. For a bar chart: 
+    - `mapping` - Mappings vary by Chart Type (see the "Column Information" for your Chart Type on the [Chart Specific Information](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation). I am using a [bar chart](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/chart/bar) so the supported mappings for my chart are `ITEM`,`VALUE` and `SERIES`. For a bar chart: 
         - `ITEM` is graphed on the x axis
         - `VALUE` is graphed on the y axis
         - `SERIES` defines the segments of the bar chart making this a stacked bar chart
-        - See the "Mappings" section of the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) for a complete list of mappings
+        - See the "Column Information" for each Chart Type on the [Chart Specific Information](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) for a complete list of mappings
 
 
 ### Set the Chart Options

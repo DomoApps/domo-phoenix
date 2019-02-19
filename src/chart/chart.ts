@@ -61,11 +61,11 @@ export class PhoenixChart {
    * Update the Phoenix chart with new data
    */
   update(data: PhoenixChartData, options?: PhoenixChartOptions) {
-    if (options.colors) {
+    if (options && options.colors) {
       // Changing color palette, update options
       this._options.colors = options.colors;
     }
-    if (options.properties) {
+    if (options && options.properties) {
       // Changing chart properties, update options
       this._options.properties = options.properties;
     }
@@ -174,22 +174,22 @@ export class PhoenixChart {
       components: {
         graph: !_isMap(type)
           ? {
-            type: 'graph',
-            badgetype: type,
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'graph',
+              badgetype: type,
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null,
         map: _isMap(type)
           ? {
-            type: 'map',
-            badgetype: type,
-            mapdef: 'map',
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'map',
+              badgetype: type,
+              mapdef: 'map',
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null
       },
       maps: _isMap(type) ? _getMapDefinition(type) : null,

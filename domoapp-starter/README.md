@@ -249,7 +249,7 @@ chart.render();
 Before you can use `PhoenixChart` to graph your data, let's go over how it works. `PhoenixChart` requires the following parameters:
 1. Chart Type - [Choose a chart type](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/charts) that will best visualize your data
 2. Data - A two dimentional Array of the data
-3. Options - Set the "Chart Options" [](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api)
+3. Options - Set the "Chart Properties" your Chart Type supports. A full list of properties can be found, per Chart Type, on the [Chart Specific Information](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
 
 
 ### Choose your Chart Type
@@ -298,7 +298,7 @@ Where:
         - See the "Mappings" section of the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) for a complete list of mappings
 
 
-### Set the chart options
+### Set the Chart Options
 Chart options are used to customize how your chart is displayed. More on using this can be found in the [Phoenix API](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/api) documentation. For now you can just set the `height` and `width` and ignore the rest. These values are pixel dimensions for the chart.
 ```js
 const options = {
@@ -306,6 +306,7 @@ const options = {
     height: 500
 };
 ```
+Note: A full list of the `properties` your Chart Type supports can be found on the [Chart Specific Information](https://domoapps.github.io/domo-phoenix/#/domo-phoenix/properties) page of the documentation.
 
 
 ### Create the chart

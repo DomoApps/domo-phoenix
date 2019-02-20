@@ -5,6 +5,7 @@ export interface PhoenixChartDataColumn {
   type: PHOENIX_DATA_TYPE;
   name: string;
   mapping: PHOENIX_MAPPING;
+  format: string;
 }
 
 export interface PhoenixChartData {

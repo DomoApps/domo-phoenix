@@ -43,6 +43,16 @@ interface BadgeDataMetadata {
   minLength?: number;
 }
 
+export interface BadgeDataColFormat {
+  type: string;
+  format: string;
+  precision: number;
+  currency: string;
+  commas: boolean;
+  percent: boolean;
+  percentMultiplied: boolean;
+}
+
 export interface BadgeData {
   datasource?: string;
   queryUrl?: string;
@@ -50,6 +60,7 @@ export interface BadgeData {
   aliases?: string[];
   mappings?: Object[];
   metadata?: BadgeDataMetadata[];
+  formats?: BadgeDataColFormat[];
   fromcache?: boolean | string;
   rows: Object[][];
   numRows?: number;

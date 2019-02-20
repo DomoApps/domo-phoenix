@@ -2,6 +2,7 @@ import { PHOENIX_CHART_TYPE } from '../enums/phoenix-chart-type';
 import {
   PhoenixChartConfig,
   PhoenixChartPalette,
+  BadgeDataColFormat,
   PropertyOverridesMap
 } from '../interfaces/phoenix-chart-config';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
@@ -165,6 +166,7 @@ export class PhoenixChart {
             metadata: data.columns.map(col => ({ type: col.type })),
             mappings: data.columns.map(col => col.mapping),
             columns: data.columns.map(col => col.name),
+            formats: data.columns.map(col => this._getFormat(col.format)),
             rows: data.rows,
             numRows: data.rows.length,
             numColumns: data.columns.length
@@ -209,6 +211,45 @@ export class PhoenixChart {
       config.palette = this._createPalette(options.colors);
     }
     return config;
+  }
+
+  private _getFormat(format: string): BadgeDataColFormat {
+    if (format != null && format.trim().length > 0) {
+      const colFmt: BadgeDataColFormat = {
+        type: 'default',
+        format: '#',
+        currency: '$',
+        commas: false,
+        precision: 0,
+        percentMultiplied: true,
+        percent: false
+      };
+      format = format.trim();
+      if (format.indexOf('%') != -1) {
+        colFmt.type = 'percent';
+        colFmt.percent = true;
+        format = format.trim().substr(0, format.length - 1);
+      }
+      else {
+        const firstChar = format.charAt(0);
+        if (firstChar == '$' || firstChar == '¥' || firstChar == '€' || firstChar == '£') {
+          colFmt.type = 'currency';
+          colFmt.currency = firstChar;
+        }
+      }
+      if (format.indexOf(',') != -1) {
+        colFmt.commas = true;
+        colFmt.format = '###,###';
+      }
+      const decPos = format.indexOf('.');
+      if (decPos != -1) {
+        format = format.substr(decPos + 1);
+        colFmt.precision = format.trim().length;
+        colFmt.format += '.' + format;
+      }
+      return colFmt;
+    }
+    return null;
   }
 
   private _createPalette(colors: string[]): PhoenixChartPalette {

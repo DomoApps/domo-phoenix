@@ -14,7 +14,7 @@ const config = {
 
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/dist/',
+    publicPath: '/build/global',
     filename: 'domoPhoenix.js',
     library: 'domoPhoenix',
     libraryTarget: 'umd'

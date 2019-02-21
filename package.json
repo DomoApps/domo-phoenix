@@ -25,12 +25,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
     "@domoinc/domo-phoenix": "^0.5.7",
     "@types/node": "^10.12.18",
-    "babel-loader": "^8.0.5",
     "prettier": "^1.15.3",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.2",

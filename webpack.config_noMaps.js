@@ -10,7 +10,7 @@ const bannerComment = [
 const config = {
   context: __dirname + '/src',
 
-  entry: './bundleEntry_noMaps.js',
+  entry: './bundleEntry_noMaps.ts',
 
   output: {
     path: path.join(__dirname, 'dist'),
@@ -26,14 +26,6 @@ const config = {
 
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          cacheDirectory: true
-        }
-      },
       {
         test: /\.ts$/,
         exclude: /node_modules/,

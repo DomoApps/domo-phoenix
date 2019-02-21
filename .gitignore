@@ -80,3 +80,4 @@ typings/
 .dynamodb/
 
 build
+dist

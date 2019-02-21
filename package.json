@@ -12,7 +12,7 @@
     "create:lib": "mkdir ./build/main/lib && mkdir ./build/module/lib",
     "copy:phoenix": "npm run create:lib && cp ./src/lib/phoenix.js ./build/main/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/module/lib/phoenix.js",
     "copy:globalPhoenix": "cp ./src/lib/DomoChartNM.nocache.js ./build/main/. && cp ./src/lib/DomoChartNM.nocache.js ./build/module/.",
-    "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix && npm run copy:globalPhoenix",
+    "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix && npm run copy:globalPhoenix && npm run dist",
     "dist": "webpack --config ./webpack.config.js"
   },
   "keywords": [],

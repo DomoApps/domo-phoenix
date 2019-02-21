@@ -25,7 +25,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@domoinc/domo-phoenix": "^0.5.7",
     "@types/node": "^10.12.18",
     "prettier": "^1.15.3",
     "ts-loader": "^5.3.3",

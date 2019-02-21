@@ -98,6 +98,8 @@ export interface PhoenixChartConfig {
   palette?: PhoenixChartPalette;
   conditionalFormats: Conditional[];
   phoenixZoom?: boolean;
+  backgroundColor?: string;
+  textColor?: string;
   locale?: string;
   version?: string;
   cardURN?: string;

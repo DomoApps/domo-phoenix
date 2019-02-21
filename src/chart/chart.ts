@@ -14,7 +14,9 @@ const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
   width: 500,
   animate: true,
-  colors: null
+  colors: null,
+  backgroundColor: null,
+  textColor: null
 };
 
 export class PhoenixChart {
@@ -176,22 +178,22 @@ export class PhoenixChart {
       components: {
         graph: !_isMap(type)
           ? {
-              type: 'graph',
-              badgetype: type,
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'graph',
+            badgetype: type,
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null,
         map: _isMap(type)
           ? {
-              type: 'map',
-              badgetype: type,
-              mapdef: 'map',
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'map',
+            badgetype: type,
+            mapdef: 'map',
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null
       },
       maps: _isMap(type) ? _getMapDefinition(type) : null,
@@ -207,6 +209,10 @@ export class PhoenixChart {
       delete config.maps;
       delete config.components.map;
     }
+    if (options.backgroundColor)
+      config.backgroundColor = options.backgroundColor;
+    if (options.textColor)
+      config.textColor = options.textColor;
     if (options.colors) {
       config.palette = this._createPalette(options.colors);
     }

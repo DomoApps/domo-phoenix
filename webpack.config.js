@@ -10,7 +10,7 @@ const bannerComment = [
 const config = {
   context: __dirname + '/src',
 
-  entry: './index.ts',
+  entry: './bundleEntry.js',
 
   output: {
     path: path.join(__dirname, 'dist'),

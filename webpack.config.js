@@ -13,7 +13,7 @@ const config = {
   entry: './bundleEntry.ts',
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'build', 'global'),
     publicPath: '/build/global',
     filename: 'domoPhoenix.js',
     library: 'domoPhoenix',

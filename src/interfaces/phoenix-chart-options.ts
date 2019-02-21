@@ -6,4 +6,6 @@ export interface PhoenixChartOptions {
   animate?: boolean;
   colors?: string[];
   properties?: PropertyOverridesMap;
+  backgroundColor?: string;
+  textColor?: string;
 }

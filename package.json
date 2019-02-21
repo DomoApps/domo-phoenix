@@ -13,9 +13,7 @@
     "copy:phoenix": "npm run create:lib && cp ./src/lib/phoenix.js ./build/main/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/module/lib/phoenix.js",
     "copy:globalPhoenix": "cp ./src/lib/DomoChartNM.nocache.js ./build/main/. && cp ./src/lib/DomoChartNM.nocache.js ./build/module/.",
     "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix && npm run copy:globalPhoenix",
-    "dist:full": "webpack --config ./webpack.config.js",
-    "dist:nomaps": "webpack --config ./webpack.config_noMaps.js",
-    "dist": "webpack --config ./webpack.config.js && webpack --config ./webpack.config_noMaps.js"
+    "dist": "webpack --config ./webpack.config.js"
   },
   "keywords": [],
   "author": {

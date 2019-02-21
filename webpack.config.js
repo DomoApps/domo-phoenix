@@ -20,9 +20,7 @@ const config = {
     libraryTarget: 'umd'
   },
 
-  plugins: [
-    new webpack.BannerPlugin(bannerComment)
-  ],
+  plugins: [new webpack.BannerPlugin(bannerComment)],
 
   module: {
     rules: [
@@ -36,9 +34,7 @@ const config = {
 
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
-  },
-
-  devtool: 'source-map'
+  }
 };
 
 module.exports = config;

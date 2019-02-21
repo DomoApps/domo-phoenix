@@ -25,6 +25,9 @@
   "devDependencies": {
     "@types/node": "^10.12.18",
     "prettier": "^1.15.3",
-    "typescript": "^3.2.2"
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }

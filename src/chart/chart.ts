@@ -16,7 +16,8 @@ const DEFAULT_OPTIONS: PhoenixChartOptions = {
   animate: true,
   colors: null,
   backgroundColor: null,
-  textColor: null
+  textColor: null,
+  transparentBackground: false
 };
 
 export class PhoenixChart {
@@ -43,6 +44,7 @@ export class PhoenixChart {
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
     this._instance.setUsePhoenixHover(true);
+    this._instance.setTransparentBackground(this._options.transparentBackground);
     this.canvas = this._instance.getCanvas();
   }
 
@@ -140,6 +142,7 @@ export class PhoenixChart {
       0
     );
     this._packet = configString;
+
 
     return chart;
   }

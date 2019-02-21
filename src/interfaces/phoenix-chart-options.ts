@@ -8,4 +8,5 @@ export interface PhoenixChartOptions {
   properties?: PropertyOverridesMap;
   backgroundColor?: string;
   textColor?: string;
+  transparentBackground?: boolean;
 }

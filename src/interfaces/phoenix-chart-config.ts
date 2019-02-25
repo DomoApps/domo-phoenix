@@ -87,6 +87,7 @@ export interface PhoenixChartPalette {
   colorRanges: PhoenixChartPaletteColorRange[];
   colorRules: PhoenixChartPaletteColorRule[];
   lineColors?: number[][];
+  nameColorMap?: { [key: string]: number[] };
 }
 
 export interface PhoenixChartConfig {

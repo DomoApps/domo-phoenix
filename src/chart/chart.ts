@@ -296,7 +296,18 @@ export class PhoenixChart {
         FaceGaugeGreen: [0, 0],
         FaceGaugeRed: [0, 1],
         FaceGaugeYellow: [0, 2],
-        FaceGaugeGray: [0, 3]
+        FaceGaugeGray: [0, 3],
+        BoxPlotFill: [0, 0],
+        BoxPlotStroke: [0, 1],
+        CatScatterFill: [0, 0],
+        CatScatterStroke: [0, 1],
+        CandlestickUpGreen: [0, 0],
+        CandlestickDnRed: [0, 1],
+        WaterfallGreen: [0, 0],
+        WaterfallRed: [0, 1],
+        WaterfallBlue: [0, 2],
+        WordCloudFirstOrange: [0, 0],
+        WordCloudSecBlue: [0, 1]
       }
     };
     return palette;

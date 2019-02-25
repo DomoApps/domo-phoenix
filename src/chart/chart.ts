@@ -44,7 +44,9 @@ export class PhoenixChart {
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
     this._instance.setUsePhoenixHover(true);
-    this._instance.setTransparentBackground(this._options.transparentBackground);
+    this._instance.setTransparentBackground(
+      this._options.transparentBackground
+    );
     this.canvas = this._instance.getCanvas();
   }
 
@@ -143,7 +145,6 @@ export class PhoenixChart {
     );
     this._packet = configString;
 
-
     return chart;
   }
 
@@ -181,22 +182,22 @@ export class PhoenixChart {
       components: {
         graph: !_isMap(type)
           ? {
-            type: 'graph',
-            badgetype: type,
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'graph',
+              badgetype: type,
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null,
         map: _isMap(type)
           ? {
-            type: 'map',
-            badgetype: type,
-            mapdef: 'map',
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'map',
+              badgetype: type,
+              mapdef: 'map',
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null
       },
       maps: _isMap(type) ? _getMapDefinition(type) : null,
@@ -212,10 +213,12 @@ export class PhoenixChart {
       delete config.maps;
       delete config.components.map;
     }
-    if (options.backgroundColor)
+    if (options.backgroundColor) {
       config.backgroundColor = options.backgroundColor;
-    if (options.textColor)
+    }
+    if (options.textColor) {
       config.textColor = options.textColor;
+    }
     if (options.colors) {
       config.palette = this._createPalette(options.colors);
     }
@@ -238,10 +241,14 @@ export class PhoenixChart {
         colFmt.type = 'percent';
         colFmt.percent = true;
         format = format.trim().substr(0, format.length - 1);
-      }
-      else {
+      } else {
         const firstChar = format.charAt(0);
-        if (firstChar == '$' || firstChar == '¥' || firstChar == '€' || firstChar == '£') {
+        if (
+          firstChar == '$' ||
+          firstChar == '¥' ||
+          firstChar == '€' ||
+          firstChar == '£'
+        ) {
           colFmt.type = 'currency';
           colFmt.currency = firstChar;
         }
@@ -275,7 +282,33 @@ export class PhoenixChart {
           max: colors.length,
           values: [...colors.map((_color, index) => [0, index])]
         }
-      ]
+      ],
+      nameColorMap: {
+        FilledGaugeGreen: [0, 0],
+        FilledGaugeRed: [0, 1],
+        CompGaugeLtGreen: [0, 0],
+        CompGaugeDkGreen: [0, 0],
+        CompGaugeArrowGreen: [0, 0],
+        CompGaugeLtRed: [0, 1],
+        CompGaugeDkRed: [0, 1],
+        CompGaugeArrowRed: [0, 1],
+        ProgressBar: [0, 0],
+        FaceGaugeGreen: [0, 0],
+        FaceGaugeRed: [0, 1],
+        FaceGaugeYellow: [0, 2],
+        FaceGaugeGray: [0, 3],
+        BoxPlotFill: [0, 0],
+        BoxPlotStroke: [0, 1],
+        CatScatterFill: [0, 0],
+        CatScatterStroke: [0, 1],
+        CandlestickUpGreen: [0, 0],
+        CandlestickDnRed: [0, 1],
+        WaterfallGreen: [0, 0],
+        WaterfallRed: [0, 1],
+        WaterfallBlue: [0, 2],
+        WordCloudFirstOrange: [0, 0],
+        WordCloudSecBlue: [0, 1]
+      }
     };
     return palette;
   }

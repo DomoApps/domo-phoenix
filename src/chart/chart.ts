@@ -182,22 +182,22 @@ export class PhoenixChart {
       components: {
         graph: !_isMap(type)
           ? {
-              type: 'graph',
-              badgetype: type,
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'graph',
+            badgetype: type,
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null,
         map: _isMap(type)
           ? {
-              type: 'map',
-              badgetype: type,
-              mapdef: 'map',
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'map',
+            badgetype: type,
+            mapdef: 'map',
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null
       },
       maps: _isMap(type) ? _getMapDefinition(type) : null,
@@ -283,6 +283,14 @@ export class PhoenixChart {
           values: [...colors.map((_color, index) => [0, index])]
         }
       ],
+
+      gradients: [
+        {
+          colCount: colors.length,
+          values: [...colors.map((_color, index) => [0, index])]
+        }
+      ],
+
       nameColorMap: {
         FilledGaugeGreen: [0, 0],
         FilledGaugeRed: [0, 1],

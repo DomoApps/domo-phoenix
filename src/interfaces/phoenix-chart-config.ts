@@ -83,9 +83,15 @@ interface PhoenixChartPaletteColorRule {
   values: number[][];
 }
 
+interface PhoenixChartPaletteGradient {
+  colCount: number;
+  values: number[][];
+}
+
 export interface PhoenixChartPalette {
   colorRanges: PhoenixChartPaletteColorRange[];
   colorRules: PhoenixChartPaletteColorRule[];
+  gradients: PhoenixChartPaletteGradient[];
   lineColors?: number[][];
   nameColorMap?: { [key: string]: number[] };
 }

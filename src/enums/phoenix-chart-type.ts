@@ -1,4 +1,4 @@
-export enum PHOENIX_CHART_TYPE {
+export enum CHART_TYPE {
   BUBBLE_LEGACY = 'badge_bubble',
   BULLET = 'badge_bullet',
   CALENDAR = 'badge_calendar',

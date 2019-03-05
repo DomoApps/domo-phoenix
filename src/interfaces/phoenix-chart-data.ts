@@ -1,11 +1,12 @@
-import { PHOENIX_DATA_TYPE } from '../enums/phoenix-data-type';
-import { PHOENIX_MAPPING } from '../enums/phoenix-mapping';
+import { DATA_TYPE } from '../enums/phoenix-data-type';
+import { MAPPING } from '../enums/phoenix-mapping';
 
 export interface PhoenixChartDataColumn {
-  type: PHOENIX_DATA_TYPE;
+  type: DATA_TYPE;
   name: string;
-  mapping: PHOENIX_MAPPING;
+  mapping: MAPPING;
   format?: string;
+  dateGrain?: string;
 }
 
 export interface PhoenixChartData {

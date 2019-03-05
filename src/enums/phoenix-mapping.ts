@@ -1,4 +1,4 @@
-export enum PHOENIX_MAPPING {
+export enum MAPPING {
   ITEM = 'ITEM',
   VALUE = 'VALUE',
   SERIES = 'SERIES',

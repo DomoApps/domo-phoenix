@@ -1,4 +1,5 @@
-import { PHOENIX_CHART_TYPE } from '../enums/phoenix-chart-type';
+import { CHART_TYPE } from '../enums/phoenix-chart-type';
+import { DATA_TYPE } from '../enums/phoenix-data-type';
 import {
   PhoenixChartConfig,
   PhoenixChartPalette,
@@ -20,8 +21,8 @@ const DEFAULT_OPTIONS: PhoenixChartOptions = {
   transparentBackground: false
 };
 
-export class PhoenixChart {
-  private _type: PHOENIX_CHART_TYPE;
+export class Chart {
+  private _type: CHART_TYPE;
   private _data: PhoenixChartData;
   private _options: PhoenixChartOptions;
   private _instance: any;
@@ -29,18 +30,12 @@ export class PhoenixChart {
   public canvas: HTMLCanvasElement;
 
   constructor(
-    type: PHOENIX_CHART_TYPE,
+    type: CHART_TYPE,
     data: PhoenixChartData,
     options?: PhoenixChartOptions
   ) {
     this._type = type;
-    this._data = data;
-    if (Array.isArray(data.rows)) {
-      if (!Array.isArray(data.rows[0])) {
-        // Array of objects. Transform data to correct format.
-        this._data.rows = this.transformData(data.rows);
-      }
-    }
+    this._data = this.transformData(data.columns, data.rows);
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
     this._instance.setUsePhoenixHover(true);
@@ -76,13 +71,7 @@ export class PhoenixChart {
       // Changing chart properties, update options
       this._options.properties = options.properties;
     }
-    this._data = data;
-    if (Array.isArray(data.rows)) {
-      if (!Array.isArray(data.rows[0])) {
-        // Array of objects. Transform data to correct format.
-        this._data.rows = this.transformData(data.rows);
-      }
-    }
+    this._data = this.transformData(data.columns, data.rows);
     const configString = this._createConfigString(
       this._type,
       data,
@@ -115,18 +104,37 @@ export class PhoenixChart {
     return this._packet;
   }
 
-  private transformData(rows) {
-    const newRows = rows.map((row: Object) => {
-      const newRow: any[] = [];
-      for (const key in row) {
-        if (row.hasOwnProperty(key)) {
-          newRow.push(row[key]);
-        }
+  private transformData(columns, rows) {
+    // Modify grained column objects
+    var CalendarJoinColumns = {
+      year: "Year",
+      quarter: "CalendarQuarter",
+      month: "CalendarMonth",
+      week: "CalendarWeek",
+      day: "Date",
+    };
+    columns.forEach(c => {
+      if (c.dateGrain != null) {
+        c.type = c.dateGrain === 'day' ? DATA_TYPE.DATE : DATA_TYPE.STRING;
+        c.grainColumnName = CalendarJoinColumns[c.dateGrain];
       }
-      return newRow;
     });
 
-    return newRows;
+    if (rows && rows[0] && (rows[0] instanceof Object) && !Array.isArray(rows[0])) {
+      // Use "columns" array to convert "rows" to a 2D array
+      var make2Dimensional = function (r) {
+        var row = [];
+        columns && columns.forEach((c) => row.push(r[c.grainColumnName || c.name]));
+        return row;
+      };
+
+      return {
+        columns,
+        rows: rows.map(make2Dimensional),
+      };
+    }
+
+    return { columns: columns, rows: rows };
   }
 
   private _createInstance() {
@@ -149,7 +157,7 @@ export class PhoenixChart {
   }
 
   private _createConfigString(
-    type: PHOENIX_CHART_TYPE,
+    type: CHART_TYPE,
     data: PhoenixChartData,
     options?: PhoenixChartOptions
   ): string {
@@ -159,7 +167,7 @@ export class PhoenixChart {
   }
 
   private _toPhoenixConfig(
-    type: PHOENIX_CHART_TYPE,
+    type: CHART_TYPE,
     data: PhoenixChartData,
     options?: PhoenixChartOptions
   ) {

@@ -1,2 +1,2 @@
-import { PhoenixChart, PHOENIX_CHART_TYPE, PHOENIX_DATA_TYPE, PHOENIX_MAPPING } from './index';
-window['DomoPhoenix'] = { PhoenixChart, PHOENIX_CHART_TYPE, PHOENIX_DATA_TYPE, PHOENIX_MAPPING };
+import { Chart, CHART_TYPE, DATA_TYPE, MAPPING } from './index';
+window['DomoPhoenix'] = { Chart, CHART_TYPE, DATA_TYPE, MAPPING };

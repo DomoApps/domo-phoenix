@@ -4,10 +4,9 @@ Build beautiful charts using Phoenix, Domo's powerful charting engine.
 
 ## Documentation
 
-This README provides a quick overview of how to use Phoenix. For more detailed information, please see the [Documentation](https://domoapps.github.io/domo-phoenix/). 
+This README provides a quick overview of how to use Phoenix. For more detailed information, please see the [Documentation](https://domoapps.github.io/domo-phoenix/).
 
 If you are looking to build a Domo Dev Studio app that can query data from Domo and chart with Phoenix, please refer to the official [Starter Kit](https://github.com/DomoApps/StarterKit).
-
 
 ## Usage
 
@@ -20,12 +19,7 @@ $ npm install --save @domoinc/domo-phoenix
 You can then import and use the library:
 
 ```javascript
-import {
-  PhoenixChart,
-  PHOENIX_CHART_TYPE,
-  PHOENIX_DATA_TYPE,
-  PHOENIX_MAPPING
-} from '@domoinc/domo-phoenix';
+import { Chart, CHART_TYPE, DATA_TYPE, MAPPING } from '@domoinc/domo-phoenix';
 
 const data = {
   // This is the data you get back from the Domo Data API
@@ -54,19 +48,19 @@ const data = {
   // You provide the names, types, and mappings of your ordered columns
   columns: [
     {
-      type: PHOENIX_DATA_TYPE.STRING,
+      type: DATA_TYPE.STRING,
       name: 'Order Priority',
-      mapping: PHOENIX_MAPPING.SERIES
+      mapping: MAPPING.SERIES
     },
     {
-      type: PHOENIX_DATA_TYPE.STRING,
+      type: DATA_TYPE.STRING,
       name: 'Customer Segment',
-      mapping: PHOENIX_MAPPING.ITEM
+      mapping: MAPPING.ITEM
     },
     {
-      type: PHOENIX_DATA_TYPE.DOUBLE,
+      type: DATA_TYPE.DOUBLE,
       name: 'Sales',
-      mapping: PHOENIX_MAPPING.VALUE
+      mapping: MAPPING.VALUE
     }
   ]
 };
@@ -78,7 +72,7 @@ const options = {
 };
 
 // Create the Phoenix Chart
-const chart = new PhoenixChart(PHOENIX_CHART_TYPE.BAR, data, options);
+const chart = new Chart(CHART_TYPE.BAR, data, options);
 
 // Append the canvas element to your app
 document.getElementById('myDiv').appendChild(chart.canvas);
@@ -102,7 +96,7 @@ The following are customizable options along with their defaults.
 
 ### Chart Types
 
-We have provided an enum, `PHOENIX_CHART_TYPE`, for you with all the supported chart types. Here are a few examples of common chart types:
+We have provided an enum, `CHART_TYPE`, for you with all the supported chart types. Here are a few examples of common chart types:
 
 - `BAR`
 - `STACKEDBAR`
@@ -119,7 +113,7 @@ We have provided an enum, `PHOENIX_CHART_TYPE`, for you with all the supported c
 
 ### Data Types
 
-We have provided an enum, `PHOENIX_DATA_TYPE`, for you with all the supported data types. Here are the supported data types:
+We have provided an enum, `DATA_TYPE`, for you with all the supported data types. Here are the supported data types:
 
 - `STRING`
 - `DOUBLE`
@@ -131,7 +125,7 @@ We have provided an enum, `PHOENIX_DATA_TYPE`, for you with all the supported da
 
 ### Mappings
 
-To correctly map your data to the chart, we require that you provide a mapping for your columns. We have an enum, `PHOENIX_MAPPING`, for the purpose of this mapping. The following are the mappings supported and their purpose:
+To correctly map your data to the chart, we require that you provide a mapping for your columns. We have an enum, `MAPPING`, for the purpose of this mapping. The following are the mappings supported and their purpose:
 
 - `ITEM`: In a bar chart, this would be your x axis
 - `VALUE`: In a bar chart, this would be your y axis
@@ -160,7 +154,7 @@ const options = {
 };
 
 // Create the Phoenix Chart
-const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+const chart = new Chart(CHART_TYPE.VERT_BAR, data, options);
 
 // Append the canvas element to your app
 document.getElementById('myDiv').appendChild(chart.canvas);
@@ -196,7 +190,7 @@ const options = {
 };
 
 // Create the Phoenix Chart
-const chart = new PhoenixChart(PHOENIX_CHART_TYPE.VERT_BAR, data, options);
+const chart = new Chart(CHART_TYPE.VERT_BAR, data, options);
 
 // Append the canvas element to your app
 document.getElementById('myDiv').appendChild(chart.canvas);
@@ -243,14 +237,14 @@ const newData = {
   rows: [['Michael Scott', 43], ['Jim Halpert', 36], ['Dwight Schrute', 41]],
   columns: [
     {
-      type: PHOENIX_DATA_TYPE.STRING,
+      type: DATA_TYPE.STRING,
       name: 'Name',
-      mapping: PHOENIX_MAPPING.ITEM
+      mapping: MAPPING.ITEM
     },
     {
-      type: PHOENIX_DATA_TYPE.DOUBLE,
+      type: DATA_TYPE.DOUBLE,
       name: 'Age',
-      mapping: PHOENIX_MAPPING.VALUE
+      mapping: MAPPING.VALUE
     }
   ]
 };

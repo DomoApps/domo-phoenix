@@ -3,19 +3,22 @@ const path = require('path');
 const packageJson = require('./package.json');
 
 const bannerComment = [
-  `domoPhoenix.js v${packageJson.version}`,
+  `[name].js v${packageJson.version}`,
   'Optional utility library for Custom Apps'
 ].join('\n');
 
 const config = {
   context: __dirname + '/src',
 
-  entry: './bundleEntry.ts',
+  entry: {
+    domoPhoenix: './domoPhoenix.ts',
+    domoPhoenixWithMaps: './domoPhoenixWithMaps.ts',
+  },
 
   output: {
     path: path.join(__dirname, 'build', 'global'),
     publicPath: '/build/global',
-    filename: 'domoPhoenix.js',
+    filename: '[name].js',
     library: 'domoPhoenix',
     libraryTarget: 'umd'
   },

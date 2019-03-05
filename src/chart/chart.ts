@@ -9,7 +9,7 @@ import {
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
 import * as Phoenix from '../lib/phoenix';
-import { _getMapDefinition, _isMap } from './map-utils';
+import { _isMap } from './map-utils';
 
 const DEFAULT_OPTIONS: PhoenixChartOptions = {
   height: 400,
@@ -166,6 +166,13 @@ export class Chart {
     return configString;
   }
 
+  protected _getMapDefinition(
+    type: CHART_TYPE
+  ) {
+    console.error('Could not get definition for "' + type + '", this version of domoPhoenix does not include maps.');
+    return null;
+  }
+
   private _toPhoenixConfig(
     type: CHART_TYPE,
     data: PhoenixChartData,
@@ -208,7 +215,7 @@ export class Chart {
           }
           : null
       },
-      maps: _isMap(type) ? _getMapDefinition(type) : null,
+      maps: _isMap(type) && this._getMapDefinition(type),
       conditionalFormats: [],
       locale: 'en-US',
       version: '6'

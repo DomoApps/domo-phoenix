@@ -1,4 +1,4 @@
-export enum PHOENIX_DATA_TYPE {
+export enum DATA_TYPE {
   STRING = 'STRING',
   DOUBLE = 'DOUBLE',
   LONG = 'LONG',

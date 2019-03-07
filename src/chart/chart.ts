@@ -74,7 +74,7 @@ export class Chart {
     this._data = this.transformData(data.columns, data.rows);
     const configString = this._createConfigString(
       this._type,
-      data,
+      this._data,
       this._options
     );
     this._packet = configString;

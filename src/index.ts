@@ -1,4 +1,4 @@
-export * from './chart/chart';
+export * from './chart/chart-with-maps';
 export * from './enums/phoenix-chart-type';
 export * from './enums/phoenix-data-type';
 export * from './enums/phoenix-mapping';

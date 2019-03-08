@@ -6,13 +6,15 @@
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "scripts": {
+    "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix && npm run dist",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
     "clear": "rm -rf build",
-    "create:lib": "mkdir ./build/main/lib && mkdir ./build/module/lib",
     "copy:phoenix": "npm run create:lib && cp ./src/lib/phoenix.js ./build/main/lib/phoenix.js && cp ./src/lib/phoenix.js ./build/module/lib/phoenix.js",
-    "build": "npm run clear && npm run build:main && npm run build:module && npm run copy:phoenix && npm run dist",
-    "dist": "webpack --config ./webpack.config.js"
+    "create:lib": "mkdir ./build/main/lib && mkdir ./build/module/lib",
+    "dist": "webpack --config ./webpack.config.js",
+    "postversion": "git push && git push --tags",
+    "version": "npm run build"
   },
   "keywords": [],
   "author": {

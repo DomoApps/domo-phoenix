@@ -1,6 +1,6 @@
 {
   "name": "@domoinc/domo-phoenix",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "description": "Build beautiful charts using Domo's powerful charting engine",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -19,7 +19,7 @@
     "name": "John Woodruff",
     "email": "john.woodruff@domo.com"
   },
-  "license": "MIT",
+  "license": "DOMO CHARTING LIBRARY LICENSE",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^10.12.18",

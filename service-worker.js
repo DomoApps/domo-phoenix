@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/domo-phoenix/precache-manifest.55cc75b03901033dff43f6287ac139de.js"
+  "/domo-phoenix/precache-manifest.963f35e9355de4628dce4ff56a1a1183.js"
 );
 
 workbox.clientsClaim();

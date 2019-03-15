@@ -104,6 +104,34 @@ export class Chart {
     return this._packet;
   }
 
+  /**
+   * Is chart picker available for the current chart and data
+   */
+  isChartPickerAvailable(): boolean {
+    return this._instance.isChartPickerAvailable();
+  }
+
+  /**
+   * Is the chart picker panel open
+   */
+  isChartPickerOpen(): boolean {
+    return this._instance.isChartPickerOpen();
+  }
+
+  /**
+   * Show the chart picker panel
+   */
+  showChartPicker() {
+    this._instance.showChartPicker();
+  }
+
+  /**
+   * Hide the chart picker panel
+   */
+  hideChartPicker() {
+    this._instance.hideChartPicker();
+  }
+
   private transformData(columns, rows) {
     // Modify grained column objects
     var CalendarJoinColumns = {

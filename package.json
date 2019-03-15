@@ -1,6 +1,6 @@
 {
   "name": "@domoinc/domo-phoenix",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "Build beautiful charts using Domo's powerful charting engine",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

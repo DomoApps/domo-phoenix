@@ -1,4 +1,6 @@
 # Domo Phoenix
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDomoApps%2Fdomo-phoenix.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FDomoApps%2Fdomo-phoenix?ref=badge_shield)
+
 
 Build beautiful charts using Phoenix, Domo's powerful charting engine.
 
@@ -297,3 +299,7 @@ This method allows you to reset your chart's color palette back to the default D
 // Reset color palette to default
 chart.resetColorPalette();
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDomoApps%2Fdomo-phoenix.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDomoApps%2Fdomo-phoenix?ref=badge_large)

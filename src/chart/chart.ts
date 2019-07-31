@@ -132,14 +132,21 @@ export class Chart {
     this._instance.hideChartPicker();
   }
 
+  /**
+   * Attach a handler to various Phoenix event types
+   */
+  addEventListener(type: string, handler: (event: Event) => boolean) {
+    this._instance.addEventListener(type, handler);
+  }
+
   private transformData(columns, rows) {
     // Modify grained column objects
     var CalendarJoinColumns = {
-      year: "Year",
-      quarter: "CalendarQuarter",
-      month: "CalendarMonth",
-      week: "CalendarWeek",
-      day: "Date",
+      year: 'Year',
+      quarter: 'CalendarQuarter',
+      month: 'CalendarMonth',
+      week: 'CalendarWeek',
+      day: 'Date'
     };
     columns.forEach(c => {
       if (c.dateGrain != null) {
@@ -148,17 +155,23 @@ export class Chart {
       }
     });
 
-    if (rows && rows[0] && (rows[0] instanceof Object) && !Array.isArray(rows[0])) {
+    if (
+      rows &&
+      rows[0] &&
+      rows[0] instanceof Object &&
+      !Array.isArray(rows[0])
+    ) {
       // Use "columns" array to convert "rows" to a 2D array
-      var make2Dimensional = function (r) {
+      var make2Dimensional = function(r) {
         var row = [];
-        columns && columns.forEach((c) => row.push(r[c.grainColumnName || c.name]));
+        columns &&
+          columns.forEach(c => row.push(r[c.grainColumnName || c.name]));
         return row;
       };
 
       return {
         columns,
-        rows: rows.map(make2Dimensional),
+        rows: rows.map(make2Dimensional)
       };
     }
 
@@ -194,10 +207,10 @@ export class Chart {
     return configString;
   }
 
-  protected _getMapDefinition(
-    type: CHART_TYPE
-  ) {
-    console.error('Could not get definition for "' + type + '", this version of domoPhoenix does not include maps.');
+  protected _getMapDefinition(type: CHART_TYPE) {
+    console.error(
+      `Could not get definition for "${type}", this version of domoPhoenix does not include maps.`
+    );
     return null;
   }
 
@@ -225,22 +238,22 @@ export class Chart {
       components: {
         graph: !_isMap(type)
           ? {
-            type: 'graph',
-            badgetype: type,
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'graph',
+              badgetype: type,
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null,
         map: _isMap(type)
           ? {
-            type: 'map',
-            badgetype: type,
-            mapdef: 'map',
-            datasource: 'default',
-            columnFormats: {},
-            overrides: options.properties || {}
-          }
+              type: 'map',
+              badgetype: type,
+              mapdef: 'map',
+              datasource: 'default',
+              columnFormats: {},
+              overrides: options.properties || {}
+            }
           : null
       },
       maps: _isMap(type) && this._getMapDefinition(type),

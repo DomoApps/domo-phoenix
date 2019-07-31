@@ -301,11 +301,28 @@ chart.resetColorPalette();
 ### addEventListener(type, (event) => boolean)
 
 Attach a handler to various Phoenix event types. The following events are supported:
-* `drill`
-* `hover`
-* `chartStateChanged`
-* `cardbus`
+
+- `drill`
+- `hover`
+- `chartStateChanged`
+- `cardbus`
+
+```javascript
+// Define your own drill "click" event
+chart.addEventListener('drill', function(ev) {
+  const filterStrings = ev.drillInfo.filters.map(
+    f => `${f.column} contains ${f.values.join(' OR ')}`
+  );
+  console.log('drilling on: ', filterStrings.join(' AND '));
+  return true;
+});
+```
 
 ### setUsePhoenixHover(flag)
 
 Have Phoenix render hover tooltips (true by default)
+
+```javascript
+// Don't have Phoenix display hover tooltips
+chart.setUsePhoenixHover(false);
+```

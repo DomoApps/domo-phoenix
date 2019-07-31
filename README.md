@@ -297,3 +297,15 @@ This method allows you to reset your chart's color palette back to the default D
 // Reset color palette to default
 chart.resetColorPalette();
 ```
+
+### addEventListener(type, (event) => boolean)
+
+Attach a handler to various Phoenix event types. The following events are supported:
+* `drill`
+* `hover`
+* `chartStateChanged`
+* `cardbus`
+
+### setUsePhoenixHover(flag)
+
+Have Phoenix render hover tooltips (true by default)

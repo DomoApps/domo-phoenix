@@ -38,10 +38,10 @@ export class Chart {
     this._data = this.transformData(data.columns, data.rows);
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
-    this._instance.setUsePhoenixHover(true);
     this._instance.setTransparentBackground(
       this._options.transparentBackground
     );
+    this.setUsePhoenixHover(true);
     this.canvas = this._instance.getCanvas();
   }
 
@@ -137,6 +137,16 @@ export class Chart {
    */
   addEventListener(type: string, handler: (event: Event) => boolean) {
     this._instance.addEventListener(type, handler);
+    if (type === 'hover') {
+      this.setUsePhoenixHover(false);
+    }
+  }
+
+  /**
+   * Have Phoenix render hover tooltips
+   */
+  setUsePhoenixHover(flag: boolean) {
+    this._instance.setUsePhoenixHover(flag);
   }
 
   private transformData(columns, rows) {

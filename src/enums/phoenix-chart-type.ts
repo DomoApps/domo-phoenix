@@ -138,6 +138,7 @@ export enum CHART_TYPE {
   RANGE_SELECTOR = 'badge_range_selector',
   RT_LINE = 'badge_rttrendline',
   SINGLEVALUE = 'badge_singlevalue',
+  MULTI_VALUE = 'badge_multi_value',
   SLICER = 'badge_slicer',
   SPARK_BAR = 'badge_spark_bar',
   SPARK_LINE = 'badge_spark_line',

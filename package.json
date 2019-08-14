@@ -17,11 +17,8 @@
     "version": "npm run build"
   },
   "keywords": [],
-  "author": {
-    "name": "John Woodruff",
-    "email": "john.woodruff@domo.com"
-  },
-  "license": "DOMO CHARTING LIBRARY LICENSE",
+  "author": "Troy Millett <troy.millett@domo.com>",
+  "license": "SEE LICENCE IN LICENSE",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^10.12.18",
@@ -30,5 +27,13 @@
     "typescript": "^3.2.2",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomoApps/domo-phoenix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DomoApps/domo-phoenix/issues"
+  },
+  "homepage": "https://github.com/DomoApps/domo-phoenix#readme"
 }

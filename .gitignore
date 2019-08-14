@@ -81,3 +81,4 @@ typings/
 
 build
 dist
+*.code-workspace

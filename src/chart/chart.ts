@@ -4,7 +4,8 @@ import {
   PhoenixChartConfig,
   PhoenixChartPalette,
   BadgeDataColFormat,
-  PropertyOverridesMap
+  PropertyOverridesMap,
+  Filter
 } from '../interfaces/phoenix-chart-config';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
@@ -149,6 +150,18 @@ export class Chart {
     this._instance.setUsePhoenixHover(flag);
   }
 
+  /**
+   * 
+   */
+  highlight(filters: Filter[]) {
+    if (filters && filters.length) {
+      const needsRedraw = this._instance.highlight(JSON.stringify(filters));
+      if (needsRedraw) {
+        this._instance.draw();
+      }
+    }
+  }
+
   private transformData(columns, rows) {
     // Modify grained column objects
     var CalendarJoinColumns = {
@@ -172,7 +185,7 @@ export class Chart {
       !Array.isArray(rows[0])
     ) {
       // Use "columns" array to convert "rows" to a 2D array
-      var make2Dimensional = function(r) {
+      var make2Dimensional = function (r) {
         var row = [];
         columns &&
           columns.forEach(c => row.push(r[c.grainColumnName || c.name]));
@@ -248,26 +261,26 @@ export class Chart {
       components: {
         graph: !_isMap(type)
           ? {
-              type: 'graph',
-              badgetype: type,
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'graph',
+            badgetype: type,
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null,
         map: _isMap(type)
           ? {
-              type: 'map',
-              badgetype: type,
-              mapdef: 'map',
-              datasource: 'default',
-              columnFormats: {},
-              overrides: options.properties || {}
-            }
+            type: 'map',
+            badgetype: type,
+            mapdef: 'map',
+            datasource: 'default',
+            columnFormats: {},
+            overrides: options.properties || {}
+          }
           : null
       },
       maps: _isMap(type) && this._getMapDefinition(type),
-      conditionalFormats: [],
+      conditionalFormats: options.conditionalFormats,
       locale: 'en-US',
       version: '6'
     };

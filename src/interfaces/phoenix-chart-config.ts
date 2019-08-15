@@ -20,13 +20,15 @@ interface Component {
   };
 }
 
-interface Conditional {
-  condition: {
-    column: string;
-    values: string[];
-    operand: string;
-    dataSourceId: string;
-  };
+export interface Filter {
+  column: string;
+  values: string[];
+  operand: string;
+  dataSourceId: string;
+}
+
+export interface Conditional {
+  condition: Filter;
   format: {
     color: string;
     textColor: string;

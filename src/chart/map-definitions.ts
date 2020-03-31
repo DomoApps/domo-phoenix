@@ -40,6 +40,7 @@ export function _getMapDefinition(type: string): any {
     case CHART_TYPE.MAP_UNITED_STATES:
       return US_MAP;
     case CHART_TYPE.MAP_WORLD:
+    case CHART_TYPE.MAP_LATLONG:
       return WORLD_MAP;
     case CHART_TYPE.MAP_CANADA:
       return CANADA_MAP;
@@ -112,7 +113,6 @@ export function _getMapDefinition(type: string): any {
     case CHART_TYPE.MAP_FRANCE:
     case CHART_TYPE.MAP_UK_COUNTRY:
     case CHART_TYPE.MAP_UK_POSTAL:
-    case CHART_TYPE.MAP_LATLONG:
     case CHART_TYPE.MAP_LATLONG_ROUTE:
     case CHART_TYPE.MAP_CUSTOM:
       throw new Error(

@@ -108,15 +108,9 @@ export function _getMapDefinition(type: string): any {
       return UAE_MAP;
     case CHART_TYPE.MAP_UNITED_KINGDOM:
       return UNITED_KINGDOM_MAP;
-    case CHART_TYPE.MAP_US_COUNTIES:
-    case CHART_TYPE.MAP_US_STATE:
-    case CHART_TYPE.MAP_FRANCE:
-    case CHART_TYPE.MAP_UK_COUNTRY:
-    case CHART_TYPE.MAP_UK_POSTAL:
-    case CHART_TYPE.MAP_LATLONG_ROUTE:
-    case CHART_TYPE.MAP_CUSTOM:
+    default:
       throw new Error(
-        '[@domoinc/domo-phoenix] Sorry, this map is not supported at this time.'
+        '[@domoinc/domo-phoenix] Sorry, this map or chart is not supported at this time.'
       );
   }
 }

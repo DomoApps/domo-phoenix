@@ -113,3 +113,60 @@ export interface PhoenixChartConfig {
   version?: string;
   cardURN?: string;
 }
+
+export enum ComponentColorName {
+  NestedBar = "NestedBar",
+  NestedBarDisabled = "NestedBarDisabled",
+  BoxPlotFill = "BoxPlotFill",
+  BoxPlotStroke = "BoxPlotStroke",
+  CatScatterFill = "CatScatterFill",
+  CatScatterStroke = "CatScatterStroke",
+  FilledGaugeRed = "FilledGaugeRed",
+  FilledGaugeGreen = "FilledGaugeGreen",
+  CompGaugeLtGreen = "CompGaugeLtGreen",
+  CompGaugeDkGreen = "CompGaugeDkGreen",
+  CompGaugeArrowGreen = "CompGaugeArrowGreen",
+  CompGaugeLtRed = "CompGaugeLtRed",
+  CompGaugeDkRed = "CompGaugeDkRed",
+  CompGaugeArrowRed = "CompGaugeArrowRed",
+  ProgressBar = "ProgressBar",
+  FaceGaugeGreen = "FaceGaugeGreen",
+  FaceGaugeYellow = "FaceGaugeYellow",
+  FaceGaugeRed = "FaceGaugeRed",
+  FaceGaugeGray = "FaceGaugeGray",
+  LineScaleRangeGray = "LineScaleRangeGray",
+  LineScaleRangeBlue = "LineScaleRangeBlue",
+  LineScaleRangeGreen = "LineScaleRangeGreen",
+  ParetoLine = "ParetoLine",
+  CandlestickUpGreen = "CandlestickUpGreen",
+  CandlestickDnRed = "CandlestickDnRed",
+  WaterfallGreen = "WaterfallGreen",
+  WaterfallRed = "WaterfallRed",
+  WaterfallBlue = "WaterfallBlue",
+  WordCloudFirstOrange = "WordCloudFirstOrange",
+  WordCloudSecBlue = "WordCloudSecBlue",
+  DragSelect = "DragSelect",
+  LineRangeOutlierFill = "LineRangeOutlierFill",
+  LineRangeDashedRed = "LineRangeDashedRed",
+  POPSingleVarianceLine = "POPSingleVarianceLine",
+  PositiveColor = "PositiveColor",
+  NegativeColor = "NegativeColor",
+  BulletActual = "BulletActual",
+  BulletTarget = "BulletTarget",
+  BulletRange1 = "BulletRange1",
+  BulletRange2 = "BulletRange2",
+  BulletRange3 = "BulletRange3",
+  NoData = "NoData",
+  NoDataVeryLight = "NoDataVeryLight",
+  NoDataLight = "NoDataLight",
+  NoDataMedium = "NoDataMedium",
+  NoDataDark = "NoDataDark",
+  NoDataVeryDark = "NoDataVeryDark",
+  NoDataCalendar = "NoDataCalendar",
+  GrayCalendar = "GrayCalendar",
+}
+
+
+export type ComponentColorMap = {
+  [name in ComponentColorName]?: number[];
+}

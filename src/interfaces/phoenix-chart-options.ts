@@ -1,4 +1,4 @@
-import { PropertyOverridesMap, Conditional } from './phoenix-chart-config';
+import { PropertyOverridesMap, Conditional, ComponentColorMap } from './phoenix-chart-config';
 
 export interface PhoenixChartOptions {
   height: number;
@@ -6,6 +6,7 @@ export interface PhoenixChartOptions {
   animate?: boolean;
   colors?: string[];
   properties?: PropertyOverridesMap;
+  componentColors?: ComponentColorMap;
   backgroundColor?: string;
   textColor?: string;
   transparentBackground?: boolean;

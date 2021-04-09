@@ -110,6 +110,7 @@ export interface PhoenixChartConfig {
   backgroundColor?: string;
   textColor?: string;
   locale?: string;
+  cardLinking?: boolean;
   version?: string;
   cardURN?: string;
 }

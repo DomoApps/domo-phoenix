@@ -216,7 +216,6 @@ export class Chart {
       0
     );
     this._packet = configString;
-
     return chart;
   }
 
@@ -282,7 +281,8 @@ export class Chart {
       maps: _isMap(type) && this._getMapDefinition(type),
       conditionalFormats: options.conditionalFormats,
       locale: 'en-US',
-      version: '6'
+      cardLinking: true,
+      version: '7'
     };
     if (_isMap(type)) {
       // Make sure there is nothing graphs related when it's not a graph

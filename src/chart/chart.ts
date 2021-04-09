@@ -1,11 +1,13 @@
 import { CHART_TYPE } from '../enums/phoenix-chart-type';
 import { DATA_TYPE } from '../enums/phoenix-data-type';
 import {
+  BadgeDataColFormat,
+  ComponentColorName,
+  Filter,
+  ComponentColorMap,
   PhoenixChartConfig,
   PhoenixChartPalette,
-  BadgeDataColFormat,
   PropertyOverridesMap,
-  Filter
 } from '../interfaces/phoenix-chart-config';
 import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
@@ -17,6 +19,7 @@ const DEFAULT_OPTIONS: PhoenixChartOptions = {
   width: 500,
   animate: true,
   colors: null,
+  componentColors: {},
   backgroundColor: null,
   textColor: null,
   transparentBackground: false
@@ -299,7 +302,7 @@ export class Chart {
       config.textColor = options.textColor;
     }
     if (options.colors) {
-      config.palette = this._createPalette(options.colors);
+      config.palette = this._createPalette(options.colors, options.componentColors);
     }
     return config;
   }
@@ -347,55 +350,68 @@ export class Chart {
     return null;
   }
 
-  private _createPalette(colors: string[]): PhoenixChartPalette {
-    const palette: PhoenixChartPalette = {
-      colorRanges: [
-        {
-          name: 'CustomPalette',
-          values: [...colors.map(color => color.substring(1))]
-        }
-      ],
-      colorRules: [
-        {
-          min: 1,
-          max: colors.length,
-          values: [...colors.map((_color, index) => [0, index])]
-        }
-      ],
-
-      gradients: [
-        {
-          colCount: colors.length,
-          values: [...colors.map((_color, index) => [0, index])]
-        }
-      ],
-
-      nameColorMap: {
-        FilledGaugeGreen: [0, 0],
-        FilledGaugeRed: [0, 1],
-        CompGaugeLtGreen: [0, 0],
-        CompGaugeDkGreen: [0, 0],
-        CompGaugeArrowGreen: [0, 0],
-        CompGaugeLtRed: [0, 1],
-        CompGaugeDkRed: [0, 1],
-        CompGaugeArrowRed: [0, 1],
-        ProgressBar: [0, 0],
-        FaceGaugeGreen: [0, 0],
-        FaceGaugeRed: [0, 1],
-        FaceGaugeYellow: [0, 2],
-        FaceGaugeGray: [0, 3],
-        BoxPlotFill: [0, 0],
-        BoxPlotStroke: [0, 1],
-        CatScatterFill: [0, 0],
-        CatScatterStroke: [0, 1],
-        CandlestickUpGreen: [0, 0],
-        CandlestickDnRed: [0, 1],
-        WaterfallGreen: [0, 0],
-        WaterfallRed: [0, 1],
-        WaterfallBlue: [0, 2],
-        WordCloudFirstOrange: [0, 0],
-        WordCloudSecBlue: [0, 1]
+  private _createPalette(colors: string[], colorMap?: ComponentColorMap): PhoenixChartPalette {
+    const getColor = (color: string) => color.charAt(0) === '#' ? color.substring(1) : color;
+    const colorRanges = [
+      {
+        name: 'CustomPalette',
+        values: [...colors.map(color => getColor(color))]
       }
+    ];
+    const colorRules = [
+      {
+        min: 1,
+        max: colors.length,
+        values: [...colors.map((_color, index) => [0, index])]
+      }
+    ];
+    const gradients = [
+      {
+        colCount: colors.length,
+        values: [...colors.map((_color, index) => [0, index])]
+      }
+    ];
+    const nameColorMap: ComponentColorMap = {
+      [ComponentColorName.BoxPlotFill]: [0, 0],
+      [ComponentColorName.BoxPlotStroke]: [0, 1],
+      [ComponentColorName.CandlestickDnRed]: [0, 1],
+      [ComponentColorName.CandlestickUpGreen]: [0, 0],
+      [ComponentColorName.CatScatterFill]: [0, 0],
+      [ComponentColorName.CatScatterStroke]: [0, 1],
+      [ComponentColorName.CompGaugeArrowGreen]: [0, 0],
+      [ComponentColorName.CompGaugeArrowRed]: [0, 1],
+      [ComponentColorName.CompGaugeDkGreen]: [0, 0],
+      [ComponentColorName.CompGaugeDkRed]: [0, 1],
+      [ComponentColorName.CompGaugeLtGreen]: [0, 0],
+      [ComponentColorName.CompGaugeLtRed]: [0, 1],
+      [ComponentColorName.FaceGaugeGray]: [0, 3],
+      [ComponentColorName.FaceGaugeGreen]: [0, 0],
+      [ComponentColorName.FaceGaugeRed]: [0, 1],
+      [ComponentColorName.FaceGaugeYellow]: [0, 2],
+      [ComponentColorName.FilledGaugeGreen]: [0, 0],
+      [ComponentColorName.FilledGaugeRed]: [0, 1],
+      [ComponentColorName.ProgressBar]: [0, 0],
+      [ComponentColorName.WaterfallBlue]: [0, 2],
+      [ComponentColorName.WaterfallGreen]: [0, 0],
+      [ComponentColorName.WaterfallRed]: [0, 1],
+      [ComponentColorName.WordCloudFirstOrange]: [0, 0],
+      [ComponentColorName.WordCloudSecBlue]: [0, 1]
+    };
+
+    if (colorMap) {
+      const mapRange = { name: 'ColorMapRange', values: [] };
+      const mapIndex = colorRanges.push(mapRange) - 1;
+      Object.keys(colorMap).forEach(key => {
+        const colorIndex = mapRange.values.push(getColor(colorMap[key])) - 1;
+        nameColorMap[key] = [mapIndex, colorIndex];
+      });
+    }
+
+    const palette: PhoenixChartPalette = {
+      colorRanges,
+      colorRules,
+      gradients,
+      nameColorMap,
     };
     return palette;
   }

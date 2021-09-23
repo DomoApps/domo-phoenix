@@ -1,15 +1,17 @@
 import { CHART_TYPE } from '../enums/phoenix-chart-type';
 import { DATA_TYPE } from '../enums/phoenix-data-type';
 import {
-  BadgeDataColFormat,
+  ColumnFormat,
   ComponentColorName,
   Filter,
   ComponentColorMap,
   PhoenixChartConfig,
-  PhoenixChartPalette,
   PropertyOverridesMap,
+  ColorPaletteData,
+  ChartDataSourceData,
+  ColorPaletteType,
 } from '../interfaces/phoenix-chart-config';
-import { PhoenixChartData } from '../interfaces/phoenix-chart-data';
+import { ChartData, PhoenixChartData, CalendarJoinColumns } from '../interfaces/phoenix-chart-data';
 import { PhoenixChartOptions } from '../interfaces/phoenix-chart-options';
 import * as Phoenix from '../lib/phoenix';
 import { _isMap } from './map-utils';
@@ -35,11 +37,11 @@ export class Chart {
 
   constructor(
     type: CHART_TYPE,
-    data: PhoenixChartData,
+    data: ChartData,
     options?: PhoenixChartOptions
   ) {
     this._type = type;
-    this._data = this.transformData(data.columns, data.rows);
+    this._data = this.transformData(data);
     this._options = { ...DEFAULT_OPTIONS, ...options };
     this._instance = this._createInstance();
     this._instance.setTransparentBackground(
@@ -66,7 +68,7 @@ export class Chart {
   /**
    * Update the Phoenix chart with new data
    */
-  update(data: PhoenixChartData, options?: PhoenixChartOptions) {
+  update(data: ChartData, options?: PhoenixChartOptions) {
     if (options && options.colors) {
       // Changing color palette, update options
       this._options.colors = options.colors;
@@ -75,7 +77,7 @@ export class Chart {
       // Changing chart properties, update options
       this._options.properties = options.properties;
     }
-    this._data = this.transformData(data.columns, data.rows);
+    this._data = this.transformData(data);
     const configString = this._createConfigString(
       this._type,
       this._data,
@@ -165,22 +167,20 @@ export class Chart {
     }
   }
 
-  private transformData(columns, rows) {
+  private transformData(data: ChartData): PhoenixChartData {
+    const {
+      columns,
+      rows,
+      total,
+    } = data;
     // Modify grained column objects
-    var CalendarJoinColumns = {
-      year: 'Year',
-      quarter: 'CalendarQuarter',
-      month: 'CalendarMonth',
-      week: 'CalendarWeek',
-      day: 'Date'
-    };
+
     columns.forEach(c => {
       if (c.dateGrain != null) {
         c.type = c.dateGrain === 'day' ? DATA_TYPE.DATE : DATA_TYPE.STRING;
         c.grainColumnName = CalendarJoinColumns[c.dateGrain];
       }
     });
-
     if (
       rows &&
       rows[0] &&
@@ -188,20 +188,26 @@ export class Chart {
       !Array.isArray(rows[0])
     ) {
       // Use "columns" array to convert "rows" to a 2D array
-      var make2Dimensional = function (r) {
-        var row = [];
+      const make2Dimensional = (r: Object): (string | number)[] => {
+        var row: (string | number)[] = [];
         columns &&
           columns.forEach(c => row.push(r[c.grainColumnName || c.name]));
         return row;
       };
 
+      const newRows = rows.map(make2Dimensional);
       return {
         columns,
-        rows: rows.map(make2Dimensional)
+        rows: newRows,
+        total,
       };
     }
 
-    return { columns: columns, rows: rows };
+    return {
+      columns,
+      rows: rows as (string | number)[][],
+      total,
+    };
   }
 
   private _createInstance() {
@@ -244,20 +250,54 @@ export class Chart {
     data: PhoenixChartData,
     options?: PhoenixChartOptions
   ) {
+    const dataSourceId = 'default';
+    const columns = data.columns.map(col => col.name);
+    let total: ChartDataSourceData;
+    if (data.total) {
+      total = {
+        datasource: dataSourceId,
+        metadata: data.columns.map(col => ({
+          label: col.name,
+          type: col.type,
+          column: col.name,
+          filterType: undefined,
+          dataSourceId: dataSourceId,
+          maxLength: -1,
+          minLength: -1,
+        })),
+        columns,
+        rows: [data.total],
+        numRows: 1,
+        numColumns: data.columns.length,
+      }
+    }
     const config: PhoenixChartConfig = {
       datasources: {
-        default: {
+        [dataSourceId]: {
           type: 'ordered-column-list',
+          limited: undefined,
           data: {
-            datasource: 'default',
-            metadata: data.columns.map(col => ({ type: col.type })),
+            datasource: dataSourceId,
+            aliases: undefined,
+            metadata: data.columns.map(col => ({
+              label: col.name,
+              type: col.type,
+              column: col.name,
+              filterType: undefined,
+              dataSourceId: dataSourceId,
+              maxLength: -1,
+              minLength: -1,
+            })),
             mappings: data.columns.map(col => col.mapping),
-            columns: data.columns.map(col => col.name),
+            columns,
             formats: data.columns.map(col => this._getFormat(col.format)),
             rows: data.rows,
             numRows: data.rows.length,
-            numColumns: data.columns.length
-          }
+            numColumns: data.columns.length,
+            fiscal: undefined,
+            fromcache: false,
+          },
+          total,
         }
       },
       components: {
@@ -307,9 +347,9 @@ export class Chart {
     return config;
   }
 
-  private _getFormat(format: string): BadgeDataColFormat {
+  private _getFormat(format: string): ColumnFormat {
     if (format != null && format.trim().length > 0) {
-      const colFmt: BadgeDataColFormat = {
+      const colFmt: ColumnFormat = {
         type: 'default',
         format: '#',
         currency: '$',
@@ -320,7 +360,7 @@ export class Chart {
       };
       format = format.trim();
       if (format.indexOf('%') != -1) {
-        colFmt.type = 'percent';
+        colFmt.type = 'percentage';
         colFmt.percent = true;
         format = format.trim().substr(0, format.length - 1);
       } else {
@@ -350,7 +390,7 @@ export class Chart {
     return null;
   }
 
-  private _createPalette(colors: string[], colorMap?: ComponentColorMap): PhoenixChartPalette {
+  private _createPalette(colors: string[], colorMap?: ComponentColorMap): ColorPaletteData {
     const getColor = (color: string) => color.charAt(0) === '#' ? color.substring(1) : color;
     const colorRanges = [
       {
@@ -407,7 +447,10 @@ export class Chart {
       });
     }
 
-    const palette: PhoenixChartPalette = {
+    const palette: ColorPaletteData = {
+      id: 'custom',
+      type: ColorPaletteType.CUSTOMER,
+      name: 'custom',
       colorRanges,
       colorRules,
       gradients,

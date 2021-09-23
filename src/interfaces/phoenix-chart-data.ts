@@ -1,7 +1,19 @@
 import { DATA_TYPE } from '../enums/phoenix-data-type';
 import { MAPPING } from '../enums/phoenix-mapping';
 
-export interface PhoenixChartDataColumn {
+export const CalendarJoinColumns = {
+  year: 'Year',
+  quarter: 'CalendarQuarter',
+  month: 'CalendarMonth',
+  week: 'CalendarWeek',
+  day: 'Date'
+};
+
+export interface PhoenixChartDataColumn extends ChartDataColumnBase {
+  grainColumnName: keyof typeof CalendarJoinColumns;
+}
+
+interface ChartDataColumnBase {
   type: DATA_TYPE;
   name: string;
   mapping: MAPPING;
@@ -9,7 +21,14 @@ export interface PhoenixChartDataColumn {
   dateGrain?: string;
 }
 
-export interface PhoenixChartData {
-  rows: any[];
+export interface ChartData {
+  rows: { [column: string]: string | number }[] | (string | number)[][];
   columns: PhoenixChartDataColumn[];
+  total?: (string | number)[];
+}
+
+export type PhoenixChartData = {
+  rows: (string | number)[][];
+  columns: PhoenixChartDataColumn[];
+  total?: (string | number)[];
 }

@@ -247,7 +247,22 @@ export type ChartDataSourceData = {
   rows: (string | number)[][];
   numRows: number;
   numColumns: number;
+  limit?: number;
+  offset?: number;
+  orderBy?: SortColumn[];
 }
+
+export interface SortColumn {
+  column: string;
+  order: SortOrder;
+  aggregation: Aggregation;
+  formulaId?: string;
+  calendar?: boolean;
+  staticSort?: boolean;
+}
+
+export type SortOrder = "ASCENDING" | "DESCENDING";
+
 export type ChartDataSource = {
   type: 'ordered-column-list',
   limited: boolean;

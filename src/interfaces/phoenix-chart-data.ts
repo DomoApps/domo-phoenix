@@ -1,5 +1,6 @@
 import { DATA_TYPE } from '../enums/phoenix-data-type';
 import { MAPPING } from '../enums/phoenix-mapping';
+import { ChartDataSourceData } from './phoenix-chart-config';
 
 export const CalendarJoinColumns = {
   year: 'Year',
@@ -25,10 +26,16 @@ export interface ChartData {
   rows: { [column: string]: string | number }[] | (string | number)[][];
   columns: PhoenixChartDataColumn[];
   total?: (string | number)[];
+  limit?: number;
+  offset?: number;
+  orderBy?: ChartDataSourceData['orderBy'];
 }
 
 export type PhoenixChartData = {
   rows: (string | number)[][];
   columns: PhoenixChartDataColumn[];
   total?: (string | number)[];
+  limit?: number;
+  offset?: number;
+  orderBy?: ChartDataSourceData['orderBy'];
 }

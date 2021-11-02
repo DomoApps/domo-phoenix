@@ -172,6 +172,9 @@ export class Chart {
       columns,
       rows,
       total,
+      limit,
+      offset,
+      orderBy,
     } = data;
     // Modify grained column objects
 
@@ -200,6 +203,9 @@ export class Chart {
         columns,
         rows: newRows,
         total,
+        limit,
+        offset,
+        orderBy,
       };
     }
 
@@ -207,6 +213,9 @@ export class Chart {
       columns,
       rows: rows as (string | number)[][],
       total,
+      limit,
+      offset,
+      orderBy,
     };
   }
 
@@ -268,7 +277,7 @@ export class Chart {
         columns,
         rows: [data.total],
         numRows: 1,
-        numColumns: data.columns.length,
+        numColumns: data.columns.length
       }
     }
     const config: PhoenixChartConfig = {
@@ -288,6 +297,9 @@ export class Chart {
               maxLength: -1,
               minLength: -1,
             })),
+            limit: data.limit,
+            offset: data.offset,
+            orderBy: data.orderBy,
             mappings: data.columns.map(col => col.mapping),
             columns,
             formats: data.columns.map(col => this._getFormat(col.format)),

@@ -1,0 +1,382 @@
+{
+    "map": {
+        "x": 1,
+        "y": 1,
+        "width": 408,
+        "height": 600,
+        "type": "LatLong",
+        "projections": [{
+                "type": "Lambert",
+                "xmin": -81.3564,
+                "xmax": -68.673904,
+                "ymin": -18.348545,
+                "ymax": -0.031388894,
+                "scale": 1873.4094,
+                "xscalemin": -0.11001642,
+                "yscalemin": -0.19100942
+            }],
+        "layers": [{
+                "name": "Background",
+                "type": "area",
+                "areas": [{
+                        "name": "Ucayali",
+                        "code": "PER-UCY",
+                        "longname": "Ucayali",
+                        "altcode": "PE-UCA",
+                        "x": 175.0,
+                        "y": 238.0,
+                        "width": 175.0,
+                        "height": 134.0,
+                        "logicalcenterx": 81.0,
+                        "logicalcentery": 75.0,
+                        "polys": [{
+                                "path": "M172,87l-6,3l-2,10l-11,11l-19,9l-11,-2l2,5l-3,7l-4,0l-9,4l-8,-2l-5,-4l-14,3l-3,-5l1,-6l-5,-7l-4,-1l-5,7l-15,3l-2,-1l-2,-6l11,-8l-3,-3l-3,-5l0,-8l-6,-15l-5,-9l3,-15l3,-5l-1,-4l-5,0l-9,5l-10,14l-10,6l-6,-5l-6,-20l11,-8l7,3l-3,-6l6,-6l5,0l19,-7l1,-4l-1,-15l10,3l9,4l5,6l5,3l-1,2l-2,0l0,3l4,2l4,10l18,22l0,4l-8,9l15,1l12,2l4,5l-1,4l3,2l0,6l28,0l10,-6l13,-12l2,0l-3,4l0,13"
+                            }]
+                    }, {
+                        "name": "Tumbes",
+                        "code": "PER-TMB",
+                        "longname": "Tumbes",
+                        "altcode": "PE-TUM",
+                        "x": 9.0,
+                        "y": 111.0,
+                        "width": 30.0,
+                        "height": 26.0,
+                        "logicalcenterx": 17.0,
+                        "logicalcentery": 15.0,
+                        "polys": [{
+                                "path": "M23,0l3,1l4,15l-6,5l-4,-1l-6,6l-11,0l-3,-3l2,-3l5,-3l1,-4l7,-5l3,-4l4,0l1,-4"
+                            }]
+                    }, {
+                        "name": "Tacna",
+                        "code": "PER-TAC",
+                        "longname": "Tacna",
+                        "altcode": "PE-TAC",
+                        "x": 326.0,
+                        "y": 549.0,
+                        "width": 53.0,
+                        "height": 50.0,
+                        "logicalcenterx": 28.0,
+                        "logicalcentery": 27.0,
+                        "polys": [{
+                                "path": "M53,23l-6,5l-4,-1l-1,3l2,7l0,2l-6,8l-5,2l-9,1l-17,-14l-7,-4l2,-3l6,-3l7,-11l8,-7l-1,-4l2,-4l4,0l1,4l2,-1l1,-1l5,8l9,6l2,-1l5,4l0,4"
+                            }]
+                    }, {
+                        "name": "San Martin",
+                        "code": "PER-SMR",
+                        "longname": "San Martín",
+                        "altcode": "PE-SAM",
+                        "x": 117.0,
+                        "y": 176.0,
+                        "width": 74.0,
+                        "height": 108.0,
+                        "logicalcenterx": 35.0,
+                        "logicalcentery": 54.0,
+                        "polys": [{
+                                "path": "M4,0l9,4l4,5l10,1l4,2l5,9l3,0l8,-4l7,6l14,1l6,5l0,13l-5,8l-9,-6l-3,1l-3,5l1,16l10,23l-5,7l-1,7l-6,5l-5,-11l-4,7l-14,-1l-1,-10l-3,-3l-8,-3l-4,0l-2,-2l-2,-9l1,-5l-5,-6l-1,-3l1,-4l-5,-6l-1,-4l2,-10l4,2l7,-1l7,-9l-4,-7l-9,-3l-5,-8l-1,-9l3,-3"
+                            }]
+                    }, {
+                        "name": "Puno",
+                        "code": "PER-PUN",
+                        "longname": "Puno",
+                        "altcode": "PE-PUN",
+                        "x": 329.0,
+                        "y": 425.0,
+                        "width": 72.0,
+                        "height": 140.0,
+                        "logicalcenterx": 37.0,
+                        "logicalcentery": 65.0,
+                        "polys": [{
+                                "path": "M8,96l1,-1l-4,-5l1,-4l-3,-4l0,-7l1,-1l-1,-10l1,-3l-4,-9l4,-2l1,-5l3,0l2,-12l-1,-2l1,-5l5,-2l4,-9l4,-5l2,-10l23,11l21,-11l0,16l-3,7l6,16l-5,1l1,5l-8,6l-1,4l-3,3l-1,5l7,9l-4,3l-5,10l7,17l2,3l5,-1l5,5l-6,2l-1,4l1,3l-21,21l-2,1l-9,-6l-5,-8l0,-3l5,-4l-4,-1l-5,-6l-3,-12l-6,-3l-4,2l-4,-3"
+                            }]
+                    }, {
+                        "name": "Piura",
+                        "code": "PER-PIU",
+                        "longname": "Piura",
+                        "altcode": "PE-PIU",
+                        "x": 0.0,
+                        "y": 133.0,
+                        "width": 69.0,
+                        "height": 75.0,
+                        "logicalcenterx": 32.0,
+                        "logicalcentery": 35.0,
+                        "polys": [{
+                                "path": "M69,29l-5,7l3,11l-3,2l-1,5l2,5l-3,4l-2,-2l-4,0l-5,-9l-4,-3l-1,0l1,8l-14,6l-8,12l-17,-7l-2,-4l1,-5l3,-1l4,1l2,-4l-2,-9l-9,-8l1,-4l3,-1l-1,-3l-8,-8l2,-14l7,-7l3,3l11,0l4,-4l2,5l4,0l-5,6l1,2l3,1l8,-6l10,6l6,-2l3,3l3,9l5,5l2,0"
+                            }]
+                    }, {
+                        "name": "Pasco",
+                        "code": "PER-PAS",
+                        "longname": "Pasco",
+                        "altcode": "PE-PAS",
+                        "x": 151.0,
+                        "y": 314.0,
+                        "width": 82.0,
+                        "height": 47.0,
+                        "logicalcenterx": 44.0,
+                        "logicalcentery": 25.0,
+                        "polys": [{
+                                "path": "M0,26l5,-5l4,-1l4,1l3,2l10,2l5,-3l-2,-10l3,-3l11,-1l8,-4l12,0l7,-4l6,15l0,8l3,5l3,3l-11,8l-7,0l-10,-5l-22,6l-16,1l-1,6l-7,0l-3,-4l0,-5l-5,-12"
+                            }]
+                    }, {
+                        "name": "Moquegua",
+                        "code": "PER-MOQ",
+                        "longname": "Moquegua",
+                        "altcode": "PE-MOQ",
+                        "x": 317.0,
+                        "y": 521.0,
+                        "width": 46.0,
+                        "height": 60.0,
+                        "logicalcenterx": 20.0,
+                        "logicalcentery": 29.0,
+                        "polys": [{
+                                "path": "M41,30l-1,1l-2,1l-1,-4l-4,0l-2,4l1,4l-8,7l-7,11l-6,3l-2,3l-4,-3l-2,-10l-3,-3l4,-9l-3,-7l5,-4l0,-3l3,-4l8,-1l-1,-3l4,-5l0,-8l4,3l4,-2l6,3l3,12l5,6l4,1l-5,4l0,3"
+                            }]
+                    }, {
+                        "name": "Madre de Dios",
+                        "code": "PER-MDD",
+                        "longname": "Madre de Dios",
+                        "altcode": "PE-MDD",
+                        "x": 290.0,
+                        "y": 325.0,
+                        "width": 118.0,
+                        "height": 111.0,
+                        "logicalcenterx": 58.0,
+                        "logicalcentery": 65.0,
+                        "polys": [{
+                                "path": "M113,91l-5,4l0,5l-21,11l-23,-11l-6,-1l-1,1l2,2l-1,1l-6,0l-10,-2l-13,-7l-12,-3l-3,-4l2,-3l-3,-6l-4,-3l-9,-10l1,-10l6,-12l3,-7l-2,-5l11,2l19,-9l11,-11l2,-10l6,-3l-1,34l3,-2l6,4l6,-1l8,-4l10,2l21,34l8,16l-5,8"
+                            }]
+                    }, {
+                        "name": "Loreto",
+                        "code": "PER-LOR",
+                        "longname": "Loreto",
+                        "altcode": "PE-LOR",
+                        "x": 115.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 281.0,
+                        "logicalcenterx": 110.0,
+                        "logicalcentery": 133.0,
+                        "polys": [{
+                                "path": "M134,238l-8,2l-2,5l-9,-4l-10,-3l1,15l-1,4l-19,7l-5,0l-6,6l3,6l-7,-3l-11,8l1,-2l1,-7l5,-7l-10,-23l-1,-16l3,-5l3,-1l9,6l5,-8l0,-13l-6,-5l-14,-1l-7,-6l-8,4l-3,0l-5,-9l-4,-2l-10,-1l-4,-5l-9,-4l-3,-6l-2,-12l7,-14l1,-12l-9,-35l37,-13l19,-15l17,-20l5,-20l3,2l3,0l-2,-8l1,-7l-4,-2l-3,-7l-5,-2l0,-2l9,1l7,-4l9,7l3,-1l2,5l11,6l2,8l2,2l-1,3l2,2l5,2l8,6l6,1l3,3l4,8l-2,5l6,4l3,-2l3,1l2,9l-2,4l0,2l4,3l2,0l2,3l9,-3l12,3l8,-4l3,1l3,-5l4,-3l1,3l4,0l6,3l5,1l11,-4l7,4l2,4l9,1l4,5l3,1l1,3l-22,33l7,2l6,-1l4,4l2,4l6,5l-1,4l-7,0l-3,-3l-1,-3l-3,-1l-6,2l-5,-1l-3,1l-4,6l-7,-1l-15,5l-8,0l-12,8l-4,1l-3,5l-13,6l-3,10l0,7l-9,14l3,10l0,3l-3,3l-5,1l-12,9l-2,7l4,7"
+                            }]
+                    }, {
+                        "name": "Lima",
+                        "code": "PER-LIM",
+                        "longname": "Lima",
+                        "altcode": "PE-LIM",
+                        "x": 114.0,
+                        "y": 335.0,
+                        "width": 78.0,
+                        "height": 99.0,
+                        "logicalcenterx": 41.0,
+                        "logicalcentery": 49.0,
+                        "polys": [{
+                                "path": "M72,87l-4,2l-5,-1l-10,11l-8,-9l-1,-5l-9,-17l-10,-10l1,0l-1,-6l-2,-3l0,-4l-4,-5l-11,-7l0,-3l1,-1l-2,-8l-7,-10l2,-2l1,-6l3,-1l1,6l2,1l1,6l5,-1l7,-7l2,-4l7,-3l6,5l5,12l0,5l3,4l0,7l4,8l4,0l1,6l5,8l6,0l7,4l4,10l-2,6l4,3l-6,9"
+                            }]
+                    }, {
+                        "name": "Lambayeque",
+                        "code": "PER-LMB",
+                        "longname": "Lambayeque",
+                        "altcode": "PE-LAM",
+                        "x": 25.0,
+                        "y": 182.0,
+                        "width": 47.0,
+                        "height": 53.0,
+                        "logicalcenterx": 25.0,
+                        "logicalcentery": 27.0,
+                        "polys": [{
+                                "path": "M41,47l-4,-2l-7,8l-1,-2l-13,-15l-16,-10l8,-12l14,-6l-1,-8l1,0l4,3l5,9l4,0l2,2l5,-1l3,3l-2,7l-6,3l1,5l4,5l5,2l-5,5l-1,4"
+                            }]
+                    }, {
+                        "name": "La Libertad",
+                        "code": "PER-LLB",
+                        "longname": "La Libertad",
+                        "altcode": "PE-LAL",
+                        "x": 55.0,
+                        "y": 227.0,
+                        "width": 92.0,
+                        "height": 65.0,
+                        "logicalcenterx": 45.0,
+                        "logicalcentery": 32.0,
+                        "polys": [{
+                                "path": "M78,51l-12,-16l-7,1l-8,7l-4,12l-10,4l-2,6l-1,0l-3,-11l-6,-6l-2,-7l-12,-12l-11,-21l7,-8l4,2l0,7l-1,3l9,5l1,5l3,3l2,-4l10,-1l10,4l0,2l12,-3l0,-5l5,-2l-7,-14l8,-1l5,6l-1,4l1,3l5,6l-1,5l2,9l2,2l4,0l8,3l3,3l1,10l-1,1l-4,0l-2,-3l-7,1"
+                            }]
+                    }, {
+                        "name": "Junin",
+                        "code": "PER-JUN",
+                        "longname": "Junín",
+                        "altcode": "PE-JUN",
+                        "x": 159.0,
+                        "y": 348.0,
+                        "width": 98.0,
+                        "height": 65.0,
+                        "logicalcenterx": 51.0,
+                        "logicalcentery": 27.0,
+                        "polys": [{
+                                "path": "M67,47l-7,-5l-11,2l-3,-3l-2,3l2,5l-3,5l-8,6l-2,5l-4,-3l2,-6l-4,-10l-7,-4l-6,0l-5,-8l-1,-6l-4,0l-4,-8l0,-7l7,0l1,-6l16,-1l22,-6l10,5l7,0l2,6l2,1l15,-3l5,-7l4,1l5,7l-1,6l3,5l-3,5l-4,4l5,5l-5,14l-10,2l-8,1l-6,-5"
+                            }]
+                    }, {
+                        "name": "Ica",
+                        "code": "PER-ICA",
+                        "longname": "Ica",
+                        "altcode": "PE-ICA",
+                        "x": 162.0,
+                        "y": 422.0,
+                        "width": 54.0,
+                        "height": 81.0,
+                        "logicalcenterx": 26.0,
+                        "logicalcentery": 41.0,
+                        "polys": [{
+                                "path": "M53,69l-7,5l-4,7l-14,-18l-13,-8l-1,-6l-8,-10l-2,-8l-4,-1l2,-3l2,2l2,-7l1,-6l-2,-4l10,-11l5,1l4,-2l-4,14l8,1l1,2l-2,3l0,6l1,5l6,1l9,6l-1,2l1,2l-2,5l2,2l0,4l5,-1l2,2l4,9l-1,6"
+                            }]
+                    }, {
+                        "name": "Huanuco",
+                        "code": "PER-HUA",
+                        "longname": "Huánuco",
+                        "altcode": "PE-HUC",
+                        "x": 133.0,
+                        "y": 273.0,
+                        "width": 89.0,
+                        "height": 67.0,
+                        "logicalcenterx": 41.0,
+                        "logicalcentery": 34.0,
+                        "polys": [{
+                                "path": "M0,5l7,-1l2,3l4,0l1,-1l14,1l4,-7l5,11l6,-5l-1,2l6,20l6,5l10,-6l10,-14l9,-5l5,0l1,4l-3,5l-3,15l5,9l-7,4l-12,0l-8,4l-11,1l-3,3l2,10l-5,3l-10,-2l-3,-2l-4,-1l-4,1l-5,5l-6,-5l-5,-18l3,-3l4,-11l4,-4l-11,-7l-7,-14"
+                            }]
+                    }, {
+                        "name": "Huancavelica",
+                        "code": "PER-HNC",
+                        "longname": "Huancavelica",
+                        "altcode": "PE-HUV",
+                        "x": 182.0,
+                        "y": 389.0,
+                        "width": 47.0,
+                        "height": 71.0,
+                        "logicalcenterx": 24.0,
+                        "logicalcentery": 35.0,
+                        "polys": [{
+                                "path": "M44,6l-3,3l-2,5l1,2l3,0l3,5l1,5l-1,5l1,4l0,1l-3,-1l0,4l-6,1l-3,4l2,1l-1,2l-4,-3l-4,1l-1,4l4,4l2,15l-10,3l-9,-6l-6,-1l-1,-5l0,-6l2,-3l-1,-2l-8,-1l4,-14l6,-9l2,-5l8,-6l3,-5l-2,-5l2,-3l3,3l11,-2l7,5"
+                            }]
+                    }, {
+                        "name": "Cusco",
+                        "code": "PER-CUS",
+                        "longname": "Cuzco",
+                        "altcode": "PE-CUS",
+                        "x": 240.0,
+                        "y": 366.0,
+                        "width": 114.0,
+                        "height": 134.0,
+                        "logicalcenterx": 56.0,
+                        "logicalcentery": 63.0,
+                        "polys": [{
+                                "path": "M46,112l0,-5l7,-3l5,-7l1,-8l-2,-5l-4,-4l-20,-10l-6,2l-4,-1l-10,-11l-3,-11l-5,-6l-5,-10l10,-2l5,-14l-5,-5l4,-4l3,-5l14,-3l5,4l8,2l9,-4l4,0l-6,12l-1,10l9,10l4,3l3,6l-2,3l3,4l12,3l13,7l10,2l6,0l1,-1l-2,-2l1,-1l6,1l-2,10l-4,5l-4,9l-5,2l-1,5l1,2l-2,12l-3,0l-1,5l-4,2l4,9l-1,3l1,10l-1,1l-7,-9l-2,2l-6,-4l-5,4l-5,-2l-1,-1l0,-6l-5,-6l-1,0l1,4l-2,3l-5,-2l-6,0l-2,-5"
+                            }]
+                    }, {
+                        "name": "Callao",
+                        "code": "PER-CAL",
+                        "longname": "Callao",
+                        "altcode": "PE-CAL",
+                        "x": 137.0,
+                        "y": 384.0,
+                        "width": 3.0,
+                        "height": 9.0,
+                        "logicalcenterx": 2.0,
+                        "logicalcentery": 5.0,
+                        "polys": [{
+                                "path": "M2,9l-2,-9l2,3l1,6l-1,0"
+                            }]
+                    }, {
+                        "name": "Cajamarca",
+                        "code": "PER-CJM",
+                        "longname": "Cajamarca",
+                        "altcode": "PE-CAJ",
+                        "x": 62.0,
+                        "y": 150.0,
+                        "width": 55.0,
+                        "height": 103.0,
+                        "logicalcenterx": 23.0,
+                        "logicalcentery": 61.0,
+                        "polys": [{
+                                "path": "M48,79l7,14l-5,2l0,5l-12,3l0,-2l-10,-4l-10,1l-2,4l-3,-3l-1,-5l-9,-5l1,-3l0,-7l1,-4l5,-5l-5,-2l-4,-5l-1,-5l6,-3l2,-7l-3,-3l-5,1l3,-4l-2,-5l1,-5l3,-2l-3,-11l5,-7l7,1l3,-4l2,-6l5,-3l4,13l-2,5l2,12l-6,10l5,7l6,4l3,7l7,5l4,8l1,8"
+                            }]
+                    }, {
+                        "name": "Ayacucho",
+                        "code": "PER-AYC",
+                        "longname": "Ayacucho",
+                        "altcode": "PE-AYA",
+                        "x": 203.0,
+                        "y": 395.0,
+                        "width": 72.0,
+                        "height": 113.0,
+                        "logicalcenterx": 33.0,
+                        "logicalcentery": 64.0,
+                        "polys": [{
+                                "path": "M60,42l-1,2l-8,-2l-8,-7l-2,2l0,10l3,3l1,3l-2,1l7,14l0,8l1,4l-1,3l-2,0l3,4l15,-6l6,4l-1,2l-5,1l0,10l-4,5l-4,0l-1,3l-5,-1l-4,2l-9,1l-5,5l-1,0l-2,-5l-4,1l-5,-4l-2,-6l-8,-3l1,-6l-4,-9l-2,-2l-5,1l0,-4l-2,-2l2,-5l-1,-2l1,-2l10,-3l-2,-15l-4,-4l1,-4l4,-1l4,3l1,-2l-2,-1l3,-4l6,-1l0,-4l3,1l0,-1l-1,-4l1,-5l-1,-5l-3,-5l-3,0l-1,-2l2,-5l3,-3l6,5l8,-1l5,10l5,6l3,11l10,11"
+                            }]
+                    }, {
+                        "name": "Arequipa",
+                        "code": "PER-ARQ",
+                        "longname": "Arequipa",
+                        "altcode": "PE-ARE",
+                        "x": 204.0,
+                        "y": 477.0,
+                        "width": 134.0,
+                        "height": 88.0,
+                        "logicalcenterx": 82.0,
+                        "logicalcentery": 39.0,
+                        "polys": [{
+                                "path": "M128,23l0,7l3,4l-1,4l4,5l-1,1l0,8l-4,5l1,3l-8,1l-3,4l0,3l-5,4l3,7l-4,9l-11,-5l-20,-16l-10,-2l-19,-11l-14,-5l-6,-6l-11,-5l-3,-3l-19,-9l4,-7l7,-5l8,3l2,6l5,4l4,-1l2,5l1,0l5,-5l9,-1l4,-2l5,1l1,-3l4,0l4,-5l0,-10l5,-1l1,-2l1,-3l10,1l2,5l6,0l5,2l2,-3l-1,-4l1,0l5,6l0,6l1,1l5,2l5,-4l6,4l2,-2l7,9"
+                            }]
+                    }, {
+                        "name": "Apurimac",
+                        "code": "PER-APR",
+                        "longname": "Apurímac",
+                        "altcode": "PE-APU",
+                        "x": 244.0,
+                        "y": 430.0,
+                        "width": 55.0,
+                        "height": 52.0,
+                        "logicalcenterx": 27.0,
+                        "logicalcentery": 27.0,
+                        "polys": [{
+                                "path": "M19,7l4,1l6,-2l20,10l4,4l2,5l-1,8l-5,7l-7,3l0,5l-10,-1l-1,3l-6,-4l-15,6l-3,-4l2,0l1,-3l-1,-4l0,-8l-7,-14l2,-1l-1,-3l-3,-3l0,-10l2,-2l8,7l8,2l1,-2"
+                            }]
+                    }, {
+                        "name": "Ancash",
+                        "code": "PER-ANC",
+                        "longname": "Ancash",
+                        "altcode": "PE-ANC",
+                        "x": 89.0,
+                        "y": 262.0,
+                        "width": 62.0,
+                        "height": 88.0,
+                        "logicalcenterx": 31.0,
+                        "logicalcentery": 43.0,
+                        "polys": [{
+                                "path": "M0,30l1,0l2,-6l10,-4l4,-12l8,-7l7,-1l12,16l7,14l11,7l-4,4l-4,11l-3,3l5,18l-7,3l-2,4l-7,7l-5,1l-1,-6l-2,-1l-1,-6l-3,1l-1,6l-2,2l-9,-17l-2,-10l-5,-6l-1,-6l-2,-3l-1,-5l-4,-3l-1,-4"
+                            }]
+                    }, {
+                        "name": "Amazonas",
+                        "code": "PER-AMZ",
+                        "longname": "Amazonas",
+                        "altcode": "PE-AMA",
+                        "x": 84.0,
+                        "y": 97.0,
+                        "width": 53.0,
+                        "height": 132.0,
+                        "logicalcenterx": 23.0,
+                        "logicalcentery": 68.0,
+                        "polys": [{
+                                "path": "M37,79l-3,3l1,9l5,8l9,3l4,7l-7,9l-7,1l-4,-2l-2,10l1,4l-8,1l-1,-8l-4,-8l-7,-5l-3,-7l-6,-4l-5,-7l6,-10l-2,-12l2,-5l-4,-13l2,-4l-1,-5l4,-7l0,-6l5,-5l2,-11l2,0l0,3l3,-2l-1,-4l13,-12l9,35l-1,12l-7,14l2,12l3,6"
+                            }]
+                    }]
+            }, {
+                "name": "City",
+                "type": "point",
+                "points": [{
+                        "name": "Lima, Peru",
+                        "x": 141.0,
+                        "y": 390.0
+                    }]
+            }]
+    }
+}

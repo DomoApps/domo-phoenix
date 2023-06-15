@@ -1,0 +1,168 @@
+{
+    "map": {
+        "x": 1,
+        "y": 1,
+        "width": 412,
+        "height": 600,
+        "type": "LatLong",
+        "projections": [{
+                "type": "Lambert",
+                "xmin": -3.249167,
+                "xmax": 1.2027776,
+                "ymin": 4.726388,
+                "ymax": 11.166666,
+                "scale": 5330.4907,
+                "xscalemin": -0.038575407,
+                "yscalemin": 11.110462
+            }],
+        "layers": [{
+                "name": "Background",
+                "type": "area",
+                "areas": [{
+                        "name": "Western",
+                        "code": "GHA-WST",
+                        "longname": "Western Region",
+                        "altcode": "GH.WP",
+                        "x": 0.0,
+                        "y": 382.0,
+                        "width": 169.0,
+                        "height": 217.0,
+                        "logicalcenterx": 77.0,
+                        "logicalcentery": 122.0,
+                        "polys": [{
+                                "path": "M29,182l16,0l2,-1l0,-3l-5,-13l4,-15l-2,-13l-3,-3l-4,-1l-9,1l-7,-9l1,-14l-6,-12l-2,-14l-5,-10l-2,-1l-7,-33l4,-8l-2,-11l12,-22l1,6l3,5l9,-2l5,3l7,16l-2,4l1,5l9,5l9,1l7,7l5,10l8,2l-1,3l3,0l3,-2l3,-12l11,2l1,2l-2,5l1,3l10,8l4,0l-3,4l-6,2l0,7l30,24l5,11l-4,12l1,3l7,-1l13,5l2,3l-3,4l0,5l10,11l8,6l0,1l-5,4l-7,3l-3,8l1,7l-4,0l-12,10l-20,13l-12,4l-16,-14l-7,-4l-71,-16l0,-2l12,2l4,-1"
+                            }]
+                    }, {
+                        "name": "Volta",
+                        "code": "GHA-VOL",
+                        "longname": "Volta Region",
+                        "altcode": "GH.TV",
+                        "x": 263.0,
+                        "y": 222.0,
+                        "width": 148.0,
+                        "height": 282.0,
+                        "logicalcenterx": 75.0,
+                        "logicalcentery": 142.0,
+                        "polys": [{
+                                "path": "M58,150l1,-16l-11,-7l-1,-9l-6,-9l-3,-11l-8,-4l-10,-22l-13,-11l-7,-1l4,-7l8,-1l7,1l2,-2l2,-6l8,-4l8,2l8,8l8,-2l4,-8l0,-3l-3,-2l-7,1l-4,-1l0,-5l1,-10l7,-14l1,-5l4,-2l14,2l7,15l17,11l8,15l0,3l-11,6l-1,11l2,19l-2,18l-7,11l-1,12l5,6l7,-1l1,11l-4,24l-7,7l3,12l8,9l0,7l1,3l8,4l-2,5l3,7l14,11l9,0l9,15l9,0l0,6l-9,5l-6,8l-4,12l-2,3l-5,2l-12,2l-9,1l-1,-2l4,-2l-6,-5l0,-3l-2,-7l-12,-10l-9,-2l-3,3l-5,-1l-6,-4l-4,1l-4,0l-7,-4l-1,-11l9,-5l3,-11l-4,-9l-5,-1l-1,-1l1,-7l9,-9l-1,-6l-5,-3l-1,-3l1,-3l6,-9l1,-18M67,255l5,1l5,-4l7,3l10,8l3,7l0,3l-4,-10l-5,-3l-15,-2l-6,6l0,-9"
+                            }]
+                    }, {
+                        "name": "Upper West",
+                        "code": "GHA-UPW",
+                        "longname": "Upper West Region",
+                        "altcode": "GH.UW",
+                        "x": 31.0,
+                        "y": 13.0,
+                        "width": 143.0,
+                        "height": 128.0,
+                        "logicalcenterx": 66.0,
+                        "logicalcentery": 56.0,
+                        "polys": [{
+                                "path": "M17,128l-4,-3l-1,-4l3,-7l-1,-19l-2,-5l0,-10l3,-5l-11,-28l-4,-18l9,-16l0,-11l116,1l1,-3l12,0l-2,6l0,11l-12,11l0,5l2,9l9,7l8,3l0,7l-10,-3l-13,13l-3,11l9,9l-6,3l-6,9l0,4l-6,6l-50,2l-19,3l-11,10l-11,2"
+                            }]
+                    }, {
+                        "name": "Upper East",
+                        "code": "GHA-UPE",
+                        "longname": "Upper East Region",
+                        "altcode": "GH.UE",
+                        "x": 155.0,
+                        "y": 0.0,
+                        "width": 147.0,
+                        "height": 81.0,
+                        "logicalcenterx": 70.0,
+                        "logicalcentery": 36.0,
+                        "polys": [{
+                                "path": "M14,13l5,3l25,0l0,-2l10,0l28,2l1,3l4,5l24,-16l7,-6l0,-2l12,3l5,4l7,-1l5,2l0,9l-10,26l-34,10l-8,4l-9,1l-4,-2l-2,-6l-7,-1l-7,10l-6,5l-1,0l2,-4l-8,-1l-12,4l-8,8l1,7l-3,3l-9,-4l-3,-5l0,-7l-8,-3l-9,-7l-2,-9l0,-5l12,-11l0,-11l2,-6"
+                            }]
+                    }, {
+                        "name": "Northern",
+                        "code": "GHA-NRT",
+                        "longname": "Northern Region",
+                        "altcode": "GH.NP",
+                        "x": 45.0,
+                        "y": 43.0,
+                        "width": 305.0,
+                        "height": 255.0,
+                        "logicalcenterx": 165.0,
+                        "logicalcentery": 126.0,
+                        "polys": [{
+                                "path": "M16,173l-5,-16l-11,-5l1,-5l7,-10l2,-14l-1,-8l-9,-9l3,-8l11,-2l11,-10l19,-3l50,-2l6,-6l0,-4l6,-9l6,-3l-9,-9l3,-11l13,-13l10,3l3,5l9,4l3,-3l-1,-7l8,-8l12,-4l8,1l-2,4l1,0l6,-5l7,-10l7,1l2,6l4,2l9,-1l8,-4l34,-10l1,7l10,4l17,16l5,0l8,14l-2,14l5,4l0,4l-4,-1l-3,26l-6,10l-4,17l1,3l5,2l5,-2l2,-5l8,-1l5,2l5,8l-2,17l-7,16l6,11l0,7l-3,5l-9,3l-14,-2l-4,2l-1,5l-7,14l-1,10l0,5l4,1l7,-1l3,2l0,3l-4,8l-8,2l-8,-8l-8,-2l-8,4l-2,6l-2,2l-7,-1l-8,1l-4,7l-7,-1l-5,-3l-16,-13l-10,0l-9,6l-8,9l-1,13l-4,5l-4,-1l-11,-32l-5,-3l4,-10l8,-10l-3,-9l0,-1l-7,0l-11,-8l-4,-1l-6,2l-3,5l-3,2l-22,4l-4,-1l-4,3l-4,17l1,6l2,3l10,0l2,6l-3,3l-6,-2l-5,0l-4,8l-9,2l-8,-1l-10,-11l-13,-27l-11,-15l-8,-5l-2,0l1,-6"
+                            }]
+                    }, {
+                        "name": "Greater Accra",
+                        "code": "GHA-GAC",
+                        "longname": "Greater Accra Region",
+                        "altcode": "GH.AA",
+                        "x": 253.0,
+                        "y": 480.0,
+                        "width": 114.0,
+                        "height": 48.0,
+                        "logicalcenterx": 52.0,
+                        "logicalcentery": 21.0,
+                        "polys": [{
+                                "path": "M14,48l-3,-10l-7,-4l-4,-8l1,-5l6,-2l2,4l5,2l17,-3l13,-20l14,-1l2,5l9,7l3,-2l11,-11l15,2l5,3l4,10l2,7l-33,-1l-16,6l-6,4l-3,4l-10,5l-27,8M108,15l6,5l-2,1l-4,-6"
+                            }]
+                    }, {
+                        "name": "Eastern",
+                        "code": "GHA-EST",
+                        "longname": "Eastern Region",
+                        "altcode": "GH.EP",
+                        "x": 186.0,
+                        "y": 370.0,
+                        "width": 144.0,
+                        "height": 136.0,
+                        "logicalcenterx": 75.0,
+                        "logicalcentery": 73.0,
+                        "polys": [{
+                                "path": "M94,0l34,0l7,2l-1,18l-6,9l-1,3l1,3l5,3l1,6l-9,9l-1,7l1,1l5,1l4,9l-3,11l-9,5l1,11l7,4l4,0l4,1l6,4l0,9l-5,5l-3,2l-9,-7l-2,-5l-14,1l-13,20l-17,3l-5,-2l-2,-4l-6,2l-1,5l-4,-2l-51,-2l-9,-12l-3,-2l2,-3l-1,-1l4,-21l6,-15l5,-8l16,-16l-1,-4l-5,-5l1,-4l13,-4l18,-25l15,0l9,-5l5,-6l7,-1"
+                            }]
+                    }, {
+                        "name": "Central",
+                        "code": "GHA-CNT",
+                        "longname": "Central Region",
+                        "altcode": "GH.CP",
+                        "x": 100.0,
+                        "y": 453.0,
+                        "width": 167.0,
+                        "height": 119.0,
+                        "logicalcenterx": 90.0,
+                        "logicalcentery": 69.0,
+                        "polys": [{
+                                "path": "M55,119l-1,-7l3,-8l7,-3l5,-4l0,-1l-8,-6l-10,-11l0,-5l3,-4l-2,-3l-13,-5l-7,1l-1,-3l4,-12l-5,-11l-30,-24l0,-7l6,-2l3,-4l5,0l0,15l10,12l9,-1l4,6l9,3l29,0l5,3l4,0l2,-3l3,2l9,12l51,2l4,2l4,8l7,4l3,10l-12,11l-18,6l-10,9l-25,1l-17,10l-30,7"
+                            }]
+                    }, {
+                        "name": "Brong-Ahafo",
+                        "code": "GHA-BAH",
+                        "longname": "Brong-Ahafo Region",
+                        "altcode": "GH.BA",
+                        "x": 14.0,
+                        "y": 222.0,
+                        "width": 308.0,
+                        "height": 222.0,
+                        "logicalcenterx": 133.0,
+                        "logicalcentery": 100.0,
+                        "polys": [{
+                                "path": "M29,86l1,-8l11,-8l9,-13l7,-3l-9,-54l8,5l11,15l13,27l10,11l8,1l9,-2l4,-8l5,0l6,2l3,-3l-2,-6l-10,0l-2,-3l-1,-6l4,-17l4,-3l4,1l22,-4l3,-2l3,-5l6,-2l4,1l11,8l7,0l0,1l3,9l-8,10l-4,10l5,3l11,32l4,1l4,-5l1,-13l8,-9l9,-6l10,0l16,13l5,3l14,2l13,11l10,22l8,4l3,11l6,9l1,9l11,7l-1,16l-7,-2l-34,0l-7,-11l-13,-4l-13,-3l-7,-12l-4,-3l-10,4l-16,-2l-12,5l-15,1l-3,-3l-3,-11l-4,-1l-15,13l-2,7l-6,6l-11,0l-8,-5l-1,-7l-24,0l-3,5l-1,6l8,2l6,1l13,8l-1,5l-1,2l-16,11l-12,1l-4,-4l-9,8l-3,9l9,3l1,2l-5,12l-5,2l-9,22l2,5l-8,-2l-5,-10l-7,-7l-9,-1l-9,-5l-1,-5l2,-4l-7,-16l-5,-3l-9,2l-3,-5l-1,-6l7,-2l5,-17l4,-31l13,-24"
+                            }]
+                    }, {
+                        "name": "Ashanti",
+                        "code": "GHA-ASH",
+                        "longname": "Ashanti Region",
+                        "altcode": "GH.AH",
+                        "x": 74.0,
+                        "y": 330.0,
+                        "width": 206.0,
+                        "height": 161.0,
+                        "logicalcenterx": 93.0,
+                        "logicalcentery": 75.0,
+                        "polys": [{
+                                "path": "M206,40l-7,1l-5,6l-9,5l-15,0l-18,25l-13,4l-1,4l5,5l1,4l-16,16l-5,8l-6,15l-4,21l1,1l-4,6l-4,0l-5,-3l-29,0l-9,-3l-4,-6l-9,1l-10,-12l0,-15l-9,0l-10,-8l-1,-3l2,-5l-1,-2l-11,-2l-3,12l-3,2l-3,0l1,-3l-2,-5l9,-22l5,-2l5,-12l-1,-2l-9,-3l3,-9l9,-8l4,4l12,-1l16,-11l1,-2l1,-5l-13,-8l-6,-1l-8,-2l1,-6l3,-5l24,0l1,7l8,5l11,0l6,-6l2,-7l15,-13l4,1l3,11l3,3l15,-1l12,-5l16,2l10,-4l4,3l7,12l13,3l13,4l7,11"
+                            }]
+                    }]
+            }, {
+                "name": "City",
+                "type": "point",
+                "points": []
+            }]
+    }
+}

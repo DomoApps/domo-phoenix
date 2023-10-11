@@ -11,7 +11,7 @@ export const CalendarJoinColumns = {
 };
 
 export interface PhoenixChartDataColumn extends ChartDataColumnBase {
-  grainColumnName: keyof typeof CalendarJoinColumns;
+  grainColumnName?: keyof typeof CalendarJoinColumns;
 }
 
 interface ChartDataColumnBase {

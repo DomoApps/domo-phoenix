@@ -19,8 +19,10 @@ const config = {
     path: path.join(__dirname, 'build', 'global'),
     publicPath: '/build/global',
     filename: '[name].js',
-    library: 'domoPhoenix',
-    libraryTarget: 'umd'
+    library: {
+      name: 'domoPhoenix',
+      type: 'umd',
+    },
   },
 
   plugins: [new webpack.BannerPlugin(bannerComment)],
